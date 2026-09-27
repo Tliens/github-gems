@@ -30,7 +30,7 @@
   "description": "Self-hosted bookmark manager that is designed be to be minimal, fast, and easy to set up using Docker."
  },
  "mealie-recipes/mealie": {
-  "stargazerCount": 13340,
+  "stargazerCount": 13341,
   "pushedAt": "2026-09-27T14:58:47Z",
   "isArchived": false,
   "description": "Mealie is a self hosted recipe manager and meal planner with a RestAPI backend and a reactive frontend application built in Vue for a pleasant user experience for the whole family. Easily add recipes into your database by providing the url and mealie will automatically import the relevant data or add a family recipe with the UI editor"
@@ -225,7 +225,7 @@
   "description": "Intuitive find & replace CLI (sed alternative)"
  },
  "sharkdp/hyperfine": {
-  "stargazerCount": 28911,
+  "stargazerCount": 28912,
   "pushedAt": "2026-04-30T08:23:25Z",
   "isArchived": false,
   "description": "A command-line benchmarking tool"
@@ -348,7 +348,7 @@
   "description": "mawww's experiment for a better code editor"
  },
  "wez/wezterm": {
-  "stargazerCount": 29037,
+  "stargazerCount": 29039,
   "pushedAt": "2026-09-21T05:17:28Z",
   "isArchived": false,
   "description": "A GPU-accelerated cross-platform terminal emulator and multiplexer written by @wez and implemented in Rust"
@@ -366,7 +366,7 @@
   "description": "Mockoon is the easiest and quickest way to run mock APIs locally. No remote deployment, no account required, open source."
  },
  "gitleaks/gitleaks": {
-  "stargazerCount": 29513,
+  "stargazerCount": 29514,
   "pushedAt": "2026-09-23T04:14:00Z",
   "isArchived": false,
   "description": "Find secrets with Gitleaks \ud83d\udd11"
@@ -387,7 +387,7 @@
   }
  },
  "TwiN/gatus": {
-  "stargazerCount": 12182,
+  "stargazerCount": 12183,
   "pushedAt": "2026-09-24T00:00:21Z",
   "isArchived": false,
   "description": "Automated developer-oriented status page with alerting and incident support"
@@ -439,7 +439,7 @@
   }
  },
  "LibreTranslate/LibreTranslate": {
-  "stargazerCount": 16862,
+  "stargazerCount": 16863,
   "pushedAt": "2026-09-03T17:05:31Z",
   "isArchived": false,
   "description": "Free and Open Source Machine Translation API. Self-hosted, offline capable and easy to setup."
@@ -490,8 +490,8 @@
   }
  },
  "activepieces/activepieces": {
-  "stargazerCount": 24750,
-  "pushedAt": "2026-09-27T16:03:04Z",
+  "stargazerCount": 24751,
+  "pushedAt": "2026-09-27T16:16:44Z",
   "isArchived": false,
   "description": "AI Agents & MCPs & AI Workflow Automation \u2022 (~400 MCP servers for AI agents) \u2022 AI Automation / AI Agent with MCPs \u2022 AI Workflows & AI Agents \u2022 MCPs for AI Agents"
  },
@@ -541,7 +541,7 @@
   "description": "\u26a1\ufe0f\u26a1\ufe0f\u26a1\ufe0f Self-hosted collaborative bookmark manager to collect, read, annotate, and fully preserve what matters, all in one place."
  },
  "karakeep-app/karakeep": {
-  "stargazerCount": 29305,
+  "stargazerCount": 29306,
   "pushedAt": "2026-09-27T01:00:26Z",
   "isArchived": false,
   "description": "A self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full text search"
@@ -1007,7 +1007,7 @@
  },
  "GraphiteEditor/Graphite": {
   "stargazerCount": 27371,
-  "pushedAt": "2026-09-27T14:15:23Z",
+  "pushedAt": "2026-09-27T16:18:11Z",
   "isArchived": false,
   "description": "Community-built comprehensive 2D content creation appplication for graphic design, digital art, and interactive real-time motion graphics powered by a node-based procedural graphics engine"
  },
@@ -1056,7 +1056,7 @@
  },
  "Anuken/Mindustry": {
   "stargazerCount": 29135,
-  "pushedAt": "2026-09-25T21:45:27Z",
+  "pushedAt": "2026-09-27T16:17:15Z",
   "isArchived": false,
   "description": "The automation tower defense RTS"
  },
@@ -1130,7 +1130,7 @@
   "description": "yq is a portable command-line YAML, JSON, XML, CSV, TOML, HCL  and properties processor"
  },
  "antonmedv/fx": {
-  "stargazerCount": 20641,
+  "stargazerCount": 20642,
   "pushedAt": "2026-09-27T16:04:03Z",
   "isArchived": false,
   "description": "Terminal JSON viewer & processor"
@@ -1232,7 +1232,7 @@
   "description": "A set of over 6200 free MIT-licensed high-quality SVG icons for you to use in your web projects."
  },
  "lucide-icons/lucide": {
-  "stargazerCount": 24743,
+  "stargazerCount": 24744,
   "pushedAt": "2026-09-27T14:36:57Z",
   "isArchived": false,
   "description": "Beautiful & consistent icon toolkit made by the community. Open-source project and a fork of Feather Icons."
