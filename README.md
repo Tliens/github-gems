@@ -1,6 +1,6 @@
 # 💎 GitHub Gems — 137 Underrated Open-Source Projects
 
-**线上地址**：<https://tliens.github.io/github-gems/>
+**线上地址**：<https://github-gems.kuige.me/>
 
 一个手工精选的开源项目导航站，只收录 GitHub 上 **1k–30k star** 区间里「品质远超知名度」的宝藏：
 既给刚接触 GitHub 的新手一条友好入门路径，也给只熟悉单一领域的开发者一张跨圈探索的「领域护照」。
