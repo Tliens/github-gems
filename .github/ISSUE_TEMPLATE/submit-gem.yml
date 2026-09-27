@@ -1,0 +1,45 @@
+name: 💎 Submit a gem
+description: Recommend an underrated open-source project for the list
+labels: [submission]
+body:
+  - type: input
+    id: repo
+    attributes:
+      label: GitHub repository (owner/repo)
+      placeholder: e.g. ajeetdsouza/zoxide
+    validations:
+      required: true
+  - type: input
+    id: stars
+    attributes:
+      label: Current star count (approx.)
+      placeholder: must be within 1k–30k
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why is it a gem?
+      description: One or two sentences — what does it do, and why is it under-known?
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Suggested field
+      options:
+        - Everyday Apps
+        - Photo · Audio · Video
+        - Terminal Gems
+        - Developer Tools
+        - AI & Local Models
+        - Self-Hosted
+        - Data & Viz
+        - Frontend & Creative
+        - Backend & Databases
+        - DevOps & Deploy
+        - Design & Icons
+        - Privacy & Security
+        - Games & Fun
+    validations:
+      required: true
