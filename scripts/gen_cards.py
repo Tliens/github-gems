@@ -19,7 +19,7 @@ CACHE = os.path.join(HERE, "data", "stars-cache.json")
 STATE = os.path.join(HERE, "data", "state.json")   # 毕业记录 {repo: 毕业日期}
 GEMS_DIR = os.path.join(HERE, "gems")
 SITEMAP = os.path.join(HERE, "sitemap.xml")
-BASE = "https://tliens.github.io/github-gems"
+BASE = "https://github-gems.kuige.me"
 BAND_TOP = int(os.environ.get("GG_BAND_TOP", "30000"))  # 测试可用 GG_BAND_TOP=29000 模拟毕业
 BAND = (1000, BAND_TOP)
 TODAY = date.today().isoformat()
