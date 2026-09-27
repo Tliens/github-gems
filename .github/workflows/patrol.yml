@@ -1,0 +1,24 @@
+name: Star patrol
+on:
+  schedule:
+    - cron: '23 2 * * 1'   # 每周一 02:23 UTC，避开整点拥挤
+  workflow_dispatch:
+permissions:
+  contents: write
+  issues: write
+jobs:
+  patrol:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: python3 scripts/patrol.py --issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - name: Commit refresh
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || (git commit -m "chore: weekly star patrol refresh" && git push)

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>chi — The lightweight Go router that std-net always wanted to | GitHub Gems</title>
+<meta name="description" content="The lightweight Go router that std-net always wanted to be. | 轻量 Go 路由器：标准库一直想成为的样子。 | ★22893 Backend &amp; Databases open-source gem">
+<link rel="canonical" href="https://tliens.github.io/github-gems/gems/chi.html">
+<link rel="alternate" hreflang="en" href="https://tliens.github.io/github-gems/gems/chi.html?lang=en">
+<link rel="alternate" hreflang="zh" href="https://tliens.github.io/github-gems/gems/chi.html?lang=zh">
+<link rel="alternate" hreflang="x-default" href="https://tliens.github.io/github-gems/gems/chi.html">
+<link rel="icon" type="image/svg+xml" href="../favicon.svg">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="GitHub Gems">
+<meta property="og:title" content="chi — GitHub Gem">
+<meta property="og:description" content="The lightweight Go router that std-net always wanted to be.">
+<meta property="og:url" content="https://tliens.github.io/github-gems/gems/chi.html">
+<meta property="og:image" content="https://tliens.github.io/github-gems/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="chi — GitHub Gem">
+<meta name="twitter:description" content="The lightweight Go router that std-net always wanted to be.">
+<meta name="twitter:image" content="https://tliens.github.io/github-gems/og-image.png">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","name":"chi — GitHub Gem","url":"https://tliens.github.io/github-gems/gems/chi.html","inLanguage":["en","zh"],"description":"The lightweight Go router that std-net always wanted to be."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"GitHub Gems","item":"https://tliens.github.io/github-gems/"},{"@type":"ListItem","position":2,"name":"Backend & Databases","item":"https://tliens.github.io/github-gems/?c=backend"},{"@type":"ListItem","position":3,"name":"chi","item":"https://tliens.github.io/github-gems/gems/chi.html"}]}]}</script>
+<style>
+:root{--bg:#f7f7fb;--bg2:#fff;--fg:#191927;--fg2:#5b5b70;--line:#e4e4ef;--acc:#7c3aed;--acc2:#0ea5e9;
+--chip:#efeafd;--card:#fff;--shadow:0 1px 3px rgba(25,25,40,.07),0 8px 24px rgba(25,25,40,.06);
+--glowA:rgba(124,58,237,.16);--good:#16a34a;--warn:#d97706}
+html[data-theme=dark]{--bg:#0d0d14;--bg2:#14141d;--fg:#ececf5;--fg2:#9d9db3;--line:#262636;--acc:#a78bfa;
+--acc2:#38bdf8;--chip:#1d1d2b;--card:#15151f;--shadow:0 1px 3px rgba(0,0,0,.5),0 10px 30px rgba(0,0,0,.35);
+--glowA:rgba(167,139,250,.13);--good:#4ade80;--warn:#fbbf24}
+*{box-sizing:border-box}body{margin:0;font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--fg);-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}.wrap{max-width:760px;margin:0 auto;padding:0 20px}
+header{border-bottom:1px solid var(--line)}.hbar{display:flex;align-items:center;gap:12px;height:56px}
+.brand{font-weight:800;font-size:17px}.hbar .sp{flex:1}
+.hbtn{border:1px solid var(--line);background:var(--bg2);color:var(--fg);border-radius:9px;padding:6px 12px;font-size:13px;font-weight:600;cursor:pointer}
+.crumb{color:var(--fg2);font-size:13.5px;margin:26px 0 10px}.crumb a:hover{color:var(--acc)}
+h1{font-size:34px;letter-spacing:-.02em;margin:0 0 10px;display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+h1 .st{color:var(--warn);font-size:18px}
+.badges{display:flex;gap:7px;flex-wrap:wrap;margin:0 0 18px}
+.badge{font-size:12px;font-weight:700;border-radius:7px;padding:3px 9px;background:var(--chip);color:var(--fg2)}
+.badge.cat{color:var(--acc)}.badge.b1{background:color-mix(in srgb,#16a34a 14%,transparent);color:var(--good)}
+.badge.b2{background:color-mix(in srgb,#d97706 15%,transparent);color:var(--warn)}
+.badge.b3{background:color-mix(in srgb,#7c3aed 13%,transparent);color:var(--acc)}
+.badge.grad{background:color-mix(in srgb,#d97706 15%,transparent);color:var(--warn)}
+.badge.arch{background:color-mix(in srgb,#dc2626 13%,transparent);color:#dc2626}
+.lead{font-size:19px;line-height:1.6;margin:0 0 14px}
+.extra{color:var(--fg2);font-size:14.5px;margin:0 0 10px}
+.vline{color:var(--fg2);font-size:13px;margin:0 0 24px}.vline b{color:var(--fg)}
+.btns{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:40px}
+.bigbtn{display:inline-flex;align-items:center;gap:8px;background:linear-gradient(120deg,var(--acc),var(--acc2));color:#fff;border-radius:12px;padding:12px 20px;font-size:15px;font-weight:700;box-shadow:0 6px 20px var(--glowA)}
+.ghost{display:inline-flex;align-items:center;border:1px solid var(--line);border-radius:12px;padding:12px 18px;font-size:14px;font-weight:600;color:var(--fg2)}
+.ghost:hover{border-color:var(--acc);color:var(--acc)}
+h2{font-size:20px;letter-spacing:-.01em;margin:0 0 16px}
+.minis{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding-bottom:40px}
+@media(max-width:640px){.minis{grid-template-columns:1fr}}
+.mini{display:block;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;transition:.15s}
+.mini:hover{transform:translateY(-2px);border-color:var(--acc)}
+.mrow{display:flex;align-items:baseline;gap:8px}.mn{font-weight:700;font-size:14.5px}.ms{margin-left:auto;color:var(--warn);font-size:12px;font-weight:700}
+.md{display:block;color:var(--fg2);font-size:13px;margin-top:3px}
+footer{border-top:1px solid var(--line);margin-top:20px;padding:22px 0 36px;color:var(--fg2);font-size:13px}
+footer a{color:var(--acc);font-weight:600}
+</style>
+</head>
+<body>
+<header><div class="wrap hbar">
+<a class="brand" href="../index.html">💎 GitHub Gems</a><span class="sp"></span>
+<button class="hbtn" id="btnTheme">🌗 Theme</button>
+<button class="hbtn" id="btnLang">中文</button>
+</div></header>
+<main class="wrap">
+<p class="crumb"><a href="../index.html" data-en="All gems" data-zh="全部宝藏">All gems</a> / <a href="../index.html?c=backend" data-en="Backend &amp; Databases" data-zh="后端与数据库">Backend &amp; Databases</a> / chi</p>
+<h1>chi <span class="st">★ 23k</span></h1>
+<div class="badges">
+<span class="badge cat">⚙️ <span data-en="Backend &amp; Databases" data-zh="后端与数据库">Backend &amp; Databases</span></span>
+<span class="badge b3" data-en="For developers" data-zh="开发者向">For developers</span>
+<span class="badge">Go</span>
+</div>
+<p class="lead" data-en="The lightweight Go router that std-net always wanted to be." data-zh="轻量 Go 路由器：标准库一直想成为的样子。">The lightweight Go router that std-net always wanted to be.</p>
+<p class="extra" data-en="Part of Backend &amp; Databases on GitHub Gems — hand-picked open-source projects in the 1k–30k star band, live-verified against the GitHub API on 2026-09-28." data-zh="收录于 GitHub Gems「后端与数据库」领域：人工精选 1k–30k star 区间的开源宝藏，star 数于 2026-09-28 经 GitHub API 实测核验。">Part of Backend &amp; Databases on GitHub Gems — hand-picked open-source projects in the 1k–30k star band, live-verified against the GitHub API on 2026-09-28.</p>
+<p class="vline"><span data-en="Star count live-verified" data-zh="star 数实测核验">Star count live-verified</span> <b>2026-09-28</b> · <span data-en="repo" data-zh="仓库">repo</span> <b>go-chi/chi</b></p>
+<div class="btns">
+<a class="bigbtn" href="https://github.com/go-chi/chi" target="_blank" rel="noopener">★ GitHub ↗</a>
+<a class="ghost" href="../index.html" data-en="← All gems" data-zh="← 全部宝藏">← All gems</a>
+</div>
+<h2 data-en="More in Backend &amp; Databases" data-zh="更多「后端与数据库」宝藏">More in Backend &amp; Databases</h2>
+<div class="minis"><a class="mini" href="sqlmodel.html"><span class="mrow"><span class="mn">SQLModel</span><span class="ms">★ 18k</span></span><span class="md" data-en="SQLAlchemy meets Pydantic — type-safe models for FastAPI folks." data-zh="SQLAlchemy 遇见 Pydantic：FastAPI 一家的类型安全 ORM。">SQLAlchemy meets Pydantic — type-safe models for FastAPI folks.</span></a><a class="mini" href="sqlc.html"><span class="mrow"><span class="mn">sqlc</span><span class="ms">★ 18k</span></span><span class="md" data-en="Write SQL, get type-safe Go code generated — the compiler checks your queries." data-zh="写 SQL，生成类型安全的 Go 代码：编译期帮你查错。">Write SQL, get type-safe Go code generated — the compiler checks your queries.</span></a><a class="mini" href="ent.html"><span class="mrow"><span class="mn">ent</span><span class="ms">★ 17k</span></span><span class="md" data-en="Facebook&#x27;s entity framework for Go: schemas as graphs, migrations included." data-zh="Facebook 出品的 Go 实体框架：图式建模，迁移齐活。">Facebook&#x27;s entity framework for Go: schemas as graphs, migrations included.</span></a><a class="mini" href="kysely.html"><span class="mrow"><span class="mn">Kysely</span><span class="ms">★ 14k</span></span><span class="md" data-en="Type-safe SQL query builder with zero runtime cost." data-zh="零运行时开销的类型安全 SQL 构建器。">Type-safe SQL query builder with zero runtime cost.</span></a><a class="mini" href="gqlgen.html"><span class="mrow"><span class="mn">gqlgen</span><span class="ms">★ 11k</span></span><span class="md" data-en="Schema-first GraphQL server for Go — codegen does the boring parts." data-zh="Schema 优先的 Go GraphQL 服务端：无聊部分交给代码生成。">Schema-first GraphQL server for Go — codegen does the boring parts.</span></a><a class="mini" href="litestar.html"><span class="mrow"><span class="mn">Litestar</span><span class="ms">★ 8.5k</span></span><span class="md" data-en="A fast, thoughtfully async Python web framework." data-zh="又快又讲究的异步 Python Web 框架。">A fast, thoughtfully async Python web framework.</span></a></div>
+</main>
+<footer><div class="wrap"><a href="https://github.com/Tliens/github-gems" target="_blank" rel="noopener">GitHub</a> · <span data-en="Hand-picked underrated open-source projects. Stars live-verified." data-zh="人工精选的冷门优质开源项目，star 数实测核验。">Hand-picked underrated open-source projects. Stars live-verified.</span></div></footer>
+<script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "6a164def7d63477cba60148b8417ca95"}'></script>
+<script type="module">
+const TITLE_EN = "chi \u2014 The lightweight Go router that std-net always wanted to | GitHub Gems", TITLE_ZH = "chi \u00b7 GitHub \u5b9d\u85cf\u9879\u76ee\u63a8\u8350";
+let lang = new URLSearchParams(location.search).get('lang') || localStorage.getItem('gg-lang') || 'en';
+const apply = () => {
+  document.documentElement.lang = lang;
+  document.querySelectorAll('[data-en]').forEach(el => { el.textContent = lang === 'zh' ? el.dataset.zh : el.dataset.en; });
+  document.title = lang === 'zh' ? TITLE_ZH : TITLE_EN;
+  document.getElementById('btnLang').textContent = lang === 'zh' ? 'EN' : '中文';
+  const u = new URL(location.href); u.searchParams.delete('lang');
+  if (lang === 'zh') u.searchParams.set('lang', 'zh');
+  history.replaceState(null, '', u.pathname + (u.search || '') + location.hash);
+};
+document.getElementById('btnLang').onclick = () => { lang = lang === 'zh' ? 'en' : 'zh'; localStorage.setItem('gg-lang', lang); apply(); };
+const cycle = () => {
+  const cur = document.documentElement.getAttribute('data-theme') || 'auto';
+  const next = { auto:'light', light:'dark', dark:'auto' }[cur];
+  document.documentElement.setAttribute('data-theme', next);
+  localStorage.setItem('gg-theme', next);
+  document.getElementById('btnTheme').textContent = { auto:'🌗 Auto', light:'☀️ Light', dark:'🌙 Dark' }[next];
+};
+document.getElementById('btnTheme').onclick = cycle;
+document.documentElement.setAttribute('data-theme', localStorage.getItem('gg-theme') || 'auto');
+document.getElementById('btnTheme').textContent = { auto:'🌗 Auto', light:'☀️ Light', dark:'🌙 Dark' }[localStorage.getItem('gg-theme') || 'auto'];
+apply();
+</script>
+</body>
+</html>

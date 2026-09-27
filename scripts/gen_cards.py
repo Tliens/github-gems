@@ -10,12 +10,25 @@
 维护：增删项目只改 PROJECTS → python3 scripts/gen_cards.py → commit + push。
 star 数需要刷新时：rm data/stars-cache.json 再跑（会用 gh 补拉全部）。
 """
-import json, os, re, subprocess, sys
+import json, os, re, shutil, subprocess, sys
+from datetime import date, timezone, datetime
 
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 HTML = os.path.join(HERE, "index.html")
 CACHE = os.path.join(HERE, "data", "stars-cache.json")
-BAND = (1000, 30000)
+STATE = os.path.join(HERE, "data", "state.json")   # 毕业记录 {repo: 毕业日期}
+GEMS_DIR = os.path.join(HERE, "gems")
+SITEMAP = os.path.join(HERE, "sitemap.xml")
+BASE = "https://tliens.github.io/github-gems"
+BAND_TOP = int(os.environ.get("GG_BAND_TOP", "30000"))  # 测试可用 GG_BAND_TOP=29000 模拟毕业
+BAND = (1000, BAND_TOP)
+TODAY = date.today().isoformat()
+# 严格模式（人工收录新项目时用）：任何问题直接退出。默认宽松：
+# 归档/掉出区间的项目带徽章继续渲染，进巡检报告等人工处理。
+STRICT = os.environ.get("GG_STRICT") == "1"
+
+# 这些英文字符串与 index.html JS 里的 L.en 字典保持一致（badge 文案）
+EN_GRAD, EN_ARCH = "Graduated", "Archived"
 
 # id, n=显示名, r=owner/repo, c=分类, lv=难度(1即开即用/2轻松上手/3开发者向), p=平台, t=搜索标签, de/dz=英/中描述
 P = lambda id,n,r,c,lv,p,t,de,dz: dict(id=id,n=n,r=r,c=c,lv=lv,p=p,t=t,de=de,dz=dz)
@@ -493,9 +506,197 @@ def fmt_k(n):
         return (f"{v:.1f}".rstrip("0").rstrip(".")) + "k"
     return str(n)
 
+GEM_CSS = """
+:root{--bg:#f7f7fb;--bg2:#fff;--fg:#191927;--fg2:#5b5b70;--line:#e4e4ef;--acc:#7c3aed;--acc2:#0ea5e9;
+--chip:#efeafd;--card:#fff;--shadow:0 1px 3px rgba(25,25,40,.07),0 8px 24px rgba(25,25,40,.06);
+--glowA:rgba(124,58,237,.16);--good:#16a34a;--warn:#d97706}
+html[data-theme=dark]{--bg:#0d0d14;--bg2:#14141d;--fg:#ececf5;--fg2:#9d9db3;--line:#262636;--acc:#a78bfa;
+--acc2:#38bdf8;--chip:#1d1d2b;--card:#15151f;--shadow:0 1px 3px rgba(0,0,0,.5),0 10px 30px rgba(0,0,0,.35);
+--glowA:rgba(167,139,250,.13);--good:#4ade80;--warn:#fbbf24}
+*{box-sizing:border-box}body{margin:0;font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--fg);-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}.wrap{max-width:760px;margin:0 auto;padding:0 20px}
+header{border-bottom:1px solid var(--line)}.hbar{display:flex;align-items:center;gap:12px;height:56px}
+.brand{font-weight:800;font-size:17px}.hbar .sp{flex:1}
+.hbtn{border:1px solid var(--line);background:var(--bg2);color:var(--fg);border-radius:9px;padding:6px 12px;font-size:13px;font-weight:600;cursor:pointer}
+.crumb{color:var(--fg2);font-size:13.5px;margin:26px 0 10px}.crumb a:hover{color:var(--acc)}
+h1{font-size:34px;letter-spacing:-.02em;margin:0 0 10px;display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+h1 .st{color:var(--warn);font-size:18px}
+.badges{display:flex;gap:7px;flex-wrap:wrap;margin:0 0 18px}
+.badge{font-size:12px;font-weight:700;border-radius:7px;padding:3px 9px;background:var(--chip);color:var(--fg2)}
+.badge.cat{color:var(--acc)}.badge.b1{background:color-mix(in srgb,#16a34a 14%,transparent);color:var(--good)}
+.badge.b2{background:color-mix(in srgb,#d97706 15%,transparent);color:var(--warn)}
+.badge.b3{background:color-mix(in srgb,#7c3aed 13%,transparent);color:var(--acc)}
+.badge.grad{background:color-mix(in srgb,#d97706 15%,transparent);color:var(--warn)}
+.badge.arch{background:color-mix(in srgb,#dc2626 13%,transparent);color:#dc2626}
+.lead{font-size:19px;line-height:1.6;margin:0 0 14px}
+.extra{color:var(--fg2);font-size:14.5px;margin:0 0 10px}
+.vline{color:var(--fg2);font-size:13px;margin:0 0 24px}.vline b{color:var(--fg)}
+.btns{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:40px}
+.bigbtn{display:inline-flex;align-items:center;gap:8px;background:linear-gradient(120deg,var(--acc),var(--acc2));color:#fff;border-radius:12px;padding:12px 20px;font-size:15px;font-weight:700;box-shadow:0 6px 20px var(--glowA)}
+.ghost{display:inline-flex;align-items:center;border:1px solid var(--line);border-radius:12px;padding:12px 18px;font-size:14px;font-weight:600;color:var(--fg2)}
+.ghost:hover{border-color:var(--acc);color:var(--acc)}
+h2{font-size:20px;letter-spacing:-.01em;margin:0 0 16px}
+.minis{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding-bottom:40px}
+@media(max-width:640px){.minis{grid-template-columns:1fr}}
+.mini{display:block;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;transition:.15s}
+.mini:hover{transform:translateY(-2px);border-color:var(--acc)}
+.mrow{display:flex;align-items:baseline;gap:8px}.mn{font-weight:700;font-size:14.5px}.ms{margin-left:auto;color:var(--warn);font-size:12px;font-weight:700}
+.md{display:block;color:var(--fg2);font-size:13px;margin-top:3px}
+footer{border-top:1px solid var(--line);margin-top:20px;padding:22px 0 36px;color:var(--fg2);font-size:13px}
+footer a{color:var(--acc);font-weight:600}
+"""
+
+GEM_TPL = """<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>__TITLE__</title>
+<meta name="description" content="__DESC__">
+<link rel="canonical" href="__BASE__/gems/__ID__.html">
+<link rel="alternate" hreflang="en" href="__BASE__/gems/__ID__.html?lang=en">
+<link rel="alternate" hreflang="zh" href="__BASE__/gems/__ID__.html?lang=zh">
+<link rel="alternate" hreflang="x-default" href="__BASE__/gems/__ID__.html">
+<link rel="icon" type="image/svg+xml" href="../favicon.svg">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="GitHub Gems">
+<meta property="og:title" content="__NAME__ — GitHub Gem">
+<meta property="og:description" content="__DE__">
+<meta property="og:url" content="__BASE__/gems/__ID__.html">
+<meta property="og:image" content="__BASE__/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="__NAME__ — GitHub Gem">
+<meta name="twitter:description" content="__DE__">
+<meta name="twitter:image" content="__BASE__/og-image.png">
+<script type="application/ld+json">__JSONLD__</script>
+<style>__CSS__</style>
+</head>
+<body>
+<header><div class="wrap hbar">
+<a class="brand" href="../index.html">💎 GitHub Gems</a><span class="sp"></span>
+<button class="hbtn" id="btnTheme">🌗 Theme</button>
+<button class="hbtn" id="btnLang">中文</button>
+</div></header>
+<main class="wrap">
+<p class="crumb"><a href="../index.html" data-en="All gems" data-zh="全部宝藏">All gems</a> / <a href="../index.html?c=__CATID__" data-en="__CATEN__" data-zh="__CATZH__">__CATEN__</a> / __NAME__</p>
+<h1>__NAME__ <span class="st">★ __STARSK__</span></h1>
+<div class="badges">
+<span class="badge cat">__CATICON__ <span data-en="__CATEN__" data-zh="__CATZH__">__CATEN__</span></span>
+<span class="badge __LVCLS__" data-en="__LVEN__" data-zh="__LVZH__">__LVEN__</span>
+<span class="badge">__PLAT__</span>__BADGES__
+</div>
+<p class="lead" data-en="__DE__" data-zh="__DZ__">__DE__</p>
+<p class="extra" data-en="__EXTRA_EN__" data-zh="__EXTRA_ZH__">__EXTRA_EN__</p>
+<p class="vline"><span data-en="Star count live-verified" data-zh="star 数实测核验">Star count live-verified</span> <b>__DATE__</b> · <span data-en="repo" data-zh="仓库">repo</span> <b>__REPO__</b></p>
+<div class="btns">
+<a class="bigbtn" href="https://github.com/__REPO__" target="_blank" rel="noopener">★ GitHub ↗</a>
+<a class="ghost" href="../index.html" data-en="← All gems" data-zh="← 全部宝藏">← All gems</a>
+</div>
+<h2 data-en="More in __CATEN__" data-zh="更多「__CATZH__」宝藏">More in __CATEN__</h2>
+<div class="minis">__RELATED__</div>
+</main>
+<footer><div class="wrap"><a href="https://github.com/Tliens/github-gems" target="_blank" rel="noopener">GitHub</a> · <span data-en="Hand-picked underrated open-source projects. Stars live-verified." data-zh="人工精选的冷门优质开源项目，star 数实测核验。">Hand-picked underrated open-source projects. Stars live-verified.</span></div></footer>
+<script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "6a164def7d63477cba60148b8417ca95"}'></script>
+<script type="module">
+const TITLE_EN = __TITLE_EN_JSON__, TITLE_ZH = __TITLE_ZH_JSON__;
+let lang = new URLSearchParams(location.search).get('lang') || localStorage.getItem('gg-lang') || 'en';
+const apply = () => {
+  document.documentElement.lang = lang;
+  document.querySelectorAll('[data-en]').forEach(el => { el.textContent = lang === 'zh' ? el.dataset.zh : el.dataset.en; });
+  document.title = lang === 'zh' ? TITLE_ZH : TITLE_EN;
+  document.getElementById('btnLang').textContent = lang === 'zh' ? 'EN' : '中文';
+  const u = new URL(location.href); u.searchParams.delete('lang');
+  if (lang === 'zh') u.searchParams.set('lang', 'zh');
+  history.replaceState(null, '', u.pathname + (u.search || '') + location.hash);
+};
+document.getElementById('btnLang').onclick = () => { lang = lang === 'zh' ? 'en' : 'zh'; localStorage.setItem('gg-lang', lang); apply(); };
+const cycle = () => {
+  const cur = document.documentElement.getAttribute('data-theme') || 'auto';
+  const next = { auto:'light', light:'dark', dark:'auto' }[cur];
+  document.documentElement.setAttribute('data-theme', next);
+  localStorage.setItem('gg-theme', next);
+  document.getElementById('btnTheme').textContent = { auto:'🌗 Auto', light:'☀️ Light', dark:'🌙 Dark' }[next];
+};
+document.getElementById('btnTheme').onclick = cycle;
+document.documentElement.setAttribute('data-theme', localStorage.getItem('gg-theme') || 'auto');
+document.getElementById('btnTheme').textContent = { auto:'🌗 Auto', light:'☀️ Light', dark:'🌙 Dark' }[localStorage.getItem('gg-theme') || 'auto'];
+apply();
+</script>
+</body>
+</html>
+"""
+
+def hesc(s):
+    import html as _h
+    return _h.escape(str(s), quote=True)
+
+def build_gem_page(g, gems):
+    ic, en, zh = CATS[g["c"]]
+    lv_en, lv_zh = LVS[g["lv"]], {1:"即开即用",2:"轻松上手",3:"开发者向"}[g["lv"]]
+    cls = {1:"b1",2:"b2",3:"b3"}[g["lv"]]
+    de_short = g["de"][:72].rsplit(" ", 1)[0] + ("…" if len(g["de"]) > 72 else "")
+    bad = ""
+    if g.get("g"): bad += f'<span class="badge grad">🎓 <span data-en="Graduated {g["g"]}" data-zh="已毕业 {g["g"]}">Graduated {g["g"]}</span></span>'
+    if g.get("a"): bad += f'<span class="badge arch">⚠️ <span data-en="Archived" data-zh="已归档">Archived</span></span>'
+    rel = [x for x in gems if x["c"] == g["c"] and x["id"] != g["id"]]
+    rel = sorted(rel, key=lambda x: -x["s"])[:6]
+    related = "".join(
+        f'<a class="mini" href="{x["id"]}.html"><span class="mrow"><span class="mn">{hesc(x["n"])}</span>'
+        f'<span class="ms">★ {fmt_k(x["s"])}</span></span>'
+        f'<span class="md" data-en="{hesc(x["de"])}" data-zh="{hesc(x["dz"])}">{hesc(x["de"])}</span></a>'
+        for x in rel)
+    extra_en = f"Part of {en} on GitHub Gems — hand-picked open-source projects in the 1k–30k star band, live-verified against the GitHub API on {TODAY}."
+    extra_zh = f"收录于 GitHub Gems「{zh}」领域：人工精选 1k–30k star 区间的开源宝藏，star 数于 {TODAY} 经 GitHub API 实测核验。"
+    jsonld = json.dumps({"@context":"https://schema.org","@graph":[
+        {"@type":"WebPage","name":f'{g["n"]} — GitHub Gem',"url":f"{BASE}/gems/{g['id']}.html",
+         "inLanguage":["en","zh"],"description":g["de"]},
+        {"@type":"BreadcrumbList","itemListElement":[
+            {"@type":"ListItem","position":1,"name":"GitHub Gems","item":f"{BASE}/"},
+            {"@type":"ListItem","position":2,"name":en,"item":f"{BASE}/?c={g['c']}"},
+            {"@type":"ListItem","position":3,"name":g["n"],"item":f"{BASE}/gems/{g['id']}.html"}]}]},
+        ensure_ascii=False, separators=(",",":"))
+    desc = f'{g["de"]} | {g["dz"]} | ★{g["s"]} {en} open-source gem'
+    page = (GEM_TPL
+        .replace("__CSS__", GEM_CSS)
+        .replace("__TITLE_EN_JSON__", json.dumps(f'{g["n"]} — {de_short} | GitHub Gems'))
+        .replace("__TITLE_ZH_JSON__", json.dumps(f'{g["n"]} · GitHub 宝藏项目推荐'))
+        .replace("__TITLE__", hesc(f'{g["n"]} — {de_short} | GitHub Gems'))
+        .replace("__DESC__", hesc(desc))
+        .replace("__JSONLD__", jsonld)
+        .replace("__BASE__", BASE)
+        .replace("__ID__", g["id"]).replace("__NAME__", hesc(g["n"]))
+        .replace("__REPO__", hesc(g["r"]))
+        .replace("__STARS__", str(g["s"])).replace("__STARSK__", fmt_k(g["s"]))
+        .replace("__CATID__", g["c"]).replace("__CATICON__", ic)
+        .replace("__CATEN__", hesc(en)).replace("__CATZH__", hesc(zh))
+        .replace("__LVEN__", lv_en).replace("__LVZH__", lv_zh).replace("__LVCLS__", cls)
+        .replace("__PLAT__", hesc(g["p"])).replace("__BADGES__", bad)
+        .replace("__DE__", hesc(g["de"])).replace("__DZ__", hesc(g["dz"]))
+        .replace("__EXTRA_EN__", hesc(extra_en)).replace("__EXTRA_ZH__", hesc(extra_zh))
+        .replace("__DATE__", TODAY).replace("__RELATED__", related))
+    return page
+
+def write_sitemap(gems):
+    alt = ('<xhtml:link rel="alternate" hreflang="en" href="{0}"/>'
+           '<xhtml:link rel="alternate" hreflang="zh" href="{1}"/>')
+    urls = [
+        f'<url><loc>{BASE}/</loc><changefreq>weekly</changefreq><priority>1.0</priority>{alt.format(BASE+"/", BASE+"/?lang=zh")}</url>',
+        f'<url><loc>{BASE}/?lang=zh</loc><changefreq>weekly</changefreq><priority>0.9</priority>{alt.format(BASE+"/", BASE+"/?lang=zh")}</url>',
+    ]
+    for g in sorted(gems, key=lambda x: x["n"].lower()):
+        loc = f"{BASE}/gems/{g['id']}.html"
+        urls.append(f'<url><loc>{loc}</loc><changefreq>weekly</changefreq><priority>0.8</priority>{alt.format(loc, loc+"?lang=zh")}</url>')
+        urls.append(f'<url><loc>{loc}?lang=zh</loc><changefreq>weekly</changefreq><priority>0.7</priority>{alt.format(loc, loc+"?lang=zh")}</url>')
+    xml = ('<?xml version="1.0" encoding="UTF-8"?>\n'
+           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n'
+           + "\n".join(urls) + "\n</urlset>\n")
+    open(SITEMAP, "w", encoding="utf-8").write(xml)
+
 def main():
     cache = load_cache()
-    gems, problems = [], []
+    state = json.load(open(STATE)) if os.path.exists(STATE) else {}
+    grads = state.setdefault("graduated", {})
+    gems, problems, new_grads = [], [], []
     ids = set()
     for prj in PROJECTS:
         if prj["id"] in ids: problems.append(f"duplicate id: {prj['id']}")
@@ -504,30 +705,51 @@ def main():
         if not node:
             problems.append(f"{prj['r']}: fetch failed"); continue
         s = node["stargazerCount"]
-        if node["isArchived"]: problems.append(f"{prj['r']}: ARCHIVED ({s})")
-        if not (BAND[0] <= s <= BAND[1]): problems.append(f"{prj['r']}: {s} outside band {BAND}")
-        gems.append({"id":prj["id"],"n":prj["n"],"r":prj["r"],"s":s,"c":prj["c"],
-                     "lv":prj["lv"],"p":prj["p"],"t":prj["t"],"de":prj["de"],"dz":prj["dz"]})
+        g = a = None
+        if s > BAND_TOP:
+            if prj["r"] not in grads:      # 毕业：自动记录日期，页面挂徽章，不删除
+                grads[prj["r"]] = TODAY
+                new_grads.append(f"{prj['r']}: {s}")
+            g = grads[prj["r"]]
+        elif prj["r"] in grads and s <= BAND_TOP:
+            del grads[prj["r"]]            # 数据回落（几乎不可能），撤销毕业
+        if node["isArchived"]:
+            a = True
+            problems.append(f"{prj['r']}: ARCHIVED ({s}) — 建议移除，等人工裁决")
+        if s < BAND[0]:
+            problems.append(f"{prj['r']}: {s} below {BAND[0]} — 建议移除，等人工裁决")
+        item = {"id":prj["id"],"n":prj["n"],"r":prj["r"],"s":s,"c":prj["c"],
+                "lv":prj["lv"],"p":prj["p"],"t":prj["t"],"de":prj["de"],"dz":prj["dz"]}
+        if g: item["g"] = g
+        if a: item["a"] = True
+        gems.append(item)
     json.dump(cache, open(CACHE,"w"), indent=1)
+    json.dump(state, open(STATE,"w"), indent=1)
+
+    report = {"date": TODAY, "problems": problems, "newGraduates": new_grads}
+    json.dump(report, open(os.path.join(HERE, "data", "patrol-report.json"), "w"), indent=1)
 
     if problems:
-        print("PROBLEMS — fix before shipping:")
+        print("PROBLEMS (kept with badges, pending review):")
         for p in problems: print("  ✗", p)
-        sys.exit(1)
+        if STRICT: sys.exit(1)
 
     # 静态英文卡片（与页面 JS cardHTML 渲染逻辑保持一致）
     cards = []
     for g in sorted(gems, key=lambda x: -x["s"]):
         ic, en, _zh = CATS[g["c"]]
         cls = {1:"b1",2:"b2",3:"b3"}[g["lv"]]
+        extra = ""
+        if g.get("g"): extra += f'<span class="badge grad">🎓 {EN_GRAD}</span>'
+        if g.get("a"): extra += f'<span class="badge arch">⚠️ {EN_ARCH}</span>'
         cards.append(
-f'''<a class="card" href="https://github.com/{g['r']}" target="_blank" rel="noopener">
+f'''<a class="card" href="gems/{g['id']}.html">
 <div class="crow"><span class="nm">{g['n']}</span><span class="st">★ {fmt_k(g['s'])}</span></div>
 <p class="ds">{g['de']}</p>
-<div class="mta"><span class="badge cat">{ic} {en}</span><span class="badge {cls}">{LVS[g['lv']]}</span><span class="badge">{g['p']}</span></div>
+<div class="mta"><span class="badge cat">{ic} {en}</span><span class="badge {cls}">{LVS[g['lv']]}</span><span class="badge">{g['p']}</span>{extra}</div>
 </a>''')
     grid_html = "\n".join(cards)
-    data_json = json.dumps(gems, ensure_ascii=False, separators=(",",":"))
+    data_json = json.dumps({"d": TODAY, "g": gems}, ensure_ascii=False, separators=(",",":"))
 
     html = open(HTML, encoding="utf-8").read()
     html = re.sub(r"(<!--GEMS:START-->).*?(<!--GEMS:END-->)",
@@ -537,11 +759,20 @@ f'''<a class="card" href="https://github.com/{g['r']}" target="_blank" rel="noop
                              + data_json + "</script>\n" + m.group(2)), html, flags=re.S)
     open(HTML, "w", encoding="utf-8").write(html)
 
+    # 落地页矩阵：整目录重建（含删除已下架项目）
+    if os.path.isdir(GEMS_DIR): shutil.rmtree(GEMS_DIR)
+    os.makedirs(GEMS_DIR)
+    for g in gems:
+        open(os.path.join(GEMS_DIR, g["id"] + ".html"), "w", encoding="utf-8").write(build_gem_page(g, gems))
+    write_sitemap(gems)
+
     bycat = {}
     for g in gems: bycat[g["c"]] = bycat.get(g["c"], 0) + 1
-    print(f"OK: {len(gems)} gems injected")
+    print(f"OK: {len(gems)} gems injected (+{len(gems)} landing pages, sitemap {2 + len(gems)*2} URLs)")
     for k, v in sorted(bycat.items(), key=lambda x: -x[1]):
         print(f"  {CATS[k][0]} {k:<9} {v}")
+    if new_grads:
+        print("🎓 new graduates:"); [print("  ", x) for x in new_grads]
     print(f"index.html size: {os.path.getsize(HTML)//1024} KB")
 
 if __name__ == "__main__":

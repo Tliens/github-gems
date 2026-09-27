@@ -1,12 +1,9 @@
 {
  "ente-io/ente": {
-  "stargazerCount": 29102,
+  "stargazerCount": 29111,
   "pushedAt": "2026-09-25T14:48:12Z",
   "isArchived": false,
-  "description": "\ud83d\udc9a End-to-end encrypted cloud for everything.",
-  "primaryLanguage": {
-   "name": "Dart"
-  }
+  "description": "\ud83d\udc9a End-to-end encrypted cloud for everything."
  },
  "paperless-ngx/paperless-ngx": {
   "stargazerCount": 46079,
@@ -30,55 +27,37 @@
   "stargazerCount": 11238,
   "pushedAt": "2026-09-18T01:31:35Z",
   "isArchived": false,
-  "description": "Self-hosted bookmark manager that is designed be to be minimal, fast, and easy to set up using Docker.",
-  "primaryLanguage": {
-   "name": "Python"
-  }
+  "description": "Self-hosted bookmark manager that is designed be to be minimal, fast, and easy to set up using Docker."
  },
  "mealie-recipes/mealie": {
-  "stargazerCount": 13337,
-  "pushedAt": "2026-09-27T04:24:55Z",
+  "stargazerCount": 13340,
+  "pushedAt": "2026-09-27T14:58:47Z",
   "isArchived": false,
-  "description": "Mealie is a self hosted recipe manager and meal planner with a RestAPI backend and a reactive frontend application built in Vue for a pleasant user experience for the whole family. Easily add recipes into your database by providing the url and mealie will automatically import the relevant data or add a family recipe with the UI editor",
-  "primaryLanguage": {
-   "name": "Python"
-  }
+  "description": "Mealie is a self hosted recipe manager and meal planner with a RestAPI backend and a reactive frontend application built in Vue for a pleasant user experience for the whole family. Easily add recipes into your database by providing the url and mealie will automatically import the relevant data or add a family recipe with the UI editor"
  },
  "wallabag/wallabag": {
   "stargazerCount": 12989,
   "pushedAt": "2026-09-21T06:34:09Z",
   "isArchived": false,
-  "description": "wallabag is a self hostable application for saving web pages: Save and classify articles. Read them later. Freely.",
-  "primaryLanguage": {
-   "name": "PHP"
-  }
+  "description": "wallabag is a self hostable application for saving web pages: Save and classify articles. Read them later. Freely."
  },
  "keepassxreboot/keepassxc": {
-  "stargazerCount": 28982,
+  "stargazerCount": 28987,
   "pushedAt": "2026-09-23T06:20:27Z",
   "isArchived": false,
-  "description": "KeePassXC is a cross-platform community-driven port of the Windows application \u201cKeePass Password Safe\u201d.",
-  "primaryLanguage": {
-   "name": "C++"
-  }
+  "description": "KeePassXC is a cross-platform community-driven port of the Windows application \u201cKeePass Password Safe\u201d."
  },
  "pqrs-org/Karabiner-Elements": {
-  "stargazerCount": 22865,
-  "pushedAt": "2026-09-26T23:53:56Z",
+  "stargazerCount": 22869,
+  "pushedAt": "2026-09-27T13:09:30Z",
   "isArchived": false,
-  "description": "Karabiner-Elements is a powerful tool for customizing keyboards on macOS",
-  "primaryLanguage": {
-   "name": "C++"
-  }
+  "description": "Karabiner-Elements is a powerful tool for customizing keyboards on macOS"
  },
  "Zettlr/Zettlr": {
-  "stargazerCount": 13587,
+  "stargazerCount": 13589,
   "pushedAt": "2026-09-22T02:36:38Z",
   "isArchived": false,
-  "description": "Your One-Stop Publication Workbench",
-  "primaryLanguage": {
-   "name": "TypeScript"
-  }
+  "description": "Your One-Stop Publication Workbench"
  },
  "qarmin/czkawka": {
   "stargazerCount": 33747,
@@ -90,58 +69,40 @@
   }
  },
  "lwouis/alt-tab-macos": {
-  "stargazerCount": 16329,
+  "stargazerCount": 16331,
   "pushedAt": "2026-09-26T17:04:17Z",
   "isArchived": false,
-  "description": "Windows alt-tab on macOS ",
-  "primaryLanguage": {
-   "name": "Swift"
-  }
+  "description": "Windows alt-tab on macOS "
  },
  "oliverschwendener/ueli": {
   "stargazerCount": 4602,
   "pushedAt": "2026-09-12T11:23:45Z",
   "isArchived": false,
-  "description": "Cross-Platform Keystroke Launcher",
-  "primaryLanguage": {
-   "name": "TypeScript"
-  }
+  "description": "Cross-Platform Keystroke Launcher"
  },
  "Kunzisoft/KeePassDX": {
-  "stargazerCount": 7379,
+  "stargazerCount": 7377,
   "pushedAt": "2026-09-25T09:18:36Z",
   "isArchived": false,
-  "description": "Lightweight vault and password manager for Android, KeePassDX allows editing encrypted data in a single file in KeePass format and fill in the forms in a secure way.",
-  "primaryLanguage": {
-   "name": "Kotlin"
-  }
+  "description": "Lightweight vault and password manager for Android, KeePassDX allows editing encrypted data in a single file in KeePass format and fill in the forms in a secure way."
  },
  "beemdevelopment/Aegis": {
-  "stargazerCount": 13165,
+  "stargazerCount": 13166,
   "pushedAt": "2026-09-06T10:30:01Z",
   "isArchived": false,
-  "description": "A free, secure and open source app for Android to manage your 2-step verification tokens.",
-  "primaryLanguage": {
-   "name": "Java"
-  }
+  "description": "A free, secure and open source app for Android to manage your 2-step verification tokens."
  },
  "kiwix/kiwix-desktop": {
   "stargazerCount": 1487,
   "pushedAt": "2026-09-24T12:01:40Z",
   "isArchived": false,
-  "description": "Kiwix for Windows and GNU/Linux desktops",
-  "primaryLanguage": {
-   "name": "C++"
-  }
+  "description": "Kiwix for Windows and GNU/Linux desktops"
  },
  "dynobo/normcap": {
   "stargazerCount": 2733,
   "pushedAt": "2026-09-18T18:07:15Z",
   "isArchived": false,
-  "description": "OCR powered screen-capture tool to capture information instead of images",
-  "primaryLanguage": {
-   "name": "Python"
-  }
+  "description": "OCR powered screen-capture tool to capture information instead of images"
  },
  "flameshot-org/flameshot": {
   "stargazerCount": 30920,
@@ -153,22 +114,16 @@
   }
  },
  "KDE/kdenlive": {
-  "stargazerCount": 5745,
+  "stargazerCount": 5748,
   "pushedAt": "2026-09-26T07:40:16Z",
   "isArchived": false,
-  "description": "Free and open source video editor, based on MLT Framework and KDE Frameworks",
-  "primaryLanguage": {
-   "name": "C++"
-  }
+  "description": "Free and open source video editor, based on MLT Framework and KDE Frameworks"
  },
  "mltframework/shotcut": {
-  "stargazerCount": 15282,
-  "pushedAt": "2026-09-26T17:04:33Z",
+  "stargazerCount": 15283,
+  "pushedAt": "2026-09-27T15:58:03Z",
   "isArchived": false,
-  "description": "cross-platform (Qt), open-source (GPLv3) video editor",
-  "primaryLanguage": {
-   "name": "C++"
-  }
+  "description": "cross-platform (Qt), open-source (GPLv3) video editor"
  },
  "olive-editor/olive": {
   "stargazerCount": 9130,
@@ -180,40 +135,28 @@
   }
  },
  "LMMS/lmms": {
-  "stargazerCount": 10396,
+  "stargazerCount": 10397,
   "pushedAt": "2026-09-21T08:34:53Z",
   "isArchived": false,
-  "description": "Cross-platform music production software",
-  "primaryLanguage": {
-   "name": "C++"
-  }
+  "description": "Cross-platform music production software"
  },
  "mixxxdj/mixxx": {
-  "stargazerCount": 7193,
-  "pushedAt": "2026-09-26T21:37:13Z",
+  "stargazerCount": 7195,
+  "pushedAt": "2026-09-27T13:16:53Z",
   "isArchived": false,
-  "description": "Mixxx is Free DJ software that gives you everything you need to perform live mixes.",
-  "primaryLanguage": {
-   "name": "C++"
-  }
+  "description": "Mixxx is Free DJ software that gives you everything you need to perform live mixes."
  },
  "sonic-pi-net/sonic-pi": {
   "stargazerCount": 12158,
-  "pushedAt": "2026-09-27T09:35:44Z",
+  "pushedAt": "2026-09-27T14:21:58Z",
   "isArchived": false,
-  "description": "Code. Music. Live.",
-  "primaryLanguage": {
-   "name": "C++"
-  }
+  "description": "Code. Music. Live."
  },
  "VCVRack/Rack": {
   "stargazerCount": 4424,
   "pushedAt": "2025-11-04T08:47:14Z",
   "isArchived": false,
-  "description": "The virtual Eurorack studio",
-  "primaryLanguage": {
-   "name": "C++"
-  }
+  "description": "The virtual Eurorack studio"
  },
  "nukeop/nuclear": {
   "stargazerCount": 18533,
@@ -225,13 +168,10 @@
   }
  },
  "zotero/zotero": {
-  "stargazerCount": 15407,
+  "stargazerCount": 15408,
   "pushedAt": "2026-09-26T18:32:41Z",
   "isArchived": false,
-  "description": "Zotero is a free, easy-to-use tool to help you collect, organize, annotate, cite, and share your research sources.",
-  "primaryLanguage": {
-   "name": "JavaScript"
-  }
+  "description": "Zotero is a free, easy-to-use tool to help you collect, organize, annotate, cite, and share your research sources."
  },
  "filebrowser/filebrowser": {
   "stargazerCount": 35937,
@@ -261,49 +201,34 @@
   }
  },
  "eza-community/eza": {
-  "stargazerCount": 23385,
+  "stargazerCount": 23387,
   "pushedAt": "2026-08-06T19:53:22Z",
   "isArchived": false,
-  "description": "A modern alternative to ls",
-  "primaryLanguage": {
-   "name": "Rust"
-  }
+  "description": "A modern alternative to ls"
  },
  "Canop/broot": {
-  "stargazerCount": 12970,
+  "stargazerCount": 12971,
   "pushedAt": "2026-09-26T13:12:10Z",
   "isArchived": false,
-  "description": "A new way to see and navigate directory trees",
-  "primaryLanguage": {
-   "name": "Rust"
-  }
+  "description": "A new way to see and navigate directory trees"
  },
  "bootandy/dust": {
-  "stargazerCount": 12404,
+  "stargazerCount": 12413,
   "pushedAt": "2026-09-16T21:39:17Z",
   "isArchived": false,
-  "description": "A more intuitive version of du in rust",
-  "primaryLanguage": {
-   "name": "Rust"
-  }
+  "description": "A more intuitive version of du in rust"
  },
  "chmln/sd": {
   "stargazerCount": 7366,
   "pushedAt": "2026-02-25T19:26:21Z",
   "isArchived": false,
-  "description": "Intuitive find & replace CLI (sed alternative)",
-  "primaryLanguage": {
-   "name": "Rust"
-  }
+  "description": "Intuitive find & replace CLI (sed alternative)"
  },
  "sharkdp/hyperfine": {
-  "stargazerCount": 28909,
+  "stargazerCount": 28911,
   "pushedAt": "2026-04-30T08:23:25Z",
   "isArchived": false,
-  "description": "A command-line benchmarking tool",
-  "primaryLanguage": {
-   "name": "Rust"
-  }
+  "description": "A command-line benchmarking tool"
  },
  "dandavison/delta": {
   "stargazerCount": 32354,
@@ -345,10 +270,7 @@
   "stargazerCount": 13352,
   "pushedAt": "2026-09-19T15:33:02Z",
   "isArchived": false,
-  "description": "Text-mode interface for git",
-  "primaryLanguage": {
-   "name": "C"
-  }
+  "description": "Text-mode interface for git"
  },
  "casey/just": {
   "stargazerCount": 36028,
@@ -369,22 +291,16 @@
   }
  },
  "direnv/direnv": {
-  "stargazerCount": 15470,
+  "stargazerCount": 15471,
   "pushedAt": "2026-03-31T18:52:06Z",
   "isArchived": false,
-  "description": "unclutter your .profile",
-  "primaryLanguage": {
-   "name": "Go"
-  }
+  "description": "unclutter your .profile"
  },
  "dbrgn/tealdeer": {
-  "stargazerCount": 6552,
+  "stargazerCount": 6553,
   "pushedAt": "2026-08-25T22:10:38Z",
   "isArchived": false,
-  "description": "A very fast implementation of tldr in Rust.",
-  "primaryLanguage": {
-   "name": "Rust"
-  }
+  "description": "A very fast implementation of tldr in Rust."
  },
  "dundee/gdu": {
   "stargazerCount": 6018,
@@ -396,13 +312,10 @@
   }
  },
  "dlvhdr/gh-dash": {
-  "stargazerCount": 12561,
+  "stargazerCount": 12563,
   "pushedAt": "2026-09-22T08:16:12Z",
   "isArchived": false,
-  "description": "A rich terminal UI for GitHub that doesn't break your flow.",
-  "primaryLanguage": {
-   "name": "Go"
-  }
+  "description": "A rich terminal UI for GitHub that doesn't break your flow."
  },
  "charmbracelet/mods": {
   "stargazerCount": 4522,
@@ -414,13 +327,10 @@
   }
  },
  "sigoden/aichat": {
-  "stargazerCount": 10471,
+  "stargazerCount": 10470,
   "pushedAt": "2026-02-23T11:16:42Z",
   "isArchived": false,
-  "description": "All-in-one LLM CLI tool featuring Shell Assistant, Chat-REPL, RAG, AI Tools & Agents, with access to OpenAI, Claude, Gemini, Ollama, Groq, and more.",
-  "primaryLanguage": {
-   "name": "Rust"
-  }
+  "description": "All-in-one LLM CLI tool featuring Shell Assistant, Chat-REPL, RAG, AI Tools & Agents, with access to OpenAI, Claude, Gemini, Ollama, Groq, and more."
  },
  "schollz/croc": {
   "stargazerCount": 40451,
@@ -435,55 +345,37 @@
   "stargazerCount": 11075,
   "pushedAt": "2026-09-15T22:57:32Z",
   "isArchived": false,
-  "description": "mawww's experiment for a better code editor",
-  "primaryLanguage": {
-   "name": "C++"
-  }
+  "description": "mawww's experiment for a better code editor"
  },
  "wez/wezterm": {
-  "stargazerCount": 29035,
+  "stargazerCount": 29037,
   "pushedAt": "2026-09-21T05:17:28Z",
   "isArchived": false,
-  "description": "A GPU-accelerated cross-platform terminal emulator and multiplexer written by @wez and implemented in Rust",
-  "primaryLanguage": {
-   "name": "Rust"
-  }
+  "description": "A GPU-accelerated cross-platform terminal emulator and multiplexer written by @wez and implemented in Rust"
  },
  "zealdocs/zeal": {
   "stargazerCount": 12806,
   "pushedAt": "2026-09-26T03:04:17Z",
   "isArchived": false,
-  "description": "Offline documentation browser. Your personal reference library, searchable in an instant.",
-  "primaryLanguage": {
-   "name": "C++"
-  }
+  "description": "Offline documentation browser. Your personal reference library, searchable in an instant."
  },
  "mockoon/mockoon": {
   "stargazerCount": 8420,
   "pushedAt": "2026-09-25T23:55:11Z",
   "isArchived": false,
-  "description": "Mockoon is the easiest and quickest way to run mock APIs locally. No remote deployment, no account required, open source.",
-  "primaryLanguage": {
-   "name": "TypeScript"
-  }
+  "description": "Mockoon is the easiest and quickest way to run mock APIs locally. No remote deployment, no account required, open source."
  },
  "gitleaks/gitleaks": {
-  "stargazerCount": 29505,
+  "stargazerCount": 29513,
   "pushedAt": "2026-09-23T04:14:00Z",
   "isArchived": false,
-  "description": "Find secrets with Gitleaks \ud83d\udd11",
-  "primaryLanguage": {
-   "name": "Go"
-  }
+  "description": "Find secrets with Gitleaks \ud83d\udd11"
  },
  "pre-commit/pre-commit": {
-  "stargazerCount": 15597,
+  "stargazerCount": 15598,
   "pushedAt": "2026-08-17T23:37:08Z",
   "isArchived": false,
-  "description": "A framework for managing and maintaining multi-language pre-commit hooks.",
-  "primaryLanguage": {
-   "name": "Python"
-  }
+  "description": "A framework for managing and maintaining multi-language pre-commit hooks."
  },
  "bcicen/ctop": {
   "stargazerCount": 17842,
@@ -495,22 +387,16 @@
   }
  },
  "TwiN/gatus": {
-  "stargazerCount": 12178,
+  "stargazerCount": 12182,
   "pushedAt": "2026-09-24T00:00:21Z",
   "isArchived": false,
-  "description": "Automated developer-oriented status page with alerting and incident support",
-  "primaryLanguage": {
-   "name": "Go"
-  }
+  "description": "Automated developer-oriented status page with alerting and incident support"
  },
  "healthchecks/healthchecks": {
   "stargazerCount": 10368,
   "pushedAt": "2026-09-21T15:56:36Z",
   "isArchived": false,
-  "description": "Open-source cron job and background task monitoring service, written in Python & Django",
-  "primaryLanguage": {
-   "name": "Python"
-  }
+  "description": "Open-source cron job and background task monitoring service, written in Python & Django"
  },
  "glitchtip/glitchtip": {
   "stargazerCount": 3,
@@ -523,10 +409,7 @@
   "stargazerCount": 6763,
   "pushedAt": "2026-05-15T15:39:25Z",
   "isArchived": false,
-  "description": "\ud83d\udd2c A fast, interactive web-based viewer for performance profiles.",
-  "primaryLanguage": {
-   "name": "TypeScript"
-  }
+  "description": "\ud83d\udd2c A fast, interactive web-based viewer for performance profiles."
  },
  "usebruno/bruno": {
   "stargazerCount": 47223,
@@ -556,13 +439,10 @@
   }
  },
  "LibreTranslate/LibreTranslate": {
-  "stargazerCount": 16859,
+  "stargazerCount": 16862,
   "pushedAt": "2026-09-03T17:05:31Z",
   "isArchived": false,
-  "description": "Free and Open Source Machine Translation API. Self-hosted, offline capable and easy to setup.",
-  "primaryLanguage": {
-   "name": "Python"
-  }
+  "description": "Free and Open Source Machine Translation API. Self-hosted, offline capable and easy to setup."
  },
  "SillyTavern/SillyTavern": {
   "stargazerCount": 33820,
@@ -610,22 +490,16 @@
   }
  },
  "activepieces/activepieces": {
-  "stargazerCount": 24748,
-  "pushedAt": "2026-09-27T09:55:43Z",
+  "stargazerCount": 24750,
+  "pushedAt": "2026-09-27T16:03:04Z",
   "isArchived": false,
-  "description": "AI Agents & MCPs & AI Workflow Automation \u2022 (~400 MCP servers for AI agents) \u2022 AI Automation / AI Agent with MCPs \u2022 AI Workflows & AI Agents \u2022 MCPs for AI Agents",
-  "primaryLanguage": {
-   "name": "TypeScript"
-  }
+  "description": "AI Agents & MCPs & AI Workflow Automation \u2022 (~400 MCP servers for AI agents) \u2022 AI Automation / AI Agent with MCPs \u2022 AI Workflows & AI Agents \u2022 MCPs for AI Agents"
  },
  "windmill-labs/windmill": {
-  "stargazerCount": 18037,
-  "pushedAt": "2026-09-27T01:46:20Z",
+  "stargazerCount": 18039,
+  "pushedAt": "2026-09-27T15:28:59Z",
   "isArchived": false,
-  "description": "Open-source developer platform to power your entire infra and turn scripts into webhooks, workflows and UIs. Fastest workflow engine (13x vs Airflow). Open-source alternative to Retool and Temporal.",
-  "primaryLanguage": {
-   "name": "Rust"
-  }
+  "description": "Open-source developer platform to power your entire infra and turn scripts into webhooks, workflows and UIs. Fastest workflow engine (13x vs Airflow). Open-source alternative to Retool and Temporal."
  },
  "block/goose": {
   "stargazerCount": 54697,
@@ -637,103 +511,70 @@
   }
  },
  "LostRuins/koboldcpp": {
-  "stargazerCount": 11888,
-  "pushedAt": "2026-09-27T06:51:13Z",
+  "stargazerCount": 11889,
+  "pushedAt": "2026-09-27T14:33:35Z",
   "isArchived": false,
-  "description": "Run GGUF models easily with a KoboldAI UI. One File. Zero Install.",
-  "primaryLanguage": {
-   "name": "C++"
-  }
+  "description": "Run GGUF models easily with a KoboldAI UI. One File. Zero Install."
  },
  "navidrome/navidrome": {
-  "stargazerCount": 23835,
-  "pushedAt": "2026-09-27T03:30:53Z",
+  "stargazerCount": 23839,
+  "pushedAt": "2026-09-27T10:15:21Z",
   "isArchived": false,
-  "description": "\ud83c\udfa7 Your Personal Streaming Service ",
-  "primaryLanguage": {
-   "name": "Go"
-  }
+  "description": "\ud83c\udfa7 Your Personal Streaming Service "
  },
  "FreshRSS/FreshRSS": {
-  "stargazerCount": 16153,
-  "pushedAt": "2026-09-26T15:02:22Z",
+  "stargazerCount": 16158,
+  "pushedAt": "2026-09-27T10:21:17Z",
   "isArchived": false,
-  "description": "A free, self-hostable news aggregator\u2026",
-  "primaryLanguage": {
-   "name": "PHP"
-  }
+  "description": "A free, self-hostable news aggregator\u2026"
  },
  "miniflux/v2": {
-  "stargazerCount": 9743,
+  "stargazerCount": 9744,
   "pushedAt": "2026-09-23T22:32:27Z",
   "isArchived": false,
-  "description": "Minimalist and opinionated feed reader",
-  "primaryLanguage": {
-   "name": "Go"
-  }
+  "description": "Minimalist and opinionated feed reader"
  },
  "linkwarden/linkwarden": {
-  "stargazerCount": 19848,
+  "stargazerCount": 19849,
   "pushedAt": "2026-09-10T18:53:30Z",
   "isArchived": false,
-  "description": "\u26a1\ufe0f\u26a1\ufe0f\u26a1\ufe0f Self-hosted collaborative bookmark manager to collect, read, annotate, and fully preserve what matters, all in one place.",
-  "primaryLanguage": {
-   "name": "TypeScript"
-  }
+  "description": "\u26a1\ufe0f\u26a1\ufe0f\u26a1\ufe0f Self-hosted collaborative bookmark manager to collect, read, annotate, and fully preserve what matters, all in one place."
  },
  "karakeep-app/karakeep": {
-  "stargazerCount": 29303,
+  "stargazerCount": 29305,
   "pushedAt": "2026-09-27T01:00:26Z",
   "isArchived": false,
-  "description": "A self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full text search",
-  "primaryLanguage": {
-   "name": "TypeScript"
-  }
+  "description": "A self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full text search"
  },
  "go-vikunja/vikunja": {
-  "stargazerCount": 5527,
+  "stargazerCount": 5529,
   "pushedAt": "2026-09-26T13:35:36Z",
   "isArchived": false,
-  "description": "The task manager you actually own.",
-  "primaryLanguage": {
-   "name": "Go"
-  }
+  "description": "The task manager you actually own."
  },
  "BookStackApp/BookStack": {
-  "stargazerCount": 19058,
+  "stargazerCount": 19059,
   "pushedAt": "2026-09-27T04:31:35Z",
   "isArchived": false,
-  "description": "NOW MANAGED ON CODEBERG",
-  "primaryLanguage": {
-   "name": "PHP"
-  }
+  "description": "NOW MANAGED ON CODEBERG"
  },
  "docmost/docmost": {
-  "stargazerCount": 21794,
+  "stargazerCount": 21796,
   "pushedAt": "2026-09-26T21:11:08Z",
   "isArchived": false,
-  "description": "Docmost is an open-source collaborative wiki and documentation software. It is an open-source alternative to Confluence and Notion.",
-  "primaryLanguage": {
-   "name": "TypeScript"
-  }
+  "description": "Docmost is an open-source collaborative wiki and documentation software. It is an open-source alternative to Confluence and Notion."
  },
  "ArchiveBox/ArchiveBox": {
-  "stargazerCount": 28626,
+  "stargazerCount": 28628,
   "pushedAt": "2026-09-27T07:36:48Z",
   "isArchived": false,
-  "description": "\ud83d\uddc3 Open source self-hosted web archiving. Takes URLs/browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more...",
-  "primaryLanguage": {
-   "name": "Python"
-  }
+  "description": "\ud83d\uddc3 Open source self-hosted web archiving. Takes URLs/browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more..."
  },
  "haiwen/seafile": {
-  "stargazerCount": 15278,
+  "stargazerCount": 15279,
   "pushedAt": "2026-09-18T09:48:51Z",
   "isArchived": false,
-  "description": "Beyond file syncing and sharing, a new way to organize your files with extensible file properties and flexible views",
-  "primaryLanguage": {
-   "name": "C"
-  }
+  "description": "Beyond file syncing and sharing, a new way to organize your files with extensible file properties and flexible views"
  },
  "searxng/searxng": {
   "stargazerCount": 37667,
@@ -763,13 +604,10 @@
   }
  },
  "teableio/teable": {
-  "stargazerCount": 21830,
-  "pushedAt": "2026-09-27T06:09:59Z",
+  "stargazerCount": 21833,
+  "pushedAt": "2026-09-27T13:24:10Z",
   "isArchived": false,
-  "description": "\u2728 AI Spreadsheet for Business",
-  "primaryLanguage": {
-   "name": "TypeScript"
-  }
+  "description": "\u2728 AI Spreadsheet for Business"
  },
  "baserow/baserow": {
   "stargazerCount": 6007,
@@ -781,40 +619,28 @@
   }
  },
  "Budibase/budibase": {
-  "stargazerCount": 28320,
+  "stargazerCount": 28321,
   "pushedAt": "2026-09-25T20:43:16Z",
   "isArchived": false,
-  "description": "AI agents, automations and apps that run your operations. Model agnostic.",
-  "primaryLanguage": {
-   "name": "TypeScript"
-  }
+  "description": "AI agents, automations and apps that run your operations. Model agnostic."
  },
  "goauthentik/authentik": {
-  "stargazerCount": 25742,
-  "pushedAt": "2026-09-27T00:24:50Z",
+  "stargazerCount": 25745,
+  "pushedAt": "2026-09-27T12:11:01Z",
   "isArchived": false,
-  "description": "The authentication glue you need.",
-  "primaryLanguage": {
-   "name": "Python"
-  }
+  "description": "The authentication glue you need."
  },
  "logto-io/logto": {
   "stargazerCount": 14637,
   "pushedAt": "2026-09-27T06:10:45Z",
   "isArchived": false,
-  "description": "\ud83e\uddd1\u200d\ud83d\ude80 Authentication and authorization infrastructure for SaaS and AI apps, built on OIDC and OAuth 2.1 with multi-tenancy, SSO, and RBAC.",
-  "primaryLanguage": {
-   "name": "TypeScript"
-  }
+  "description": "\ud83e\uddd1\u200d\ud83d\ude80 Authentication and authorization infrastructure for SaaS and AI apps, built on OIDC and OAuth 2.1 with multi-tenancy, SSO, and RBAC."
  },
  "pomerium/pomerium": {
   "stargazerCount": 5019,
   "pushedAt": "2026-09-26T01:56:11Z",
   "isArchived": false,
-  "description": "Pomerium is an identity and context-aware access proxy.",
-  "primaryLanguage": {
-   "name": "Go"
-  }
+  "description": "Pomerium is an identity and context-aware access proxy."
  },
  "binwiederhier/ntfy": {
   "stargazerCount": 34470,
@@ -838,73 +664,49 @@
   "stargazerCount": 6961,
   "pushedAt": "2026-09-25T12:59:30Z",
   "isArchived": false,
-  "description": "Business intelligence as code: build fast, interactive data visualizations in SQL and markdown",
-  "primaryLanguage": {
-   "name": "TypeScript"
-  }
+  "description": "Business intelligence as code: build fast, interactive data visualizations in SQL and markdown"
  },
  "lightdash/lightdash": {
   "stargazerCount": 6164,
-  "pushedAt": "2026-09-26T11:41:09Z",
+  "pushedAt": "2026-09-27T15:54:14Z",
   "isArchived": false,
-  "description": "Agentic BI. Analytics at the speed of code \u26a1\ufe0f",
-  "primaryLanguage": {
-   "name": "TypeScript"
-  }
+  "description": "Agentic BI. Analytics at the speed of code \u26a1\ufe0f"
  },
  "questdb/questdb": {
-  "stargazerCount": 17352,
-  "pushedAt": "2026-09-27T00:40:11Z",
+  "stargazerCount": 17353,
+  "pushedAt": "2026-09-27T15:21:34Z",
   "isArchived": false,
-  "description": "QuestDB is a high performance, open-source, time-series database",
-  "primaryLanguage": {
-   "name": "Java"
-  }
+  "description": "QuestDB is a high performance, open-source, time-series database"
  },
  "timescale/timescaledb": {
-  "stargazerCount": 23597,
-  "pushedAt": "2026-09-27T09:23:09Z",
+  "stargazerCount": 23600,
+  "pushedAt": "2026-09-27T13:26:41Z",
   "isArchived": false,
-  "description": "A time-series database for high-performance real-time analytics packaged as a Postgres extension",
-  "primaryLanguage": {
-   "name": "C"
-  }
+  "description": "A time-series database for high-performance real-time analytics packaged as a Postgres extension"
  },
  "typesense/typesense": {
-  "stargazerCount": 26600,
+  "stargazerCount": 26602,
   "pushedAt": "2026-09-24T11:19:33Z",
   "isArchived": false,
-  "description": "Open Source alternative to Algolia + Pinecone and an Easier-to-Use alternative to ElasticSearch \u26a1 \ud83d\udd0d \u2728 Fast, typo tolerant, in-memory fuzzy Search Engine for building delightful search experiences",
-  "primaryLanguage": {
-   "name": "C++"
-  }
+  "description": "Open Source alternative to Algolia + Pinecone and an Easier-to-Use alternative to ElasticSearch \u26a1 \ud83d\udd0d \u2728 Fast, typo tolerant, in-memory fuzzy Search Engine for building delightful search experiences"
  },
  "timqian/chart.xkcd": {
   "stargazerCount": 7863,
   "pushedAt": "2026-08-02T03:53:41Z",
   "isArchived": false,
-  "description": "xkcd styled chart lib",
-  "primaryLanguage": {
-   "name": "JavaScript"
-  }
+  "description": "xkcd styled chart lib"
  },
  "terrastruct/d2": {
-  "stargazerCount": 25523,
+  "stargazerCount": 25526,
   "pushedAt": "2026-09-20T16:30:17Z",
   "isArchived": false,
-  "description": "D2 is a modern diagram scripting language that turns text to diagrams.",
-  "primaryLanguage": {
-   "name": "Go"
-  }
+  "description": "D2 is a modern diagram scripting language that turns text to diagrams."
  },
  "plantuml/plantuml": {
   "stargazerCount": 13342,
-  "pushedAt": "2026-09-26T15:33:50Z",
+  "pushedAt": "2026-09-27T15:07:17Z",
   "isArchived": false,
-  "description": "Generate diagrams from textual description",
-  "primaryLanguage": {
-   "name": "Java"
-  }
+  "description": "Generate diagrams from textual description"
  },
  "qdrant/qdrant": {
   "stargazerCount": 34842,
@@ -916,22 +718,16 @@
   }
  },
  "livewire/livewire": {
-  "stargazerCount": 23583,
+  "stargazerCount": 23584,
   "pushedAt": "2026-09-21T19:10:38Z",
   "isArchived": false,
-  "description": "A full-stack framework for Laravel that takes the pain out of building dynamic UIs.",
-  "primaryLanguage": {
-   "name": "PHP"
-  }
+  "description": "A full-stack framework for Laravel that takes the pain out of building dynamic UIs."
  },
  "inertiajs/inertia": {
   "stargazerCount": 8124,
   "pushedAt": "2026-09-26T07:28:47Z",
   "isArchived": false,
-  "description": "Inertia.js lets you quickly build modern single-page React, Vue and Svelte apps using classic server-side routing and controllers.",
-  "primaryLanguage": {
-   "name": "TypeScript"
-  }
+  "description": "Inertia.js lets you quickly build modern single-page React, Vue and Svelte apps using classic server-side routing and controllers."
  },
  "honojs/hono": {
   "stargazerCount": 32359,
@@ -946,55 +742,37 @@
   "stargazerCount": 19196,
   "pushedAt": "2026-09-24T17:13:53Z",
   "isArchived": false,
-  "description": "Ergonomic Framework for Humans",
-  "primaryLanguage": {
-   "name": "TypeScript"
-  }
+  "description": "Ergonomic Framework for Humans"
  },
  "biomejs/biome": {
-  "stargazerCount": 25864,
-  "pushedAt": "2026-09-27T09:40:52Z",
+  "stargazerCount": 25865,
+  "pushedAt": "2026-09-27T15:54:32Z",
   "isArchived": false,
-  "description": "A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP.",
-  "primaryLanguage": {
-   "name": "Rust"
-  }
+  "description": "A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP."
  },
  "oxc-project/oxc": {
-  "stargazerCount": 22899,
-  "pushedAt": "2026-09-27T09:49:00Z",
+  "stargazerCount": 22901,
+  "pushedAt": "2026-09-27T15:47:04Z",
   "isArchived": false,
-  "description": "\u2693 A collection of high-performance JavaScript tools.",
-  "primaryLanguage": {
-   "name": "Rust"
-  }
+  "description": "\u2693 A collection of high-performance JavaScript tools."
  },
  "rolldown/rolldown": {
-  "stargazerCount": 13958,
-  "pushedAt": "2026-09-27T08:55:12Z",
+  "stargazerCount": 13957,
+  "pushedAt": "2026-09-27T15:54:36Z",
   "isArchived": false,
-  "description": "Fast Rust bundler for JavaScript/TypeScript with Rollup-compatible API.",
-  "primaryLanguage": {
-   "name": "Rust"
-  }
+  "description": "Fast Rust bundler for JavaScript/TypeScript with Rollup-compatible API."
  },
  "argyleink/open-props": {
   "stargazerCount": 5527,
   "pushedAt": "2026-08-11T00:41:43Z",
   "isArchived": false,
-  "description": "CSS custom properties to help accelerate adaptive and consistent design.",
-  "primaryLanguage": {
-   "name": "HTML"
-  }
+  "description": "CSS custom properties to help accelerate adaptive and consistent design."
  },
  "processing/p5.js": {
-  "stargazerCount": 24053,
+  "stargazerCount": 24056,
   "pushedAt": "2026-09-26T21:42:09Z",
   "isArchived": false,
-  "description": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org",
-  "primaryLanguage": {
-   "name": "JavaScript"
-  }
+  "description": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org"
  },
  "metafizzy/zdog": {
   "stargazerCount": 10662,
@@ -1009,64 +787,43 @@
   "stargazerCount": 14830,
   "pushedAt": "2026-09-23T16:14:23Z",
   "isArchived": false,
-  "description": "Konva.js is an HTML5 Canvas JavaScript framework for interactive graphics, design editors, whiteboards, and diagrams. Scene graph with events, drag and drop, transforms, animations, and export.",
-  "primaryLanguage": {
-   "name": "TypeScript"
-  }
+  "description": "Konva.js is an HTML5 Canvas JavaScript framework for interactive graphics, design editors, whiteboards, and diagrams. Scene graph with events, drag and drop, transforms, animations, and export."
  },
  "BabylonJS/Babylon.js": {
   "stargazerCount": 26114,
   "pushedAt": "2026-09-26T00:46:26Z",
   "isArchived": false,
-  "description": "Babylon.js is a powerful, beautiful, simple, and open game and rendering engine packed into a friendly JavaScript framework.",
-  "primaryLanguage": {
-   "name": "TypeScript"
-  }
+  "description": "Babylon.js is a powerful, beautiful, simple, and open game and rendering engine packed into a friendly JavaScript framework."
  },
  "11ty/eleventy": {
-  "stargazerCount": 19935,
+  "stargazerCount": 19936,
   "pushedAt": "2026-09-25T11:55:28Z",
   "isArchived": false,
-  "description": "A simpler site generator. Transforms a directory of templates (of varying types) into HTML.",
-  "primaryLanguage": {
-   "name": "JavaScript"
-  }
+  "description": "A simpler site generator. Transforms a directory of templates (of varying types) into HTML."
  },
  "getzola/zola": {
-  "stargazerCount": 17472,
+  "stargazerCount": 17473,
   "pushedAt": "2026-09-25T07:28:35Z",
   "isArchived": false,
-  "description": "A fast static site generator in a single binary with everything built-in. https://www.getzola.org",
-  "primaryLanguage": {
-   "name": "Rust"
-  }
+  "description": "A fast static site generator in a single binary with everything built-in. https://www.getzola.org"
  },
  "withastro/starlight": {
-  "stargazerCount": 9311,
+  "stargazerCount": 9314,
   "pushedAt": "2026-09-25T17:43:50Z",
   "isArchived": false,
-  "description": "\ud83c\udf1f Build beautiful, accessible, high-performance documentation websites with Astro",
-  "primaryLanguage": {
-   "name": "TypeScript"
-  }
+  "description": "\ud83c\udf1f Build beautiful, accessible, high-performance documentation websites with Astro"
  },
  "shuding/nextra": {
   "stargazerCount": 13929,
   "pushedAt": "2026-07-31T20:39:04Z",
   "isArchived": false,
-  "description": "Simple, powerful and flexible site generation framework with everything you love from Next.js.",
-  "primaryLanguage": {
-   "name": "TypeScript"
-  }
+  "description": "Simple, powerful and flexible site generation framework with everything you love from Next.js."
  },
  "marp-team/marp": {
-  "stargazerCount": 12564,
+  "stargazerCount": 12565,
   "pushedAt": "2026-07-29T19:35:44Z",
   "isArchived": false,
-  "description": "The entrance repository of Markdown presentation ecosystem",
-  "primaryLanguage": {
-   "name": "TypeScript"
-  }
+  "description": "The entrance repository of Markdown presentation ecosystem"
  },
  "quarto-dev/quarto": {
   "stargazerCount": 649,
@@ -1090,64 +847,43 @@
   "stargazerCount": 8483,
   "pushedAt": "2026-09-25T13:14:20Z",
   "isArchived": false,
-  "description": "Light, flexible and extensible ASGI framework | Built to scale",
-  "primaryLanguage": {
-   "name": "Python"
-  }
+  "description": "Light, flexible and extensible ASGI framework | Built to scale"
  },
  "tiangolo/sqlmodel": {
-  "stargazerCount": 18346,
+  "stargazerCount": 18345,
   "pushedAt": "2026-09-23T17:30:51Z",
   "isArchived": false,
-  "description": "SQL databases in Python, designed for simplicity, compatibility, and robustness.",
-  "primaryLanguage": {
-   "name": "Python"
-  }
+  "description": "SQL databases in Python, designed for simplicity, compatibility, and robustness."
  },
  "kysely-org/kysely": {
   "stargazerCount": 14244,
   "pushedAt": "2026-09-26T22:22:38Z",
   "isArchived": false,
-  "description": "A type-safe TypeScript SQL query builder",
-  "primaryLanguage": {
-   "name": "TypeScript"
-  }
+  "description": "A type-safe TypeScript SQL query builder"
  },
  "sqlc-dev/sqlc": {
   "stargazerCount": 18327,
   "pushedAt": "2026-09-26T13:25:25Z",
   "isArchived": false,
-  "description": "Generate type-safe code from SQL",
-  "primaryLanguage": {
-   "name": "Go"
-  }
+  "description": "Generate type-safe code from SQL"
  },
  "ent/ent": {
   "stargazerCount": 17205,
   "pushedAt": "2026-09-04T06:08:27Z",
   "isArchived": false,
-  "description": "An entity framework for Go",
-  "primaryLanguage": {
-   "name": "Go"
-  }
+  "description": "An entity framework for Go"
  },
  "go-chi/chi": {
   "stargazerCount": 22893,
   "pushedAt": "2026-09-18T11:51:54Z",
   "isArchived": false,
-  "description": "lightweight, idiomatic and composable router for building Go HTTP services",
-  "primaryLanguage": {
-   "name": "Go"
-  }
+  "description": "lightweight, idiomatic and composable router for building Go HTTP services"
  },
  "99designs/gqlgen": {
   "stargazerCount": 10764,
   "pushedAt": "2026-09-23T19:47:18Z",
   "isArchived": false,
-  "description": "go generate based graphql server library",
-  "primaryLanguage": {
-   "name": "Go"
-  }
+  "description": "go generate based graphql server library"
  },
  "dokku/dokku": {
   "stargazerCount": 32160,
@@ -1162,10 +898,7 @@
   "stargazerCount": 15172,
   "pushedAt": "2026-09-23T04:12:41Z",
   "isArchived": false,
-  "description": "Scalable PaaS (automated Docker+nginx) - aka Heroku on Steroids",
-  "primaryLanguage": {
-   "name": "TypeScript"
-  }
+  "description": "Scalable PaaS (automated Docker+nginx) - aka Heroku on Steroids"
  },
  "Dokploy/dokploy": {
   "stargazerCount": 37531,
@@ -1180,10 +913,7 @@
   "stargazerCount": 14607,
   "pushedAt": "2026-09-16T08:34:01Z",
   "isArchived": false,
-  "description": "Deploy web apps anywhere.",
-  "primaryLanguage": {
-   "name": "Ruby"
-  }
+  "description": "Deploy web apps anywhere."
  },
  "opentofu/opentofu": {
   "stargazerCount": 30301,
@@ -1195,13 +925,10 @@
   }
  },
  "renovatebot/renovate": {
-  "stargazerCount": 22605,
-  "pushedAt": "2026-09-27T09:54:14Z",
+  "stargazerCount": 22608,
+  "pushedAt": "2026-09-27T14:35:26Z",
   "isArchived": false,
-  "description": "Home of the Renovate CLI: Cross-platform Dependency Automation by Mend.io",
-  "primaryLanguage": {
-   "name": "TypeScript"
-  }
+  "description": "Home of the Renovate CLI: Cross-platform Dependency Automation by Mend.io"
  },
  "containrrr/watchtower": {
   "stargazerCount": 24646,
@@ -1222,67 +949,46 @@
   }
  },
  "borgbackup/borg": {
-  "stargazerCount": 13779,
-  "pushedAt": "2026-09-26T23:40:49Z",
+  "stargazerCount": 13778,
+  "pushedAt": "2026-09-27T15:43:47Z",
   "isArchived": false,
-  "description": "Deduplicating archiver with compression and authenticated encryption.",
-  "primaryLanguage": {
-   "name": "Python"
-  }
+  "description": "Deduplicating archiver with compression and authenticated encryption."
  },
  "kopia/kopia": {
-  "stargazerCount": 14202,
-  "pushedAt": "2026-09-27T05:35:12Z",
+  "stargazerCount": 14204,
+  "pushedAt": "2026-09-27T12:22:35Z",
   "isArchived": false,
-  "description": "Cross-platform backup tool for Windows, macOS & Linux with fast, incremental backups, client-side end-to-end encryption, compression and data deduplication. CLI and GUI included.",
-  "primaryLanguage": {
-   "name": "Go"
-  }
+  "description": "Cross-platform backup tool for Windows, macOS & Linux with fast, incremental backups, client-side end-to-end encryption, compression and data deduplication. CLI and GUI included."
  },
  "89luca89/distrobox": {
   "stargazerCount": 13011,
   "pushedAt": "2026-09-17T15:05:27Z",
   "isArchived": false,
-  "description": "Use any linux distribution inside your terminal. Enable both backward and forward compatibility with software and freedom to use whatever distribution you\u2019re more comfortable with. Mirror available at: https://gitlab.com/89luca89/distrobox",
-  "primaryLanguage": {
-   "name": "Go"
-  }
+  "description": "Use any linux distribution inside your terminal. Enable both backward and forward compatibility with software and freedom to use whatever distribution you\u2019re more comfortable with. Mirror available at: https://gitlab.com/89luca89/distrobox"
  },
  "jetify-com/devbox": {
   "stargazerCount": 12375,
   "pushedAt": "2026-09-25T18:11:42Z",
   "isArchived": false,
-  "description": "Instant, easy, and predictable development environments",
-  "primaryLanguage": {
-   "name": "Go"
-  }
+  "description": "Instant, easy, and predictable development environments"
  },
  "cachix/devenv": {
   "stargazerCount": 7681,
-  "pushedAt": "2026-09-26T23:25:40Z",
+  "pushedAt": "2026-09-27T10:20:09Z",
   "isArchived": false,
-  "description": "Fast, Declarative, Reproducible, and Composable Developer Environments using Nix",
-  "primaryLanguage": {
-   "name": "Rust"
-  }
+  "description": "Fast, Declarative, Reproducible, and Composable Developer Environments using Nix"
  },
  "Orama-Interactive/Pixelorama": {
-  "stargazerCount": 10394,
-  "pushedAt": "2026-09-20T16:13:42Z",
+  "stargazerCount": 10400,
+  "pushedAt": "2026-09-27T15:46:21Z",
   "isArchived": false,
-  "description": "Unleash your creativity with Pixelorama, a powerful and accessible open-source pixel art multitool. Whether you want to create sprites, tiles, animations, or just express yourself in the language of pixel art, this software will realize your pixel-perfect dreams with a vast toolbox of features. Available on Windows, Linux, macOS and the Web!",
-  "primaryLanguage": {
-   "name": "GDScript"
-  }
+  "description": "Unleash your creativity with Pixelorama, a powerful and accessible open-source pixel art multitool. Whether you want to create sprites, tiles, animations, or just express yourself in the language of pixel art, this software will realize your pixel-perfect dreams with a vast toolbox of features. Available on Windows, Linux, macOS and the Web!"
  },
  "opentoonz/opentoonz": {
-  "stargazerCount": 7763,
+  "stargazerCount": 7764,
   "pushedAt": "2026-09-27T03:48:46Z",
   "isArchived": false,
-  "description": "OpenToonz - An open-source full-featured 2D animation creation software",
-  "primaryLanguage": {
-   "name": "C++"
-  }
+  "description": "OpenToonz - An open-source full-featured 2D animation creation software"
  },
  "wonderunit/storyboarder": {
   "stargazerCount": 3856,
@@ -1297,46 +1003,31 @@
   "stargazerCount": 7983,
   "pushedAt": "2026-09-26T19:54:43Z",
   "isArchived": false,
-  "description": "Free (libre) font editor for Windows, Mac OS X and GNU+Linux",
-  "primaryLanguage": {
-   "name": "C"
-  }
+  "description": "Free (libre) font editor for Windows, Mac OS X and GNU+Linux"
  },
  "GraphiteEditor/Graphite": {
-  "stargazerCount": 27368,
-  "pushedAt": "2026-09-27T09:13:31Z",
+  "stargazerCount": 27371,
+  "pushedAt": "2026-09-27T14:15:23Z",
   "isArchived": false,
-  "description": "Community-built comprehensive 2D content creation appplication for graphic design, digital art, and interactive real-time motion graphics powered by a node-based procedural graphics engine",
-  "primaryLanguage": {
-   "name": "Rust"
-  }
+  "description": "Community-built comprehensive 2D content creation appplication for graphic design, digital art, and interactive real-time motion graphics powered by a node-based procedural graphics engine"
  },
  "philc/vimium": {
   "stargazerCount": 27018,
   "pushedAt": "2026-07-25T04:40:17Z",
   "isArchived": false,
-  "description": "The hacker's browser.",
-  "primaryLanguage": {
-   "name": "JavaScript"
-  }
+  "description": "The hacker's browser."
  },
  "tridactyl/tridactyl": {
   "stargazerCount": 6353,
   "pushedAt": "2026-09-23T21:34:42Z",
   "isArchived": false,
-  "description": "A Vim-like interface for Firefox, inspired by Vimperator/Pentadactyl.",
-  "primaryLanguage": {
-   "name": "TypeScript"
-  }
+  "description": "A Vim-like interface for Firefox, inspired by Vimperator/Pentadactyl."
  },
  "ajayyy/SponsorBlock": {
-  "stargazerCount": 13846,
+  "stargazerCount": 13850,
   "pushedAt": "2026-09-19T04:29:14Z",
   "isArchived": false,
-  "description": "Skip YouTube video sponsors (browser extension)",
-  "primaryLanguage": {
-   "name": "TypeScript"
-  }
+  "description": "Skip YouTube video sponsors (browser extension)"
  },
  "ossu/computer-science": {
   "stargazerCount": 209490,
@@ -1364,94 +1055,64 @@
   }
  },
  "Anuken/Mindustry": {
-  "stargazerCount": 29130,
+  "stargazerCount": 29135,
   "pushedAt": "2026-09-25T21:45:27Z",
   "isArchived": false,
-  "description": "The automation tower defense RTS",
-  "primaryLanguage": {
-   "name": "Java"
-  }
+  "description": "The automation tower defense RTS"
  },
  "veloren/veloren": {
-  "stargazerCount": 7588,
+  "stargazerCount": 7587,
   "pushedAt": "2026-09-26T22:14:52Z",
   "isArchived": false,
-  "description": "[mirror of https://gitlab.com/veloren/veloren] An open world, open source voxel RPG inspired by Dwarf Fortress and Cube World. This repository is a mirror. Please submit all PRs and issues on our GitLab page.",
-  "primaryLanguage": {
-   "name": "Rust"
-  }
+  "description": "[mirror of https://gitlab.com/veloren/veloren] An open world, open source voxel RPG inspired by Dwarf Fortress and Cube World. This repository is a mirror. Please submit all PRs and issues on our GitLab page."
  },
  "00-Evan/shattered-pixel-dungeon": {
-  "stargazerCount": 6574,
+  "stargazerCount": 6576,
   "pushedAt": "2026-09-09T17:20:49Z",
   "isArchived": false,
-  "description": "Shattered Pixel Dungeon is an open-source traditional roguelike dungeon crawler with randomized levels and enemies, and hundreds of items to collect and use. It's based on the source code of Pixel Dungeon, by Watabou.",
-  "primaryLanguage": {
-   "name": "Java"
-  }
+  "description": "Shattered Pixel Dungeon is an open-source traditional roguelike dungeon crawler with randomized levels and enemies, and hundreds of items to collect and use. It's based on the source code of Pixel Dungeon, by Watabou."
  },
  "OpenRA/OpenRA": {
-  "stargazerCount": 17445,
+  "stargazerCount": 17444,
   "pushedAt": "2026-09-25T20:19:31Z",
   "isArchived": false,
-  "description": "Open Source real-time strategy game engine for early Westwood games such as Command & Conquer: Red Alert written in C# using SDL and OpenGL. Runs on Windows, Linux, *BSD and Mac OS X.",
-  "primaryLanguage": {
-   "name": "C#"
-  }
+  "description": "Open Source real-time strategy game engine for early Westwood games such as Command & Conquer: Red Alert written in C# using SDL and OpenGL. Runs on Windows, Linux, *BSD and Mac OS X."
  },
  "endless-sky/endless-sky": {
   "stargazerCount": 7588,
-  "pushedAt": "2026-09-26T20:24:54Z",
+  "pushedAt": "2026-09-27T12:42:16Z",
   "isArchived": false,
-  "description": "Space exploration, trading, and combat game.",
-  "primaryLanguage": {
-   "name": "C++"
-  }
+  "description": "Space exploration, trading, and combat game."
  },
  "supertuxkart/stk-code": {
   "stargazerCount": 5376,
   "pushedAt": "2026-09-24T13:03:53Z",
   "isArchived": false,
-  "description": "The code base of SuperTuxKart",
-  "primaryLanguage": {
-   "name": "C++"
-  }
+  "description": "The code base of SuperTuxKart"
  },
  "openttd/OpenTTD": {
-  "stargazerCount": 8302,
+  "stargazerCount": 8303,
   "pushedAt": "2026-09-26T20:03:40Z",
   "isArchived": false,
-  "description": "OpenTTD is an open source simulation game based upon Transport Tycoon Deluxe",
-  "primaryLanguage": {
-   "name": "C++"
-  }
+  "description": "OpenTTD is an open source simulation game based upon Transport Tycoon Deluxe"
  },
  "Heroic-Games-Launcher/HeroicGamesLauncher": {
-  "stargazerCount": 12292,
+  "stargazerCount": 12293,
   "pushedAt": "2026-09-26T00:49:19Z",
   "isArchived": false,
-  "description": "A games launcher for GOG, Amazon and Epic Games for Linux, Windows and macOS.",
-  "primaryLanguage": {
-   "name": "TypeScript"
-  }
+  "description": "A games launcher for GOG, Amazon and Epic Games for Linux, Windows and macOS."
  },
  "bottlesdevs/Bottles": {
-  "stargazerCount": 8897,
+  "stargazerCount": 8898,
   "pushedAt": "2026-09-27T07:25:36Z",
   "isArchived": false,
-  "description": "Run Windows software and games on Linux",
-  "primaryLanguage": {
-   "name": "Python"
-  }
+  "description": "Run Windows software and games on Linux"
  },
  "lutris/lutris": {
   "stargazerCount": 10270,
-  "pushedAt": "2026-09-26T13:34:36Z",
+  "pushedAt": "2026-09-27T14:07:56Z",
   "isArchived": false,
-  "description": "Lutris desktop client",
-  "primaryLanguage": {
-   "name": "Python"
-  }
+  "description": "Lutris desktop client"
  },
  "0ad/0ad": {
   "stargazerCount": 2823,
@@ -1463,14 +1124,14 @@
   }
  },
  "mikefarah/yq": {
-  "stargazerCount": 16016,
+  "stargazerCount": 16017,
   "pushedAt": "2026-09-25T22:56:22Z",
   "isArchived": false,
   "description": "yq is a portable command-line YAML, JSON, XML, CSV, TOML, HCL  and properties processor"
  },
  "antonmedv/fx": {
   "stargazerCount": 20641,
-  "pushedAt": "2026-09-27T08:38:34Z",
+  "pushedAt": "2026-09-27T16:04:03Z",
   "isArchived": false,
   "description": "Terminal JSON viewer & processor"
  },
@@ -1481,49 +1142,49 @@
   "description": "Distribute and run LLMs with a single file."
  },
  "SYSTRAN/faster-whisper": {
-  "stargazerCount": 25594,
+  "stargazerCount": 25598,
   "pushedAt": "2025-11-19T14:40:46Z",
   "isArchived": false,
   "description": "Faster Whisper transcription with CTranslate2"
  },
  "m-bain/whisperX": {
-  "stargazerCount": 24257,
+  "stargazerCount": 24258,
   "pushedAt": "2026-09-26T20:53:59Z",
   "isArchived": false,
   "description": "WhisperX:  Automatic Speech Recognition with Word-level Timestamps (& Diarization)"
  },
  "modelscope/FunASR": {
-  "stargazerCount": 20513,
+  "stargazerCount": 20517,
   "pushedAt": "2026-09-27T03:17:40Z",
   "isArchived": false,
   "description": "Open-source speech recognition toolkit for training, inference, streaming ASR, VAD, punctuation, speaker diarization pipelines, and OpenAI-compatible/MCP serving."
  },
  "FunAudioLLM/CosyVoice": {
-  "stargazerCount": 23773,
+  "stargazerCount": 23775,
   "pushedAt": "2026-05-25T18:15:40Z",
   "isArchived": false,
   "description": "Multi-lingual large voice generation model, providing inference, training and deployment full-stack ability."
  },
  "SWivid/F5-TTS": {
-  "stargazerCount": 15296,
+  "stargazerCount": 15298,
   "pushedAt": "2026-09-21T14:21:15Z",
   "isArchived": false,
   "description": "Official code for \"F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching\""
  },
  "rany2/edge-tts": {
-  "stargazerCount": 12094,
+  "stargazerCount": 12099,
   "pushedAt": "2026-03-22T19:58:31Z",
   "isArchived": false,
   "description": "Use Microsoft Edge's online text-to-speech service from Python WITHOUT needing Microsoft Edge or Windows or an API key"
  },
  "k2-fsa/sherpa-onnx": {
-  "stargazerCount": 14983,
+  "stargazerCount": 14989,
   "pushedAt": "2026-09-22T10:36:50Z",
   "isArchived": false,
   "description": "Speech-to-text, text-to-speech, speaker diarization, speech enhancement, source separation, and VAD using next-gen Kaldi with onnxruntime without Internet connection. Support embedded systems, Android, iOS, HarmonyOS, Raspberry Pi, RISC-V, RK NPU, Axera NPU, Ascend NPU, x86_64 servers, websocket server/client, support 12 programming languages"
  },
  "huggingface/transformers.js": {
-  "stargazerCount": 16326,
+  "stargazerCount": 16327,
   "pushedAt": "2026-09-25T05:24:31Z",
   "isArchived": false,
   "description": "State-of-the-art Machine Learning for the web. Run \ud83e\udd17 Transformers directly in your browser, with no need for a server!"
@@ -1541,38 +1202,38 @@
   "description": "An open-source RAG-based tool for chatting with your documents."
  },
  "invoke-ai/InvokeAI": {
-  "stargazerCount": 28303,
-  "pushedAt": "2026-09-26T19:56:51Z",
+  "stargazerCount": 28304,
+  "pushedAt": "2026-09-27T15:29:23Z",
   "isArchived": false,
   "description": "Invoke is a leading creative engine for Stable Diffusion models, empowering professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry leading WebUI, and serves as the foundation for multiple commercial products."
  },
  "lllyasviel/stable-diffusion-webui-forge": {
-  "stargazerCount": 13030,
+  "stargazerCount": 13031,
   "pushedAt": "2025-07-31T01:33:17Z",
   "isArchived": false,
   "description": null
  },
  "LibrePhotos/librephotos": {
-  "stargazerCount": 8082,
+  "stargazerCount": 8083,
   "pushedAt": "2026-09-27T09:39:15Z",
   "isArchived": false,
   "description": "A self-hosted open source photo management service. "
  },
  "rust-lang/mdBook": {
-  "stargazerCount": 22176,
+  "stargazerCount": 22175,
   "pushedAt": "2026-09-18T14:17:26Z",
   "isArchived": false,
   "description": "Create book from markdown files. Like Gitbook but implemented in Rust"
  },
  "tabler/tabler-icons": {
-  "stargazerCount": 21796,
+  "stargazerCount": 21798,
   "pushedAt": "2026-09-22T13:51:16Z",
   "isArchived": false,
   "description": "A set of over 6200 free MIT-licensed high-quality SVG icons for you to use in your web projects."
  },
  "lucide-icons/lucide": {
-  "stargazerCount": 24740,
-  "pushedAt": "2026-09-25T11:33:15Z",
+  "stargazerCount": 24743,
+  "pushedAt": "2026-09-27T14:36:57Z",
   "isArchived": false,
   "description": "Beautiful & consistent icon toolkit made by the community. Open-source project and a fork of Feather Icons."
  },
@@ -1589,7 +1250,7 @@
   "description": "SVG Optimizer for Node.js and CLI. \u2699\ufe0f"
  },
  "AdguardTeam/AdGuardBrowserExtension": {
-  "stargazerCount": 4446,
+  "stargazerCount": 4447,
   "pushedAt": "2026-09-23T15:37:25Z",
   "isArchived": false,
   "description": "AdGuard browser extension"
@@ -1601,8 +1262,8 @@
   "description": "Privacy Badger is a browser extension that automatically learns to block hidden trackers"
  },
  "CleverRaven/Cataclysm-DDA": {
-  "stargazerCount": 13249,
-  "pushedAt": "2026-09-26T14:31:36Z",
+  "stargazerCount": 13251,
+  "pushedAt": "2026-09-27T14:14:41Z",
   "isArchived": false,
   "description": "Cataclysm - Dark Days Ahead. A turn-based survival game set in a post-apocalyptic world."
  }

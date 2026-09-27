@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mixxx — Free DJ software that talks to real controllers — mix your first set… | GitHub Gems</title>
+<meta name="description" content="Free DJ software that talks to real controllers — mix your first set tonight. | 免费 DJ 软件，支持真机打碟控制器，今晚就开工。 | ★7195 Photo · Audio · Video open-source gem">
+<link rel="canonical" href="https://tliens.github.io/github-gems/gems/mixxx.html">
+<link rel="alternate" hreflang="en" href="https://tliens.github.io/github-gems/gems/mixxx.html?lang=en">
+<link rel="alternate" hreflang="zh" href="https://tliens.github.io/github-gems/gems/mixxx.html?lang=zh">
+<link rel="alternate" hreflang="x-default" href="https://tliens.github.io/github-gems/gems/mixxx.html">
+<link rel="icon" type="image/svg+xml" href="../favicon.svg">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="GitHub Gems">
+<meta property="og:title" content="Mixxx — GitHub Gem">
+<meta property="og:description" content="Free DJ software that talks to real controllers — mix your first set tonight.">
+<meta property="og:url" content="https://tliens.github.io/github-gems/gems/mixxx.html">
+<meta property="og:image" content="https://tliens.github.io/github-gems/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Mixxx — GitHub Gem">
+<meta name="twitter:description" content="Free DJ software that talks to real controllers — mix your first set tonight.">
+<meta name="twitter:image" content="https://tliens.github.io/github-gems/og-image.png">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","name":"Mixxx — GitHub Gem","url":"https://tliens.github.io/github-gems/gems/mixxx.html","inLanguage":["en","zh"],"description":"Free DJ software that talks to real controllers — mix your first set tonight."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"GitHub Gems","item":"https://tliens.github.io/github-gems/"},{"@type":"ListItem","position":2,"name":"Photo · Audio · Video","item":"https://tliens.github.io/github-gems/?c=media"},{"@type":"ListItem","position":3,"name":"Mixxx","item":"https://tliens.github.io/github-gems/gems/mixxx.html"}]}]}</script>
+<style>
+:root{--bg:#f7f7fb;--bg2:#fff;--fg:#191927;--fg2:#5b5b70;--line:#e4e4ef;--acc:#7c3aed;--acc2:#0ea5e9;
+--chip:#efeafd;--card:#fff;--shadow:0 1px 3px rgba(25,25,40,.07),0 8px 24px rgba(25,25,40,.06);
+--glowA:rgba(124,58,237,.16);--good:#16a34a;--warn:#d97706}
+html[data-theme=dark]{--bg:#0d0d14;--bg2:#14141d;--fg:#ececf5;--fg2:#9d9db3;--line:#262636;--acc:#a78bfa;
+--acc2:#38bdf8;--chip:#1d1d2b;--card:#15151f;--shadow:0 1px 3px rgba(0,0,0,.5),0 10px 30px rgba(0,0,0,.35);
+--glowA:rgba(167,139,250,.13);--good:#4ade80;--warn:#fbbf24}
+*{box-sizing:border-box}body{margin:0;font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--fg);-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}.wrap{max-width:760px;margin:0 auto;padding:0 20px}
+header{border-bottom:1px solid var(--line)}.hbar{display:flex;align-items:center;gap:12px;height:56px}
+.brand{font-weight:800;font-size:17px}.hbar .sp{flex:1}
+.hbtn{border:1px solid var(--line);background:var(--bg2);color:var(--fg);border-radius:9px;padding:6px 12px;font-size:13px;font-weight:600;cursor:pointer}
+.crumb{color:var(--fg2);font-size:13.5px;margin:26px 0 10px}.crumb a:hover{color:var(--acc)}
+h1{font-size:34px;letter-spacing:-.02em;margin:0 0 10px;display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+h1 .st{color:var(--warn);font-size:18px}
+.badges{display:flex;gap:7px;flex-wrap:wrap;margin:0 0 18px}
+.badge{font-size:12px;font-weight:700;border-radius:7px;padding:3px 9px;background:var(--chip);color:var(--fg2)}
+.badge.cat{color:var(--acc)}.badge.b1{background:color-mix(in srgb,#16a34a 14%,transparent);color:var(--good)}
+.badge.b2{background:color-mix(in srgb,#d97706 15%,transparent);color:var(--warn)}
+.badge.b3{background:color-mix(in srgb,#7c3aed 13%,transparent);color:var(--acc)}
+.badge.grad{background:color-mix(in srgb,#d97706 15%,transparent);color:var(--warn)}
+.badge.arch{background:color-mix(in srgb,#dc2626 13%,transparent);color:#dc2626}
+.lead{font-size:19px;line-height:1.6;margin:0 0 14px}
+.extra{color:var(--fg2);font-size:14.5px;margin:0 0 10px}
+.vline{color:var(--fg2);font-size:13px;margin:0 0 24px}.vline b{color:var(--fg)}
+.btns{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:40px}
+.bigbtn{display:inline-flex;align-items:center;gap:8px;background:linear-gradient(120deg,var(--acc),var(--acc2));color:#fff;border-radius:12px;padding:12px 20px;font-size:15px;font-weight:700;box-shadow:0 6px 20px var(--glowA)}
+.ghost{display:inline-flex;align-items:center;border:1px solid var(--line);border-radius:12px;padding:12px 18px;font-size:14px;font-weight:600;color:var(--fg2)}
+.ghost:hover{border-color:var(--acc);color:var(--acc)}
+h2{font-size:20px;letter-spacing:-.01em;margin:0 0 16px}
+.minis{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding-bottom:40px}
+@media(max-width:640px){.minis{grid-template-columns:1fr}}
+.mini{display:block;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;transition:.15s}
+.mini:hover{transform:translateY(-2px);border-color:var(--acc)}
+.mrow{display:flex;align-items:baseline;gap:8px}.mn{font-weight:700;font-size:14.5px}.ms{margin-left:auto;color:var(--warn);font-size:12px;font-weight:700}
+.md{display:block;color:var(--fg2);font-size:13px;margin-top:3px}
+footer{border-top:1px solid var(--line);margin-top:20px;padding:22px 0 36px;color:var(--fg2);font-size:13px}
+footer a{color:var(--acc);font-weight:600}
+</style>
+</head>
+<body>
+<header><div class="wrap hbar">
+<a class="brand" href="../index.html">💎 GitHub Gems</a><span class="sp"></span>
+<button class="hbtn" id="btnTheme">🌗 Theme</button>
+<button class="hbtn" id="btnLang">中文</button>
+</div></header>
+<main class="wrap">
+<p class="crumb"><a href="../index.html" data-en="All gems" data-zh="全部宝藏">All gems</a> / <a href="../index.html?c=media" data-en="Photo · Audio · Video" data-zh="影音创作">Photo · Audio · Video</a> / Mixxx</p>
+<h1>Mixxx <span class="st">★ 7.2k</span></h1>
+<div class="badges">
+<span class="badge cat">🎬 <span data-en="Photo · Audio · Video" data-zh="影音创作">Photo · Audio · Video</span></span>
+<span class="badge b1" data-en="Ready to use" data-zh="即开即用">Ready to use</span>
+<span class="badge">Win·mac·Linux</span>
+</div>
+<p class="lead" data-en="Free DJ software that talks to real controllers — mix your first set tonight." data-zh="免费 DJ 软件，支持真机打碟控制器，今晚就开工。">Free DJ software that talks to real controllers — mix your first set tonight.</p>
+<p class="extra" data-en="Part of Photo · Audio · Video on GitHub Gems — hand-picked open-source projects in the 1k–30k star band, live-verified against the GitHub API on 2026-09-28." data-zh="收录于 GitHub Gems「影音创作」领域：人工精选 1k–30k star 区间的开源宝藏，star 数于 2026-09-28 经 GitHub API 实测核验。">Part of Photo · Audio · Video on GitHub Gems — hand-picked open-source projects in the 1k–30k star band, live-verified against the GitHub API on 2026-09-28.</p>
+<p class="vline"><span data-en="Star count live-verified" data-zh="star 数实测核验">Star count live-verified</span> <b>2026-09-28</b> · <span data-en="repo" data-zh="仓库">repo</span> <b>mixxxdj/mixxx</b></p>
+<div class="btns">
+<a class="bigbtn" href="https://github.com/mixxxdj/mixxx" target="_blank" rel="noopener">★ GitHub ↗</a>
+<a class="ghost" href="../index.html" data-en="← All gems" data-zh="← 全部宝藏">← All gems</a>
+</div>
+<h2 data-en="More in Photo · Audio · Video" data-zh="更多「影音创作」宝藏">More in Photo · Audio · Video</h2>
+<div class="minis"><a class="mini" href="shotcut.html"><span class="mrow"><span class="mn">Shotcut</span><span class="ms">★ 15k</span></span><span class="md" data-en="Full-featured free video editor — no watermark, no paywall, no account." data-zh="功能齐全的免费视频剪辑：无水印、无付费墙、无需注册。">Full-featured free video editor — no watermark, no paywall, no account.</span></a><a class="mini" href="sonicpi.html"><span class="mrow"><span class="mn">Sonic Pi</span><span class="ms">★ 12k</span></span><span class="md" data-en="Live-code music on stage: write Ruby, hear synths. A coding instrument." data-zh="用写代码的方式现场演奏音乐——一件真正的编程乐器。">Live-code music on stage: write Ruby, hear synths. A coding instrument.</span></a><a class="mini" href="lmms.html"><span class="mrow"><span class="mn">LMMS</span><span class="ms">★ 10k</span></span><span class="md" data-en="Music production workstation: beats, synths, mixing — the free FL Studio." data-zh="免费音乐工作站：编曲、合成、混音一体。">Music production workstation: beats, synths, mixing — the free FL Studio.</span></a><a class="mini" href="kdenlive.html"><span class="mrow"><span class="mn">Kdenlive</span><span class="ms">★ 5.7k</span></span><span class="md" data-en="Professional open-source video editing from KDE — a serious free Premiere alternative." data-zh="KDE 出品的专业开源剪辑软件，认真的免费剪辑选择。">Professional open-source video editing from KDE — a serious free Premiere alternative.</span></a><a class="mini" href="vcvrack.html"><span class="mrow"><span class="mn">VCV Rack</span><span class="ms">★ 4.4k</span></span><span class="md" data-en="A full Eurorack modular synth in software — patch cables included, soldering not." data-zh="软件里的虚拟模块合成器：接线上瘾，无需电烙铁。">A full Eurorack modular synth in software — patch cables included, soldering not.</span></a></div>
+</main>
+<footer><div class="wrap"><a href="https://github.com/Tliens/github-gems" target="_blank" rel="noopener">GitHub</a> · <span data-en="Hand-picked underrated open-source projects. Stars live-verified." data-zh="人工精选的冷门优质开源项目，star 数实测核验。">Hand-picked underrated open-source projects. Stars live-verified.</span></div></footer>
+<script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "6a164def7d63477cba60148b8417ca95"}'></script>
+<script type="module">
+const TITLE_EN = "Mixxx \u2014 Free DJ software that talks to real controllers \u2014 mix your first set\u2026 | GitHub Gems", TITLE_ZH = "Mixxx \u00b7 GitHub \u5b9d\u85cf\u9879\u76ee\u63a8\u8350";
+let lang = new URLSearchParams(location.search).get('lang') || localStorage.getItem('gg-lang') || 'en';
+const apply = () => {
+  document.documentElement.lang = lang;
+  document.querySelectorAll('[data-en]').forEach(el => { el.textContent = lang === 'zh' ? el.dataset.zh : el.dataset.en; });
+  document.title = lang === 'zh' ? TITLE_ZH : TITLE_EN;
+  document.getElementById('btnLang').textContent = lang === 'zh' ? 'EN' : '中文';
+  const u = new URL(location.href); u.searchParams.delete('lang');
+  if (lang === 'zh') u.searchParams.set('lang', 'zh');
+  history.replaceState(null, '', u.pathname + (u.search || '') + location.hash);
+};
+document.getElementById('btnLang').onclick = () => { lang = lang === 'zh' ? 'en' : 'zh'; localStorage.setItem('gg-lang', lang); apply(); };
+const cycle = () => {
+  const cur = document.documentElement.getAttribute('data-theme') || 'auto';
+  const next = { auto:'light', light:'dark', dark:'auto' }[cur];
+  document.documentElement.setAttribute('data-theme', next);
+  localStorage.setItem('gg-theme', next);
+  document.getElementById('btnTheme').textContent = { auto:'🌗 Auto', light:'☀️ Light', dark:'🌙 Dark' }[next];
+};
+document.getElementById('btnTheme').onclick = cycle;
+document.documentElement.setAttribute('data-theme', localStorage.getItem('gg-theme') || 'auto');
+document.getElementById('btnTheme').textContent = { auto:'🌗 Auto', light:'☀️ Light', dark:'🌙 Dark' }[localStorage.getItem('gg-theme') || 'auto'];
+apply();
+</script>
+</body>
+</html>

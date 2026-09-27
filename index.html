@@ -29,7 +29,7 @@
   "inLanguage":["en","zh"]},
  {"@type":"FAQPage","mainEntity":[
   {"@type":"Question","name":"What counts as a 'gem' here?","acceptedAnswer":{"@type":"Answer","text":"Projects with 1,000–30,000 GitHub stars, actively maintained (updated within 24 months, not archived), with a real working product you can use today — and quality far above their fame."}},
-  {"@type":"Question","name":"Why the 1k–30k star range?","acceptedAnswer":{"@type":"Answer","text":"Below 1k stars quality is hard to guarantee; above 30k a project is usually already famous and doesn't need discovering. The sweet spot is where quality is proven but the project is still under-known — especially in the Chinese-speaking community."}},
+  {"@type":"Question","name":"Why the 1k–30k star range?","acceptedAnswer":{"@type":"Answer","text":"Below 1k stars quality is hard to guarantee; above 30k a project is usually already famous and doesn't need discovering. The sweet spot is where quality is proven but the project is still under-known — especially in the Chinese-speaking community. When a listed gem outgrows 30k stars, it earns a Graduated badge and stays on the list."}},
   {"@type":"Question","name":"Are the star counts accurate?","acceptedAnswer":{"@type":"Answer","text":"Every project was live-verified against the GitHub API on the date shown in the page header. Counts drift over time, so treat them as an approximate snapshot."}},
   {"@type":"Question","name":"How do I submit a gem?","acceptedAnswer":{"@type":"Answer","text":"Open an issue on the GitHub repository with the project link and why it deserves a spot. Submissions are reviewed by hand before being added."}},
   {"@type":"Question","name":"I'm a complete beginner — where do I start?","acceptedAnswer":{"@type":"Answer","text":"Start with the 'New to GitHub' section: it explains stars, forks, issues and pull requests in plain words, plus a 3-point checklist for judging any project. Then browse gems tagged 'Ready to use' — downloadable apps that need zero coding."}}
@@ -158,6 +158,8 @@ select{border:1px solid var(--line);background:var(--bg2);color:var(--fg);border
 .badge.b1{background:color-mix(in srgb,#16a34a 14%,transparent);color:var(--good)}
 .badge.b2{background:color-mix(in srgb,#d97706 15%,transparent);color:var(--warn)}
 .badge.b3{background:color-mix(in srgb,#7c3aed 13%,transparent);color:var(--acc)}
+.badge.grad{background:color-mix(in srgb,#d97706 15%,transparent);color:var(--warn)}
+.badge.arch{background:color-mix(in srgb,#dc2626 13%,transparent);color:#dc2626}
 .card.flash{outline:3px solid var(--acc);outline-offset:2px}
 
 /* criteria */
@@ -205,7 +207,7 @@ footer a{color:var(--acc);font-weight:600}
     <div class="stats">
       <span><b id="stGems">130</b> <span data-i18n="stGems">gems</span></span>
       <span><b id="stCats">13</b> <span data-i18n="stCats">fields</span></span>
-      <span data-i18n="stVerified">⭐ star counts live-verified <b>2026-09-27</b></span>
+      <span data-i18n="stVerified">⭐ star counts live-verified</span><span>&nbsp;<b id="stDate">2026-09-27</b></span>
     </div>
     <div class="entries">
       <a class="entry" href="#start">
@@ -286,687 +288,687 @@ footer a{color:var(--acc);font-weight:600}
     <p class="count" id="count"></p>
     <div class="grid" id="grid">
 <!--GEMS:START-->
-<a class="card" href="https://github.com/gitleaks/gitleaks" target="_blank" rel="noopener">
+<a class="card" href="gems/gitleaks.html">
 <div class="crow"><span class="nm">gitleaks</span><span class="st">★ 30k</span></div>
 <p class="ds">Scan git history for leaked API keys and passwords — before attackers do.</p>
 <div class="mta"><span class="badge cat">🛠️ Developer Tools</span><span class="badge b3">For developers</span><span class="badge">CLI·CI</span></div>
 </a>
-<a class="card" href="https://github.com/karakeep-app/karakeep" target="_blank" rel="noopener">
+<a class="card" href="gems/karakeep.html">
 <div class="crow"><span class="nm">Karakeep</span><span class="st">★ 29k</span></div>
 <p class="ds">AI-assisted bookmark hoarding: save links, get auto-tags and archived snapshots.</p>
 <div class="mta"><span class="badge cat">🏠 Self-Hosted</span><span class="badge b2">Easy setup</span><span class="badge">Docker·Web</span></div>
 </a>
-<a class="card" href="https://github.com/Anuken/Mindustry" target="_blank" rel="noopener">
+<a class="card" href="gems/mindustry.html">
 <div class="crow"><span class="nm">Mindustry</span><span class="st">★ 29k</span></div>
 <p class="ds">Factory towers + RTS + deep modding — the strategy game you sink 200 hours into.</p>
 <div class="mta"><span class="badge cat">🎮 Games & Fun</span><span class="badge b1">Ready to use</span><span class="badge">Win·mac·Linux</span></div>
 </a>
-<a class="card" href="https://github.com/ente-io/ente" target="_blank" rel="noopener">
+<a class="card" href="gems/ente.html">
 <div class="crow"><span class="nm">Ente</span><span class="st">★ 29k</span></div>
 <p class="ds">End-to-end encrypted photos — a self-hostable Google Photos alternative you truly own.</p>
 <div class="mta"><span class="badge cat">🧰 Everyday Apps</span><span class="badge b1">Ready to use</span><span class="badge">iOS·Android·Win·mac·Linux</span></div>
 </a>
-<a class="card" href="https://github.com/wez/wezterm" target="_blank" rel="noopener">
+<a class="card" href="gems/wezterm.html">
 <div class="crow"><span class="nm">WezTerm</span><span class="st">★ 29k</span></div>
 <p class="ds">GPU-accelerated terminal with Lua scripting — fast, cross-platform, hackable.</p>
 <div class="mta"><span class="badge cat">⌨️ Terminal Gems</span><span class="badge b2">Easy setup</span><span class="badge">Win·mac·Linux</span></div>
 </a>
-<a class="card" href="https://github.com/keepassxreboot/keepassxc" target="_blank" rel="noopener">
+<a class="card" href="gems/keepassxc.html">
 <div class="crow"><span class="nm">KeePassXC</span><span class="st">★ 29k</span></div>
 <p class="ds">Offline password manager: one encrypted file holds all your secrets.</p>
 <div class="mta"><span class="badge cat">🧰 Everyday Apps</span><span class="badge b1">Ready to use</span><span class="badge">Win·mac·Linux</span></div>
 </a>
-<a class="card" href="https://github.com/sharkdp/hyperfine" target="_blank" rel="noopener">
+<a class="card" href="gems/hyperfine.html">
 <div class="crow"><span class="nm">Hyperfine</span><span class="st">★ 29k</span></div>
 <p class="ds">One command to benchmark anything — settle 'which is faster' with numbers.</p>
 <div class="mta"><span class="badge cat">⌨️ Terminal Gems</span><span class="badge b2">Easy setup</span><span class="badge">CLI</span></div>
 </a>
-<a class="card" href="https://github.com/ArchiveBox/ArchiveBox" target="_blank" rel="noopener">
+<a class="card" href="gems/archivebox.html">
 <div class="crow"><span class="nm">ArchiveBox</span><span class="st">★ 29k</span></div>
 <p class="ds">Your own internet archive — save pages before they vanish.</p>
 <div class="mta"><span class="badge cat">🏠 Self-Hosted</span><span class="badge b2">Easy setup</span><span class="badge">Docker·CLI</span></div>
 </a>
-<a class="card" href="https://github.com/Budibase/budibase" target="_blank" rel="noopener">
+<a class="card" href="gems/budibase.html">
 <div class="crow"><span class="nm">Budibase</span><span class="st">★ 28k</span></div>
 <p class="ds">Build internal tools and admin panels in minutes, not sprints.</p>
 <div class="mta"><span class="badge cat">🏠 Self-Hosted</span><span class="badge b2">Easy setup</span><span class="badge">Docker</span></div>
 </a>
-<a class="card" href="https://github.com/invoke-ai/InvokeAI" target="_blank" rel="noopener">
+<a class="card" href="gems/invokeai.html">
 <div class="crow"><span class="nm">InvokeAI</span><span class="st">★ 28k</span></div>
 <p class="ds">A professional-grade Stable Diffusion studio for serious image work.</p>
 <div class="mta"><span class="badge cat">🤖 AI & Local Models</span><span class="badge b2">Easy setup</span><span class="badge">Win·mac·Linux</span></div>
 </a>
-<a class="card" href="https://github.com/GraphiteEditor/Graphite" target="_blank" rel="noopener">
+<a class="card" href="gems/graphite.html">
 <div class="crow"><span class="nm">Graphite</span><span class="st">★ 27k</span></div>
 <p class="ds">A procedural, node-based graphics editor that runs in your browser.</p>
 <div class="mta"><span class="badge cat">🖌️ Design & Icons</span><span class="badge b1">Ready to use</span><span class="badge">Web</span></div>
 </a>
-<a class="card" href="https://github.com/philc/vimium" target="_blank" rel="noopener">
+<a class="card" href="gems/vimium.html">
 <div class="crow"><span class="nm">Vimium</span><span class="st">★ 27k</span></div>
 <p class="ds">Vim keys in your browser — navigate the web without touching the mouse.</p>
 <div class="mta"><span class="badge cat">🔐 Privacy & Security</span><span class="badge b1">Ready to use</span><span class="badge">Chrome</span></div>
 </a>
-<a class="card" href="https://github.com/typesense/typesense" target="_blank" rel="noopener">
+<a class="card" href="gems/typesense.html">
 <div class="crow"><span class="nm">Typesense</span><span class="st">★ 27k</span></div>
 <p class="ds">Typo-tolerant search engine that's up and useful in minutes.</p>
 <div class="mta"><span class="badge cat">📊 Data & Viz</span><span class="badge b3">For developers</span><span class="badge">Docker</span></div>
 </a>
-<a class="card" href="https://github.com/BabylonJS/Babylon.js" target="_blank" rel="noopener">
+<a class="card" href="gems/babylon.html">
 <div class="crow"><span class="nm">Babylon.js</span><span class="st">★ 26k</span></div>
 <p class="ds">A powerhouse WebGL/WebGPU 3D engine with a lovely playground.</p>
 <div class="mta"><span class="badge cat">🌐 Frontend & Creative</span><span class="badge b3">For developers</span><span class="badge">JS</span></div>
 </a>
-<a class="card" href="https://github.com/Mozilla-Ocho/llamafile" target="_blank" rel="noopener">
+<a class="card" href="gems/llamafile.html">
 <div class="crow"><span class="nm">llamafile</span><span class="st">★ 26k</span></div>
 <p class="ds">A whole LLM zipped into one executable — download, run, done.</p>
 <div class="mta"><span class="badge cat">🤖 AI & Local Models</span><span class="badge b1">Ready to use</span><span class="badge">Win·mac·Linux</span></div>
 </a>
-<a class="card" href="https://github.com/biomejs/biome" target="_blank" rel="noopener">
+<a class="card" href="gems/biome.html">
 <div class="crow"><span class="nm">Biome</span><span class="st">★ 26k</span></div>
 <p class="ds">Lint and format JS/TS in one Rust-powered tool — absurdly fast.</p>
 <div class="mta"><span class="badge cat">🌐 Frontend & Creative</span><span class="badge b3">For developers</span><span class="badge">JS</span></div>
 </a>
-<a class="card" href="https://github.com/Cinnamon/kotaemon" target="_blank" rel="noopener">
+<a class="card" href="gems/kotaemon.html">
 <div class="crow"><span class="nm">kotaemon</span><span class="st">★ 26k</span></div>
 <p class="ds">A beautiful open RAG UI: chat with your PDFs and docs, locally.</p>
 <div class="mta"><span class="badge cat">🤖 AI & Local Models</span><span class="badge b2">Easy setup</span><span class="badge">Web·Docker</span></div>
 </a>
-<a class="card" href="https://github.com/goauthentik/authentik" target="_blank" rel="noopener">
+<a class="card" href="gems/authentik.html">
 <div class="crow"><span class="nm">authentik</span><span class="st">★ 26k</span></div>
 <p class="ds">Self-hosted single sign-on: one login for every app you run.</p>
 <div class="mta"><span class="badge cat">🏠 Self-Hosted</span><span class="badge b3">For developers</span><span class="badge">Docker</span></div>
 </a>
-<a class="card" href="https://github.com/SYSTRAN/faster-whisper" target="_blank" rel="noopener">
+<a class="card" href="gems/fasterwhisper.html">
 <div class="crow"><span class="nm">faster-whisper</span><span class="st">★ 26k</span></div>
 <p class="ds">Whisper speech recognition, 4× faster with half the memory.</p>
 <div class="mta"><span class="badge cat">🤖 AI & Local Models</span><span class="badge b3">For developers</span><span class="badge">Python</span></div>
 </a>
-<a class="card" href="https://github.com/terrastruct/d2" target="_blank" rel="noopener">
+<a class="card" href="gems/d2.html">
 <div class="crow"><span class="nm">D2</span><span class="st">★ 26k</span></div>
 <p class="ds">Text in, beautiful architecture diagrams out — the modern diagramming language.</p>
 <div class="mta"><span class="badge cat">📊 Data & Viz</span><span class="badge b3">For developers</span><span class="badge">CLI·Web</span></div>
 </a>
-<a class="card" href="https://github.com/activepieces/activepieces" target="_blank" rel="noopener">
+<a class="card" href="gems/activepieces.html">
 <div class="crow"><span class="nm">Activepieces</span><span class="st">★ 25k</span></div>
 <p class="ds">Open-source Zapier: connect your apps and automate the boring parts.</p>
 <div class="mta"><span class="badge cat">🤖 AI & Local Models</span><span class="badge b2">Easy setup</span><span class="badge">Docker</span></div>
 </a>
-<a class="card" href="https://github.com/lucide-icons/lucide" target="_blank" rel="noopener">
+<a class="card" href="gems/lucide.html">
 <div class="crow"><span class="nm">Lucide</span><span class="st">★ 25k</span></div>
 <p class="ds">The beautifully consistent icon set half the web quietly uses.</p>
 <div class="mta"><span class="badge cat">🖌️ Design & Icons</span><span class="badge b1">Ready to use</span><span class="badge">Web·SVG</span></div>
 </a>
-<a class="card" href="https://github.com/m-bain/whisperX" target="_blank" rel="noopener">
+<a class="card" href="gems/whisperx.html">
 <div class="crow"><span class="nm">whisperX</span><span class="st">★ 24k</span></div>
 <p class="ds">Whisper plus word-level timestamps and speaker diarization — podcast-ready.</p>
 <div class="mta"><span class="badge cat">🤖 AI & Local Models</span><span class="badge b3">For developers</span><span class="badge">Python</span></div>
 </a>
-<a class="card" href="https://github.com/processing/p5.js" target="_blank" rel="noopener">
+<a class="card" href="gems/p5js.html">
 <div class="crow"><span class="nm">p5.js</span><span class="st">★ 24k</span></div>
 <p class="ds">Creative coding made friendly — artists write code with it every day.</p>
 <div class="mta"><span class="badge cat">🌐 Frontend & Creative</span><span class="badge b3">For developers</span><span class="badge">JS</span></div>
 </a>
-<a class="card" href="https://github.com/navidrome/navidrome" target="_blank" rel="noopener">
+<a class="card" href="gems/navidrome.html">
 <div class="crow"><span class="nm">Navidrome</span><span class="st">★ 24k</span></div>
 <p class="ds">Your music library becomes a streaming service, from your own server.</p>
 <div class="mta"><span class="badge cat">🏠 Self-Hosted</span><span class="badge b2">Easy setup</span><span class="badge">Docker·Web</span></div>
 </a>
-<a class="card" href="https://github.com/FunAudioLLM/CosyVoice" target="_blank" rel="noopener">
+<a class="card" href="gems/cosyvoice.html">
 <div class="crow"><span class="nm">CosyVoice</span><span class="st">★ 24k</span></div>
 <p class="ds">Multi-lingual TTS with zero-shot voice cloning from a few seconds of audio.</p>
 <div class="mta"><span class="badge cat">🤖 AI & Local Models</span><span class="badge b3">For developers</span><span class="badge">Python</span></div>
 </a>
-<a class="card" href="https://github.com/timescale/timescaledb" target="_blank" rel="noopener">
+<a class="card" href="gems/timescaledb.html">
 <div class="crow"><span class="nm">TimescaleDB</span><span class="st">★ 24k</span></div>
 <p class="ds">Turns PostgreSQL into a time-series powerhouse — keep your SQL.</p>
 <div class="mta"><span class="badge cat">📊 Data & Viz</span><span class="badge b3">For developers</span><span class="badge">PostgreSQL</span></div>
 </a>
-<a class="card" href="https://github.com/livewire/livewire" target="_blank" rel="noopener">
+<a class="card" href="gems/livewire.html">
 <div class="crow"><span class="nm">Laravel Livewire</span><span class="st">★ 24k</span></div>
 <p class="ds">Dynamic Laravel interfaces without writing JavaScript — the full-stack shortcut.</p>
 <div class="mta"><span class="badge cat">🌐 Frontend & Creative</span><span class="badge b3">For developers</span><span class="badge">PHP</span></div>
 </a>
-<a class="card" href="https://github.com/eza-community/eza" target="_blank" rel="noopener">
+<a class="card" href="gems/eza.html">
 <div class="crow"><span class="nm">eza</span><span class="st">★ 23k</span></div>
 <p class="ds">The modern ls: colors, icons, git status — folders finally look alive.</p>
 <div class="mta"><span class="badge cat">⌨️ Terminal Gems</span><span class="badge b2">Easy setup</span><span class="badge">CLI</span></div>
 </a>
-<a class="card" href="https://github.com/oxc-project/oxc" target="_blank" rel="noopener">
+<a class="card" href="gems/oxc.html">
 <div class="crow"><span class="nm">oxc</span><span class="st">★ 23k</span></div>
 <p class="ds">A Rust-built JavaScript toolchain: linter, transformer, resolver.</p>
 <div class="mta"><span class="badge cat">🌐 Frontend & Creative</span><span class="badge b3">For developers</span><span class="badge">Rust</span></div>
 </a>
-<a class="card" href="https://github.com/go-chi/chi" target="_blank" rel="noopener">
+<a class="card" href="gems/chi.html">
 <div class="crow"><span class="nm">chi</span><span class="st">★ 23k</span></div>
 <p class="ds">The lightweight Go router that std-net always wanted to be.</p>
 <div class="mta"><span class="badge cat">⚙️ Backend & Databases</span><span class="badge b3">For developers</span><span class="badge">Go</span></div>
 </a>
-<a class="card" href="https://github.com/pqrs-org/Karabiner-Elements" target="_blank" rel="noopener">
+<a class="card" href="gems/karabiner.html">
 <div class="crow"><span class="nm">Karabiner-Elements</span><span class="st">★ 23k</span></div>
 <p class="ds">Remap anything on a macOS keyboard — the power tool every Mac tinkerer ends up installing.</p>
 <div class="mta"><span class="badge cat">🧰 Everyday Apps</span><span class="badge b2">Easy setup</span><span class="badge">macOS</span></div>
 </a>
-<a class="card" href="https://github.com/svg/svgo" target="_blank" rel="noopener">
+<a class="card" href="gems/svgo.html">
 <div class="crow"><span class="nm">SVGO</span><span class="st">★ 23k</span></div>
 <p class="ds">Squeezes SVG files smaller without losing quality.</p>
 <div class="mta"><span class="badge cat">🖌️ Design & Icons</span><span class="badge b3">For developers</span><span class="badge">CLI·JS</span></div>
 </a>
-<a class="card" href="https://github.com/renovatebot/renovate" target="_blank" rel="noopener">
+<a class="card" href="gems/renovate.html">
 <div class="crow"><span class="nm">Renovate</span><span class="st">★ 23k</span></div>
 <p class="ds">A bot that PRs updates for every outdated dependency — all of them.</p>
 <div class="mta"><span class="badge cat">🚀 DevOps & Deploy</span><span class="badge b3">For developers</span><span class="badge">CI</span></div>
 </a>
-<a class="card" href="https://github.com/rust-lang/mdBook" target="_blank" rel="noopener">
+<a class="card" href="gems/mdbook.html">
 <div class="crow"><span class="nm">mdBook</span><span class="st">★ 22k</span></div>
 <p class="ds">Markdown → books and docs sites, from a single binary.</p>
 <div class="mta"><span class="badge cat">🌐 Frontend & Creative</span><span class="badge b3">For developers</span><span class="badge">Rust</span></div>
 </a>
-<a class="card" href="https://github.com/teableio/teable" target="_blank" rel="noopener">
+<a class="card" href="gems/teable.html">
 <div class="crow"><span class="nm">Teable</span><span class="st">★ 22k</span></div>
 <p class="ds">Open-source Airtable: a no-code database with a spreadsheet face.</p>
 <div class="mta"><span class="badge cat">🏠 Self-Hosted</span><span class="badge b2">Easy setup</span><span class="badge">Docker</span></div>
 </a>
-<a class="card" href="https://github.com/tabler/tabler-icons" target="_blank" rel="noopener">
+<a class="card" href="gems/tabler.html">
 <div class="crow"><span class="nm">Tabler Icons</span><span class="st">★ 22k</span></div>
 <p class="ds">5,000+ free MIT icons in one consistent style — the quiet workhorse of UI.</p>
 <div class="mta"><span class="badge cat">🖌️ Design & Icons</span><span class="badge b1">Ready to use</span><span class="badge">Web·SVG</span></div>
 </a>
-<a class="card" href="https://github.com/docmost/docmost" target="_blank" rel="noopener">
+<a class="card" href="gems/docmost.html">
 <div class="crow"><span class="nm">Docmost</span><span class="st">★ 22k</span></div>
 <p class="ds">Open-source Confluence alternative for team knowledge.</p>
 <div class="mta"><span class="badge cat">🏠 Self-Hosted</span><span class="badge b2">Easy setup</span><span class="badge">Docker</span></div>
 </a>
-<a class="card" href="https://github.com/antonmedv/fx" target="_blank" rel="noopener">
+<a class="card" href="gems/fx.html">
 <div class="crow"><span class="nm">fx</span><span class="st">★ 21k</span></div>
 <p class="ds">Interactive JSON explorer in the terminal — fold, query, transform.</p>
 <div class="mta"><span class="badge cat">🛠️ Developer Tools</span><span class="badge b2">Easy setup</span><span class="badge">CLI</span></div>
 </a>
-<a class="card" href="https://github.com/modelscope/FunASR" target="_blank" rel="noopener">
+<a class="card" href="gems/funasr.html">
 <div class="crow"><span class="nm">FunASR</span><span class="st">★ 21k</span></div>
 <p class="ds">Alibaba's open speech-recognition toolkit — first-class Chinese accuracy.</p>
 <div class="mta"><span class="badge cat">🤖 AI & Local Models</span><span class="badge b3">For developers</span><span class="badge">Python</span></div>
 </a>
-<a class="card" href="https://github.com/11ty/eleventy" target="_blank" rel="noopener">
+<a class="card" href="gems/eleventy.html">
 <div class="crow"><span class="nm">Eleventy</span><span class="st">★ 20k</span></div>
 <p class="ds">A simple static site generator with zero framework baggage.</p>
 <div class="mta"><span class="badge cat">🌐 Frontend & Creative</span><span class="badge b3">For developers</span><span class="badge">JS</span></div>
 </a>
-<a class="card" href="https://github.com/linkwarden/linkwarden" target="_blank" rel="noopener">
+<a class="card" href="gems/linkwarden.html">
 <div class="crow"><span class="nm">Linkwarden</span><span class="st">★ 20k</span></div>
 <p class="ds">Collaborative bookmark manager with auto-screenshots and full-page archives.</p>
 <div class="mta"><span class="badge cat">🏠 Self-Hosted</span><span class="badge b2">Easy setup</span><span class="badge">Docker·Web</span></div>
 </a>
-<a class="card" href="https://github.com/mlc-ai/web-llm" target="_blank" rel="noopener">
+<a class="card" href="gems/webllm.html">
 <div class="crow"><span class="nm">WebLLM</span><span class="st">★ 19k</span></div>
 <p class="ds">Chat with local LLMs entirely in-browser — private by construction.</p>
 <div class="mta"><span class="badge cat">🤖 AI & Local Models</span><span class="badge b2">Easy setup</span><span class="badge">Web</span></div>
 </a>
-<a class="card" href="https://github.com/elysiajs/elysia" target="_blank" rel="noopener">
+<a class="card" href="gems/elysia.html">
 <div class="crow"><span class="nm">Elysia</span><span class="st">★ 19k</span></div>
 <p class="ds">An ergonomic web framework tuned for Bun — fast and delightful.</p>
 <div class="mta"><span class="badge cat">🌐 Frontend & Creative</span><span class="badge b3">For developers</span><span class="badge">TS</span></div>
 </a>
-<a class="card" href="https://github.com/BookStackApp/BookStack" target="_blank" rel="noopener">
+<a class="card" href="gems/bookstack.html">
 <div class="crow"><span class="nm">BookStack</span><span class="st">★ 19k</span></div>
 <p class="ds">A wiki organized like a bookshelf: books, chapters, pages.</p>
 <div class="mta"><span class="badge cat">🏠 Self-Hosted</span><span class="badge b2">Easy setup</span><span class="badge">PHP·Docker</span></div>
 </a>
-<a class="card" href="https://github.com/tiangolo/sqlmodel" target="_blank" rel="noopener">
+<a class="card" href="gems/sqlmodel.html">
 <div class="crow"><span class="nm">SQLModel</span><span class="st">★ 18k</span></div>
 <p class="ds">SQLAlchemy meets Pydantic — type-safe models for FastAPI folks.</p>
 <div class="mta"><span class="badge cat">⚙️ Backend & Databases</span><span class="badge b3">For developers</span><span class="badge">Python</span></div>
 </a>
-<a class="card" href="https://github.com/sqlc-dev/sqlc" target="_blank" rel="noopener">
+<a class="card" href="gems/sqlc.html">
 <div class="crow"><span class="nm">sqlc</span><span class="st">★ 18k</span></div>
 <p class="ds">Write SQL, get type-safe Go code generated — the compiler checks your queries.</p>
 <div class="mta"><span class="badge cat">⚙️ Backend & Databases</span><span class="badge b3">For developers</span><span class="badge">Go</span></div>
 </a>
-<a class="card" href="https://github.com/windmill-labs/windmill" target="_blank" rel="noopener">
+<a class="card" href="gems/windmill.html">
 <div class="crow"><span class="nm">Windmill</span><span class="st">★ 18k</span></div>
 <p class="ds">Turn scripts into workflows, schedules and internal apps.</p>
 <div class="mta"><span class="badge cat">🏠 Self-Hosted</span><span class="badge b3">For developers</span><span class="badge">Docker</span></div>
 </a>
-<a class="card" href="https://github.com/getzola/zola" target="_blank" rel="noopener">
+<a class="card" href="gems/zola.html">
 <div class="crow"><span class="nm">Zola</span><span class="st">★ 17k</span></div>
 <p class="ds">Static sites from a single binary — no Node, no npm, no mess.</p>
 <div class="mta"><span class="badge cat">🌐 Frontend & Creative</span><span class="badge b3">For developers</span><span class="badge">Rust</span></div>
 </a>
-<a class="card" href="https://github.com/OpenRA/OpenRA" target="_blank" rel="noopener">
+<a class="card" href="gems/openra.html">
 <div class="crow"><span class="nm">OpenRA</span><span class="st">★ 17k</span></div>
 <p class="ds">Command & Conquer and Red Alert, rebuilt modern and cross-platform.</p>
 <div class="mta"><span class="badge cat">🎮 Games & Fun</span><span class="badge b1">Ready to use</span><span class="badge">Win·mac·Linux</span></div>
 </a>
-<a class="card" href="https://github.com/questdb/questdb" target="_blank" rel="noopener">
+<a class="card" href="gems/questdb.html">
 <div class="crow"><span class="nm">QuestDB</span><span class="st">★ 17k</span></div>
 <p class="ds">Blazing-fast open-source time-series database with familiar SQL.</p>
 <div class="mta"><span class="badge cat">📊 Data & Viz</span><span class="badge b3">For developers</span><span class="badge">Docker</span></div>
 </a>
-<a class="card" href="https://github.com/ent/ent" target="_blank" rel="noopener">
+<a class="card" href="gems/ent.html">
 <div class="crow"><span class="nm">ent</span><span class="st">★ 17k</span></div>
 <p class="ds">Facebook's entity framework for Go: schemas as graphs, migrations included.</p>
 <div class="mta"><span class="badge cat">⚙️ Backend & Databases</span><span class="badge b3">For developers</span><span class="badge">Go</span></div>
 </a>
-<a class="card" href="https://github.com/LibreTranslate/LibreTranslate" target="_blank" rel="noopener">
+<a class="card" href="gems/libretranslate.html">
 <div class="crow"><span class="nm">LibreTranslate</span><span class="st">★ 17k</span></div>
 <p class="ds">Self-hosted neural machine translation — your data never leaves the server.</p>
 <div class="mta"><span class="badge cat">🤖 AI & Local Models</span><span class="badge b2">Easy setup</span><span class="badge">Docker·API</span></div>
 </a>
-<a class="card" href="https://github.com/lwouis/alt-tab-macos" target="_blank" rel="noopener">
+<a class="card" href="gems/alttab.html">
 <div class="crow"><span class="nm">AltTab</span><span class="st">★ 16k</span></div>
 <p class="ds">Gives macOS real Windows-style Alt-Tab window switching. Why did we wait so long?</p>
 <div class="mta"><span class="badge cat">🧰 Everyday Apps</span><span class="badge b1">Ready to use</span><span class="badge">macOS</span></div>
 </a>
-<a class="card" href="https://github.com/huggingface/transformers.js" target="_blank" rel="noopener">
+<a class="card" href="gems/transformersjs.html">
 <div class="crow"><span class="nm">transformers.js</span><span class="st">★ 16k</span></div>
 <p class="ds">Run Transformer models straight in the browser via WebGPU — no server.</p>
 <div class="mta"><span class="badge cat">🤖 AI & Local Models</span><span class="badge b3">For developers</span><span class="badge">JS·Web</span></div>
 </a>
-<a class="card" href="https://github.com/FreshRSS/FreshRSS" target="_blank" rel="noopener">
+<a class="card" href="gems/freshrss.html">
 <div class="crow"><span class="nm">FreshRSS</span><span class="st">★ 16k</span></div>
 <p class="ds">Self-hosted RSS aggregator — the Google Reader successor we deserved.</p>
 <div class="mta"><span class="badge cat">🏠 Self-Hosted</span><span class="badge b2">Easy setup</span><span class="badge">Docker·Web</span></div>
 </a>
-<a class="card" href="https://github.com/mikefarah/yq" target="_blank" rel="noopener">
+<a class="card" href="gems/yq.html">
 <div class="crow"><span class="nm">yq</span><span class="st">★ 16k</span></div>
 <p class="ds">yq is for YAML what jq is for JSON: slice, filter, convert everything.</p>
 <div class="mta"><span class="badge cat">🛠️ Developer Tools</span><span class="badge b2">Easy setup</span><span class="badge">CLI</span></div>
 </a>
-<a class="card" href="https://github.com/pre-commit/pre-commit" target="_blank" rel="noopener">
+<a class="card" href="gems/precommit.html">
 <div class="crow"><span class="nm">pre-commit</span><span class="st">★ 16k</span></div>
 <p class="ds">One config, all languages: lint and format automatically before every commit.</p>
 <div class="mta"><span class="badge cat">🛠️ Developer Tools</span><span class="badge b3">For developers</span><span class="badge">CLI</span></div>
 </a>
-<a class="card" href="https://github.com/direnv/direnv" target="_blank" rel="noopener">
+<a class="card" href="gems/direnv.html">
 <div class="crow"><span class="nm">direnv</span><span class="st">★ 15k</span></div>
 <p class="ds">Per-directory environment variables that load and unload automatically.</p>
 <div class="mta"><span class="badge cat">⌨️ Terminal Gems</span><span class="badge b2">Easy setup</span><span class="badge">CLI·mac·Linux</span></div>
 </a>
-<a class="card" href="https://github.com/zotero/zotero" target="_blank" rel="noopener">
+<a class="card" href="gems/zotero.html">
 <div class="crow"><span class="nm">Zotero</span><span class="st">★ 15k</span></div>
 <p class="ds">The reference manager for research: collect, annotate and cite papers without pain.</p>
 <div class="mta"><span class="badge cat">🧰 Everyday Apps</span><span class="badge b1">Ready to use</span><span class="badge">Win·mac·Linux</span></div>
 </a>
-<a class="card" href="https://github.com/SWivid/F5-TTS" target="_blank" rel="noopener">
+<a class="card" href="gems/f5tts.html">
 <div class="crow"><span class="nm">F5-TTS</span><span class="st">★ 15k</span></div>
 <p class="ds">A few seconds of reference audio → surprisingly natural cloned speech.</p>
 <div class="mta"><span class="badge cat">🤖 AI & Local Models</span><span class="badge b3">For developers</span><span class="badge">Python</span></div>
 </a>
-<a class="card" href="https://github.com/mltframework/shotcut" target="_blank" rel="noopener">
+<a class="card" href="gems/shotcut.html">
 <div class="crow"><span class="nm">Shotcut</span><span class="st">★ 15k</span></div>
 <p class="ds">Full-featured free video editor — no watermark, no paywall, no account.</p>
 <div class="mta"><span class="badge cat">🎬 Photo · Audio · Video</span><span class="badge b1">Ready to use</span><span class="badge">Win·mac·Linux</span></div>
 </a>
-<a class="card" href="https://github.com/haiwen/seafile" target="_blank" rel="noopener">
+<a class="card" href="gems/seafile.html">
 <div class="crow"><span class="nm">Seafile</span><span class="st">★ 15k</span></div>
 <p class="ds">Enterprise-grade file sync and sharing — rock-solid reliability.</p>
 <div class="mta"><span class="badge cat">🏠 Self-Hosted</span><span class="badge b2">Easy setup</span><span class="badge">Win·mac·Linux·Docker</span></div>
 </a>
-<a class="card" href="https://github.com/caprover/caprover" target="_blank" rel="noopener">
+<a class="card" href="gems/caprover.html">
 <div class="crow"><span class="nm">CapRover</span><span class="st">★ 15k</span></div>
 <p class="ds">Your own mini-PaaS: one-click apps, free TLS, web UI.</p>
 <div class="mta"><span class="badge cat">🚀 DevOps & Deploy</span><span class="badge b2">Easy setup</span><span class="badge">Docker</span></div>
 </a>
-<a class="card" href="https://github.com/k2-fsa/sherpa-onnx" target="_blank" rel="noopener">
+<a class="card" href="gems/sherpa.html">
 <div class="crow"><span class="nm">sherpa-onnx</span><span class="st">★ 15k</span></div>
 <p class="ds">Speech recognition and TTS running fully offline — from servers to phones.</p>
 <div class="mta"><span class="badge cat">🤖 AI & Local Models</span><span class="badge b3">For developers</span><span class="badge">C++·Android·iOS</span></div>
 </a>
-<a class="card" href="https://github.com/konvajs/konva" target="_blank" rel="noopener">
+<a class="card" href="gems/konva.html">
 <div class="crow"><span class="nm">Konva</span><span class="st">★ 15k</span></div>
 <p class="ds">Declarative canvas: interactive 2D graphics without raw canvas pain.</p>
 <div class="mta"><span class="badge cat">🌐 Frontend & Creative</span><span class="badge b3">For developers</span><span class="badge">JS</span></div>
 </a>
-<a class="card" href="https://github.com/logto-io/logto" target="_blank" rel="noopener">
+<a class="card" href="gems/logto.html">
 <div class="crow"><span class="nm">Logto</span><span class="st">★ 15k</span></div>
 <p class="ds">Developer-friendly auth infra: polished login box plus user management.</p>
 <div class="mta"><span class="badge cat">🏠 Self-Hosted</span><span class="badge b3">For developers</span><span class="badge">Docker</span></div>
 </a>
-<a class="card" href="https://github.com/basecamp/kamal" target="_blank" rel="noopener">
+<a class="card" href="gems/kamal.html">
 <div class="crow"><span class="nm">Kamal</span><span class="st">★ 15k</span></div>
 <p class="ds">From 37signals: deploy anything anywhere with one command.</p>
 <div class="mta"><span class="badge cat">🚀 DevOps & Deploy</span><span class="badge b3">For developers</span><span class="badge">CLI</span></div>
 </a>
-<a class="card" href="https://github.com/kysely-org/kysely" target="_blank" rel="noopener">
+<a class="card" href="gems/kysely.html">
 <div class="crow"><span class="nm">Kysely</span><span class="st">★ 14k</span></div>
 <p class="ds">Type-safe SQL query builder with zero runtime cost.</p>
 <div class="mta"><span class="badge cat">⚙️ Backend & Databases</span><span class="badge b3">For developers</span><span class="badge">TS</span></div>
 </a>
-<a class="card" href="https://github.com/kopia/kopia" target="_blank" rel="noopener">
+<a class="card" href="gems/kopia.html">
 <div class="crow"><span class="nm">Kopia</span><span class="st">★ 14k</span></div>
 <p class="ds">Encrypted, deduplicated, incremental backups with a friendly GUI.</p>
 <div class="mta"><span class="badge cat">🚀 DevOps & Deploy</span><span class="badge b1">Ready to use</span><span class="badge">Win·mac·Linux</span></div>
 </a>
-<a class="card" href="https://github.com/rolldown/rolldown" target="_blank" rel="noopener">
+<a class="card" href="gems/rolldown.html">
 <div class="crow"><span class="nm">Rolldown</span><span class="st">★ 14k</span></div>
 <p class="ds">The Rust bundler becoming the engine of the next Vite.</p>
 <div class="mta"><span class="badge cat">🌐 Frontend & Creative</span><span class="badge b3">For developers</span><span class="badge">Rust</span></div>
 </a>
-<a class="card" href="https://github.com/shuding/nextra" target="_blank" rel="noopener">
+<a class="card" href="gems/nextra.html">
 <div class="crow"><span class="nm">Nextra</span><span class="st">★ 14k</span></div>
 <p class="ds">The docs/blog framework behind half the sleek Next.js sites you've seen.</p>
 <div class="mta"><span class="badge cat">🌐 Frontend & Creative</span><span class="badge b3">For developers</span><span class="badge">JS</span></div>
 </a>
-<a class="card" href="https://github.com/ajayyy/SponsorBlock" target="_blank" rel="noopener">
+<a class="card" href="gems/sponsorblock.html">
 <div class="crow"><span class="nm">SponsorBlock</span><span class="st">★ 14k</span></div>
 <p class="ds">Crowd-sourced timestamps that auto-skip YouTube sponsor segments.</p>
 <div class="mta"><span class="badge cat">🔐 Privacy & Security</span><span class="badge b1">Ready to use</span><span class="badge">Chrome·Firefox</span></div>
 </a>
-<a class="card" href="https://github.com/borgbackup/borg" target="_blank" rel="noopener">
+<a class="card" href="gems/borg.html">
 <div class="crow"><span class="nm">BorgBackup</span><span class="st">★ 14k</span></div>
 <p class="ds">The classic deduplicating backup archiver — trusted for a decade.</p>
 <div class="mta"><span class="badge cat">🚀 DevOps & Deploy</span><span class="badge b2">Easy setup</span><span class="badge">CLI</span></div>
 </a>
-<a class="card" href="https://github.com/Zettlr/Zettlr" target="_blank" rel="noopener">
+<a class="card" href="gems/zettlr.html">
 <div class="crow"><span class="nm">Zettlr</span><span class="st">★ 14k</span></div>
 <p class="ds">Markdown writing app designed for scholars, theses and very long documents.</p>
 <div class="mta"><span class="badge cat">🧰 Everyday Apps</span><span class="badge b1">Ready to use</span><span class="badge">Win·mac·Linux</span></div>
 </a>
-<a class="card" href="https://github.com/jonas/tig" target="_blank" rel="noopener">
+<a class="card" href="gems/tig.html">
 <div class="crow"><span class="nm">tig</span><span class="st">★ 13k</span></div>
 <p class="ds">Git in the terminal, visually: browse history, stage hunks, chase blame.</p>
 <div class="mta"><span class="badge cat">⌨️ Terminal Gems</span><span class="badge b2">Easy setup</span><span class="badge">CLI</span></div>
 </a>
-<a class="card" href="https://github.com/plantuml/plantuml" target="_blank" rel="noopener">
+<a class="card" href="gems/plantuml.html">
 <div class="crow"><span class="nm">PlantUML</span><span class="st">★ 13k</span></div>
 <p class="ds">The classic text-to-diagram engine: UML and much more, still undefeated.</p>
 <div class="mta"><span class="badge cat">📊 Data & Viz</span><span class="badge b3">For developers</span><span class="badge">Java·Web</span></div>
 </a>
-<a class="card" href="https://github.com/mealie-recipes/mealie" target="_blank" rel="noopener">
+<a class="card" href="gems/mealie.html">
 <div class="crow"><span class="nm">Mealie</span><span class="st">★ 13k</span></div>
 <p class="ds">Self-hosted recipe manager with a slick app — your cookbook, backed up forever.</p>
 <div class="mta"><span class="badge cat">🧰 Everyday Apps</span><span class="badge b2">Easy setup</span><span class="badge">Docker·Web</span></div>
 </a>
-<a class="card" href="https://github.com/CleverRaven/Cataclysm-DDA" target="_blank" rel="noopener">
+<a class="card" href="gems/cataclysm.html">
 <div class="crow"><span class="nm">Cataclysm DDA</span><span class="st">★ 13k</span></div>
 <p class="ds">The deepest survival roguelike ever made — infinitely replayable.</p>
 <div class="mta"><span class="badge cat">🎮 Games & Fun</span><span class="badge b1">Ready to use</span><span class="badge">Win·mac·Linux</span></div>
 </a>
-<a class="card" href="https://github.com/beemdevelopment/Aegis" target="_blank" rel="noopener">
+<a class="card" href="gems/aegis.html">
 <div class="crow"><span class="nm">Aegis</span><span class="st">★ 13k</span></div>
 <p class="ds">2FA app for Android: encrypted, exports openly, backs up — what Google Authenticator should be.</p>
 <div class="mta"><span class="badge cat">🧰 Everyday Apps</span><span class="badge b1">Ready to use</span><span class="badge">Android</span></div>
 </a>
-<a class="card" href="https://github.com/lllyasviel/stable-diffusion-webui-forge" target="_blank" rel="noopener">
+<a class="card" href="gems/forge.html">
 <div class="crow"><span class="nm">SD WebUI Forge</span><span class="st">★ 13k</span></div>
 <p class="ds">The WebUI branch that runs bigger models on less VRAM.</p>
 <div class="mta"><span class="badge cat">🤖 AI & Local Models</span><span class="badge b2">Easy setup</span><span class="badge">Web</span></div>
 </a>
-<a class="card" href="https://github.com/89luca89/distrobox" target="_blank" rel="noopener">
+<a class="card" href="gems/distrobox.html">
 <div class="crow"><span class="nm">Distrobox</span><span class="st">★ 13k</span></div>
 <p class="ds">Use any Linux distro inside your terminal, seamlessly — Ubuntu tools on Arch, no reboot.</p>
 <div class="mta"><span class="badge cat">🚀 DevOps & Deploy</span><span class="badge b2">Easy setup</span><span class="badge">Linux</span></div>
 </a>
-<a class="card" href="https://github.com/wallabag/wallabag" target="_blank" rel="noopener">
+<a class="card" href="gems/wallabag.html">
 <div class="crow"><span class="nm">Wallabag</span><span class="st">★ 13k</span></div>
 <p class="ds">Self-hosted read-it-later: save articles from the firehose, read them calmly.</p>
 <div class="mta"><span class="badge cat">🧰 Everyday Apps</span><span class="badge b2">Easy setup</span><span class="badge">Web·Docker</span></div>
 </a>
-<a class="card" href="https://github.com/Canop/broot" target="_blank" rel="noopener">
+<a class="card" href="gems/broot.html">
 <div class="crow"><span class="nm">broot</span><span class="st">★ 13k</span></div>
 <p class="ds">Navigate huge directory trees interactively — never cd-guess again.</p>
 <div class="mta"><span class="badge cat">⌨️ Terminal Gems</span><span class="badge b2">Easy setup</span><span class="badge">CLI·mac·Linux</span></div>
 </a>
-<a class="card" href="https://github.com/zealdocs/zeal" target="_blank" rel="noopener">
+<a class="card" href="gems/zeal.html">
 <div class="crow"><span class="nm">Zeal</span><span class="st">★ 13k</span></div>
 <p class="ds">Offline API documentation for 200+ languages — instant answers on a plane.</p>
 <div class="mta"><span class="badge cat">🛠️ Developer Tools</span><span class="badge b1">Ready to use</span><span class="badge">Win·Linux</span></div>
 </a>
-<a class="card" href="https://github.com/marp-team/marp" target="_blank" rel="noopener">
+<a class="card" href="gems/marp.html">
 <div class="crow"><span class="nm">Marp</span><span class="st">★ 13k</span></div>
 <p class="ds">Write slides in Markdown, present anywhere — decks at the speed of thought.</p>
 <div class="mta"><span class="badge cat">🌐 Frontend & Creative</span><span class="badge b2">Easy setup</span><span class="badge">CLI·VSCode</span></div>
 </a>
-<a class="card" href="https://github.com/dlvhdr/gh-dash" target="_blank" rel="noopener">
+<a class="card" href="gems/ghdash.html">
 <div class="crow"><span class="nm">gh-dash</span><span class="st">★ 13k</span></div>
 <p class="ds">Your GitHub PRs and issues as a terminal dashboard — triage without the browser.</p>
 <div class="mta"><span class="badge cat">⌨️ Terminal Gems</span><span class="badge b2">Easy setup</span><span class="badge">CLI</span></div>
 </a>
-<a class="card" href="https://github.com/bootandy/dust" target="_blank" rel="noopener">
+<a class="card" href="gems/dust.html">
 <div class="crow"><span class="nm">dust</span><span class="st">★ 12k</span></div>
 <p class="ds">du, but instantly understandable — see what's eating your disk.</p>
 <div class="mta"><span class="badge cat">⌨️ Terminal Gems</span><span class="badge b2">Easy setup</span><span class="badge">CLI</span></div>
 </a>
-<a class="card" href="https://github.com/jetify-com/devbox" target="_blank" rel="noopener">
+<a class="card" href="gems/devbox.html">
 <div class="crow"><span class="nm">Devbox</span><span class="st">★ 12k</span></div>
 <p class="ds">Instant, portable dev environments — shell in, project-ready.</p>
 <div class="mta"><span class="badge cat">🚀 DevOps & Deploy</span><span class="badge b2">Easy setup</span><span class="badge">CLI</span></div>
 </a>
-<a class="card" href="https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher" target="_blank" rel="noopener">
+<a class="card" href="gems/heroic.html">
 <div class="crow"><span class="nm">Heroic</span><span class="st">★ 12k</span></div>
 <p class="ds">Epic, GOG and Amazon games in one clean launcher.</p>
 <div class="mta"><span class="badge cat">🎮 Games & Fun</span><span class="badge b1">Ready to use</span><span class="badge">Win·mac·Linux</span></div>
 </a>
-<a class="card" href="https://github.com/TwiN/gatus" target="_blank" rel="noopener">
+<a class="card" href="gems/gatus.html">
 <div class="crow"><span class="nm">Gatus</span><span class="st">★ 12k</span></div>
 <p class="ds">A health dashboard for endpoints and cron jobs — if it's down, you know.</p>
 <div class="mta"><span class="badge cat">🚀 DevOps & Deploy</span><span class="badge b2">Easy setup</span><span class="badge">Docker</span></div>
 </a>
-<a class="card" href="https://github.com/sonic-pi-net/sonic-pi" target="_blank" rel="noopener">
+<a class="card" href="gems/sonicpi.html">
 <div class="crow"><span class="nm">Sonic Pi</span><span class="st">★ 12k</span></div>
 <p class="ds">Live-code music on stage: write Ruby, hear synths. A coding instrument.</p>
 <div class="mta"><span class="badge cat">🎬 Photo · Audio · Video</span><span class="badge b2">Easy setup</span><span class="badge">Win·mac·Linux·Raspberry Pi</span></div>
 </a>
-<a class="card" href="https://github.com/rany2/edge-tts" target="_blank" rel="noopener">
+<a class="card" href="gems/edgetts.html">
 <div class="crow"><span class="nm">edge-tts</span><span class="st">★ 12k</span></div>
 <p class="ds">Use Microsoft Edge's online neural voices from Python, for free.</p>
 <div class="mta"><span class="badge cat">🤖 AI & Local Models</span><span class="badge b3">For developers</span><span class="badge">Python</span></div>
 </a>
-<a class="card" href="https://github.com/LostRuins/koboldcpp" target="_blank" rel="noopener">
+<a class="card" href="gems/koboldcpp.html">
 <div class="crow"><span class="nm">KoboldCpp</span><span class="st">★ 12k</span></div>
 <p class="ds">Run local LLMs from a single executable — no install, no ceremony.</p>
 <div class="mta"><span class="badge cat">🤖 AI & Local Models</span><span class="badge b2">Easy setup</span><span class="badge">Win·mac·Linux</span></div>
 </a>
-<a class="card" href="https://github.com/sissbruecker/linkding" target="_blank" rel="noopener">
+<a class="card" href="gems/linkding.html">
 <div class="crow"><span class="nm">linkding</span><span class="st">★ 11k</span></div>
 <p class="ds">Minimalist bookmark service — runs happily on a Raspberry Pi.</p>
 <div class="mta"><span class="badge cat">🏠 Self-Hosted</span><span class="badge b2">Easy setup</span><span class="badge">Docker·Web</span></div>
 </a>
-<a class="card" href="https://github.com/mawww/kakoune" target="_blank" rel="noopener">
+<a class="card" href="gems/kakoune.html">
 <div class="crow"><span class="nm">Kakoune</span><span class="st">★ 11k</span></div>
 <p class="ds">Modal editor with selection-first editing — Vim's most interesting rethink.</p>
 <div class="mta"><span class="badge cat">⌨️ Terminal Gems</span><span class="badge b3">For developers</span><span class="badge">CLI·mac·Linux</span></div>
 </a>
-<a class="card" href="https://github.com/99designs/gqlgen" target="_blank" rel="noopener">
+<a class="card" href="gems/gqlgen.html">
 <div class="crow"><span class="nm">gqlgen</span><span class="st">★ 11k</span></div>
 <p class="ds">Schema-first GraphQL server for Go — codegen does the boring parts.</p>
 <div class="mta"><span class="badge cat">⚙️ Backend & Databases</span><span class="badge b3">For developers</span><span class="badge">Go</span></div>
 </a>
-<a class="card" href="https://github.com/sigoden/aichat" target="_blank" rel="noopener">
+<a class="card" href="gems/aichat.html">
 <div class="crow"><span class="nm">aichat</span><span class="st">★ 10k</span></div>
 <p class="ds">All-in-one LLM CLI: chat, roleplay, shell integration, 20+ providers.</p>
 <div class="mta"><span class="badge cat">⌨️ Terminal Gems</span><span class="badge b2">Easy setup</span><span class="badge">CLI</span></div>
 </a>
-<a class="card" href="https://github.com/LMMS/lmms" target="_blank" rel="noopener">
-<div class="crow"><span class="nm">LMMS</span><span class="st">★ 10k</span></div>
-<p class="ds">Music production workstation: beats, synths, mixing — the free FL Studio.</p>
-<div class="mta"><span class="badge cat">🎬 Photo · Audio · Video</span><span class="badge b1">Ready to use</span><span class="badge">Win·mac·Linux</span></div>
-</a>
-<a class="card" href="https://github.com/Orama-Interactive/Pixelorama" target="_blank" rel="noopener">
+<a class="card" href="gems/pixelorama.html">
 <div class="crow"><span class="nm">Pixelorama</span><span class="st">★ 10k</span></div>
 <p class="ds">A polished free pixel-art editor built with Godot.</p>
 <div class="mta"><span class="badge cat">🖌️ Design & Icons</span><span class="badge b1">Ready to use</span><span class="badge">Win·mac·Linux</span></div>
 </a>
-<a class="card" href="https://github.com/healthchecks/healthchecks" target="_blank" rel="noopener">
+<a class="card" href="gems/lmms.html">
+<div class="crow"><span class="nm">LMMS</span><span class="st">★ 10k</span></div>
+<p class="ds">Music production workstation: beats, synths, mixing — the free FL Studio.</p>
+<div class="mta"><span class="badge cat">🎬 Photo · Audio · Video</span><span class="badge b1">Ready to use</span><span class="badge">Win·mac·Linux</span></div>
+</a>
+<a class="card" href="gems/healthchecks.html">
 <div class="crow"><span class="nm">Healthchecks</span><span class="st">★ 10k</span></div>
 <p class="ds">A dead-man's switch for cron jobs — ping me, or I alert.</p>
 <div class="mta"><span class="badge cat">🏠 Self-Hosted</span><span class="badge b2">Easy setup</span><span class="badge">Docker</span></div>
 </a>
-<a class="card" href="https://github.com/lutris/lutris" target="_blank" rel="noopener">
+<a class="card" href="gems/lutris.html">
 <div class="crow"><span class="nm">Lutris</span><span class="st">★ 10k</span></div>
 <p class="ds">The one launcher that keeps Linux gaming organized.</p>
 <div class="mta"><span class="badge cat">🎮 Games & Fun</span><span class="badge b1">Ready to use</span><span class="badge">Linux</span></div>
 </a>
-<a class="card" href="https://github.com/miniflux/v2" target="_blank" rel="noopener">
+<a class="card" href="gems/miniflux.html">
 <div class="crow"><span class="nm">miniflux</span><span class="st">★ 9.7k</span></div>
 <p class="ds">Opinionated, minimalist RSS server in Go — boring in the best way.</p>
 <div class="mta"><span class="badge cat">🏠 Self-Hosted</span><span class="badge b2">Easy setup</span><span class="badge">Docker</span></div>
 </a>
-<a class="card" href="https://github.com/withastro/starlight" target="_blank" rel="noopener">
+<a class="card" href="gems/starlight.html">
 <div class="crow"><span class="nm">Starlight</span><span class="st">★ 9.3k</span></div>
 <p class="ds">Astro's docs framework: fast, accessible, i18n-ready out of the box.</p>
 <div class="mta"><span class="badge cat">🌐 Frontend & Creative</span><span class="badge b3">For developers</span><span class="badge">JS</span></div>
 </a>
-<a class="card" href="https://github.com/bottlesdevs/Bottles" target="_blank" rel="noopener">
+<a class="card" href="gems/bottles.html">
 <div class="crow"><span class="nm">Bottles</span><span class="st">★ 8.9k</span></div>
 <p class="ds">Run Windows apps and games on Linux through tidy, managed bottles.</p>
 <div class="mta"><span class="badge cat">🎮 Games & Fun</span><span class="badge b1">Ready to use</span><span class="badge">Linux</span></div>
 </a>
-<a class="card" href="https://github.com/litestar-org/litestar" target="_blank" rel="noopener">
+<a class="card" href="gems/litestar.html">
 <div class="crow"><span class="nm">Litestar</span><span class="st">★ 8.5k</span></div>
 <p class="ds">A fast, thoughtfully async Python web framework.</p>
 <div class="mta"><span class="badge cat">⚙️ Backend & Databases</span><span class="badge b3">For developers</span><span class="badge">Python</span></div>
 </a>
-<a class="card" href="https://github.com/mockoon/mockoon" target="_blank" rel="noopener">
+<a class="card" href="gems/mockoon.html">
 <div class="crow"><span class="nm">Mockoon</span><span class="st">★ 8.4k</span></div>
 <p class="ds">Mock API servers in a few clicks — build UIs without waiting for the backend.</p>
 <div class="mta"><span class="badge cat">🛠️ Developer Tools</span><span class="badge b1">Ready to use</span><span class="badge">Win·mac·Linux</span></div>
 </a>
-<a class="card" href="https://github.com/openttd/OpenTTD" target="_blank" rel="noopener">
+<a class="card" href="gems/openttd.html">
 <div class="crow"><span class="nm">OpenTTD</span><span class="st">★ 8.3k</span></div>
 <p class="ds">The transport-empire tycoon, 20+ years strong and still shipping.</p>
 <div class="mta"><span class="badge cat">🎮 Games & Fun</span><span class="badge b1">Ready to use</span><span class="badge">Win·mac·Linux</span></div>
 </a>
-<a class="card" href="https://github.com/inertiajs/inertia" target="_blank" rel="noopener">
+<a class="card" href="gems/inertia.html">
 <div class="crow"><span class="nm">Inertia.js</span><span class="st">★ 8.1k</span></div>
 <p class="ds">Build SPAs without building an API — the glue you didn't know you wanted.</p>
 <div class="mta"><span class="badge cat">🌐 Frontend & Creative</span><span class="badge b3">For developers</span><span class="badge">JS</span></div>
 </a>
-<a class="card" href="https://github.com/LibrePhotos/librephotos" target="_blank" rel="noopener">
+<a class="card" href="gems/librephotos.html">
 <div class="crow"><span class="nm">LibrePhotos</span><span class="st">★ 8.1k</span></div>
 <p class="ds">Self-hosted photos with face recognition and auto-organization.</p>
 <div class="mta"><span class="badge cat">🏠 Self-Hosted</span><span class="badge b2">Easy setup</span><span class="badge">Docker</span></div>
 </a>
-<a class="card" href="https://github.com/fontforge/fontforge" target="_blank" rel="noopener">
+<a class="card" href="gems/fontforge.html">
 <div class="crow"><span class="nm">FontForge</span><span class="st">★ 8k</span></div>
 <p class="ds">The open-source font editor — design your own typeface from scratch.</p>
 <div class="mta"><span class="badge cat">🖌️ Design & Icons</span><span class="badge b2">Easy setup</span><span class="badge">Win·mac·Linux</span></div>
 </a>
-<a class="card" href="https://github.com/timqian/chart.xkcd" target="_blank" rel="noopener">
+<a class="card" href="gems/chartxkcd.html">
 <div class="crow"><span class="nm">chart.xkcd</span><span class="st">★ 7.9k</span></div>
 <p class="ds">Hand-drawn, xkcd-flavored charts — serious data, disarming style.</p>
 <div class="mta"><span class="badge cat">📊 Data & Viz</span><span class="badge b3">For developers</span><span class="badge">JS</span></div>
 </a>
-<a class="card" href="https://github.com/opentoonz/opentoonz" target="_blank" rel="noopener">
+<a class="card" href="gems/opentoonz.html">
 <div class="crow"><span class="nm">OpenToonz</span><span class="st">★ 7.8k</span></div>
 <p class="ds">2D animation software with studio pedigree — Ghibli's toolchain cousin.</p>
 <div class="mta"><span class="badge cat">🖌️ Design & Icons</span><span class="badge b1">Ready to use</span><span class="badge">Win·mac·Linux</span></div>
 </a>
-<a class="card" href="https://github.com/cachix/devenv" target="_blank" rel="noopener">
+<a class="card" href="gems/devenv.html">
 <div class="crow"><span class="nm">devenv</span><span class="st">★ 7.7k</span></div>
 <p class="ds">Fast, declarative dev shells without learning Nix the language.</p>
 <div class="mta"><span class="badge cat">🚀 DevOps & Deploy</span><span class="badge b3">For developers</span><span class="badge">CLI</span></div>
 </a>
-<a class="card" href="https://github.com/veloren/veloren" target="_blank" rel="noopener">
-<div class="crow"><span class="nm">Veloren</span><span class="st">★ 7.6k</span></div>
-<p class="ds">A community-built multiplayer voxel RPG — open-source Zelda energy.</p>
-<div class="mta"><span class="badge cat">🎮 Games & Fun</span><span class="badge b1">Ready to use</span><span class="badge">Win·mac·Linux</span></div>
-</a>
-<a class="card" href="https://github.com/endless-sky/endless-sky" target="_blank" rel="noopener">
+<a class="card" href="gems/endlesssky.html">
 <div class="crow"><span class="nm">Endless Sky</span><span class="st">★ 7.6k</span></div>
 <p class="ds">Trade and fight across the galaxy — the Escape Velocity spirit, alive.</p>
 <div class="mta"><span class="badge cat">🎮 Games & Fun</span><span class="badge b1">Ready to use</span><span class="badge">Win·mac·Linux</span></div>
 </a>
-<a class="card" href="https://github.com/Kunzisoft/KeePassDX" target="_blank" rel="noopener">
+<a class="card" href="gems/veloren.html">
+<div class="crow"><span class="nm">Veloren</span><span class="st">★ 7.6k</span></div>
+<p class="ds">A community-built multiplayer voxel RPG — open-source Zelda energy.</p>
+<div class="mta"><span class="badge cat">🎮 Games & Fun</span><span class="badge b1">Ready to use</span><span class="badge">Win·mac·Linux</span></div>
+</a>
+<a class="card" href="gems/keepassdx.html">
 <div class="crow"><span class="nm">KeePassDX</span><span class="st">★ 7.4k</span></div>
 <p class="ds">KeePass for Android: manage that one encrypted vault from your phone.</p>
 <div class="mta"><span class="badge cat">🧰 Everyday Apps</span><span class="badge b1">Ready to use</span><span class="badge">Android</span></div>
 </a>
-<a class="card" href="https://github.com/chmln/sd" target="_blank" rel="noopener">
+<a class="card" href="gems/sd.html">
 <div class="crow"><span class="nm">sd</span><span class="st">★ 7.4k</span></div>
 <p class="ds">Find & replace for humans — regex without the sed headache.</p>
 <div class="mta"><span class="badge cat">⌨️ Terminal Gems</span><span class="badge b2">Easy setup</span><span class="badge">CLI</span></div>
 </a>
-<a class="card" href="https://github.com/mixxxdj/mixxx" target="_blank" rel="noopener">
+<a class="card" href="gems/mixxx.html">
 <div class="crow"><span class="nm">Mixxx</span><span class="st">★ 7.2k</span></div>
 <p class="ds">Free DJ software that talks to real controllers — mix your first set tonight.</p>
 <div class="mta"><span class="badge cat">🎬 Photo · Audio · Video</span><span class="badge b1">Ready to use</span><span class="badge">Win·mac·Linux</span></div>
 </a>
-<a class="card" href="https://github.com/evidence-dev/evidence" target="_blank" rel="noopener">
+<a class="card" href="gems/evidence.html">
 <div class="crow"><span class="nm">Evidence</span><span class="st">★ 7k</span></div>
 <p class="ds">BI as code: SQL + Markdown compile into a data app.</p>
 <div class="mta"><span class="badge cat">📊 Data & Viz</span><span class="badge b3">For developers</span><span class="badge">JS</span></div>
 </a>
-<a class="card" href="https://github.com/jlfwong/speedscope" target="_blank" rel="noopener">
+<a class="card" href="gems/speedscope.html">
 <div class="crow"><span class="nm">speedscope</span><span class="st">★ 6.8k</span></div>
 <p class="ds">Drop a profile file, get an interactive flamegraph — profiling made visual.</p>
 <div class="mta"><span class="badge cat">🛠️ Developer Tools</span><span class="badge b1">Ready to use</span><span class="badge">Web</span></div>
 </a>
-<a class="card" href="https://github.com/00-Evan/shattered-pixel-dungeon" target="_blank" rel="noopener">
+<a class="card" href="gems/spd.html">
 <div class="crow"><span class="nm">Shattered Pixel Dungeon</span><span class="st">★ 6.6k</span></div>
 <p class="ds">A roguelike polished to a mirror shine that fits in your pocket.</p>
 <div class="mta"><span class="badge cat">🎮 Games & Fun</span><span class="badge b1">Ready to use</span><span class="badge">Android·iOS·Desktop</span></div>
 </a>
-<a class="card" href="https://github.com/dbrgn/tealdeer" target="_blank" rel="noopener">
+<a class="card" href="gems/tealdeer.html">
 <div class="crow"><span class="nm">tealdeer</span><span class="st">★ 6.6k</span></div>
 <p class="ds">Command examples on demand — tldr pages in milliseconds.</p>
 <div class="mta"><span class="badge cat">⌨️ Terminal Gems</span><span class="badge b2">Easy setup</span><span class="badge">CLI</span></div>
 </a>
-<a class="card" href="https://github.com/tridactyl/tridactyl" target="_blank" rel="noopener">
+<a class="card" href="gems/tridactyl.html">
 <div class="crow"><span class="nm">Tridactyl</span><span class="st">★ 6.4k</span></div>
 <p class="ds">Vim bindings for Firefox, deeply hackable.</p>
 <div class="mta"><span class="badge cat">🔐 Privacy & Security</span><span class="badge b1">Ready to use</span><span class="badge">Firefox</span></div>
 </a>
-<a class="card" href="https://github.com/iconify/iconify" target="_blank" rel="noopener">
+<a class="card" href="gems/iconify.html">
 <div class="crow"><span class="nm">Iconify</span><span class="st">★ 6.3k</span></div>
 <p class="ds">One framework, 200,000+ icons from every major set.</p>
 <div class="mta"><span class="badge cat">🖌️ Design & Icons</span><span class="badge b2">Easy setup</span><span class="badge">Web·JS</span></div>
 </a>
-<a class="card" href="https://github.com/lightdash/lightdash" target="_blank" rel="noopener">
+<a class="card" href="gems/lightdash.html">
 <div class="crow"><span class="nm">Lightdash</span><span class="st">★ 6.2k</span></div>
 <p class="ds">The BI layer built for dbt — metrics straight from your models.</p>
 <div class="mta"><span class="badge cat">📊 Data & Viz</span><span class="badge b3">For developers</span><span class="badge">Docker</span></div>
 </a>
-<a class="card" href="https://github.com/KDE/kdenlive" target="_blank" rel="noopener">
+<a class="card" href="gems/kdenlive.html">
 <div class="crow"><span class="nm">Kdenlive</span><span class="st">★ 5.7k</span></div>
 <p class="ds">Professional open-source video editing from KDE — a serious free Premiere alternative.</p>
 <div class="mta"><span class="badge cat">🎬 Photo · Audio · Video</span><span class="badge b1">Ready to use</span><span class="badge">Win·mac·Linux</span></div>
 </a>
-<a class="card" href="https://github.com/go-vikunja/vikunja" target="_blank" rel="noopener">
+<a class="card" href="gems/vikunja.html">
 <div class="crow"><span class="nm">Vikunja</span><span class="st">★ 5.5k</span></div>
 <p class="ds">Self-hosted todo lists and kanban — migrate from Todoist in one click.</p>
 <div class="mta"><span class="badge cat">🏠 Self-Hosted</span><span class="badge b2">Easy setup</span><span class="badge">Docker</span></div>
 </a>
-<a class="card" href="https://github.com/argyleink/open-props" target="_blank" rel="noopener">
+<a class="card" href="gems/openprops.html">
 <div class="crow"><span class="nm">Open Props</span><span class="st">★ 5.5k</span></div>
 <p class="ds">A drawer of supercharged CSS variables — design tokens, ready to use.</p>
 <div class="mta"><span class="badge cat">🌐 Frontend & Creative</span><span class="badge b3">For developers</span><span class="badge">CSS</span></div>
 </a>
-<a class="card" href="https://github.com/supertuxkart/stk-code" target="_blank" rel="noopener">
+<a class="card" href="gems/stk.html">
 <div class="crow"><span class="nm">SuperTuxKart</span><span class="st">★ 5.4k</span></div>
 <p class="ds">A mascot kart racer with actual online multiplayer.</p>
 <div class="mta"><span class="badge cat">🎮 Games & Fun</span><span class="badge b1">Ready to use</span><span class="badge">Win·mac·Linux</span></div>
 </a>
-<a class="card" href="https://github.com/pomerium/pomerium" target="_blank" rel="noopener">
+<a class="card" href="gems/pomerium.html">
 <div class="crow"><span class="nm">Pomerium</span><span class="st">★ 5k</span></div>
 <p class="ds">Identity-aware proxy: zero-trust access to your internal apps.</p>
 <div class="mta"><span class="badge cat">🔐 Privacy & Security</span><span class="badge b3">For developers</span><span class="badge">Docker</span></div>
 </a>
-<a class="card" href="https://github.com/oliverschwendener/ueli" target="_blank" rel="noopener">
+<a class="card" href="gems/ueli.html">
 <div class="crow"><span class="nm">Ueli</span><span class="st">★ 4.6k</span></div>
 <p class="ds">Keystroke launcher for Windows & macOS — a free Spotlight that opens anything in 3 keys.</p>
 <div class="mta"><span class="badge cat">🧰 Everyday Apps</span><span class="badge b1">Ready to use</span><span class="badge">Win·mac</span></div>
 </a>
-<a class="card" href="https://github.com/AdguardTeam/AdGuardBrowserExtension" target="_blank" rel="noopener">
+<a class="card" href="gems/adguard.html">
 <div class="crow"><span class="nm">AdGuard extension</span><span class="st">★ 4.4k</span></div>
 <p class="ds">The open-source AdGuard extension — no 'acceptable ads' deals.</p>
 <div class="mta"><span class="badge cat">🔐 Privacy & Security</span><span class="badge b1">Ready to use</span><span class="badge">Chrome·Firefox</span></div>
 </a>
-<a class="card" href="https://github.com/VCVRack/Rack" target="_blank" rel="noopener">
+<a class="card" href="gems/vcvrack.html">
 <div class="crow"><span class="nm">VCV Rack</span><span class="st">★ 4.4k</span></div>
 <p class="ds">A full Eurorack modular synth in software — patch cables included, soldering not.</p>
 <div class="mta"><span class="badge cat">🎬 Photo · Audio · Video</span><span class="badge b2">Easy setup</span><span class="badge">Win·mac·Linux</span></div>
 </a>
-<a class="card" href="https://github.com/EFForg/privacybadger" target="_blank" rel="noopener">
+<a class="card" href="gems/privacybadger.html">
 <div class="crow"><span class="nm">Privacy Badger</span><span class="st">★ 3.9k</span></div>
 <p class="ds">EFF's tracker blocker that learns as you browse.</p>
 <div class="mta"><span class="badge cat">🔐 Privacy & Security</span><span class="badge b1">Ready to use</span><span class="badge">Chrome·Firefox</span></div>
 </a>
-<a class="card" href="https://github.com/dynobo/normcap" target="_blank" rel="noopener">
+<a class="card" href="gems/normcap.html">
 <div class="crow"><span class="nm">NormCap</span><span class="st">★ 2.7k</span></div>
 <p class="ds">Screenshot → text. Small OCR utility that quietly saves your day, again and again.</p>
 <div class="mta"><span class="badge cat">🧰 Everyday Apps</span><span class="badge b1">Ready to use</span><span class="badge">Win·mac·Linux</span></div>
 </a>
-<a class="card" href="https://github.com/kiwix/kiwix-desktop" target="_blank" rel="noopener">
+<a class="card" href="gems/kiwix.html">
 <div class="crow"><span class="nm">Kiwix</span><span class="st">★ 1.5k</span></div>
 <p class="ds">Carry all of Wikipedia (plus many sites) fully offline on a laptop or USB stick.</p>
 <div class="mta"><span class="badge cat">🧰 Everyday Apps</span><span class="badge b1">Ready to use</span><span class="badge">Win·mac·Linux·Android</span></div>
@@ -980,19 +982,19 @@ footer a{color:var(--acc);font-weight:600}
     <div class="shead"><span class="snum">03</span><h2 data-i18n="s3h">What makes a gem</h2></div>
     <p class="ssub" data-i18n="s3sub">Four rules, applied by hand to every entry — no auto-scraping, no paid placements.</p>
     <div class="crit">
-      <div class="cri"><span class="cic">🎯</span><div><b data-i18n="c1t">The 1k–30k star band</b><span data-i18n="c1d">Below 1k quality is unproven; above 30k it's already famous. The middle is where hidden gems live.</span></div></div>
+      <div class="cri"><span class="cic">🎯</span><div><b data-i18n="c1t">The 1k–30k star band</b><span data-i18n="c1d">Below 1k quality is unproven; above 30k it's already famous. The middle is where hidden gems live — gems that outgrow the band get a 🎓 badge and stay.</span></div></div>
       <div class="cri"><span class="cic">🌱</span><div><b data-i18n="c2t">Actively maintained</b><span data-i18n="c2d">Updated within 24 months and not archived — every entry re-verified against the GitHub API.</span></div></div>
       <div class="cri"><span class="cic">📦</span><div><b data-i18n="c3t">A real working product</b><span data-i18n="c3d">Something you can download, deploy or install today — not a plan, not a paper.</span></div></div>
       <div class="cri"><span class="cic">💎</span><div><b data-i18n="c4t">Fame « quality</b><span data-i18n="c4d">The guiding star: usefulness far above popularity — many are under-known in the Chinese-speaking world too.</span></div></div>
     </div>
-    <p class="note" data-i18n="critNote">Star counts drift daily — treat them as a snapshot taken 2026-09-27. Spotted something wrong? Open an issue.</p>
+    <p class="note" data-i18n="critNote">Star counts drift daily — treat them as an approximate snapshot (verified date shown up top). Gems that outgrow the band get a 🎓 badge and stay. Spotted something wrong? Open an issue.</p>
   </section>
 
   <!-- ========== FAQ ========== -->
   <section id="faq" class="faq">
     <div class="shead"><span class="snum">04</span><h2 data-i18n="s4h">FAQ</h2></div>
     <details><summary data-i18n="fq1">What counts as a "gem" here?</summary><p data-i18n="fa1">Projects with 1,000–30,000 GitHub stars, actively maintained (updated within 24 months, not archived), with a real working product you can use today — and quality far above their fame.</p></details>
-    <details><summary data-i18n="fq2">Why the 1k–30k star range?</summary><p data-i18n="fa2">Below 1k stars quality is hard to guarantee; above 30k a project is usually already famous and doesn't need discovering. The sweet spot is where quality is proven but the project is still under-known — especially in the Chinese-speaking community.</p></details>
+    <details><summary data-i18n="fq2">Why the 1k–30k star range?</summary><p data-i18n="fa2">Below 1k stars quality is hard to guarantee; above 30k a project is usually already famous and doesn't need discovering. The sweet spot is where quality is proven but the project is still under-known — especially in the Chinese-speaking community. When a listed gem outgrows 30k stars, it earns a 🎓 Graduated badge and stays on the list.</p></details>
     <details><summary data-i18n="fq3">Are the star counts accurate?</summary><p data-i18n="fa3">Every project was live-verified against the GitHub API on the date shown at the top of the page. Counts drift over time, so treat them as an approximate snapshot.</p></details>
     <details><summary data-i18n="fq4">How do I submit a gem?</summary><p data-i18n="fa4">Open an issue on the GitHub repository with the project link and why it deserves a spot. Submissions are reviewed by hand before being added.</p></details>
     <details><summary data-i18n="fq5">I'm a complete beginner — where do I start?</summary><p data-i18n="fa5">Start with the "New to GitHub" section: it explains stars, forks, issues and pull requests in plain words, plus a 3-point checklist for judging any project. Then browse gems tagged "Ready to use" — downloadable apps that need zero coding.</p></details>
@@ -1014,12 +1016,13 @@ footer a{color:var(--acc);font-weight:600}
 </footer>
 
 <!--GEMSJSON:START-->
-<script type="application/json" id="gemsData">[{"id":"ente","n":"Ente","r":"ente-io/ente","s":29102,"c":"apps","lv":1,"p":"iOS·Android·Win·mac·Linux","t":["photos","privacy","backup","相册"],"de":"End-to-end encrypted photos — a self-hostable Google Photos alternative you truly own.","dz":"端到端加密相册服务：照片真正属于你，可自建。"},{"id":"keepassxc","n":"KeePassXC","r":"keepassxreboot/keepassxc","s":28982,"c":"apps","lv":1,"p":"Win·mac·Linux","t":["password","security","密码"],"de":"Offline password manager: one encrypted file holds all your secrets.","dz":"离线密码管理器：一个加密文件装下所有密码。"},{"id":"karabiner","n":"Karabiner-Elements","r":"pqrs-org/Karabiner-Elements","s":22865,"c":"apps","lv":2,"p":"macOS","t":["keyboard","remap","键盘"],"de":"Remap anything on a macOS keyboard — the power tool every Mac tinkerer ends up installing.","dz":"macOS 键盘深度改造：任何按键都能重新定义，Mac 玩家的终点站。"},{"id":"alttab","n":"AltTab","r":"lwouis/alt-tab-macos","s":16329,"c":"apps","lv":1,"p":"macOS","t":["window","switcher","窗口"],"de":"Gives macOS real Windows-style Alt-Tab window switching. Why did we wait so long?","dz":"让 macOS 拥有 Windows 式 Alt-Tab 窗口切换，为何不早点装？"},{"id":"zotero","n":"Zotero","r":"zotero/zotero","s":15407,"c":"apps","lv":1,"p":"Win·mac·Linux","t":["research","papers","文献"],"de":"The reference manager for research: collect, annotate and cite papers without pain.","dz":"科研文献管理神器：收集、标注、引用一条龙。"},{"id":"zettlr","n":"Zettlr","r":"Zettlr/Zettlr","s":13587,"c":"apps","lv":1,"p":"Win·mac·Linux","t":["markdown","writing","笔记"],"de":"Markdown writing app designed for scholars, theses and very long documents.","dz":"为学术写作与长文打造的 Markdown 编辑器。"},{"id":"ueli","n":"Ueli","r":"oliverschwendener/ueli","s":4602,"c":"apps","lv":1,"p":"Win·mac","t":["launcher","spotlight","启动器"],"de":"Keystroke launcher for Windows & macOS — a free Spotlight that opens anything in 3 keys.","dz":"Win/mac 键盘启动器：三下按键打开一切的免费 Spotlight。"},{"id":"normcap","n":"NormCap","r":"dynobo/normcap","s":2733,"c":"apps","lv":1,"p":"Win·mac·Linux","t":["ocr","screenshot","截图"],"de":"Screenshot → text. Small OCR utility that quietly saves your day, again and again.","dz":"截图即取字：小而美的 OCR，一次次悄悄救场。"},{"id":"kiwix","n":"Kiwix","r":"kiwix/kiwix-desktop","s":1487,"c":"apps","lv":1,"p":"Win·mac·Linux·Android","t":["offline","wikipedia","离线"],"de":"Carry all of Wikipedia (plus many sites) fully offline on a laptop or USB stick.","dz":"把整个维基百科离线装进电脑或 U 盘。"},{"id":"aegis","n":"Aegis","r":"beemdevelopment/Aegis","s":13165,"c":"apps","lv":1,"p":"Android","t":["2fa","authenticator","两步验证"],"de":"2FA app for Android: encrypted, exports openly, backs up — what Google Authenticator should be.","dz":"安卓双因素认证应用：加密、可导出、能备份，官方器该有的样子。"},{"id":"keepassdx","n":"KeePassDX","r":"Kunzisoft/KeePassDX","s":7379,"c":"apps","lv":1,"p":"Android","t":["password","keepass","密码"],"de":"KeePass for Android: manage that one encrypted vault from your phone.","dz":"安卓端 KeePass：手机上管理同一个密码库。"},{"id":"mealie","n":"Mealie","r":"mealie-recipes/mealie","s":13337,"c":"apps","lv":2,"p":"Docker·Web","t":["recipes","cooking","食谱"],"de":"Self-hosted recipe manager with a slick app — your cookbook, backed up forever.","dz":"自建食谱管理与膳食规划，体验顺滑的私人菜谱本。"},{"id":"wallabag","n":"Wallabag","r":"wallabag/wallabag","s":12989,"c":"apps","lv":2,"p":"Web·Docker","t":["read-later","稍后读"],"de":"Self-hosted read-it-later: save articles from the firehose, read them calmly.","dz":"自建「稍后读」：把刷到的文章存下来，安静地读完。"},{"id":"shotcut","n":"Shotcut","r":"mltframework/shotcut","s":15282,"c":"media","lv":1,"p":"Win·mac·Linux","t":["video","editor","剪辑"],"de":"Full-featured free video editor — no watermark, no paywall, no account.","dz":"功能齐全的免费视频剪辑：无水印、无付费墙、无需注册。"},{"id":"kdenlive","n":"Kdenlive","r":"KDE/kdenlive","s":5745,"c":"media","lv":1,"p":"Win·mac·Linux","t":["video","editor","剪辑"],"de":"Professional open-source video editing from KDE — a serious free Premiere alternative.","dz":"KDE 出品的专业开源剪辑软件，认真的免费剪辑选择。"},{"id":"mixxx","n":"Mixxx","r":"mixxxdj/mixxx","s":7193,"c":"media","lv":1,"p":"Win·mac·Linux","t":["dj","music","打碟"],"de":"Free DJ software that talks to real controllers — mix your first set tonight.","dz":"免费 DJ 软件，支持真机打碟控制器，今晚就开工。"},{"id":"lmms","n":"LMMS","r":"LMMS/lmms","s":10396,"c":"media","lv":1,"p":"Win·mac·Linux","t":["music","daw","编曲"],"de":"Music production workstation: beats, synths, mixing — the free FL Studio.","dz":"免费音乐工作站：编曲、合成、混音一体。"},{"id":"sonicpi","n":"Sonic Pi","r":"sonic-pi-net/sonic-pi","s":12158,"c":"media","lv":2,"p":"Win·mac·Linux·Raspberry Pi","t":["live-coding","music","音乐"],"de":"Live-code music on stage: write Ruby, hear synths. A coding instrument.","dz":"用写代码的方式现场演奏音乐——一件真正的编程乐器。"},{"id":"vcvrack","n":"VCV Rack","r":"VCVRack/Rack","s":4424,"c":"media","lv":2,"p":"Win·mac·Linux","t":["synth","modular","合成器"],"de":"A full Eurorack modular synth in software — patch cables included, soldering not.","dz":"软件里的虚拟模块合成器：接线上瘾，无需电烙铁。"},{"id":"hyperfine","n":"Hyperfine","r":"sharkdp/hyperfine","s":28909,"c":"cli","lv":2,"p":"CLI","t":["benchmark","性能"],"de":"One command to benchmark anything — settle 'which is faster' with numbers.","dz":"一行命令做性能对比：用数字终结「到底谁更快」。"},{"id":"eza","n":"eza","r":"eza-community/eza","s":23385,"c":"cli","lv":2,"p":"CLI","t":["ls","files","文件"],"de":"The modern ls: colors, icons, git status — folders finally look alive.","dz":"ls 的现代替身：彩色、图标、Git 状态，目录终于有生气了。"},{"id":"broot","n":"broot","r":"Canop/broot","s":12970,"c":"cli","lv":2,"p":"CLI·mac·Linux","t":["tree","navigate","目录"],"de":"Navigate huge directory trees interactively — never cd-guess again.","dz":"在超大目录树里交互式穿梭，告别瞎猜路径。"},{"id":"dust","n":"dust","r":"bootandy/dust","s":12404,"c":"cli","lv":2,"p":"CLI","t":["disk","du","磁盘"],"de":"du, but instantly understandable — see what's eating your disk.","dz":"直观版 du：一眼看清谁在吃你的硬盘。"},{"id":"tig","n":"tig","r":"jonas/tig","s":13352,"c":"cli","lv":2,"p":"CLI","t":["git","history","日志"],"de":"Git in the terminal, visually: browse history, stage hunks, chase blame.","dz":"终端里的 Git 可视化：翻历史、暂存代码块、追责行。"},{"id":"direnv","n":"direnv","r":"direnv/direnv","s":15470,"c":"cli","lv":2,"p":"CLI·mac·Linux","t":["env","dotenv","环境变量"],"de":"Per-directory environment variables that load and unload automatically.","dz":"进入目录自动加载对应环境变量，离开自动卸载。"},{"id":"kakoune","n":"Kakoune","r":"mawww/kakoune","s":11075,"c":"cli","lv":3,"p":"CLI·mac·Linux","t":["editor","vim","编辑器"],"de":"Modal editor with selection-first editing — Vim's most interesting rethink.","dz":"「先选后改」的模态编辑器：对 Vim 最有意思的一次重新思考。"},{"id":"tealdeer","n":"tealdeer","r":"dbrgn/tealdeer","s":6552,"c":"cli","lv":2,"p":"CLI","t":["tldr","docs","手册"],"de":"Command examples on demand — tldr pages in milliseconds.","dz":"毫秒级返回命令用法示例的 tldr 客户端。"},{"id":"ghdash","n":"gh-dash","r":"dlvhdr/gh-dash","s":12561,"c":"cli","lv":2,"p":"CLI","t":["github","pr","看板"],"de":"Your GitHub PRs and issues as a terminal dashboard — triage without the browser.","dz":"终端里的 GitHub PR/Issue 看板：不开浏览器也能分诊。"},{"id":"aichat","n":"aichat","r":"sigoden/aichat","s":10471,"c":"cli","lv":2,"p":"CLI","t":["llm","ai","助手"],"de":"All-in-one LLM CLI: chat, roleplay, shell integration, 20+ providers.","dz":"命令行 AI 助手：聊天、角色、Shell 集成，20+ 平台通吃。"},{"id":"sd","n":"sd","r":"chmln/sd","s":7366,"c":"cli","lv":2,"p":"CLI","t":["sed","replace","替换"],"de":"Find & replace for humans — regex without the sed headache.","dz":"对人友好的查找替换：告别 sed 的转义地狱。"},{"id":"wezterm","n":"WezTerm","r":"wez/wezterm","s":29035,"c":"cli","lv":2,"p":"Win·mac·Linux","t":["terminal","gpu","终端"],"de":"GPU-accelerated terminal with Lua scripting — fast, cross-platform, hackable.","dz":"GPU 加速 + Lua 可编程的跨平台终端。"},{"id":"gitleaks","n":"gitleaks","r":"gitleaks/gitleaks","s":29505,"c":"devtools","lv":3,"p":"CLI·CI","t":["security","secrets","密钥"],"de":"Scan git history for leaked API keys and passwords — before attackers do.","dz":"扫描 Git 历史里泄漏的密钥密码，赶在攻击者之前。"},{"id":"precommit","n":"pre-commit","r":"pre-commit/pre-commit","s":15597,"c":"devtools","lv":3,"p":"CLI","t":["git","hooks","钩子"],"de":"One config, all languages: lint and format automatically before every commit.","dz":"一份配置管所有语言：每次提交前自动检查格式。"},{"id":"mockoon","n":"Mockoon","r":"mockoon/mockoon","s":8420,"c":"devtools","lv":1,"p":"Win·mac·Linux","t":["api","mock","接口"],"de":"Mock API servers in a few clicks — build UIs without waiting for the backend.","dz":"点几下就起的本地 Mock API 服务器：不用再等后端。"},{"id":"zeal","n":"Zeal","r":"zealdocs/zeal","s":12806,"c":"devtools","lv":1,"p":"Win·Linux","t":["docs","offline","文档"],"de":"Offline API documentation for 200+ languages — instant answers on a plane.","dz":"离线 API 文档浏览器：飞机上也能秒查 200+ 技术栈文档。"},{"id":"speedscope","n":"speedscope","r":"jlfwong/speedscope","s":6763,"c":"devtools","lv":1,"p":"Web","t":["performance","flamegraph","性能"],"de":"Drop a profile file, get an interactive flamegraph — profiling made visual.","dz":"拖入性能文件，得到可交互火焰图。"},{"id":"yq","n":"yq","r":"mikefarah/yq","s":16016,"c":"devtools","lv":2,"p":"CLI","t":["yaml","jq","配置"],"de":"yq is for YAML what jq is for JSON: slice, filter, convert everything.","dz":"处理 YAML 的 jq：切片、过滤、转换一把梭。"},{"id":"fx","n":"fx","r":"antonmedv/fx","s":20641,"c":"devtools","lv":2,"p":"CLI","t":["json","viewer","格式化"],"de":"Interactive JSON explorer in the terminal — fold, query, transform.","dz":"终端里的交互式 JSON 浏览器：折叠、查询、变换。"},{"id":"llamafile","n":"llamafile","r":"Mozilla-Ocho/llamafile","s":26079,"c":"ai","lv":1,"p":"Win·mac·Linux","t":["llm","local","本地"],"de":"A whole LLM zipped into one executable — download, run, done.","dz":"把完整大模型打包进单个可执行文件：下载即用。"},{"id":"fasterwhisper","n":"faster-whisper","r":"SYSTRAN/faster-whisper","s":25594,"c":"ai","lv":3,"p":"Python","t":["speech","whisper","语音识别"],"de":"Whisper speech recognition, 4× faster with half the memory.","dz":"提速 4 倍、省一半内存的 Whisper 语音识别。"},{"id":"whisperx","n":"whisperX","r":"m-bain/whisperX","s":24257,"c":"ai","lv":3,"p":"Python","t":["speech","transcribe","字幕"],"de":"Whisper plus word-level timestamps and speaker diarization — podcast-ready.","dz":"Whisper 加强版：词级时间戳 + 说话人分离，出字幕就靠它。"},{"id":"funasr","n":"FunASR","r":"modelscope/FunASR","s":20513,"c":"ai","lv":3,"p":"Python","t":["speech","chinese","中文"],"de":"Alibaba's open speech-recognition toolkit — first-class Chinese accuracy.","dz":"阿里开源语音识别工具箱：中文效果一流。"},{"id":"cosyvoice","n":"CosyVoice","r":"FunAudioLLM/CosyVoice","s":23773,"c":"ai","lv":3,"p":"Python","t":["tts","voice-clone","克隆"],"de":"Multi-lingual TTS with zero-shot voice cloning from a few seconds of audio.","dz":"多语言语音合成 + 几秒素材即可零样本声音克隆。"},{"id":"f5tts","n":"F5-TTS","r":"SWivid/F5-TTS","s":15296,"c":"ai","lv":3,"p":"Python","t":["tts","voice","合成"],"de":"A few seconds of reference audio → surprisingly natural cloned speech.","dz":"几秒参考音频，克隆出人意料的自然语音。"},{"id":"edgetts","n":"edge-tts","r":"rany2/edge-tts","s":12094,"c":"ai","lv":3,"p":"Python","t":["tts","microsoft","合成"],"de":"Use Microsoft Edge's online neural voices from Python, for free.","dz":"在 Python 里白嫖 Edge 的在线神经网络语音。"},{"id":"sherpa","n":"sherpa-onnx","r":"k2-fsa/sherpa-onnx","s":14983,"c":"ai","lv":3,"p":"C++·Android·iOS","t":["speech","offline","端侧"],"de":"Speech recognition and TTS running fully offline — from servers to phones.","dz":"完全离线的语音识别与合成，从服务器到手机全落地。"},{"id":"transformersjs","n":"transformers.js","r":"huggingface/transformers.js","s":16326,"c":"ai","lv":3,"p":"JS·Web","t":["llm","browser","浏览器"],"de":"Run Transformer models straight in the browser via WebGPU — no server.","dz":"在浏览器里直接跑 Transformer 模型，无需服务器。"},{"id":"webllm","n":"WebLLM","r":"mlc-ai/web-llm","s":19197,"c":"ai","lv":2,"p":"Web","t":["llm","browser","本地"],"de":"Chat with local LLMs entirely in-browser — private by construction.","dz":"纯浏览器内跑大模型对话，天然私密。"},{"id":"kotaemon","n":"kotaemon","r":"Cinnamon/kotaemon","s":25778,"c":"ai","lv":2,"p":"Web·Docker","t":["rag","documents","知识库"],"de":"A beautiful open RAG UI: chat with your PDFs and docs, locally.","dz":"颜值在线的开源 RAG 界面：和本地文档对话。"},{"id":"invokeai","n":"InvokeAI","r":"invoke-ai/InvokeAI","s":28303,"c":"ai","lv":2,"p":"Win·mac·Linux","t":["image","diffusion","绘画"],"de":"A professional-grade Stable Diffusion studio for serious image work.","dz":"专业级 Stable Diffusion 创作工作台。"},{"id":"forge","n":"SD WebUI Forge","r":"lllyasviel/stable-diffusion-webui-forge","s":13030,"c":"ai","lv":2,"p":"Web","t":["image","diffusion","绘画"],"de":"The WebUI branch that runs bigger models on less VRAM.","dz":"更省显存、跑更大模型的 WebUI 分支（ControlNet 作者出品）。"},{"id":"libretranslate","n":"LibreTranslate","r":"LibreTranslate/LibreTranslate","s":16859,"c":"ai","lv":2,"p":"Docker·API","t":["translate","翻译"],"de":"Self-hosted neural machine translation — your data never leaves the server.","dz":"自建神经机器翻译：数据不出门。"},{"id":"activepieces","n":"Activepieces","r":"activepieces/activepieces","s":24748,"c":"ai","lv":2,"p":"Docker","t":["automation","zapier","自动化"],"de":"Open-source Zapier: connect your apps and automate the boring parts.","dz":"开源 Zapier：连接应用，自动化无聊的部分。"},{"id":"koboldcpp","n":"KoboldCpp","r":"LostRuins/koboldcpp","s":11888,"c":"ai","lv":2,"p":"Win·mac·Linux","t":["llm","local","本地"],"de":"Run local LLMs from a single executable — no install, no ceremony.","dz":"单文件本地跑大模型：无需安装，开箱即用。"},{"id":"karakeep","n":"Karakeep","r":"karakeep-app/karakeep","s":29303,"c":"selfhost","lv":2,"p":"Docker·Web","t":["bookmarks","ai","书签"],"de":"AI-assisted bookmark hoarding: save links, get auto-tags and archived snapshots.","dz":"AI 书签仓：链接自动打标签、存快照，囤得安心。"},{"id":"archivebox","n":"ArchiveBox","r":"ArchiveBox/ArchiveBox","s":28626,"c":"selfhost","lv":2,"p":"Docker·CLI","t":["archive","web","存档"],"de":"Your own internet archive — save pages before they vanish.","dz":"自建互联网档案馆：在网页消失前存下来。"},{"id":"linkwarden","n":"Linkwarden","r":"linkwarden/linkwarden","s":19848,"c":"selfhost","lv":2,"p":"Docker·Web","t":["bookmarks","team","书签"],"de":"Collaborative bookmark manager with auto-screenshots and full-page archives.","dz":"团队书签管理：自动截图 + 全页存档。"},{"id":"linkding","n":"linkding","r":"sissbruecker/linkding","s":11238,"c":"selfhost","lv":2,"p":"Docker·Web","t":["bookmarks","书签"],"de":"Minimalist bookmark service — runs happily on a Raspberry Pi.","dz":"极简书签服务，树莓派都能愉快运行。"},{"id":"navidrome","n":"Navidrome","r":"navidrome/navidrome","s":23835,"c":"selfhost","lv":2,"p":"Docker·Web","t":["music","streaming","音乐"],"de":"Your music library becomes a streaming service, from your own server.","dz":"把私人音乐库变成自家流媒体服务。"},{"id":"freshrss","n":"FreshRSS","r":"FreshRSS/FreshRSS","s":16153,"c":"selfhost","lv":2,"p":"Docker·Web","t":["rss","reader","订阅"],"de":"Self-hosted RSS aggregator — the Google Reader successor we deserved.","dz":"自建 RSS 聚合器：我们配得上的 Google Reader 继任者。"},{"id":"miniflux","n":"miniflux","r":"miniflux/v2","s":9743,"c":"selfhost","lv":2,"p":"Docker","t":["rss","minimalist","订阅"],"de":"Opinionated, minimalist RSS server in Go — boring in the best way.","dz":"极简主义 RSS 服务：Go 编写，无聊得恰到好处。"},{"id":"seafile","n":"Seafile","r":"haiwen/seafile","s":15278,"c":"selfhost","lv":2,"p":"Win·mac·Linux·Docker","t":["files","sync","同步"],"de":"Enterprise-grade file sync and sharing — rock-solid reliability.","dz":"企业级文件同步共享，稳如老狗。"},{"id":"docmost","n":"Docmost","r":"docmost/docmost","s":21794,"c":"selfhost","lv":2,"p":"Docker","t":["wiki","docs","知识库"],"de":"Open-source Confluence alternative for team knowledge.","dz":"开源 Confluence 替代：团队知识库。"},{"id":"bookstack","n":"BookStack","r":"BookStackApp/BookStack","s":19058,"c":"selfhost","lv":2,"p":"PHP·Docker","t":["wiki","books","知识库"],"de":"A wiki organized like a bookshelf: books, chapters, pages.","dz":"像书架一样组织的 Wiki：书 → 章 → 页。"},{"id":"teable","n":"Teable","r":"teableio/teable","s":21830,"c":"selfhost","lv":2,"p":"Docker","t":["database","airtable","表格"],"de":"Open-source Airtable: a no-code database with a spreadsheet face.","dz":"开源 Airtable：披着表格外衣的数据库。"},{"id":"budibase","n":"Budibase","r":"Budibase/budibase","s":28320,"c":"selfhost","lv":2,"p":"Docker","t":["low-code","internal tools","低代码"],"de":"Build internal tools and admin panels in minutes, not sprints.","dz":"几分钟搭出内部工具与管理后台。"},{"id":"authentik","n":"authentik","r":"goauthentik/authentik","s":25742,"c":"selfhost","lv":3,"p":"Docker","t":["sso","login","认证"],"de":"Self-hosted single sign-on: one login for every app you run.","dz":"自建统一登录（SSO）：一个账号走天下。"},{"id":"logto","n":"Logto","r":"logto-io/logto","s":14637,"c":"selfhost","lv":3,"p":"Docker","t":["auth","login","认证"],"de":"Developer-friendly auth infra: polished login box plus user management.","dz":"为开发者做的认证方案：漂亮登录框 + 用户管理。"},{"id":"healthchecks","n":"Healthchecks","r":"healthchecks/healthchecks","s":10368,"c":"selfhost","lv":2,"p":"Docker","t":["cron","monitoring","监控"],"de":"A dead-man's switch for cron jobs — ping me, or I alert.","dz":"定时任务的死人开关：到点不 ping 就报警。"},{"id":"windmill","n":"Windmill","r":"windmill-labs/windmill","s":18037,"c":"selfhost","lv":3,"p":"Docker","t":["workflow","automation","自动化"],"de":"Turn scripts into workflows, schedules and internal apps.","dz":"把脚本变成工作流、定时任务和内部应用。"},{"id":"vikunja","n":"Vikunja","r":"go-vikunja/vikunja","s":5527,"c":"selfhost","lv":2,"p":"Docker","t":["todo","kanban","待办"],"de":"Self-hosted todo lists and kanban — migrate from Todoist in one click.","dz":"自建待办与看板，一键从 Todoist 迁移。"},{"id":"librephotos","n":"LibrePhotos","r":"LibrePhotos/librephotos","s":8082,"c":"selfhost","lv":2,"p":"Docker","t":["photos","ai","相册"],"de":"Self-hosted photos with face recognition and auto-organization.","dz":"自建相册：人脸识别、自动整理。"},{"id":"typesense","n":"Typesense","r":"typesense/typesense","s":26600,"c":"data","lv":3,"p":"Docker","t":["search","engine","搜索"],"de":"Typo-tolerant search engine that's up and useful in minutes.","dz":"容错搜索引擎：几分钟上手，马上可用。"},{"id":"timescaledb","n":"TimescaleDB","r":"timescale/timescaledb","s":23597,"c":"data","lv":3,"p":"PostgreSQL","t":["timeseries","postgres","时序"],"de":"Turns PostgreSQL into a time-series powerhouse — keep your SQL.","dz":"给 PostgreSQL 装上时序引擎，SQL 原封不动。"},{"id":"questdb","n":"QuestDB","r":"questdb/questdb","s":17352,"c":"data","lv":3,"p":"Docker","t":["timeseries","sql","时序"],"de":"Blazing-fast open-source time-series database with familiar SQL.","dz":"飞快的开源时序数据库，SQL 照写。"},{"id":"d2","n":"D2","r":"terrastruct/d2","s":25523,"c":"data","lv":3,"p":"CLI·Web","t":["diagram","architecture","图表"],"de":"Text in, beautiful architecture diagrams out — the modern diagramming language.","dz":"文字进、架构图出的现代图表语言。"},{"id":"plantuml","n":"PlantUML","r":"plantuml/plantuml","s":13342,"c":"data","lv":3,"p":"Java·Web","t":["uml","diagram","图表"],"de":"The classic text-to-diagram engine: UML and much more, still undefeated.","dz":"经典文本绘图引擎：UML 到流程图，老而弥坚。"},{"id":"chartxkcd","n":"chart.xkcd","r":"timqian/chart.xkcd","s":7863,"c":"data","lv":3,"p":"JS","t":["charts","hand-drawn","图表"],"de":"Hand-drawn, xkcd-flavored charts — serious data, disarming style.","dz":"手绘漫画风图表：严肃数据，亲切画风。"},{"id":"evidence","n":"Evidence","r":"evidence-dev/evidence","s":6961,"c":"data","lv":3,"p":"JS","t":["bi","sql","报表"],"de":"BI as code: SQL + Markdown compile into a data app.","dz":"用代码写 BI：SQL + Markdown 编译成数据应用。"},{"id":"lightdash","n":"Lightdash","r":"lightdash/lightdash","s":6164,"c":"data","lv":3,"p":"Docker","t":["bi","dbt","报表"],"de":"The BI layer built for dbt — metrics straight from your models.","dz":"紧贴 dbt 的 BI 工具：指标直接来自你的模型。"},{"id":"babylon","n":"Babylon.js","r":"BabylonJS/Babylon.js","s":26114,"c":"web","lv":3,"p":"JS","t":["3d","webgpu","游戏"],"de":"A powerhouse WebGL/WebGPU 3D engine with a lovely playground.","dz":"强大的 WebGL/WebGPU 3D 引擎，附带游乐场。"},{"id":"p5js","n":"p5.js","r":"processing/p5.js","s":24053,"c":"web","lv":3,"p":"JS","t":["creative","coding","创意"],"de":"Creative coding made friendly — artists write code with it every day.","dz":"最友好的创意编程库：艺术家每天都在用它写代码。"},{"id":"biome","n":"Biome","r":"biomejs/biome","s":25864,"c":"web","lv":3,"p":"JS","t":["lint","format","格式化"],"de":"Lint and format JS/TS in one Rust-powered tool — absurdly fast.","dz":"一个 Rust 工具搞定 Lint + 格式化，快得离谱。"},{"id":"oxc","n":"oxc","r":"oxc-project/oxc","s":22899,"c":"web","lv":3,"p":"Rust","t":["toolchain","linter","工具链"],"de":"A Rust-built JavaScript toolchain: linter, transformer, resolver.","dz":"Rust 写的 JS 工具链全家桶。"},{"id":"rolldown","n":"Rolldown","r":"rolldown/rolldown","s":13958,"c":"web","lv":3,"p":"Rust","t":["bundler","vite","打包"],"de":"The Rust bundler becoming the engine of the next Vite.","dz":"将成为下一代 Vite 内核的 Rust 打包器。"},{"id":"eleventy","n":"Eleventy","r":"11ty/eleventy","s":19935,"c":"web","lv":3,"p":"JS","t":["ssg","blog","博客"],"de":"A simple static site generator with zero framework baggage.","dz":"零框架包袱的简洁静态站生成器。"},{"id":"zola","n":"Zola","r":"getzola/zola","s":17472,"c":"web","lv":3,"p":"Rust","t":["ssg","blog","博客"],"de":"Static sites from a single binary — no Node, no npm, no mess.","dz":"单文件静态站生成器：没有 Node，没有 npm，没有烦恼。"},{"id":"livewire","n":"Laravel Livewire","r":"livewire/livewire","s":23583,"c":"web","lv":3,"p":"PHP","t":["laravel","dynamic","全栈"],"de":"Dynamic Laravel interfaces without writing JavaScript — the full-stack shortcut.","dz":"Laravel 全栈捷径：不写 JS 也能做动态页面。"},{"id":"inertia","n":"Inertia.js","r":"inertiajs/inertia","s":8124,"c":"web","lv":3,"p":"JS","t":["spa","monolith","单页"],"de":"Build SPAs without building an API — the glue you didn't know you wanted.","dz":"不写 API 层的单页应用方案：意想不到的胶水。"},{"id":"elysia","n":"Elysia","r":"elysiajs/elysia","s":19196,"c":"web","lv":3,"p":"TS","t":["framework","bun","框架"],"de":"An ergonomic web framework tuned for Bun — fast and delightful.","dz":"为 Bun 量身调校的高性能框架，写着上瘾。"},{"id":"nextra","n":"Nextra","r":"shuding/nextra","s":13929,"c":"web","lv":3,"p":"JS","t":["docs","next.js","文档"],"de":"The docs/blog framework behind half the sleek Next.js sites you've seen.","dz":"你见过的一半精致 Next.js 文档站都是它。"},{"id":"starlight","n":"Starlight","r":"withastro/starlight","s":9311,"c":"web","lv":3,"p":"JS","t":["docs","astro","文档"],"de":"Astro's docs framework: fast, accessible, i18n-ready out of the box.","dz":"Astro 出品文档框架：快、无障碍、自带国际化。"},{"id":"marp","n":"Marp","r":"marp-team/marp","s":12564,"c":"web","lv":2,"p":"CLI·VSCode","t":["slides","markdown","幻灯片"],"de":"Write slides in Markdown, present anywhere — decks at the speed of thought.","dz":"用 Markdown 写幻灯片，想到哪写到哪。"},{"id":"mdbook","n":"mdBook","r":"rust-lang/mdBook","s":22176,"c":"web","lv":3,"p":"Rust","t":["book","docs","文档"],"de":"Markdown → books and docs sites, from a single binary.","dz":"Markdown 变电子书与文档站，单文件搞定。"},{"id":"konva","n":"Konva","r":"konvajs/konva","s":14830,"c":"web","lv":3,"p":"JS","t":["canvas","2d","画布"],"de":"Declarative canvas: interactive 2D graphics without raw canvas pain.","dz":"声明式 Canvas：交互式 2D 图形，告别原生画布之苦。"},{"id":"openprops","n":"Open Props","r":"argyleink/open-props","s":5527,"c":"web","lv":3,"p":"CSS","t":["css","variables","设计"],"de":"A drawer of supercharged CSS variables — design tokens, ready to use.","dz":"现成的 CSS 变量设计令牌抽屉，拿来就用。"},{"id":"chi","n":"chi","r":"go-chi/chi","s":22893,"c":"backend","lv":3,"p":"Go","t":["router","http","路由"],"de":"The lightweight Go router that std-net always wanted to be.","dz":"轻量 Go 路由器：标准库一直想成为的样子。"},{"id":"sqlmodel","n":"SQLModel","r":"tiangolo/sqlmodel","s":18346,"c":"backend","lv":3,"p":"Python","t":["orm","sqlalchemy","数据库"],"de":"SQLAlchemy meets Pydantic — type-safe models for FastAPI folks.","dz":"SQLAlchemy 遇见 Pydantic：FastAPI 一家的类型安全 ORM。"},{"id":"sqlc","n":"sqlc","r":"sqlc-dev/sqlc","s":18327,"c":"backend","lv":3,"p":"Go","t":["sql","typesafe","查询"],"de":"Write SQL, get type-safe Go code generated — the compiler checks your queries.","dz":"写 SQL，生成类型安全的 Go 代码：编译期帮你查错。"},{"id":"ent","n":"ent","r":"ent/ent","s":17205,"c":"backend","lv":3,"p":"Go","t":["orm","graph","数据库"],"de":"Facebook's entity framework for Go: schemas as graphs, migrations included.","dz":"Facebook 出品的 Go 实体框架：图式建模，迁移齐活。"},{"id":"kysely","n":"Kysely","r":"kysely-org/kysely","s":14244,"c":"backend","lv":3,"p":"TS","t":["sql","query","查询"],"de":"Type-safe SQL query builder with zero runtime cost.","dz":"零运行时开销的类型安全 SQL 构建器。"},{"id":"gqlgen","n":"gqlgen","r":"99designs/gqlgen","s":10764,"c":"backend","lv":3,"p":"Go","t":["graphql","api","接口"],"de":"Schema-first GraphQL server for Go — codegen does the boring parts.","dz":"Schema 优先的 Go GraphQL 服务端：无聊部分交给代码生成。"},{"id":"litestar","n":"Litestar","r":"litestar-org/litestar","s":8483,"c":"backend","lv":3,"p":"Python","t":["framework","async","框架"],"de":"A fast, thoughtfully async Python web framework.","dz":"又快又讲究的异步 Python Web 框架。"},{"id":"renovate","n":"Renovate","r":"renovatebot/renovate","s":22605,"c":"devops","lv":3,"p":"CI","t":["dependencies","bot","依赖"],"de":"A bot that PRs updates for every outdated dependency — all of them.","dz":"依赖更新机器人：每个过时包都自动发 PR。"},{"id":"kamal","n":"Kamal","r":"basecamp/kamal","s":14607,"c":"devops","lv":3,"p":"CLI","t":["deploy","paaS","部署"],"de":"From 37signals: deploy anything anywhere with one command.","dz":"37signals 出品：一条命令把应用部署到任何服务器。"},{"id":"caprover","n":"CapRover","r":"caprover/caprover","s":15172,"c":"devops","lv":2,"p":"Docker","t":["paas","deploy","部署"],"de":"Your own mini-PaaS: one-click apps, free TLS, web UI.","dz":"自建迷你 PaaS：一键装应用、自动 HTTPS、网页管理。"},{"id":"gatus","n":"Gatus","r":"TwiN/gatus","s":12178,"c":"devops","lv":2,"p":"Docker","t":["monitoring","health","监控"],"de":"A health dashboard for endpoints and cron jobs — if it's down, you know.","dz":"端点健康监控面板：一挂就知道。"},{"id":"kopia","n":"Kopia","r":"kopia/kopia","s":14202,"c":"devops","lv":1,"p":"Win·mac·Linux","t":["backup","encrypted","备份"],"de":"Encrypted, deduplicated, incremental backups with a friendly GUI.","dz":"加密去重增量备份，还带友好图形界面。"},{"id":"borg","n":"BorgBackup","r":"borgbackup/borg","s":13779,"c":"devops","lv":2,"p":"CLI","t":["backup","dedupe","备份"],"de":"The classic deduplicating backup archiver — trusted for a decade.","dz":"去重备份老牌选手，十年口碑。"},{"id":"devbox","n":"Devbox","r":"jetify-com/devbox","s":12375,"c":"devops","lv":2,"p":"CLI","t":["environment","nix","环境"],"de":"Instant, portable dev environments — shell in, project-ready.","dz":"秒起可移植开发环境：进 shell 即开工。"},{"id":"devenv","n":"devenv","r":"cachix/devenv","s":7681,"c":"devops","lv":3,"p":"CLI","t":["environment","nix","环境"],"de":"Fast, declarative dev shells without learning Nix the language.","dz":"声明式开发环境：不用先学 Nix 语言。"},{"id":"distrobox","n":"Distrobox","r":"89luca89/distrobox","s":13011,"c":"devops","lv":2,"p":"Linux","t":["container","distro","容器"],"de":"Use any Linux distro inside your terminal, seamlessly — Ubuntu tools on Arch, no reboot.","dz":"在终端里无缝使用任意发行版：Arch 上跑 Ubuntu 工具，无需重启。"},{"id":"graphite","n":"Graphite","r":"GraphiteEditor/Graphite","s":27368,"c":"design","lv":1,"p":"Web","t":["graphics","procedural","节点"],"de":"A procedural, node-based graphics editor that runs in your browser.","dz":"浏览器里的程序化节点图形编辑器，设计师的游乐场。"},{"id":"tabler","n":"Tabler Icons","r":"tabler/tabler-icons","s":21796,"c":"design","lv":1,"p":"Web·SVG","t":["icons","ui","图标"],"de":"5,000+ free MIT icons in one consistent style — the quiet workhorse of UI.","dz":"近五千枚 MIT 开源图标：风格统一的 UI 无名功臣。"},{"id":"lucide","n":"Lucide","r":"lucide-icons/lucide","s":24740,"c":"design","lv":1,"p":"Web·SVG","t":["icons","ui","图标"],"de":"The beautifully consistent icon set half the web quietly uses.","dz":"半个互联网都在悄悄用的图标库。"},{"id":"iconify","n":"Iconify","r":"iconify/iconify","s":6337,"c":"design","lv":2,"p":"Web·JS","t":["icons","framework","图标"],"de":"One framework, 200,000+ icons from every major set.","dz":"一个框架装下 20 万+ 枚图标，主流图标集全都在。"},{"id":"svgo","n":"SVGO","r":"svg/svgo","s":22703,"c":"design","lv":3,"p":"CLI·JS","t":["svg","optimize","优化"],"de":"Squeezes SVG files smaller without losing quality.","dz":"SVG 瘦身优化器：去掉字节，不掉质量。"},{"id":"pixelorama","n":"Pixelorama","r":"Orama-Interactive/Pixelorama","s":10394,"c":"design","lv":1,"p":"Win·mac·Linux","t":["pixel-art","drawing","像素"],"de":"A polished free pixel-art editor built with Godot.","dz":"Godot 打造的免费像素画编辑器，打磨精细。"},{"id":"opentoonz","n":"OpenToonz","r":"opentoonz/opentoonz","s":7763,"c":"design","lv":1,"p":"Win·mac·Linux","t":["animation","2d","动画"],"de":"2D animation software with studio pedigree — Ghibli's toolchain cousin.","dz":"有吉卜力背景的 2D 动画软件，专业血统。"},{"id":"fontforge","n":"FontForge","r":"fontforge/fontforge","s":7983,"c":"design","lv":2,"p":"Win·mac·Linux","t":["font","typeface","字体"],"de":"The open-source font editor — design your own typeface from scratch.","dz":"开源字体设计软件：从零造一款自己的字体。"},{"id":"vimium","n":"Vimium","r":"philc/vimium","s":27018,"c":"privacy","lv":1,"p":"Chrome","t":["vim","keyboard","键盘"],"de":"Vim keys in your browser — navigate the web without touching the mouse.","dz":"浏览器里的 Vim 键位：全程不碰鼠标上网。"},{"id":"tridactyl","n":"Tridactyl","r":"tridactyl/tridactyl","s":6353,"c":"privacy","lv":1,"p":"Firefox","t":["vim","keyboard","键盘"],"de":"Vim bindings for Firefox, deeply hackable.","dz":"Firefox 的 Vim 键位，深度可魔改。"},{"id":"sponsorblock","n":"SponsorBlock","r":"ajayyy/SponsorBlock","s":13846,"c":"privacy","lv":1,"p":"Chrome·Firefox","t":["youtube","sponsor","跳过"],"de":"Crowd-sourced timestamps that auto-skip YouTube sponsor segments.","dz":"全网共建时间戳，自动跳过 YouTube 赞助广告段。"},{"id":"adguard","n":"AdGuard extension","r":"AdguardTeam/AdGuardBrowserExtension","s":4446,"c":"privacy","lv":1,"p":"Chrome·Firefox","t":["ads","blocker","广告"],"de":"The open-source AdGuard extension — no 'acceptable ads' deals.","dz":"开源广告过滤扩展：没有「可接受广告」的交易。"},{"id":"privacybadger","n":"Privacy Badger","r":"EFForg/privacybadger","s":3850,"c":"privacy","lv":1,"p":"Chrome·Firefox","t":["tracking","eff","追踪"],"de":"EFF's tracker blocker that learns as you browse.","dz":"电子前哨基金会出品：边浏览边学会反追踪。"},{"id":"pomerium","n":"Pomerium","r":"pomerium/pomerium","s":5019,"c":"privacy","lv":3,"p":"Docker","t":["zero-trust","proxy","零信任"],"de":"Identity-aware proxy: zero-trust access to your internal apps.","dz":"身份感知代理：零信任访问内部应用。"},{"id":"mindustry","n":"Mindustry","r":"Anuken/Mindustry","s":29130,"c":"games","lv":1,"p":"Win·mac·Linux","t":["factory","rts","塔防"],"de":"Factory towers + RTS + deep modding — the strategy game you sink 200 hours into.","dz":"工厂+塔防+RTS：一进去就是 200 小时的策略游戏。"},{"id":"openra","n":"OpenRA","r":"OpenRA/OpenRA","s":17445,"c":"games","lv":1,"p":"Win·mac·Linux","t":["rts","red-alert","红警"],"de":"Command & Conquer and Red Alert, rebuilt modern and cross-platform.","dz":"红色警戒等经典 RTS 的现代化重制。"},{"id":"cataclysm","n":"Cataclysm DDA","r":"CleverRaven/Cataclysm-DDA","s":13249,"c":"games","lv":1,"p":"Win·mac·Linux","t":["roguelike","survival","生存"],"de":"The deepest survival roguelike ever made — infinitely replayable.","dz":"深度无可比拟的末日生存 Roguelike。"},{"id":"heroic","n":"Heroic","r":"Heroic-Games-Launcher/HeroicGamesLauncher","s":12292,"c":"games","lv":1,"p":"Win·mac·Linux","t":["games","epic","启动器"],"de":"Epic, GOG and Amazon games in one clean launcher.","dz":"Epic/GOG/亚马逊游戏，一个启动器全搞定。"},{"id":"lutris","n":"Lutris","r":"lutris/lutris","s":10270,"c":"games","lv":1,"p":"Linux","t":["games","launcher","启动器"],"de":"The one launcher that keeps Linux gaming organized.","dz":"Linux 游戏的大管家。"},{"id":"bottles","n":"Bottles","r":"bottlesdevs/Bottles","s":8897,"c":"games","lv":1,"p":"Linux","t":["wine","windows","兼容"],"de":"Run Windows apps and games on Linux through tidy, managed bottles.","dz":"Linux 上优雅运行 Windows 程序与游戏。"},{"id":"veloren","n":"Veloren","r":"veloren/veloren","s":7588,"c":"games","lv":1,"p":"Win·mac·Linux","t":["rpg","voxel","体素"],"de":"A community-built multiplayer voxel RPG — open-source Zelda energy.","dz":"社区开发的多人体素 RPG：开源塞尔传说。"},{"id":"endlesssky","n":"Endless Sky","r":"endless-sky/endless-sky","s":7588,"c":"games","lv":1,"p":"Win·mac·Linux","t":["space","trading","太空"],"de":"Trade and fight across the galaxy — the Escape Velocity spirit, alive.","dz":"银河贸易与战斗：经典精神续作，仍在生长。"},{"id":"openttd","n":"OpenTTD","r":"openttd/OpenTTD","s":8302,"c":"games","lv":1,"p":"Win·mac·Linux","t":["tycoon","transport","运输"],"de":"The transport-empire tycoon, 20+ years strong and still shipping.","dz":"运输大亨开源版：二十年常青，仍在更新。"},{"id":"spd","n":"Shattered Pixel Dungeon","r":"00-Evan/shattered-pixel-dungeon","s":6574,"c":"games","lv":1,"p":"Android·iOS·Desktop","t":["roguelike","pixel","像素"],"de":"A roguelike polished to a mirror shine that fits in your pocket.","dz":"打磨到发亮的口袋 Roguelike。"},{"id":"stk","n":"SuperTuxKart","r":"supertuxkart/stk-code","s":5376,"c":"games","lv":1,"p":"Win·mac·Linux","t":["racing","kart","赛车"],"de":"A mascot kart racer with actual online multiplayer.","dz":"吉祥物卡丁车竞速，还带联机。"}]</script>
+<script type="application/json" id="gemsData">{"d":"2026-09-28","g":[{"id":"ente","n":"Ente","r":"ente-io/ente","s":29111,"c":"apps","lv":1,"p":"iOS·Android·Win·mac·Linux","t":["photos","privacy","backup","相册"],"de":"End-to-end encrypted photos — a self-hostable Google Photos alternative you truly own.","dz":"端到端加密相册服务：照片真正属于你，可自建。"},{"id":"keepassxc","n":"KeePassXC","r":"keepassxreboot/keepassxc","s":28987,"c":"apps","lv":1,"p":"Win·mac·Linux","t":["password","security","密码"],"de":"Offline password manager: one encrypted file holds all your secrets.","dz":"离线密码管理器：一个加密文件装下所有密码。"},{"id":"karabiner","n":"Karabiner-Elements","r":"pqrs-org/Karabiner-Elements","s":22869,"c":"apps","lv":2,"p":"macOS","t":["keyboard","remap","键盘"],"de":"Remap anything on a macOS keyboard — the power tool every Mac tinkerer ends up installing.","dz":"macOS 键盘深度改造：任何按键都能重新定义，Mac 玩家的终点站。"},{"id":"alttab","n":"AltTab","r":"lwouis/alt-tab-macos","s":16331,"c":"apps","lv":1,"p":"macOS","t":["window","switcher","窗口"],"de":"Gives macOS real Windows-style Alt-Tab window switching. Why did we wait so long?","dz":"让 macOS 拥有 Windows 式 Alt-Tab 窗口切换，为何不早点装？"},{"id":"zotero","n":"Zotero","r":"zotero/zotero","s":15408,"c":"apps","lv":1,"p":"Win·mac·Linux","t":["research","papers","文献"],"de":"The reference manager for research: collect, annotate and cite papers without pain.","dz":"科研文献管理神器：收集、标注、引用一条龙。"},{"id":"zettlr","n":"Zettlr","r":"Zettlr/Zettlr","s":13589,"c":"apps","lv":1,"p":"Win·mac·Linux","t":["markdown","writing","笔记"],"de":"Markdown writing app designed for scholars, theses and very long documents.","dz":"为学术写作与长文打造的 Markdown 编辑器。"},{"id":"ueli","n":"Ueli","r":"oliverschwendener/ueli","s":4602,"c":"apps","lv":1,"p":"Win·mac","t":["launcher","spotlight","启动器"],"de":"Keystroke launcher for Windows & macOS — a free Spotlight that opens anything in 3 keys.","dz":"Win/mac 键盘启动器：三下按键打开一切的免费 Spotlight。"},{"id":"normcap","n":"NormCap","r":"dynobo/normcap","s":2733,"c":"apps","lv":1,"p":"Win·mac·Linux","t":["ocr","screenshot","截图"],"de":"Screenshot → text. Small OCR utility that quietly saves your day, again and again.","dz":"截图即取字：小而美的 OCR，一次次悄悄救场。"},{"id":"kiwix","n":"Kiwix","r":"kiwix/kiwix-desktop","s":1487,"c":"apps","lv":1,"p":"Win·mac·Linux·Android","t":["offline","wikipedia","离线"],"de":"Carry all of Wikipedia (plus many sites) fully offline on a laptop or USB stick.","dz":"把整个维基百科离线装进电脑或 U 盘。"},{"id":"aegis","n":"Aegis","r":"beemdevelopment/Aegis","s":13166,"c":"apps","lv":1,"p":"Android","t":["2fa","authenticator","两步验证"],"de":"2FA app for Android: encrypted, exports openly, backs up — what Google Authenticator should be.","dz":"安卓双因素认证应用：加密、可导出、能备份，官方器该有的样子。"},{"id":"keepassdx","n":"KeePassDX","r":"Kunzisoft/KeePassDX","s":7377,"c":"apps","lv":1,"p":"Android","t":["password","keepass","密码"],"de":"KeePass for Android: manage that one encrypted vault from your phone.","dz":"安卓端 KeePass：手机上管理同一个密码库。"},{"id":"mealie","n":"Mealie","r":"mealie-recipes/mealie","s":13340,"c":"apps","lv":2,"p":"Docker·Web","t":["recipes","cooking","食谱"],"de":"Self-hosted recipe manager with a slick app — your cookbook, backed up forever.","dz":"自建食谱管理与膳食规划，体验顺滑的私人菜谱本。"},{"id":"wallabag","n":"Wallabag","r":"wallabag/wallabag","s":12989,"c":"apps","lv":2,"p":"Web·Docker","t":["read-later","稍后读"],"de":"Self-hosted read-it-later: save articles from the firehose, read them calmly.","dz":"自建「稍后读」：把刷到的文章存下来，安静地读完。"},{"id":"shotcut","n":"Shotcut","r":"mltframework/shotcut","s":15283,"c":"media","lv":1,"p":"Win·mac·Linux","t":["video","editor","剪辑"],"de":"Full-featured free video editor — no watermark, no paywall, no account.","dz":"功能齐全的免费视频剪辑：无水印、无付费墙、无需注册。"},{"id":"kdenlive","n":"Kdenlive","r":"KDE/kdenlive","s":5748,"c":"media","lv":1,"p":"Win·mac·Linux","t":["video","editor","剪辑"],"de":"Professional open-source video editing from KDE — a serious free Premiere alternative.","dz":"KDE 出品的专业开源剪辑软件，认真的免费剪辑选择。"},{"id":"mixxx","n":"Mixxx","r":"mixxxdj/mixxx","s":7195,"c":"media","lv":1,"p":"Win·mac·Linux","t":["dj","music","打碟"],"de":"Free DJ software that talks to real controllers — mix your first set tonight.","dz":"免费 DJ 软件，支持真机打碟控制器，今晚就开工。"},{"id":"lmms","n":"LMMS","r":"LMMS/lmms","s":10397,"c":"media","lv":1,"p":"Win·mac·Linux","t":["music","daw","编曲"],"de":"Music production workstation: beats, synths, mixing — the free FL Studio.","dz":"免费音乐工作站：编曲、合成、混音一体。"},{"id":"sonicpi","n":"Sonic Pi","r":"sonic-pi-net/sonic-pi","s":12158,"c":"media","lv":2,"p":"Win·mac·Linux·Raspberry Pi","t":["live-coding","music","音乐"],"de":"Live-code music on stage: write Ruby, hear synths. A coding instrument.","dz":"用写代码的方式现场演奏音乐——一件真正的编程乐器。"},{"id":"vcvrack","n":"VCV Rack","r":"VCVRack/Rack","s":4424,"c":"media","lv":2,"p":"Win·mac·Linux","t":["synth","modular","合成器"],"de":"A full Eurorack modular synth in software — patch cables included, soldering not.","dz":"软件里的虚拟模块合成器：接线上瘾，无需电烙铁。"},{"id":"hyperfine","n":"Hyperfine","r":"sharkdp/hyperfine","s":28911,"c":"cli","lv":2,"p":"CLI","t":["benchmark","性能"],"de":"One command to benchmark anything — settle 'which is faster' with numbers.","dz":"一行命令做性能对比：用数字终结「到底谁更快」。"},{"id":"eza","n":"eza","r":"eza-community/eza","s":23387,"c":"cli","lv":2,"p":"CLI","t":["ls","files","文件"],"de":"The modern ls: colors, icons, git status — folders finally look alive.","dz":"ls 的现代替身：彩色、图标、Git 状态，目录终于有生气了。"},{"id":"broot","n":"broot","r":"Canop/broot","s":12971,"c":"cli","lv":2,"p":"CLI·mac·Linux","t":["tree","navigate","目录"],"de":"Navigate huge directory trees interactively — never cd-guess again.","dz":"在超大目录树里交互式穿梭，告别瞎猜路径。"},{"id":"dust","n":"dust","r":"bootandy/dust","s":12413,"c":"cli","lv":2,"p":"CLI","t":["disk","du","磁盘"],"de":"du, but instantly understandable — see what's eating your disk.","dz":"直观版 du：一眼看清谁在吃你的硬盘。"},{"id":"tig","n":"tig","r":"jonas/tig","s":13352,"c":"cli","lv":2,"p":"CLI","t":["git","history","日志"],"de":"Git in the terminal, visually: browse history, stage hunks, chase blame.","dz":"终端里的 Git 可视化：翻历史、暂存代码块、追责行。"},{"id":"direnv","n":"direnv","r":"direnv/direnv","s":15471,"c":"cli","lv":2,"p":"CLI·mac·Linux","t":["env","dotenv","环境变量"],"de":"Per-directory environment variables that load and unload automatically.","dz":"进入目录自动加载对应环境变量，离开自动卸载。"},{"id":"kakoune","n":"Kakoune","r":"mawww/kakoune","s":11075,"c":"cli","lv":3,"p":"CLI·mac·Linux","t":["editor","vim","编辑器"],"de":"Modal editor with selection-first editing — Vim's most interesting rethink.","dz":"「先选后改」的模态编辑器：对 Vim 最有意思的一次重新思考。"},{"id":"tealdeer","n":"tealdeer","r":"dbrgn/tealdeer","s":6553,"c":"cli","lv":2,"p":"CLI","t":["tldr","docs","手册"],"de":"Command examples on demand — tldr pages in milliseconds.","dz":"毫秒级返回命令用法示例的 tldr 客户端。"},{"id":"ghdash","n":"gh-dash","r":"dlvhdr/gh-dash","s":12563,"c":"cli","lv":2,"p":"CLI","t":["github","pr","看板"],"de":"Your GitHub PRs and issues as a terminal dashboard — triage without the browser.","dz":"终端里的 GitHub PR/Issue 看板：不开浏览器也能分诊。"},{"id":"aichat","n":"aichat","r":"sigoden/aichat","s":10470,"c":"cli","lv":2,"p":"CLI","t":["llm","ai","助手"],"de":"All-in-one LLM CLI: chat, roleplay, shell integration, 20+ providers.","dz":"命令行 AI 助手：聊天、角色、Shell 集成，20+ 平台通吃。"},{"id":"sd","n":"sd","r":"chmln/sd","s":7366,"c":"cli","lv":2,"p":"CLI","t":["sed","replace","替换"],"de":"Find & replace for humans — regex without the sed headache.","dz":"对人友好的查找替换：告别 sed 的转义地狱。"},{"id":"wezterm","n":"WezTerm","r":"wez/wezterm","s":29037,"c":"cli","lv":2,"p":"Win·mac·Linux","t":["terminal","gpu","终端"],"de":"GPU-accelerated terminal with Lua scripting — fast, cross-platform, hackable.","dz":"GPU 加速 + Lua 可编程的跨平台终端。"},{"id":"gitleaks","n":"gitleaks","r":"gitleaks/gitleaks","s":29513,"c":"devtools","lv":3,"p":"CLI·CI","t":["security","secrets","密钥"],"de":"Scan git history for leaked API keys and passwords — before attackers do.","dz":"扫描 Git 历史里泄漏的密钥密码，赶在攻击者之前。"},{"id":"precommit","n":"pre-commit","r":"pre-commit/pre-commit","s":15598,"c":"devtools","lv":3,"p":"CLI","t":["git","hooks","钩子"],"de":"One config, all languages: lint and format automatically before every commit.","dz":"一份配置管所有语言：每次提交前自动检查格式。"},{"id":"mockoon","n":"Mockoon","r":"mockoon/mockoon","s":8420,"c":"devtools","lv":1,"p":"Win·mac·Linux","t":["api","mock","接口"],"de":"Mock API servers in a few clicks — build UIs without waiting for the backend.","dz":"点几下就起的本地 Mock API 服务器：不用再等后端。"},{"id":"zeal","n":"Zeal","r":"zealdocs/zeal","s":12806,"c":"devtools","lv":1,"p":"Win·Linux","t":["docs","offline","文档"],"de":"Offline API documentation for 200+ languages — instant answers on a plane.","dz":"离线 API 文档浏览器：飞机上也能秒查 200+ 技术栈文档。"},{"id":"speedscope","n":"speedscope","r":"jlfwong/speedscope","s":6763,"c":"devtools","lv":1,"p":"Web","t":["performance","flamegraph","性能"],"de":"Drop a profile file, get an interactive flamegraph — profiling made visual.","dz":"拖入性能文件，得到可交互火焰图。"},{"id":"yq","n":"yq","r":"mikefarah/yq","s":16017,"c":"devtools","lv":2,"p":"CLI","t":["yaml","jq","配置"],"de":"yq is for YAML what jq is for JSON: slice, filter, convert everything.","dz":"处理 YAML 的 jq：切片、过滤、转换一把梭。"},{"id":"fx","n":"fx","r":"antonmedv/fx","s":20641,"c":"devtools","lv":2,"p":"CLI","t":["json","viewer","格式化"],"de":"Interactive JSON explorer in the terminal — fold, query, transform.","dz":"终端里的交互式 JSON 浏览器：折叠、查询、变换。"},{"id":"llamafile","n":"llamafile","r":"Mozilla-Ocho/llamafile","s":26079,"c":"ai","lv":1,"p":"Win·mac·Linux","t":["llm","local","本地"],"de":"A whole LLM zipped into one executable — download, run, done.","dz":"把完整大模型打包进单个可执行文件：下载即用。"},{"id":"fasterwhisper","n":"faster-whisper","r":"SYSTRAN/faster-whisper","s":25598,"c":"ai","lv":3,"p":"Python","t":["speech","whisper","语音识别"],"de":"Whisper speech recognition, 4× faster with half the memory.","dz":"提速 4 倍、省一半内存的 Whisper 语音识别。"},{"id":"whisperx","n":"whisperX","r":"m-bain/whisperX","s":24258,"c":"ai","lv":3,"p":"Python","t":["speech","transcribe","字幕"],"de":"Whisper plus word-level timestamps and speaker diarization — podcast-ready.","dz":"Whisper 加强版：词级时间戳 + 说话人分离，出字幕就靠它。"},{"id":"funasr","n":"FunASR","r":"modelscope/FunASR","s":20517,"c":"ai","lv":3,"p":"Python","t":["speech","chinese","中文"],"de":"Alibaba's open speech-recognition toolkit — first-class Chinese accuracy.","dz":"阿里开源语音识别工具箱：中文效果一流。"},{"id":"cosyvoice","n":"CosyVoice","r":"FunAudioLLM/CosyVoice","s":23775,"c":"ai","lv":3,"p":"Python","t":["tts","voice-clone","克隆"],"de":"Multi-lingual TTS with zero-shot voice cloning from a few seconds of audio.","dz":"多语言语音合成 + 几秒素材即可零样本声音克隆。"},{"id":"f5tts","n":"F5-TTS","r":"SWivid/F5-TTS","s":15298,"c":"ai","lv":3,"p":"Python","t":["tts","voice","合成"],"de":"A few seconds of reference audio → surprisingly natural cloned speech.","dz":"几秒参考音频，克隆出人意料的自然语音。"},{"id":"edgetts","n":"edge-tts","r":"rany2/edge-tts","s":12099,"c":"ai","lv":3,"p":"Python","t":["tts","microsoft","合成"],"de":"Use Microsoft Edge's online neural voices from Python, for free.","dz":"在 Python 里白嫖 Edge 的在线神经网络语音。"},{"id":"sherpa","n":"sherpa-onnx","r":"k2-fsa/sherpa-onnx","s":14989,"c":"ai","lv":3,"p":"C++·Android·iOS","t":["speech","offline","端侧"],"de":"Speech recognition and TTS running fully offline — from servers to phones.","dz":"完全离线的语音识别与合成，从服务器到手机全落地。"},{"id":"transformersjs","n":"transformers.js","r":"huggingface/transformers.js","s":16327,"c":"ai","lv":3,"p":"JS·Web","t":["llm","browser","浏览器"],"de":"Run Transformer models straight in the browser via WebGPU — no server.","dz":"在浏览器里直接跑 Transformer 模型，无需服务器。"},{"id":"webllm","n":"WebLLM","r":"mlc-ai/web-llm","s":19197,"c":"ai","lv":2,"p":"Web","t":["llm","browser","本地"],"de":"Chat with local LLMs entirely in-browser — private by construction.","dz":"纯浏览器内跑大模型对话，天然私密。"},{"id":"kotaemon","n":"kotaemon","r":"Cinnamon/kotaemon","s":25778,"c":"ai","lv":2,"p":"Web·Docker","t":["rag","documents","知识库"],"de":"A beautiful open RAG UI: chat with your PDFs and docs, locally.","dz":"颜值在线的开源 RAG 界面：和本地文档对话。"},{"id":"invokeai","n":"InvokeAI","r":"invoke-ai/InvokeAI","s":28304,"c":"ai","lv":2,"p":"Win·mac·Linux","t":["image","diffusion","绘画"],"de":"A professional-grade Stable Diffusion studio for serious image work.","dz":"专业级 Stable Diffusion 创作工作台。"},{"id":"forge","n":"SD WebUI Forge","r":"lllyasviel/stable-diffusion-webui-forge","s":13031,"c":"ai","lv":2,"p":"Web","t":["image","diffusion","绘画"],"de":"The WebUI branch that runs bigger models on less VRAM.","dz":"更省显存、跑更大模型的 WebUI 分支（ControlNet 作者出品）。"},{"id":"libretranslate","n":"LibreTranslate","r":"LibreTranslate/LibreTranslate","s":16862,"c":"ai","lv":2,"p":"Docker·API","t":["translate","翻译"],"de":"Self-hosted neural machine translation — your data never leaves the server.","dz":"自建神经机器翻译：数据不出门。"},{"id":"activepieces","n":"Activepieces","r":"activepieces/activepieces","s":24750,"c":"ai","lv":2,"p":"Docker","t":["automation","zapier","自动化"],"de":"Open-source Zapier: connect your apps and automate the boring parts.","dz":"开源 Zapier：连接应用，自动化无聊的部分。"},{"id":"koboldcpp","n":"KoboldCpp","r":"LostRuins/koboldcpp","s":11889,"c":"ai","lv":2,"p":"Win·mac·Linux","t":["llm","local","本地"],"de":"Run local LLMs from a single executable — no install, no ceremony.","dz":"单文件本地跑大模型：无需安装，开箱即用。"},{"id":"karakeep","n":"Karakeep","r":"karakeep-app/karakeep","s":29305,"c":"selfhost","lv":2,"p":"Docker·Web","t":["bookmarks","ai","书签"],"de":"AI-assisted bookmark hoarding: save links, get auto-tags and archived snapshots.","dz":"AI 书签仓：链接自动打标签、存快照，囤得安心。"},{"id":"archivebox","n":"ArchiveBox","r":"ArchiveBox/ArchiveBox","s":28628,"c":"selfhost","lv":2,"p":"Docker·CLI","t":["archive","web","存档"],"de":"Your own internet archive — save pages before they vanish.","dz":"自建互联网档案馆：在网页消失前存下来。"},{"id":"linkwarden","n":"Linkwarden","r":"linkwarden/linkwarden","s":19849,"c":"selfhost","lv":2,"p":"Docker·Web","t":["bookmarks","team","书签"],"de":"Collaborative bookmark manager with auto-screenshots and full-page archives.","dz":"团队书签管理：自动截图 + 全页存档。"},{"id":"linkding","n":"linkding","r":"sissbruecker/linkding","s":11238,"c":"selfhost","lv":2,"p":"Docker·Web","t":["bookmarks","书签"],"de":"Minimalist bookmark service — runs happily on a Raspberry Pi.","dz":"极简书签服务，树莓派都能愉快运行。"},{"id":"navidrome","n":"Navidrome","r":"navidrome/navidrome","s":23839,"c":"selfhost","lv":2,"p":"Docker·Web","t":["music","streaming","音乐"],"de":"Your music library becomes a streaming service, from your own server.","dz":"把私人音乐库变成自家流媒体服务。"},{"id":"freshrss","n":"FreshRSS","r":"FreshRSS/FreshRSS","s":16158,"c":"selfhost","lv":2,"p":"Docker·Web","t":["rss","reader","订阅"],"de":"Self-hosted RSS aggregator — the Google Reader successor we deserved.","dz":"自建 RSS 聚合器：我们配得上的 Google Reader 继任者。"},{"id":"miniflux","n":"miniflux","r":"miniflux/v2","s":9744,"c":"selfhost","lv":2,"p":"Docker","t":["rss","minimalist","订阅"],"de":"Opinionated, minimalist RSS server in Go — boring in the best way.","dz":"极简主义 RSS 服务：Go 编写，无聊得恰到好处。"},{"id":"seafile","n":"Seafile","r":"haiwen/seafile","s":15279,"c":"selfhost","lv":2,"p":"Win·mac·Linux·Docker","t":["files","sync","同步"],"de":"Enterprise-grade file sync and sharing — rock-solid reliability.","dz":"企业级文件同步共享，稳如老狗。"},{"id":"docmost","n":"Docmost","r":"docmost/docmost","s":21796,"c":"selfhost","lv":2,"p":"Docker","t":["wiki","docs","知识库"],"de":"Open-source Confluence alternative for team knowledge.","dz":"开源 Confluence 替代：团队知识库。"},{"id":"bookstack","n":"BookStack","r":"BookStackApp/BookStack","s":19059,"c":"selfhost","lv":2,"p":"PHP·Docker","t":["wiki","books","知识库"],"de":"A wiki organized like a bookshelf: books, chapters, pages.","dz":"像书架一样组织的 Wiki：书 → 章 → 页。"},{"id":"teable","n":"Teable","r":"teableio/teable","s":21833,"c":"selfhost","lv":2,"p":"Docker","t":["database","airtable","表格"],"de":"Open-source Airtable: a no-code database with a spreadsheet face.","dz":"开源 Airtable：披着表格外衣的数据库。"},{"id":"budibase","n":"Budibase","r":"Budibase/budibase","s":28321,"c":"selfhost","lv":2,"p":"Docker","t":["low-code","internal tools","低代码"],"de":"Build internal tools and admin panels in minutes, not sprints.","dz":"几分钟搭出内部工具与管理后台。"},{"id":"authentik","n":"authentik","r":"goauthentik/authentik","s":25745,"c":"selfhost","lv":3,"p":"Docker","t":["sso","login","认证"],"de":"Self-hosted single sign-on: one login for every app you run.","dz":"自建统一登录（SSO）：一个账号走天下。"},{"id":"logto","n":"Logto","r":"logto-io/logto","s":14637,"c":"selfhost","lv":3,"p":"Docker","t":["auth","login","认证"],"de":"Developer-friendly auth infra: polished login box plus user management.","dz":"为开发者做的认证方案：漂亮登录框 + 用户管理。"},{"id":"healthchecks","n":"Healthchecks","r":"healthchecks/healthchecks","s":10368,"c":"selfhost","lv":2,"p":"Docker","t":["cron","monitoring","监控"],"de":"A dead-man's switch for cron jobs — ping me, or I alert.","dz":"定时任务的死人开关：到点不 ping 就报警。"},{"id":"windmill","n":"Windmill","r":"windmill-labs/windmill","s":18039,"c":"selfhost","lv":3,"p":"Docker","t":["workflow","automation","自动化"],"de":"Turn scripts into workflows, schedules and internal apps.","dz":"把脚本变成工作流、定时任务和内部应用。"},{"id":"vikunja","n":"Vikunja","r":"go-vikunja/vikunja","s":5529,"c":"selfhost","lv":2,"p":"Docker","t":["todo","kanban","待办"],"de":"Self-hosted todo lists and kanban — migrate from Todoist in one click.","dz":"自建待办与看板，一键从 Todoist 迁移。"},{"id":"librephotos","n":"LibrePhotos","r":"LibrePhotos/librephotos","s":8083,"c":"selfhost","lv":2,"p":"Docker","t":["photos","ai","相册"],"de":"Self-hosted photos with face recognition and auto-organization.","dz":"自建相册：人脸识别、自动整理。"},{"id":"typesense","n":"Typesense","r":"typesense/typesense","s":26602,"c":"data","lv":3,"p":"Docker","t":["search","engine","搜索"],"de":"Typo-tolerant search engine that's up and useful in minutes.","dz":"容错搜索引擎：几分钟上手，马上可用。"},{"id":"timescaledb","n":"TimescaleDB","r":"timescale/timescaledb","s":23600,"c":"data","lv":3,"p":"PostgreSQL","t":["timeseries","postgres","时序"],"de":"Turns PostgreSQL into a time-series powerhouse — keep your SQL.","dz":"给 PostgreSQL 装上时序引擎，SQL 原封不动。"},{"id":"questdb","n":"QuestDB","r":"questdb/questdb","s":17353,"c":"data","lv":3,"p":"Docker","t":["timeseries","sql","时序"],"de":"Blazing-fast open-source time-series database with familiar SQL.","dz":"飞快的开源时序数据库，SQL 照写。"},{"id":"d2","n":"D2","r":"terrastruct/d2","s":25526,"c":"data","lv":3,"p":"CLI·Web","t":["diagram","architecture","图表"],"de":"Text in, beautiful architecture diagrams out — the modern diagramming language.","dz":"文字进、架构图出的现代图表语言。"},{"id":"plantuml","n":"PlantUML","r":"plantuml/plantuml","s":13342,"c":"data","lv":3,"p":"Java·Web","t":["uml","diagram","图表"],"de":"The classic text-to-diagram engine: UML and much more, still undefeated.","dz":"经典文本绘图引擎：UML 到流程图，老而弥坚。"},{"id":"chartxkcd","n":"chart.xkcd","r":"timqian/chart.xkcd","s":7863,"c":"data","lv":3,"p":"JS","t":["charts","hand-drawn","图表"],"de":"Hand-drawn, xkcd-flavored charts — serious data, disarming style.","dz":"手绘漫画风图表：严肃数据，亲切画风。"},{"id":"evidence","n":"Evidence","r":"evidence-dev/evidence","s":6961,"c":"data","lv":3,"p":"JS","t":["bi","sql","报表"],"de":"BI as code: SQL + Markdown compile into a data app.","dz":"用代码写 BI：SQL + Markdown 编译成数据应用。"},{"id":"lightdash","n":"Lightdash","r":"lightdash/lightdash","s":6164,"c":"data","lv":3,"p":"Docker","t":["bi","dbt","报表"],"de":"The BI layer built for dbt — metrics straight from your models.","dz":"紧贴 dbt 的 BI 工具：指标直接来自你的模型。"},{"id":"babylon","n":"Babylon.js","r":"BabylonJS/Babylon.js","s":26114,"c":"web","lv":3,"p":"JS","t":["3d","webgpu","游戏"],"de":"A powerhouse WebGL/WebGPU 3D engine with a lovely playground.","dz":"强大的 WebGL/WebGPU 3D 引擎，附带游乐场。"},{"id":"p5js","n":"p5.js","r":"processing/p5.js","s":24056,"c":"web","lv":3,"p":"JS","t":["creative","coding","创意"],"de":"Creative coding made friendly — artists write code with it every day.","dz":"最友好的创意编程库：艺术家每天都在用它写代码。"},{"id":"biome","n":"Biome","r":"biomejs/biome","s":25865,"c":"web","lv":3,"p":"JS","t":["lint","format","格式化"],"de":"Lint and format JS/TS in one Rust-powered tool — absurdly fast.","dz":"一个 Rust 工具搞定 Lint + 格式化，快得离谱。"},{"id":"oxc","n":"oxc","r":"oxc-project/oxc","s":22901,"c":"web","lv":3,"p":"Rust","t":["toolchain","linter","工具链"],"de":"A Rust-built JavaScript toolchain: linter, transformer, resolver.","dz":"Rust 写的 JS 工具链全家桶。"},{"id":"rolldown","n":"Rolldown","r":"rolldown/rolldown","s":13957,"c":"web","lv":3,"p":"Rust","t":["bundler","vite","打包"],"de":"The Rust bundler becoming the engine of the next Vite.","dz":"将成为下一代 Vite 内核的 Rust 打包器。"},{"id":"eleventy","n":"Eleventy","r":"11ty/eleventy","s":19936,"c":"web","lv":3,"p":"JS","t":["ssg","blog","博客"],"de":"A simple static site generator with zero framework baggage.","dz":"零框架包袱的简洁静态站生成器。"},{"id":"zola","n":"Zola","r":"getzola/zola","s":17473,"c":"web","lv":3,"p":"Rust","t":["ssg","blog","博客"],"de":"Static sites from a single binary — no Node, no npm, no mess.","dz":"单文件静态站生成器：没有 Node，没有 npm，没有烦恼。"},{"id":"livewire","n":"Laravel Livewire","r":"livewire/livewire","s":23584,"c":"web","lv":3,"p":"PHP","t":["laravel","dynamic","全栈"],"de":"Dynamic Laravel interfaces without writing JavaScript — the full-stack shortcut.","dz":"Laravel 全栈捷径：不写 JS 也能做动态页面。"},{"id":"inertia","n":"Inertia.js","r":"inertiajs/inertia","s":8124,"c":"web","lv":3,"p":"JS","t":["spa","monolith","单页"],"de":"Build SPAs without building an API — the glue you didn't know you wanted.","dz":"不写 API 层的单页应用方案：意想不到的胶水。"},{"id":"elysia","n":"Elysia","r":"elysiajs/elysia","s":19196,"c":"web","lv":3,"p":"TS","t":["framework","bun","框架"],"de":"An ergonomic web framework tuned for Bun — fast and delightful.","dz":"为 Bun 量身调校的高性能框架，写着上瘾。"},{"id":"nextra","n":"Nextra","r":"shuding/nextra","s":13929,"c":"web","lv":3,"p":"JS","t":["docs","next.js","文档"],"de":"The docs/blog framework behind half the sleek Next.js sites you've seen.","dz":"你见过的一半精致 Next.js 文档站都是它。"},{"id":"starlight","n":"Starlight","r":"withastro/starlight","s":9314,"c":"web","lv":3,"p":"JS","t":["docs","astro","文档"],"de":"Astro's docs framework: fast, accessible, i18n-ready out of the box.","dz":"Astro 出品文档框架：快、无障碍、自带国际化。"},{"id":"marp","n":"Marp","r":"marp-team/marp","s":12565,"c":"web","lv":2,"p":"CLI·VSCode","t":["slides","markdown","幻灯片"],"de":"Write slides in Markdown, present anywhere — decks at the speed of thought.","dz":"用 Markdown 写幻灯片，想到哪写到哪。"},{"id":"mdbook","n":"mdBook","r":"rust-lang/mdBook","s":22175,"c":"web","lv":3,"p":"Rust","t":["book","docs","文档"],"de":"Markdown → books and docs sites, from a single binary.","dz":"Markdown 变电子书与文档站，单文件搞定。"},{"id":"konva","n":"Konva","r":"konvajs/konva","s":14830,"c":"web","lv":3,"p":"JS","t":["canvas","2d","画布"],"de":"Declarative canvas: interactive 2D graphics without raw canvas pain.","dz":"声明式 Canvas：交互式 2D 图形，告别原生画布之苦。"},{"id":"openprops","n":"Open Props","r":"argyleink/open-props","s":5527,"c":"web","lv":3,"p":"CSS","t":["css","variables","设计"],"de":"A drawer of supercharged CSS variables — design tokens, ready to use.","dz":"现成的 CSS 变量设计令牌抽屉，拿来就用。"},{"id":"chi","n":"chi","r":"go-chi/chi","s":22893,"c":"backend","lv":3,"p":"Go","t":["router","http","路由"],"de":"The lightweight Go router that std-net always wanted to be.","dz":"轻量 Go 路由器：标准库一直想成为的样子。"},{"id":"sqlmodel","n":"SQLModel","r":"tiangolo/sqlmodel","s":18345,"c":"backend","lv":3,"p":"Python","t":["orm","sqlalchemy","数据库"],"de":"SQLAlchemy meets Pydantic — type-safe models for FastAPI folks.","dz":"SQLAlchemy 遇见 Pydantic：FastAPI 一家的类型安全 ORM。"},{"id":"sqlc","n":"sqlc","r":"sqlc-dev/sqlc","s":18327,"c":"backend","lv":3,"p":"Go","t":["sql","typesafe","查询"],"de":"Write SQL, get type-safe Go code generated — the compiler checks your queries.","dz":"写 SQL，生成类型安全的 Go 代码：编译期帮你查错。"},{"id":"ent","n":"ent","r":"ent/ent","s":17205,"c":"backend","lv":3,"p":"Go","t":["orm","graph","数据库"],"de":"Facebook's entity framework for Go: schemas as graphs, migrations included.","dz":"Facebook 出品的 Go 实体框架：图式建模，迁移齐活。"},{"id":"kysely","n":"Kysely","r":"kysely-org/kysely","s":14244,"c":"backend","lv":3,"p":"TS","t":["sql","query","查询"],"de":"Type-safe SQL query builder with zero runtime cost.","dz":"零运行时开销的类型安全 SQL 构建器。"},{"id":"gqlgen","n":"gqlgen","r":"99designs/gqlgen","s":10764,"c":"backend","lv":3,"p":"Go","t":["graphql","api","接口"],"de":"Schema-first GraphQL server for Go — codegen does the boring parts.","dz":"Schema 优先的 Go GraphQL 服务端：无聊部分交给代码生成。"},{"id":"litestar","n":"Litestar","r":"litestar-org/litestar","s":8483,"c":"backend","lv":3,"p":"Python","t":["framework","async","框架"],"de":"A fast, thoughtfully async Python web framework.","dz":"又快又讲究的异步 Python Web 框架。"},{"id":"renovate","n":"Renovate","r":"renovatebot/renovate","s":22608,"c":"devops","lv":3,"p":"CI","t":["dependencies","bot","依赖"],"de":"A bot that PRs updates for every outdated dependency — all of them.","dz":"依赖更新机器人：每个过时包都自动发 PR。"},{"id":"kamal","n":"Kamal","r":"basecamp/kamal","s":14607,"c":"devops","lv":3,"p":"CLI","t":["deploy","paaS","部署"],"de":"From 37signals: deploy anything anywhere with one command.","dz":"37signals 出品：一条命令把应用部署到任何服务器。"},{"id":"caprover","n":"CapRover","r":"caprover/caprover","s":15172,"c":"devops","lv":2,"p":"Docker","t":["paas","deploy","部署"],"de":"Your own mini-PaaS: one-click apps, free TLS, web UI.","dz":"自建迷你 PaaS：一键装应用、自动 HTTPS、网页管理。"},{"id":"gatus","n":"Gatus","r":"TwiN/gatus","s":12182,"c":"devops","lv":2,"p":"Docker","t":["monitoring","health","监控"],"de":"A health dashboard for endpoints and cron jobs — if it's down, you know.","dz":"端点健康监控面板：一挂就知道。"},{"id":"kopia","n":"Kopia","r":"kopia/kopia","s":14204,"c":"devops","lv":1,"p":"Win·mac·Linux","t":["backup","encrypted","备份"],"de":"Encrypted, deduplicated, incremental backups with a friendly GUI.","dz":"加密去重增量备份，还带友好图形界面。"},{"id":"borg","n":"BorgBackup","r":"borgbackup/borg","s":13778,"c":"devops","lv":2,"p":"CLI","t":["backup","dedupe","备份"],"de":"The classic deduplicating backup archiver — trusted for a decade.","dz":"去重备份老牌选手，十年口碑。"},{"id":"devbox","n":"Devbox","r":"jetify-com/devbox","s":12375,"c":"devops","lv":2,"p":"CLI","t":["environment","nix","环境"],"de":"Instant, portable dev environments — shell in, project-ready.","dz":"秒起可移植开发环境：进 shell 即开工。"},{"id":"devenv","n":"devenv","r":"cachix/devenv","s":7681,"c":"devops","lv":3,"p":"CLI","t":["environment","nix","环境"],"de":"Fast, declarative dev shells without learning Nix the language.","dz":"声明式开发环境：不用先学 Nix 语言。"},{"id":"distrobox","n":"Distrobox","r":"89luca89/distrobox","s":13011,"c":"devops","lv":2,"p":"Linux","t":["container","distro","容器"],"de":"Use any Linux distro inside your terminal, seamlessly — Ubuntu tools on Arch, no reboot.","dz":"在终端里无缝使用任意发行版：Arch 上跑 Ubuntu 工具，无需重启。"},{"id":"graphite","n":"Graphite","r":"GraphiteEditor/Graphite","s":27371,"c":"design","lv":1,"p":"Web","t":["graphics","procedural","节点"],"de":"A procedural, node-based graphics editor that runs in your browser.","dz":"浏览器里的程序化节点图形编辑器，设计师的游乐场。"},{"id":"tabler","n":"Tabler Icons","r":"tabler/tabler-icons","s":21798,"c":"design","lv":1,"p":"Web·SVG","t":["icons","ui","图标"],"de":"5,000+ free MIT icons in one consistent style — the quiet workhorse of UI.","dz":"近五千枚 MIT 开源图标：风格统一的 UI 无名功臣。"},{"id":"lucide","n":"Lucide","r":"lucide-icons/lucide","s":24743,"c":"design","lv":1,"p":"Web·SVG","t":["icons","ui","图标"],"de":"The beautifully consistent icon set half the web quietly uses.","dz":"半个互联网都在悄悄用的图标库。"},{"id":"iconify","n":"Iconify","r":"iconify/iconify","s":6337,"c":"design","lv":2,"p":"Web·JS","t":["icons","framework","图标"],"de":"One framework, 200,000+ icons from every major set.","dz":"一个框架装下 20 万+ 枚图标，主流图标集全都在。"},{"id":"svgo","n":"SVGO","r":"svg/svgo","s":22703,"c":"design","lv":3,"p":"CLI·JS","t":["svg","optimize","优化"],"de":"Squeezes SVG files smaller without losing quality.","dz":"SVG 瘦身优化器：去掉字节，不掉质量。"},{"id":"pixelorama","n":"Pixelorama","r":"Orama-Interactive/Pixelorama","s":10400,"c":"design","lv":1,"p":"Win·mac·Linux","t":["pixel-art","drawing","像素"],"de":"A polished free pixel-art editor built with Godot.","dz":"Godot 打造的免费像素画编辑器，打磨精细。"},{"id":"opentoonz","n":"OpenToonz","r":"opentoonz/opentoonz","s":7764,"c":"design","lv":1,"p":"Win·mac·Linux","t":["animation","2d","动画"],"de":"2D animation software with studio pedigree — Ghibli's toolchain cousin.","dz":"有吉卜力背景的 2D 动画软件，专业血统。"},{"id":"fontforge","n":"FontForge","r":"fontforge/fontforge","s":7983,"c":"design","lv":2,"p":"Win·mac·Linux","t":["font","typeface","字体"],"de":"The open-source font editor — design your own typeface from scratch.","dz":"开源字体设计软件：从零造一款自己的字体。"},{"id":"vimium","n":"Vimium","r":"philc/vimium","s":27018,"c":"privacy","lv":1,"p":"Chrome","t":["vim","keyboard","键盘"],"de":"Vim keys in your browser — navigate the web without touching the mouse.","dz":"浏览器里的 Vim 键位：全程不碰鼠标上网。"},{"id":"tridactyl","n":"Tridactyl","r":"tridactyl/tridactyl","s":6353,"c":"privacy","lv":1,"p":"Firefox","t":["vim","keyboard","键盘"],"de":"Vim bindings for Firefox, deeply hackable.","dz":"Firefox 的 Vim 键位，深度可魔改。"},{"id":"sponsorblock","n":"SponsorBlock","r":"ajayyy/SponsorBlock","s":13850,"c":"privacy","lv":1,"p":"Chrome·Firefox","t":["youtube","sponsor","跳过"],"de":"Crowd-sourced timestamps that auto-skip YouTube sponsor segments.","dz":"全网共建时间戳，自动跳过 YouTube 赞助广告段。"},{"id":"adguard","n":"AdGuard extension","r":"AdguardTeam/AdGuardBrowserExtension","s":4447,"c":"privacy","lv":1,"p":"Chrome·Firefox","t":["ads","blocker","广告"],"de":"The open-source AdGuard extension — no 'acceptable ads' deals.","dz":"开源广告过滤扩展：没有「可接受广告」的交易。"},{"id":"privacybadger","n":"Privacy Badger","r":"EFForg/privacybadger","s":3850,"c":"privacy","lv":1,"p":"Chrome·Firefox","t":["tracking","eff","追踪"],"de":"EFF's tracker blocker that learns as you browse.","dz":"电子前哨基金会出品：边浏览边学会反追踪。"},{"id":"pomerium","n":"Pomerium","r":"pomerium/pomerium","s":5019,"c":"privacy","lv":3,"p":"Docker","t":["zero-trust","proxy","零信任"],"de":"Identity-aware proxy: zero-trust access to your internal apps.","dz":"身份感知代理：零信任访问内部应用。"},{"id":"mindustry","n":"Mindustry","r":"Anuken/Mindustry","s":29135,"c":"games","lv":1,"p":"Win·mac·Linux","t":["factory","rts","塔防"],"de":"Factory towers + RTS + deep modding — the strategy game you sink 200 hours into.","dz":"工厂+塔防+RTS：一进去就是 200 小时的策略游戏。"},{"id":"openra","n":"OpenRA","r":"OpenRA/OpenRA","s":17444,"c":"games","lv":1,"p":"Win·mac·Linux","t":["rts","red-alert","红警"],"de":"Command & Conquer and Red Alert, rebuilt modern and cross-platform.","dz":"红色警戒等经典 RTS 的现代化重制。"},{"id":"cataclysm","n":"Cataclysm DDA","r":"CleverRaven/Cataclysm-DDA","s":13251,"c":"games","lv":1,"p":"Win·mac·Linux","t":["roguelike","survival","生存"],"de":"The deepest survival roguelike ever made — infinitely replayable.","dz":"深度无可比拟的末日生存 Roguelike。"},{"id":"heroic","n":"Heroic","r":"Heroic-Games-Launcher/HeroicGamesLauncher","s":12293,"c":"games","lv":1,"p":"Win·mac·Linux","t":["games","epic","启动器"],"de":"Epic, GOG and Amazon games in one clean launcher.","dz":"Epic/GOG/亚马逊游戏，一个启动器全搞定。"},{"id":"lutris","n":"Lutris","r":"lutris/lutris","s":10270,"c":"games","lv":1,"p":"Linux","t":["games","launcher","启动器"],"de":"The one launcher that keeps Linux gaming organized.","dz":"Linux 游戏的大管家。"},{"id":"bottles","n":"Bottles","r":"bottlesdevs/Bottles","s":8898,"c":"games","lv":1,"p":"Linux","t":["wine","windows","兼容"],"de":"Run Windows apps and games on Linux through tidy, managed bottles.","dz":"Linux 上优雅运行 Windows 程序与游戏。"},{"id":"veloren","n":"Veloren","r":"veloren/veloren","s":7587,"c":"games","lv":1,"p":"Win·mac·Linux","t":["rpg","voxel","体素"],"de":"A community-built multiplayer voxel RPG — open-source Zelda energy.","dz":"社区开发的多人体素 RPG：开源塞尔传说。"},{"id":"endlesssky","n":"Endless Sky","r":"endless-sky/endless-sky","s":7588,"c":"games","lv":1,"p":"Win·mac·Linux","t":["space","trading","太空"],"de":"Trade and fight across the galaxy — the Escape Velocity spirit, alive.","dz":"银河贸易与战斗：经典精神续作，仍在生长。"},{"id":"openttd","n":"OpenTTD","r":"openttd/OpenTTD","s":8303,"c":"games","lv":1,"p":"Win·mac·Linux","t":["tycoon","transport","运输"],"de":"The transport-empire tycoon, 20+ years strong and still shipping.","dz":"运输大亨开源版：二十年常青，仍在更新。"},{"id":"spd","n":"Shattered Pixel Dungeon","r":"00-Evan/shattered-pixel-dungeon","s":6576,"c":"games","lv":1,"p":"Android·iOS·Desktop","t":["roguelike","pixel","像素"],"de":"A roguelike polished to a mirror shine that fits in your pocket.","dz":"打磨到发亮的口袋 Roguelike。"},{"id":"stk","n":"SuperTuxKart","r":"supertuxkart/stk-code","s":5376,"c":"games","lv":1,"p":"Win·mac·Linux","t":["racing","kart","赛车"],"de":"A mascot kart racer with actual online multiplayer.","dz":"吉祥物卡丁车竞速，还带联机。"}]}</script>
 <!--GEMSJSON:END-->
 
 <script type="module">
 /* ---------- data ---------- */
-const GEMS = JSON.parse(document.getElementById('gemsData').textContent);
+const DATA = JSON.parse(document.getElementById('gemsData').textContent);
+const GEMS = DATA.g;
 const CATS = [
   {id:'apps',   en:'Everyday Apps', zh:'效率与日常', ic:'🧰'},
   {id:'media',  en:'Photo · Audio · Video', zh:'影音创作', ic:'🎬'},
@@ -1067,7 +1070,8 @@ const L = {
   heroTitle:'Underrated open-source projects,<br>worth far more <span class="g">stars</span> than they get',
   heroSub:'A hand-curated directory of open-source gems sitting in GitHub\'s 1k–30k star sweet spot — verified live, not guessed. Made for two people: the newcomer who just landed on GitHub, and the specialist ready to look outside their field.',
   stGems:'gems', stCats:'fields',
-  stVerified:'⭐ star counts live-verified <b>2026-09-27</b>',
+  stVerified:'⭐ star counts live-verified',
+  bGrad:'Graduated', bArch:'Archived',
   e1tag:'BEGINNER', e1h:'New to GitHub? Start here',
   e1p:'Stars, forks, issues… explained in plain words, plus a 3-point checklist for judging any repo — then start with apps you can use today, zero coding.',
   e1go:'Give me the 60-second tour →',
@@ -1099,16 +1103,16 @@ const L = {
   count:'Showing {n} of {t} gems',
   s3h:'What makes a gem',
   s3sub:'Four rules, applied by hand to every entry — no auto-scraping, no paid placements.',
-  c1t:'The 1k–30k star band', c1d:'Below 1k quality is unproven; above 30k it\'s already famous. The middle is where hidden gems live.',
+  c1t:'The 1k–30k star band', c1d:'Below 1k quality is unproven; above 30k it\'s already famous. The middle is where hidden gems live — gems that outgrow the band get a 🎓 badge and stay.',
   c2t:'Actively maintained', c2d:'Updated within 24 months and not archived — every entry re-verified against the GitHub API.',
   c3t:'A real working product', c3d:'Something you can download, deploy or install today — not a plan, not a paper.',
   c4t:'Fame « quality', c4d:'The guiding star: usefulness far above popularity — many are under-known in the Chinese-speaking world too.',
-  critNote:'Star counts drift daily — treat them as a snapshot taken 2026-09-27. Spotted something wrong? Open an issue.',
+  critNote:'Star counts drift daily — treat them as an approximate snapshot (verified date shown up top). Gems that outgrow the band get a 🎓 badge and stay. Spotted something wrong? Open an issue.',
   s4h:'FAQ',
   fq1:'What counts as a "gem" here?',
   fa1:'Projects with 1,000–30,000 GitHub stars, actively maintained (updated within 24 months, not archived), with a real working product you can use today — and quality far above their fame.',
   fq2:'Why the 1k–30k star range?',
-  fa2:'Below 1k stars quality is hard to guarantee; above 30k a project is usually already famous and doesn\'t need discovering. The sweet spot is where quality is proven but the project is still under-known — especially in the Chinese-speaking community.',
+  fa2:'Below 1k stars quality is hard to guarantee; above 30k a project is usually already famous and doesn\'t need discovering. The sweet spot is where quality is proven but the project is still under-known — especially in the Chinese-speaking community. When a listed gem outgrows 30k stars, it earns a 🎓 Graduated badge and stays on the list.',
   fq3:'Are the star counts accurate?',
   fa3:'Every project was live-verified against the GitHub API on the date shown at the top of the page. Counts drift over time, so treat them as an approximate snapshot.',
   fq4:'How do I submit a gem?',
@@ -1124,7 +1128,8 @@ const L = {
   heroTitle:'那些被严重低估的开源项目，<br>值得远比现在更多的 <span class="g">star</span>',
   heroSub:'人工精选的开源宝藏库：全部落在 GitHub 1k–30k star 的「宝藏区间」，star 数经 API 实测核验而非道听途说。服务两类人：刚落地 GitHub 的新手，和准备走出舒适区、看看别的领域的开发者。',
   stGems:'个宝藏', stCats:'个领域',
-  stVerified:'⭐ star 数已于 <b>2026-09-27</b> 实测核验',
+  stVerified:'⭐ star 数实测核验',
+  bGrad:'已毕业', bArch:'已归档',
   e1tag:'新手专区', e1h:'刚接触 GitHub？从这开始',
   e1p:'Star、Fork、Issue……用人话讲明白，再送你一套「三招判断项目靠不靠谱」——然后从今天就能用上、不用写一行代码的应用开始。',
   e1go:'60 秒速成，走起 →',
@@ -1156,16 +1161,16 @@ const L = {
   count:'共 {t} 枚宝藏，当前显示 {n} 枚',
   s3h:'什么才算宝藏',
   s3sub:'四条铁律，逐条人工把关——不爬虫抓取，没有付费收录。',
-  c1t:'1k–30k star 区间', c1d:'低于 1k 质量没保证，高于 30k 早就家喻户晓。中间地带才是宝藏出没的地方。',
+  c1t:'1k–30k star 区间', c1d:'低于 1k 质量没保证，高于 30k 早就家喻户晓。中间地带才是宝藏出没的地方——涨出区间的宝石会挂 🎓 毕业徽章继续保留。',
   c2t:'持续维护', c2d:'24 个月内有更新、未归档——每一条都经 GitHub API 重新核验。',
   c3t:'有能用的成品', c3d:'今天就能下载、部署或安装的东西——不是 PPT，不是论文。',
   c4t:'知名度 ≪ 品质', c4d:'唯一的指导星：好用程度远超流行度——很多在中文圈同样鲜为人知。',
-  critNote:'star 数每天都在变，请视为 2026-09-27 的快照。发现哪里不对？提个 Issue。',
+  critNote:'star 数每天都在变，请视为近似快照（核验日期见页面顶部）；涨出区间的宝石挂 🎓 徽章保留。发现哪里不对？提个 Issue。',
   s4h:'常见问题',
   fq1:'什么样的项目算「宝藏」？',
   fa1:'star 在 1,000–30,000 之间、持续维护（24 个月内有更新、未归档）、有今天就能用的成品——并且品质远超知名度。',
   fq2:'为什么限定 1k–30k star？',
-  fa2:'低于 1k star 质量难保证；超过 30k 通常已经足够有名、轮不到我们来推荐。中间的甜蜜点：质量已被验证、知名度还没跟上——尤其在中文圈。',
+  fa2:'低于 1k star 质量难保证；超过 30k 通常已经足够有名、轮不到我们来推荐。中间的甜蜜点：质量已被验证、知名度还没跟上——尤其在中文圈。已上榜的宝石涨破 30k 后，会挂上 🎓「已毕业」徽章继续留在榜上。',
   fa3:'每个项目的 star 数都在页面顶部标注的日期经 GitHub API 实测核验。数字每天都在变，请当作近似快照。',
   fq3:'star 数准确吗？', fq4:'怎么推荐项目？',
   fa4:'在 GitHub 仓库提一个 Issue，附上项目链接和推荐理由。人工审核后收录。',
@@ -1191,12 +1196,14 @@ function cardHTML(g){
   const c = catOf(g.c), lv = LV[g.lv-1];
   const d = state.lang === 'zh' ? g.dz : g.de;
   const cls = g.lv === 1 ? 'b1' : g.lv === 2 ? 'b2' : 'b3';
-  return `<a class="card" href="https://github.com/${g.r}" target="_blank" rel="noopener">` +
+  const extra = (g.g ? `<span class="badge grad">🎓 ${t('bGrad')} ${g.g}</span>` : '') +
+                (g.a ? `<span class="badge arch">⚠️ ${t('bArch')}</span>` : '');
+  return `<a class="card" href="gems/${g.id}.html">` +
     `<div class="crow"><span class="nm">${esc(g.n)}</span><span class="st">★ ${fmtK(g.s)}</span></div>` +
     `<p class="ds">${esc(d)}</p>` +
     `<div class="mta"><span class="badge cat">${c.ic} ${esc(state.lang==='zh'?c.zh:c.en)}</span>` +
     `<span class="badge ${cls}">${esc(state.lang==='zh'?lv.zh:lv.en)}</span>` +
-    (g.p ? `<span class="badge">${esc(g.p)}</span>` : '') + `</div></a>`;
+    (g.p ? `<span class="badge">${esc(g.p)}</span>` : '') + extra + `</div></a>`;
 }
 function filtered(){
   const q = state.q.trim().toLowerCase();
@@ -1229,7 +1236,7 @@ function renderPassport(){
   $('#pList').innerHTML = p.picks.map((id, i) => {
     const g = GEMS.find(x => x.id === id);
     if (!g) return '';
-    return `<a class="pitem" href="https://github.com/${g.r}" target="_blank" rel="noopener">` +
+    return `<a class="pitem" href="gems/${g.id}.html">` +
       `<span class="pic">${catOf(g.c).ic}</span>` +
       `<span class="pt"><span class="pn">${esc(g.n)}</span><br><span class="pd">${esc((state.lang==='zh'?p.whyZh:p.why)[i])} · ★ ${fmtK(g.s)}</span></span>` +
       `<span class="pa">→</span></a>`;
@@ -1317,6 +1324,7 @@ function init(){
   if (u.get('sort')) state.sort = u.get('sort');
   $('#stGems').textContent = GEMS.length;
   $('#stCats').textContent = CATS.length;
+  if (DATA.d) $('#stDate').textContent = DATA.d;
   bind(); applyLang();
 }
 init();
