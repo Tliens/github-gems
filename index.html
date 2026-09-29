@@ -25,7 +25,7 @@
 <script type="application/ld+json">
 {"@context":"https://schema.org","@graph":[
  {"@type":"WebSite","name":"GitHub Gems","url":"https://github-gems.kuige.me/",
-  "description":"A hand-curated directory of 130+ underrated open-source gems (1k–30k stars, live-verified) plus legendary projects as beacons, for GitHub beginners and cross-field explorers.",
+  "description":"GitHub Gems is a hand-curated discovery directory for open-source: hidden 1k–30k star gems (live-verified) plus legendary projects as landmarks, for GitHub beginners and cross-field explorers.",
   "inLanguage":["en","zh"]},
  {"@type":"FAQPage","mainEntity":[
   {"@type":"Question","name":"What counts as a 'gem' here?","acceptedAnswer":{"@type":"Answer","text":"Projects with 1,000–30,000 GitHub stars, actively maintained (updated within 24 months, not archived), with a real working product you can use today — and quality far above their fame."}},
@@ -78,6 +78,13 @@ header{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--bg) 8
 .stats{position:relative;display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-bottom:34px}
 .stats span,.stats a{background:var(--bg2);border:1px solid var(--line);border-radius:99px;padding:5px 14px;font-size:13px;color:var(--fg2);font-weight:600}
 .stats b{color:var(--fg)}
+.ctx{position:relative;display:flex;gap:44px;justify-content:center;flex-wrap:wrap;margin:4px auto 6px}
+.ctxi{display:block;text-align:center;transition:.15s}
+.ctxi:hover{transform:translateY(-2px)}
+.ctxi b{display:block;font-size:clamp(24px,3.4vw,32px);font-weight:850;letter-spacing:-.02em;background:linear-gradient(120deg,var(--acc),var(--acc2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.ctxi span{display:block;color:var(--fg2);font-size:12.5px;margin-top:2px}
+.ctxsrc{position:relative;text-align:center;color:var(--fg2);font-size:12px;margin:2px 0 30px}
+.ctxsrc a{color:var(--acc);font-weight:600}
 
 /* dual entry */
 .entries{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:0 auto 8px;max-width:860px}
@@ -204,14 +211,19 @@ footer a{color:var(--acc);font-weight:600}
 <main id="top">
 <div class="wrap">
   <div class="hero">
-    <h1 data-i18n="heroTitle">Underrated open-source projects,<br>worth far more <span class="g">stars</span> than they get</h1>
-    <p class="sub" data-i18n="heroSub">A hand-curated directory of open-source gems sitting in GitHub's 1k–30k star sweet spot — verified live, not guessed. Made for two people: the newcomer who just landed on GitHub, and the specialist ready to look outside their field.</p>
+    <h1 data-i18n="heroTitle">GitHub holds 395 million public repos.<br>We curate the ones <span class="g">worth your stars</span></h1>
+    <p class="sub" data-i18n="heroSub">GitHub Gems is a hand-curated discovery directory: 💎 137 hidden gems from the 1k–30k star sweet spot — every count live-verified — plus 🏆 24 legendary projects as landmarks. For GitHub newcomers, and developers stepping outside their field.</p>
+    <div class="ctx">
+      <a class="ctxi" href="https://octoverse.github.com" target="_blank" rel="noopener"><b data-i18n="ctxReposV">395M</b><span data-i18n="ctxRepos">public &amp; open-source repos on GitHub</span></a>
+      <a class="ctxi" href="https://octoverse.github.com" target="_blank" rel="noopener"><b data-i18n="ctxDevsV">180M+</b><span data-i18n="ctxDevs">developers worldwide</span></a>
+      <a class="ctxi" href="https://octoverse.github.com" target="_blank" rel="noopener"><b data-i18n="ctxContribV">1.12B</b><span data-i18n="ctxContrib">open-source contributions in 2025</span></a>
+    </div>
+    <p class="ctxsrc"><a href="https://octoverse.github.com" target="_blank" rel="noopener" data-i18n="ctxSrc">Source: GitHub Octoverse 2025 ↗</a></p>
     <div class="stats">
       <span><b id="stGems">130</b> <span data-i18n="stGems">gems</span></span>
       <span><b id="stCats">13</b> <span data-i18n="stCats">fields</span></span>
       <span><b id="stLegends">24</b> <span data-i18n="stLegends">legends</span></span>
       <span data-i18n="stVerified">⭐ star counts live-verified</span><span>&nbsp;<b id="stDate">2026-09-27</b></span>
-      <a href="https://octoverse.github.com" target="_blank" rel="noopener" data-i18n="stContext">📍 Curated from GitHub's <b>395M</b> public repos — <b>Octoverse 2025</b></a>
     </div>
     <div class="entries">
       <a class="entry" href="#start">
@@ -1194,12 +1206,16 @@ const PERSONAS = [
 /* ---------- i18n ---------- */
 const L = {
  en:{
-  heroTitle:'Underrated open-source projects,<br>worth far more <span class="g">stars</span> than they get',
-  heroSub:'A hand-curated directory of open-source gems sitting in GitHub\'s 1k–30k star sweet spot — verified live, not guessed. Made for two people: the newcomer who just landed on GitHub, and the specialist ready to look outside their field.',
+  heroTitle:'GitHub holds 395 million public repos.<br>We curate the ones <span class="g">worth your stars</span>',
+  heroSub:'GitHub Gems is a hand-curated discovery directory: 💎 137 hidden gems from the 1k–30k star sweet spot — every count live-verified — plus 🏆 24 legendary projects as landmarks. For GitHub newcomers, and developers stepping outside their field.',
+  ctxReposV:'395M', ctxRepos:'public & open-source repos on GitHub',
+  ctxDevsV:'180M+', ctxDevs:'developers worldwide',
+  ctxContribV:'1.12B', ctxContrib:'open-source contributions in 2025',
+  ctxSrc:'Source: GitHub Octoverse 2025 ↗',
   stGems:'gems', stCats:'fields',
   stVerified:'⭐ star counts live-verified',
   bGrad:'Graduated', bArch:'Archived', bLegend:'Legend',
-  stLegends:'legends', stContext:'📍 Curated from GitHub\'s <b>395M</b> public repos — <b>Octoverse 2025</b>',
+  stLegends:'legends',
   tierAll:'All', tierG:'💎 Hidden gems', tierL:'🏆 Legends',
   fq6:'Why are famous projects listed too?',
   fa6:'The 🏆 Legend projects are the famous pillars — React, Linux, VS Code and friends. They are listed so newcomers get their bearings and cross-field explorers can spot the landmarks of other fields; they are clearly badged and kept separate from the 1k–30k hidden gems the site is about.',
@@ -1256,12 +1272,16 @@ const L = {
   catAll:'All', empty:'No gems match — try clearing a filter.',
  },
  zh:{
-  heroTitle:'那些被严重低估的开源项目，<br>值得远比现在更多的 <span class="g">star</span>',
-  heroSub:'人工精选的开源宝藏库：全部落在 GitHub 1k–30k star 的「宝藏区间」，star 数经 API 实测核验而非道听途说。服务两类人：刚落地 GitHub 的新手，和准备走出舒适区、看看别的领域的开发者。',
+  heroTitle:'GitHub 上有 3.95 亿个公开仓库，<br>我们帮你筛出<span class="g">值得 star</span> 的那些',
+  heroSub:'GitHub Gems 是一个人工精选的开源发现站：💎 137 个来自 1k–30k star「宝藏区间」的冷门宝藏（star 数逐条实测核验），🏆 24 个封神之作作为路标——帮刚落地 GitHub 的新手入门，也帮单一领域的开发者跨圈探索。',
+  ctxReposV:'3.95 亿', ctxRepos:'个公共与开源仓库',
+  ctxDevsV:'1.8 亿+', ctxDevs:'名开发者遍布全球',
+  ctxContribV:'11.2 亿', ctxContrib:'次开源贡献（2025 年）',
+  ctxSrc:'数据来源：GitHub Octoverse 2025 ↗',
   stGems:'个宝藏', stCats:'个领域',
   stVerified:'⭐ star 数实测核验',
   bGrad:'已毕业', bArch:'已归档', bLegend:'封神',
-  stLegends:'个封神', stContext:'📍 精选自 GitHub <b>3.95 亿</b>公共仓库——<b>Octoverse 2025</b>',
+  stLegends:'个封神',
   tierAll:'全部', tierG:'💎 冷门宝藏', tierL:'🏆 封神之作',
   fq6:'为什么还收录知名项目？',
   fa6:'🏆「封神之作」是 React、Linux、VS Code 这样的业界支柱：新手需要认识路标，跨圈探索的人也需要知道其他领域的地标。它们带明确徽章、与网站主打的 1k–30k 冷门宝藏分开，不会混淆。',
