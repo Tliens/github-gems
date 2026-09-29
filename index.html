@@ -80,7 +80,13 @@ header{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--bg) 8
 .fsname{text-align:center;color:var(--acc);font-weight:700;font-size:13px;margin:0 0 14px}
 .fsbox p:not(.fsname){color:var(--fg2);font-size:14px;line-height:1.75;margin:0 0 12px}
 .fsbox p b{color:var(--fg)}
-.fsfollow{display:flex;align-items:center;justify-content:center;gap:8px;margin-top:16px;background:#0f1419;color:#fff;border-radius:12px;padding:12px 18px;font-weight:700;font-size:14.5px;border:1px solid #0f1419;transition:.15s}
+.fsbtns{display:flex;gap:10px;margin-top:16px}
+.fsbtns a{flex:1;display:flex;align-items:center;justify-content:center;gap:8px;border-radius:12px;padding:12px 14px;font-weight:700;font-size:14px;transition:.15s;white-space:nowrap}
+.fsfollow{background:#0f1419;color:#fff;border:1px solid #0f1419}
+html[data-theme=dark] .fsfollow{background:#e7e9ea;color:#0f1419;border-color:#e7e9ea}
+.fsdiscuss{border:1px solid var(--line);color:var(--fg);background:var(--bg2)}
+.fsdiscuss:hover{border-color:var(--acc);color:var(--acc)}
+.fsfollow:hover{transform:translateY(-2px);opacity:.92}
 html[data-theme=dark] .fsfollow{background:#e7e9ea;color:#0f1419;border-color:#e7e9ea}
 .fsfollow:hover{transform:translateY(-2px);opacity:.92}
 .hbar .sp{flex:1}
@@ -1237,6 +1243,7 @@ const L = {
   fsIntro:'GitHub Gems (codename <b>封神传说</b> — "Investiture of the Gods") is a hand-curated discovery directory for open source: 💎 137 hidden gems live-verified from GitHub\'s 1k–30k star sweet spot, and 🏆 24 legendary projects as landmarks. Every star count is checked against the GitHub API — nothing guessed.',
   fsStory:'In the Chinese classic <i>Investiture of the Gods</i>, the sage Jiang Ziya fishes with a straight hook — not for fish, but for the worthy, whose names he writes onto the list that makes them immortal. That is our metaphor: underrated gems get seen, great works get crowned. A star is not the end; being discovered is.',
   fsFollow:'Follow me on X',
+  fsDiscuss:'Join the discussion',
   stGems:'gems', stCats:'fields',
   stVerified:'⭐ star counts live-verified',
   bGrad:'Graduated', bArch:'Archived', bLegend:'Legend',
@@ -1308,6 +1315,7 @@ const L = {
   fsIntro:'GitHub Gems（代号「<b>封神传说</b>」）是一个人工精选的开源发现站：💎 137 个实测核验的 1k–30k star 冷门宝藏，🏆 24 个殿堂级封神之作作为路标。所有 star 数均经 GitHub API 实测，拒绝道听途说。',
   fsStory:'《封神演义》里，姜子牙直钩垂钓——钓的不是鱼，是值得封神的人，然后把他们一一写上封神榜。这就是我们的寓意：让被低估的宝藏被看见，让传世之作加冕。star 不是终点，被发现才是。',
   fsFollow:'去 X 上关注我',
+  fsDiscuss:'去讨论',
   stGems:'个宝藏', stCats:'个领域',
   stVerified:'⭐ star 数实测核验',
   bGrad:'已毕业', bArch:'已归档', bLegend:'封神',
@@ -1542,7 +1550,10 @@ init();
     <p class="fsname" data-i18n="fsName">封神传说 · Fengshen Legend</p>
     <p data-i18n="fsIntro">GitHub Gems (codename <b>封神传说</b> — "Investiture of the Gods") is a hand-curated discovery directory for open source: 💎 137 hidden gems live-verified from GitHub's 1k–30k star sweet spot, and 🏆 24 legendary projects as landmarks. Every star count is checked against the GitHub API — nothing guessed.</p>
     <p data-i18n="fsStory">In the Chinese classic <i>Investiture of the Gods</i>, the sage Jiang Ziya fishes with a straight hook — not for fish, but for the worthy, whose names he writes onto the list that makes them immortal. That is our metaphor: underrated gems get seen, great works get crowned. A star is not the end; being discovered is.</p>
-    <a class="fsfollow" href="https://x.com/kuige_me" target="_blank" rel="noopener">𝕏 <span data-i18n="fsFollow">Follow me on X</span></a>
+    <div class="fsbtns">
+      <a class="fsfollow" href="https://x.com/kuige_me" target="_blank" rel="noopener">𝕏 <span data-i18n="fsFollow">Follow me on X</span></a>
+      <a class="fsdiscuss" href="https://x.com/kuige_me/status/2104877134682398724" target="_blank" rel="noopener">💬 <span data-i18n="fsDiscuss">Join the discussion</span></a>
+    </div>
   </div>
 </div>
 
