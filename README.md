@@ -1,4 +1,6 @@
-# 💎 GitHub Gems — 161 Open-Source Projects: Hidden Gems & Legends
+# 封神传说 · GitHub Gems — 161 Open-Source Projects: Hidden Gems & Legends
+
+> 代号「**封神传说**」：姜子牙直钩垂钓，钓的不是鱼，是值得封神的人。本站如他所事——让被低估的宝藏被看见，让传世之作加冕。star 不是终点，被发现才是。
 
 **线上地址**：<https://github-gems.kuige.me/>（自定义域名；`https://tliens.github.io/github-gems/` 会 301 跳转）
 
