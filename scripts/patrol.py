@@ -12,7 +12,7 @@ from datetime import datetime, timezone
 
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from gen_cards import PROJECTS, CACHE, load_cache, fetch_repo
+from gen_cards import ALL_PROJECTS, CACHE, load_cache, fetch_repo
 
 FIELDS = "stargazerCount pushedAt isArchived description"
 REPORT = os.path.join(HERE, "data", "patrol-report.json")
@@ -34,7 +34,7 @@ def gql_batch(batch):
 
 def main():
     cache = load_cache()
-    repos = [p["r"] for p in PROJECTS]
+    repos = [p["r"] for p in ALL_PROJECTS]
     fresh = 0
     for i in range(0, len(repos), 25):
         batch = repos[i:i + 25]
@@ -50,7 +50,7 @@ def main():
     # 停更检测：24 个月无推送（与页面 criteria 一致）
     cutoff = datetime.now(timezone.utc).timestamp() - 24 * 30.5 * 86400
     stale = []
-    for p in PROJECTS:
+    for p in ALL_PROJECTS:
         pu = (cache.get(p["r"]) or {}).get("pushedAt")
         if pu:
             ts = datetime.fromisoformat(pu.replace("Z", "+00:00")).timestamp()

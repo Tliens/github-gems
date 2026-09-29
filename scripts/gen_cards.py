@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """GitHub Gems 卡片生成器。
 
-数据唯一来源：本文件 PROJECTS 数组。流程：
+数据唯一来源：本文件 PROJECTS（1k–30k 宝藏）+ LEGENDS（封神榜）数组，合并为 ALL_PROJECTS。流程：
   1. 从 data/stars-cache.json 读 star 数（缺失的仓库自动 gh api 补拉）
   2. 校验：1000 <= stars <= 30000、未归档（不满足直接报错退出）
   3. 生成静态英文卡片 + JSON 数据岛，注入 index.html 的
      <!--GEMS:START/END--> 与 <!--GEMSJSON:START/END--> 标记之间
 
-维护：增删项目只改 PROJECTS → python3 scripts/gen_cards.py → commit + push。
+维护：增删项目只改对应数组 → python3 scripts/gen_cards.py → commit + push。
 star 数需要刷新时：rm data/stars-cache.json 再跑（会用 gh 补拉全部）。
 """
 import json, os, re, shutil, subprocess, sys
@@ -28,7 +28,7 @@ TODAY = date.today().isoformat()
 STRICT = os.environ.get("GG_STRICT") == "1"
 
 # 这些英文字符串与 index.html JS 里的 L.en 字典保持一致（badge 文案）
-EN_GRAD, EN_ARCH = "Graduated", "Archived"
+EN_GRAD, EN_ARCH, EN_LEGEND = "Graduated", "Archived", "Legend"
 
 # id, n=显示名, r=owner/repo, c=分类, lv=难度(1即开即用/2轻松上手/3开发者向), p=平台, t=搜索标签, de/dz=英/中描述
 P = lambda id,n,r,c,lv,p,t,de,dz: dict(id=id,n=n,r=r,c=c,lv=lv,p=p,t=t,de=de,dz=dz)
@@ -472,6 +472,85 @@ P("stk","SuperTuxKart","supertuxkart/stk-code","games",1,"Win·mac·Linux",["rac
   "吉祥物卡丁车竞速，还带联机。"),
 ]
 
+# ---------- 封神榜：耳熟能详的殿堂级项目 ----------
+# 与宝藏的差异只在 tier="L"：不做 1k–30k 区间校验、不参与毕业，走同一套核验/巡检/落地页管道
+LEGENDS = [
+P("vscode","VS Code","microsoft/vscode","apps",1,"Win·mac·Linux",["editor","ide","编辑器"],
+  "The world's default code editor: free, fast, endlessly extensible.",
+  "全球默认的代码编辑器：免费、快、扩展无穷。"),
+P("obs","OBS Studio","obsproject/obs-studio","apps",1,"Win·mac·Linux",["streaming","recording","录屏"],
+  "The standard for streaming and screen recording, on every platform.",
+  "直播与录屏的事实标准，全平台通用。"),
+P("ffmpeg","FFmpeg","FFmpeg/FFmpeg","media",2,"Win·mac·Linux",["video","encoding","转码"],
+  "The engine behind nearly every video player, converter and stream you've used.",
+  "你用过的几乎所有播放器、转码器背后的引擎。"),
+P("fzf","fzf","junegunn/fzf","cli",2,"CLI·mac·Linux",["fuzzy","search","搜索"],
+  "Fuzzy-find anything: history, files, branches — one keystroke away.",
+  "万能模糊搜索：历史、文件、分支，一键即达。"),
+P("ripgrep","ripgrep","BurntSushi/ripgrep","cli",2,"CLI",["grep","search","文本搜索"],
+  "grep rebuilt in Rust: far faster, smarter defaults, respects .gitignore.",
+  "Rust 重写的 grep：快得多、默认更聪明、自动尊重 .gitignore。"),
+P("ohmyzsh","Oh My Zsh","ohmyzsh/ohmyzsh","cli",2,"macOS·Linux",["zsh","shell","终端"],
+  "The zsh framework behind a decade of beautiful terminals.",
+  "十年来源亮终端背后的 zsh 框架。"),
+P("git","Git","git/git","devtools",3,"C·CLI",["vcs","scm","版本控制"],
+  "The version-control system the whole industry runs on (official mirror).",
+  "全行业在用的版本控制系统（官方镜像）。"),
+P("prettier","Prettier","prettier/prettier","devtools",3,"JS·CLI",["format","style","格式化"],
+  "The opinionated formatter that ended every code-style argument.",
+  "有主见的代码格式化器，终结所有风格争论。"),
+P("transformers","Transformers","huggingface/transformers","ai",3,"Python",["llm","models","模型"],
+  "The library behind modern AI: one API for hundreds of thousands of models.",
+  "现代 AI 背后的库：一个 API 调用海量模型。"),
+P("ollama","Ollama","ollama/ollama","ai",1,"Win·mac·Linux",["llm","local","本地"],
+  "One command to run any open model locally — local AI's front door.",
+  "一条命令本地跑任意开源模型，本地 AI 的入口。"),
+P("pytorch","PyTorch","pytorch/pytorch","ai",3,"Python·C++",["deep-learning","框架"],
+  "The deep-learning framework most AI research is written in.",
+  "大部分 AI 研究所用的深度学习框架。"),
+P("homeassistant","Home Assistant","home-assistant/core","selfhost",2,"Python·Docker",["smart-home","iot","智能家居"],
+  "The local-first smart home hub that answers to no vendor.",
+  "本地优先、不听命于任何厂商的智能家居中枢。"),
+P("mermaid","Mermaid","mermaid-js/mermaid","data",3,"JS",["diagram","flowchart","图表"],
+  "Diagrams as code: flowcharts from plain text, rendered everywhere.",
+  "图表即代码：纯文本变流程图，处处可渲染。"),
+P("echarts","Apache ECharts","apache/echarts","data",3,"JS·Web",["charts","visualization","可视化"],
+  "Born at Baidu, now a global visualization standard under Apache.",
+  "出自百度，现已是 Apache 旗下的全球可视化标准。"),
+P("react","React","facebook/react","web",3,"JS",["ui","frontend","前端"],
+  "The UI library that reshaped how every interface gets built.",
+  "重塑了所有界面构建方式的 UI 库。"),
+P("vue","Vue.js","vuejs/vue","web",3,"JS",["ui","frontend","前端"],
+  "The progressive framework beloved for gentle ramps and first-class docs.",
+  "渐进式框架：上手平缓、文档一流。"),
+P("tailwind","Tailwind CSS","tailwindlabs/tailwindcss","web",3,"CSS",["styling","utility","样式"],
+  "Utility-first CSS that changed how teams style the web.",
+  "原子化 CSS：改变了团队给网页写样式的方式。"),
+P("vite","Vite","vitejs/vite","web",3,"TS",["bundler","dev-server","构建"],
+  "The dev server that made frontend tooling feel instant.",
+  "让前端工具链重新变快的开发服务器。"),
+P("redis","Redis","redis/redis","backend",3,"C",["database","cache","缓存"],
+  "The in-memory data store behind a decade of real-time everything.",
+  "撑起十年实时业务的内存数据库。"),
+P("kubernetes","Kubernetes","kubernetes/kubernetes","devops",3,"Go",["containers","orchestration","容器"],
+  "The container orchestrator that became the cloud's operating system.",
+  "容器编排的事实标准：云时代的操作系统。"),
+P("ansible","Ansible","ansible/ansible","devops",3,"Python",["automation","iac","自动化"],
+  "Agentless automation that turned server config into readable YAML.",
+  "无代理自动化：服务器配置变成可读的 YAML。"),
+P("linux","Linux kernel","torvalds/linux","devops",3,"C",["kernel","os","内核"],
+  "The kernel running most of the internet, Android and the supercomputers (mirror).",
+  "运行着大半互联网、Android 和超算的内核（镜像）。"),
+P("fontawesome","Font Awesome","FortAwesome/Font-Awesome","design",1,"Web·SVG",["icons","font","图标"],
+  "The icon set that has armed two decades of the web.",
+  "武装了二十年互联网的图标库。"),
+P("godot","Godot","godotengine/godot","games",2,"C++·All platforms",["engine","gamedev","游戏引擎"],
+  "The open game engine behind a wave of indie hits — entirely yours to modify.",
+  "一批独立爆款背后的开源游戏引擎，完全可魔改。"),
+]
+for _p in LEGENDS: _p["tier"] = "L"
+ALL_PROJECTS = PROJECTS + LEGENDS
+
 CATS = {
  "apps":("🧰","Everyday Apps","效率与日常"), "media":("🎬","Photo · Audio · Video","影音创作"),
  "cli":("⌨️","Terminal Gems","命令行神器"), "devtools":("🛠️","Developer Tools","开发者工具"),
@@ -500,6 +579,9 @@ def fetch_repo(repo, cache):
     return node
 
 def fmt_k(n):
+    if n >= 1000000:
+        v = round(n/1000000, 1)
+        return (f"{v:.1f}".rstrip("0").rstrip(".")) + "M"
     if n >= 10000: return f"{round(n/1000)}k"
     if n >= 1000:
         v = round(n/1000, 1)
@@ -528,6 +610,7 @@ h1 .st{color:var(--warn);font-size:18px}
 .badge.b3{background:color-mix(in srgb,#7c3aed 13%,transparent);color:var(--acc)}
 .badge.grad{background:color-mix(in srgb,#d97706 15%,transparent);color:var(--warn)}
 .badge.arch{background:color-mix(in srgb,#dc2626 13%,transparent);color:#dc2626}
+.badge.legend{background:color-mix(in srgb,#f59e0b 16%,transparent);color:#f59e0b}
 .lead{font-size:19px;line-height:1.6;margin:0 0 14px}
 .extra{color:var(--fg2);font-size:14.5px;margin:0 0 10px}
 .vline{color:var(--fg2);font-size:13px;margin:0 0 24px}.vline b{color:var(--fg)}
@@ -595,8 +678,8 @@ GEM_TPL = """<!DOCTYPE html>
 <h2 data-en="More in __CATEN__" data-zh="更多「__CATZH__」宝藏">More in __CATEN__</h2>
 <div class="minis">__RELATED__</div>
 </main>
-<footer><div class="wrap"><a href="https://github.com/Tliens/github-gems" target="_blank" rel="noopener">GitHub</a> · <span data-en="Hand-picked underrated open-source projects. Stars live-verified." data-zh="人工精选的冷门优质开源项目，star 数实测核验。">Hand-picked underrated open-source projects. Stars live-verified.</span></div></footer>
-<script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "6a164def7d63477cba60148b8417ca95"}'></script>
+<footer><div class="wrap"><span data-en="Hand-picked underrated open-source projects. Stars live-verified." data-zh="人工精选的冷门优质开源项目，star 数实测核验。">Hand-picked underrated open-source projects. Stars live-verified.</span></div></footer>
+<script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "948f2535a9dd4775a436c677b3c950e4"}'></script>
 <script type="module">
 const TITLE_EN = __TITLE_EN_JSON__, TITLE_ZH = __TITLE_ZH_JSON__;
 let lang = new URLSearchParams(location.search).get('lang') || localStorage.getItem('gg-lang') || 'en';
@@ -636,6 +719,7 @@ def build_gem_page(g, gems):
     cls = {1:"b1",2:"b2",3:"b3"}[g["lv"]]
     de_short = g["de"][:72].rsplit(" ", 1)[0] + ("…" if len(g["de"]) > 72 else "")
     bad = ""
+    if g.get("L"): bad += '<span class="badge legend">🏆 <span data-en="Legend" data-zh="封神">Legend</span></span>'
     if g.get("g"): bad += f'<span class="badge grad">🎓 <span data-en="Graduated {g["g"]}" data-zh="已毕业 {g["g"]}">Graduated {g["g"]}</span></span>'
     if g.get("a"): bad += f'<span class="badge arch">⚠️ <span data-en="Archived" data-zh="已归档">Archived</span></span>'
     rel = [x for x in gems if x["c"] == g["c"] and x["id"] != g["id"]]
@@ -645,8 +729,12 @@ def build_gem_page(g, gems):
         f'<span class="ms">★ {fmt_k(x["s"])}</span></span>'
         f'<span class="md" data-en="{hesc(x["de"])}" data-zh="{hesc(x["dz"])}">{hesc(x["de"])}</span></a>'
         for x in rel)
-    extra_en = f"Part of {en} on GitHub Gems — hand-picked open-source projects in the 1k–30k star band, live-verified against the GitHub API on {TODAY}."
-    extra_zh = f"收录于 GitHub Gems「{zh}」领域：人工精选 1k–30k star 区间的开源宝藏，star 数于 {TODAY} 经 GitHub API 实测核验。"
+    if g.get("L"):
+        extra_en = f"One of GitHub's legendary open-source projects, featured on GitHub Gems as a beacon in {en} — star count live-verified against the GitHub API on {TODAY}."
+        extra_zh = f"GitHub Gems「{zh}」领域收录的殿堂级开源项目：作为路标与新宝藏一起呈现，star 数于 {TODAY} 经 GitHub API 实测核验。"
+    else:
+        extra_en = f"Part of {en} on GitHub Gems — hand-picked open-source projects in the 1k–30k star band, live-verified against the GitHub API on {TODAY}."
+        extra_zh = f"收录于 GitHub Gems「{zh}」领域：人工精选 1k–30k star 区间的开源宝藏，star 数于 {TODAY} 经 GitHub API 实测核验。"
     jsonld = json.dumps({"@context":"https://schema.org","@graph":[
         {"@type":"WebPage","name":f'{g["n"]} — GitHub Gem',"url":f"{BASE}/gems/{g['id']}.html",
          "inLanguage":["en","zh"],"description":g["de"]},
@@ -698,28 +786,32 @@ def main():
     grads = state.setdefault("graduated", {})
     gems, problems, new_grads = [], [], []
     ids = set()
-    for prj in PROJECTS:
+    for prj in ALL_PROJECTS:
         if prj["id"] in ids: problems.append(f"duplicate id: {prj['id']}")
         ids.add(prj["id"])
+        legend = prj.get("tier") == "L"
         node = cache.get(prj["r"]) or fetch_repo(prj["r"], cache)
         if not node:
             problems.append(f"{prj['r']}: fetch failed"); continue
         s = node["stargazerCount"]
         g = a = None
-        if s > BAND_TOP:
+        if s > BAND_TOP and not legend:
             if prj["r"] not in grads:      # 毕业：自动记录日期，页面挂徽章，不删除
                 grads[prj["r"]] = TODAY
                 new_grads.append(f"{prj['r']}: {s}")
             g = grads[prj["r"]]
-        elif prj["r"] in grads and s <= BAND_TOP:
+        elif prj["r"] in grads and s <= BAND_TOP and not legend:
             del grads[prj["r"]]            # 数据回落（几乎不可能），撤销毕业
         if node["isArchived"]:
             a = True
             problems.append(f"{prj['r']}: ARCHIVED ({s}) — 建议移除，等人工裁决")
-        if s < BAND[0]:
+        if not legend and s < BAND[0]:
             problems.append(f"{prj['r']}: {s} below {BAND[0]} — 建议移除，等人工裁决")
+        if legend and s < BAND_TOP:
+            problems.append(f"{prj['r']}: legend below {BAND_TOP} ({s}) — 不够格，建议降级或移除")
         item = {"id":prj["id"],"n":prj["n"],"r":prj["r"],"s":s,"c":prj["c"],
                 "lv":prj["lv"],"p":prj["p"],"t":prj["t"],"de":prj["de"],"dz":prj["dz"]}
+        if legend: item["L"] = 1
         if g: item["g"] = g
         if a: item["a"] = True
         gems.append(item)
@@ -740,6 +832,7 @@ def main():
         ic, en, _zh = CATS[g["c"]]
         cls = {1:"b1",2:"b2",3:"b3"}[g["lv"]]
         extra = ""
+        if g.get("L"): extra += f'<span class="badge legend">🏆 {EN_LEGEND}</span>'
         if g.get("g"): extra += f'<span class="badge grad">🎓 {EN_GRAD}</span>'
         if g.get("a"): extra += f'<span class="badge arch">⚠️ {EN_ARCH}</span>'
         cards.append(

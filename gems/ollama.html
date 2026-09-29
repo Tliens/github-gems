@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ollama — One command to run any open model locally — local AI&#x27;s front | GitHub Gems</title>
+<meta name="description" content="One command to run any open model locally — local AI&#x27;s front door. | 一条命令本地跑任意开源模型，本地 AI 的入口。 | ★181890 AI &amp; Local Models open-source gem">
+<link rel="canonical" href="https://github-gems.kuige.me/gems/ollama.html">
+<link rel="alternate" hreflang="en" href="https://github-gems.kuige.me/gems/ollama.html?lang=en">
+<link rel="alternate" hreflang="zh" href="https://github-gems.kuige.me/gems/ollama.html?lang=zh">
+<link rel="alternate" hreflang="x-default" href="https://github-gems.kuige.me/gems/ollama.html">
+<link rel="icon" type="image/svg+xml" href="../favicon.svg">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="GitHub Gems">
+<meta property="og:title" content="Ollama — GitHub Gem">
+<meta property="og:description" content="One command to run any open model locally — local AI&#x27;s front door.">
+<meta property="og:url" content="https://github-gems.kuige.me/gems/ollama.html">
+<meta property="og:image" content="https://github-gems.kuige.me/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ollama — GitHub Gem">
+<meta name="twitter:description" content="One command to run any open model locally — local AI&#x27;s front door.">
+<meta name="twitter:image" content="https://github-gems.kuige.me/og-image.png">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","name":"Ollama — GitHub Gem","url":"https://github-gems.kuige.me/gems/ollama.html","inLanguage":["en","zh"],"description":"One command to run any open model locally — local AI's front door."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"GitHub Gems","item":"https://github-gems.kuige.me/"},{"@type":"ListItem","position":2,"name":"AI & Local Models","item":"https://github-gems.kuige.me/?c=ai"},{"@type":"ListItem","position":3,"name":"Ollama","item":"https://github-gems.kuige.me/gems/ollama.html"}]}]}</script>
+<style>
+:root{--bg:#f7f7fb;--bg2:#fff;--fg:#191927;--fg2:#5b5b70;--line:#e4e4ef;--acc:#7c3aed;--acc2:#0ea5e9;
+--chip:#efeafd;--card:#fff;--shadow:0 1px 3px rgba(25,25,40,.07),0 8px 24px rgba(25,25,40,.06);
+--glowA:rgba(124,58,237,.16);--good:#16a34a;--warn:#d97706}
+html[data-theme=dark]{--bg:#0d0d14;--bg2:#14141d;--fg:#ececf5;--fg2:#9d9db3;--line:#262636;--acc:#a78bfa;
+--acc2:#38bdf8;--chip:#1d1d2b;--card:#15151f;--shadow:0 1px 3px rgba(0,0,0,.5),0 10px 30px rgba(0,0,0,.35);
+--glowA:rgba(167,139,250,.13);--good:#4ade80;--warn:#fbbf24}
+*{box-sizing:border-box}body{margin:0;font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--fg);-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}.wrap{max-width:760px;margin:0 auto;padding:0 20px}
+header{border-bottom:1px solid var(--line)}.hbar{display:flex;align-items:center;gap:12px;height:56px}
+.brand{font-weight:800;font-size:17px}.hbar .sp{flex:1}
+.hbtn{border:1px solid var(--line);background:var(--bg2);color:var(--fg);border-radius:9px;padding:6px 12px;font-size:13px;font-weight:600;cursor:pointer}
+.crumb{color:var(--fg2);font-size:13.5px;margin:26px 0 10px}.crumb a:hover{color:var(--acc)}
+h1{font-size:34px;letter-spacing:-.02em;margin:0 0 10px;display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+h1 .st{color:var(--warn);font-size:18px}
+.badges{display:flex;gap:7px;flex-wrap:wrap;margin:0 0 18px}
+.badge{font-size:12px;font-weight:700;border-radius:7px;padding:3px 9px;background:var(--chip);color:var(--fg2)}
+.badge.cat{color:var(--acc)}.badge.b1{background:color-mix(in srgb,#16a34a 14%,transparent);color:var(--good)}
+.badge.b2{background:color-mix(in srgb,#d97706 15%,transparent);color:var(--warn)}
+.badge.b3{background:color-mix(in srgb,#7c3aed 13%,transparent);color:var(--acc)}
+.badge.grad{background:color-mix(in srgb,#d97706 15%,transparent);color:var(--warn)}
+.badge.arch{background:color-mix(in srgb,#dc2626 13%,transparent);color:#dc2626}
+.badge.legend{background:color-mix(in srgb,#f59e0b 16%,transparent);color:#f59e0b}
+.lead{font-size:19px;line-height:1.6;margin:0 0 14px}
+.extra{color:var(--fg2);font-size:14.5px;margin:0 0 10px}
+.vline{color:var(--fg2);font-size:13px;margin:0 0 24px}.vline b{color:var(--fg)}
+.btns{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:40px}
+.bigbtn{display:inline-flex;align-items:center;gap:8px;background:linear-gradient(120deg,var(--acc),var(--acc2));color:#fff;border-radius:12px;padding:12px 20px;font-size:15px;font-weight:700;box-shadow:0 6px 20px var(--glowA)}
+.ghost{display:inline-flex;align-items:center;border:1px solid var(--line);border-radius:12px;padding:12px 18px;font-size:14px;font-weight:600;color:var(--fg2)}
+.ghost:hover{border-color:var(--acc);color:var(--acc)}
+h2{font-size:20px;letter-spacing:-.01em;margin:0 0 16px}
+.minis{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding-bottom:40px}
+@media(max-width:640px){.minis{grid-template-columns:1fr}}
+.mini{display:block;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;transition:.15s}
+.mini:hover{transform:translateY(-2px);border-color:var(--acc)}
+.mrow{display:flex;align-items:baseline;gap:8px}.mn{font-weight:700;font-size:14.5px}.ms{margin-left:auto;color:var(--warn);font-size:12px;font-weight:700}
+.md{display:block;color:var(--fg2);font-size:13px;margin-top:3px}
+footer{border-top:1px solid var(--line);margin-top:20px;padding:22px 0 36px;color:var(--fg2);font-size:13px}
+footer a{color:var(--acc);font-weight:600}
+</style>
+</head>
+<body>
+<header><div class="wrap hbar">
+<a class="brand" href="../index.html">💎 GitHub Gems</a><span class="sp"></span>
+<button class="hbtn" id="btnTheme">🌗 Theme</button>
+<button class="hbtn" id="btnLang">中文</button>
+</div></header>
+<main class="wrap">
+<p class="crumb"><a href="../index.html" data-en="All gems" data-zh="全部宝藏">All gems</a> / <a href="../index.html?c=ai" data-en="AI &amp; Local Models" data-zh="AI 与本地模型">AI &amp; Local Models</a> / Ollama</p>
+<h1>Ollama <span class="st">★ 182k</span></h1>
+<div class="badges">
+<span class="badge cat">🤖 <span data-en="AI &amp; Local Models" data-zh="AI 与本地模型">AI &amp; Local Models</span></span>
+<span class="badge b1" data-en="Ready to use" data-zh="即开即用">Ready to use</span>
+<span class="badge">Win·mac·Linux</span><span class="badge legend">🏆 <span data-en="Legend" data-zh="封神">Legend</span></span>
+</div>
+<p class="lead" data-en="One command to run any open model locally — local AI&#x27;s front door." data-zh="一条命令本地跑任意开源模型，本地 AI 的入口。">One command to run any open model locally — local AI&#x27;s front door.</p>
+<p class="extra" data-en="One of GitHub&#x27;s legendary open-source projects, featured on GitHub Gems as a beacon in AI &amp; Local Models — star count live-verified against the GitHub API on 2026-09-29." data-zh="GitHub Gems「AI 与本地模型」领域收录的殿堂级开源项目：作为路标与新宝藏一起呈现，star 数于 2026-09-29 经 GitHub API 实测核验。">One of GitHub&#x27;s legendary open-source projects, featured on GitHub Gems as a beacon in AI &amp; Local Models — star count live-verified against the GitHub API on 2026-09-29.</p>
+<p class="vline"><span data-en="Star count live-verified" data-zh="star 数实测核验">Star count live-verified</span> <b>2026-09-29</b> · <span data-en="repo" data-zh="仓库">repo</span> <b>ollama/ollama</b></p>
+<div class="btns">
+<a class="bigbtn" href="https://github.com/ollama/ollama" target="_blank" rel="noopener">★ GitHub ↗</a>
+<a class="ghost" href="../index.html" data-en="← All gems" data-zh="← 全部宝藏">← All gems</a>
+</div>
+<h2 data-en="More in AI &amp; Local Models" data-zh="更多「AI 与本地模型」宝藏">More in AI &amp; Local Models</h2>
+<div class="minis"><a class="mini" href="transformers.html"><span class="mrow"><span class="mn">Transformers</span><span class="ms">★ 167k</span></span><span class="md" data-en="The library behind modern AI: one API for hundreds of thousands of models." data-zh="现代 AI 背后的库：一个 API 调用海量模型。">The library behind modern AI: one API for hundreds of thousands of models.</span></a><a class="mini" href="pytorch.html"><span class="mrow"><span class="mn">PyTorch</span><span class="ms">★ 103k</span></span><span class="md" data-en="The deep-learning framework most AI research is written in." data-zh="大部分 AI 研究所用的深度学习框架。">The deep-learning framework most AI research is written in.</span></a><a class="mini" href="invokeai.html"><span class="mrow"><span class="mn">InvokeAI</span><span class="ms">★ 28k</span></span><span class="md" data-en="A professional-grade Stable Diffusion studio for serious image work." data-zh="专业级 Stable Diffusion 创作工作台。">A professional-grade Stable Diffusion studio for serious image work.</span></a><a class="mini" href="llamafile.html"><span class="mrow"><span class="mn">llamafile</span><span class="ms">★ 26k</span></span><span class="md" data-en="A whole LLM zipped into one executable — download, run, done." data-zh="把完整大模型打包进单个可执行文件：下载即用。">A whole LLM zipped into one executable — download, run, done.</span></a><a class="mini" href="kotaemon.html"><span class="mrow"><span class="mn">kotaemon</span><span class="ms">★ 26k</span></span><span class="md" data-en="A beautiful open RAG UI: chat with your PDFs and docs, locally." data-zh="颜值在线的开源 RAG 界面：和本地文档对话。">A beautiful open RAG UI: chat with your PDFs and docs, locally.</span></a><a class="mini" href="fasterwhisper.html"><span class="mrow"><span class="mn">faster-whisper</span><span class="ms">★ 26k</span></span><span class="md" data-en="Whisper speech recognition, 4× faster with half the memory." data-zh="提速 4 倍、省一半内存的 Whisper 语音识别。">Whisper speech recognition, 4× faster with half the memory.</span></a></div>
+</main>
+<footer><div class="wrap"><span data-en="Hand-picked underrated open-source projects. Stars live-verified." data-zh="人工精选的冷门优质开源项目，star 数实测核验。">Hand-picked underrated open-source projects. Stars live-verified.</span></div></footer>
+<script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "948f2535a9dd4775a436c677b3c950e4"}'></script>
+<script type="module">
+const TITLE_EN = "Ollama \u2014 One command to run any open model locally \u2014 local AI's front | GitHub Gems", TITLE_ZH = "Ollama \u00b7 GitHub \u5b9d\u85cf\u9879\u76ee\u63a8\u8350";
+let lang = new URLSearchParams(location.search).get('lang') || localStorage.getItem('gg-lang') || 'en';
+const apply = () => {
+  document.documentElement.lang = lang;
+  document.querySelectorAll('[data-en]').forEach(el => { el.textContent = lang === 'zh' ? el.dataset.zh : el.dataset.en; });
+  document.title = lang === 'zh' ? TITLE_ZH : TITLE_EN;
+  document.getElementById('btnLang').textContent = lang === 'zh' ? 'EN' : '中文';
+  const u = new URL(location.href); u.searchParams.delete('lang');
+  if (lang === 'zh') u.searchParams.set('lang', 'zh');
+  history.replaceState(null, '', u.pathname + (u.search || '') + location.hash);
+};
+document.getElementById('btnLang').onclick = () => { lang = lang === 'zh' ? 'en' : 'zh'; localStorage.setItem('gg-lang', lang); apply(); };
+const cycle = () => {
+  const cur = document.documentElement.getAttribute('data-theme') || 'auto';
+  const next = { auto:'light', light:'dark', dark:'auto' }[cur];
+  document.documentElement.setAttribute('data-theme', next);
+  localStorage.setItem('gg-theme', next);
+  document.getElementById('btnTheme').textContent = { auto:'🌗 Auto', light:'☀️ Light', dark:'🌙 Dark' }[next];
+};
+document.getElementById('btnTheme').onclick = cycle;
+document.documentElement.setAttribute('data-theme', localStorage.getItem('gg-theme') || 'auto');
+document.getElementById('btnTheme').textContent = { auto:'🌗 Auto', light:'☀️ Light', dark:'🌙 Dark' }[localStorage.getItem('gg-theme') || 'auto'];
+apply();
+</script>
+</body>
+</html>
