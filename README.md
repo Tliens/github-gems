@@ -1,4 +1,4 @@
-# 封神传说 · GitHub Gems — 161 Open-Source Projects: Hidden Gems & Legends
+# 封神传说 · GitHub Gems — 200 Open-Source Projects: Hidden Gems & Legends
 
 > 代号「**封神传说**」：姜子牙直钩垂钓，钓的不是鱼，是值得封神的人。本站如他所事——让被低估的宝藏被看见，让传世之作加冕。star 不是终点，被发现才是。
 
@@ -7,10 +7,10 @@
 一个手工精选的开源项目导航站，只收录 GitHub 上 **1k–30k star** 区间里「品质远超知名度」的宝藏：
 既给刚接触 GitHub 的新手一条友好入门路径，也给只熟悉单一领域的开发者一张跨圈探索的「领域护照」。
 
-- **137 个冷门宝藏 / 24 个封神之作 / 13 个领域**，每条都附中英双语推荐语与难度分级（即开即用 / 轻松上手 / 开发者向）
+- **176 个冷门宝藏 / 24 个封神之作 / 13 个领域**，每条都附中英双语推荐语与难度分级（即开即用 / 轻松上手 / 开发者向）
 - **🏆 封神榜**：React、Linux、VS Code、Kubernetes 等殿堂级项目作为「路标」收录（独立 tier，不占 1k–30k 名额，`?t=L` 直达）；首页挂 [Octoverse 2025](https://octoverse.github.com) 官方数据背书（GitHub 3.95 亿公共仓库 / 1.8 亿开发者）
 - **star 数全部经 GitHub API 实测核验**（见页面顶部日期），不是拍脑袋写的
-- **161 个独立落地页** `gems/<id>.html`（独立 title/description/canonical，中英切换，同领域推荐内链），sitemap 324 URL
+- **200 个独立落地页** `gems/<id>.html`（独立 title/description/canonical，中英切换，同领域推荐内链），sitemap 324 URL
 - 单文件 `index.html`，零依赖零构建，GitHub Pages 直接部署；中英双语（`?lang=` 深链）、亮暗主题、筛选/搜索/随机寻宝
 
 ## 入选标准
@@ -28,7 +28,7 @@
 `.github/workflows/patrol.yml` 每周一 02:23 UTC 自动运行（也可手动 Dispatch）：
 
 1. `scripts/patrol.py` 批量刷新全部 star / 归档 / 停更状态
-2. 重建首页卡片、161 个落地页与 sitemap（宝藏毕业自动挂徽章；封神项目豁免区间校验与毕业）
+2. 重建首页卡片、200 个落地页与 sitemap（宝藏毕业自动挂徽章；封神项目豁免区间校验与毕业）
 3. 有变更自动 commit + push，Pages 随之重新部署
 4. 有待裁决项（归档/停更/掉线）自动写入 `patrol` 标签的 Issue，人工处理后关闭
 

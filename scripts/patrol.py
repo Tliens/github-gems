@@ -14,7 +14,7 @@ HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from gen_cards import ALL_PROJECTS, CACHE, load_cache, fetch_repo
 
-FIELDS = "stargazerCount pushedAt isArchived description"
+FIELDS = "stargazerCount pushedAt isArchived description owner{avatarUrl}"
 REPORT = os.path.join(HERE, "data", "patrol-report.json")
 
 def gql_batch(batch):

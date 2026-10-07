@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>ripgrep — grep rebuilt in Rust: far faster, smarter defaults, respects | GitHub Gems</title>
-<meta name="description" content="grep rebuilt in Rust: far faster, smarter defaults, respects .gitignore. | Rust 重写的 grep：快得多、默认更聪明、自动尊重 .gitignore。 | ★68846 Terminal Gems open-source gem">
+<meta name="description" content="grep rebuilt in Rust: far faster, smarter defaults, respects .gitignore. | Rust 重写的 grep：快得多、默认更聪明、自动尊重 .gitignore。 | ★68692 Terminal Gems open-source gem">
 <link rel="canonical" href="https://github-gems.kuige.me/gems/ripgrep.html">
 <link rel="alternate" hreflang="en" href="https://github-gems.kuige.me/gems/ripgrep.html?lang=en">
 <link rel="alternate" hreflang="zh" href="https://github-gems.kuige.me/gems/ripgrep.html?lang=zh">
@@ -15,11 +15,11 @@
 <meta property="og:title" content="ripgrep — GitHub Gem">
 <meta property="og:description" content="grep rebuilt in Rust: far faster, smarter defaults, respects .gitignore.">
 <meta property="og:url" content="https://github-gems.kuige.me/gems/ripgrep.html">
-<meta property="og:image" content="https://github-gems.kuige.me/og-image.png">
+<meta property="og:image" content="https://opengraph.githubassets.com/1/BurntSushi/ripgrep">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="ripgrep — GitHub Gem">
 <meta name="twitter:description" content="grep rebuilt in Rust: far faster, smarter defaults, respects .gitignore.">
-<meta name="twitter:image" content="https://github-gems.kuige.me/og-image.png">
+<meta name="twitter:image" content="https://opengraph.githubassets.com/1/BurntSushi/ripgrep">
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","name":"ripgrep — GitHub Gem","url":"https://github-gems.kuige.me/gems/ripgrep.html","inLanguage":["en","zh"],"description":"grep rebuilt in Rust: far faster, smarter defaults, respects .gitignore."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"GitHub Gems","item":"https://github-gems.kuige.me/"},{"@type":"ListItem","position":2,"name":"Terminal Gems","item":"https://github-gems.kuige.me/?c=cli"},{"@type":"ListItem","position":3,"name":"ripgrep","item":"https://github-gems.kuige.me/gems/ripgrep.html"}]}]}</script>
 <style>
 :root{--bg:#f7f7fb;--bg2:#fff;--fg:#191927;--fg2:#5b5b70;--line:#e4e4ef;--acc:#7c3aed;--acc2:#0ea5e9;
@@ -81,6 +81,8 @@ html[data-theme=dark] .fsfollow{background:#e7e9ea;color:#0f1419;border-color:#e
 .fsdiscuss{border:1px solid var(--line);color:var(--fg);background:var(--bg)}
 .fsdiscuss:hover{border-color:var(--acc);color:var(--acc)}
 .fsfollow:hover{transform:translateY(-2px);opacity:.92}
+.gcover{display:block;width:100%;height:190px;object-fit:cover;object-position:center top;border-radius:14px;border:1px solid var(--line);margin:0 0 20px;background:var(--chip)}
+.gav{width:20px;height:20px;border-radius:50%;vertical-align:-5px;margin-right:5px;border:1px solid var(--line);background:var(--chip)}
 </style>
 </head>
 <body>
@@ -91,6 +93,7 @@ html[data-theme=dark] .fsfollow{background:#e7e9ea;color:#0f1419;border-color:#e
 </div></header>
 <main class="wrap">
 <p class="crumb"><a href="../index.html" data-en="All gems" data-zh="全部宝藏">All gems</a> / <a href="../index.html?c=cli" data-en="Terminal Gems" data-zh="命令行神器">Terminal Gems</a> / ripgrep</p>
+<img class="gcover" loading="lazy" src="https://opengraph.githubassets.com/1/BurntSushi/ripgrep" alt="ripgrep">
 <h1>ripgrep <span class="st">★ 69k</span></h1>
 <div class="badges">
 <span class="badge cat">⌨️ <span data-en="Terminal Gems" data-zh="命令行神器">Terminal Gems</span></span>
@@ -98,14 +101,14 @@ html[data-theme=dark] .fsfollow{background:#e7e9ea;color:#0f1419;border-color:#e
 <span class="badge">CLI</span><span class="badge legend">🏆 <span data-en="Legend" data-zh="封神">Legend</span></span>
 </div>
 <p class="lead" data-en="grep rebuilt in Rust: far faster, smarter defaults, respects .gitignore." data-zh="Rust 重写的 grep：快得多、默认更聪明、自动尊重 .gitignore。">grep rebuilt in Rust: far faster, smarter defaults, respects .gitignore.</p>
-<p class="extra" data-en="One of GitHub&#x27;s legendary open-source projects, featured on GitHub Gems as a beacon in Terminal Gems — star count live-verified against the GitHub API on 2026-10-05." data-zh="GitHub Gems「命令行神器」领域收录的殿堂级开源项目：作为路标与新宝藏一起呈现，star 数于 2026-10-05 经 GitHub API 实测核验。">One of GitHub&#x27;s legendary open-source projects, featured on GitHub Gems as a beacon in Terminal Gems — star count live-verified against the GitHub API on 2026-10-05.</p>
-<p class="vline"><span data-en="Star count live-verified" data-zh="star 数实测核验">Star count live-verified</span> <b>2026-10-05</b> · <span data-en="repo" data-zh="仓库">repo</span> <b>BurntSushi/ripgrep</b></p>
+<p class="extra" data-en="One of GitHub&#x27;s legendary open-source projects, featured on GitHub Gems as a beacon in Terminal Gems — star count live-verified against the GitHub API on 2026-10-07." data-zh="GitHub Gems「命令行神器」领域收录的殿堂级开源项目：作为路标与新宝藏一起呈现，star 数于 2026-10-07 经 GitHub API 实测核验。">One of GitHub&#x27;s legendary open-source projects, featured on GitHub Gems as a beacon in Terminal Gems — star count live-verified against the GitHub API on 2026-10-07.</p>
+<p class="vline"><span data-en="Star count live-verified" data-zh="star 数实测核验">Star count live-verified</span> <b>2026-10-07</b> · <span data-en="repo" data-zh="仓库">repo</span> <img class="gav" loading="lazy" src="https://avatars.githubusercontent.com/u/456674?u=6b60f689b8054473ea9d8bddc42211e12ffacda2&v=4" alt=""><b>BurntSushi/ripgrep</b></p>
 <div class="btns">
 <a class="bigbtn" href="https://github.com/BurntSushi/ripgrep" target="_blank" rel="noopener">★ GitHub ↗</a>
 <a class="ghost" href="../index.html" data-en="← All gems" data-zh="← 全部宝藏">← All gems</a>
 </div>
 <h2 data-en="More in Terminal Gems" data-zh="更多「命令行神器」宝藏">More in Terminal Gems</h2>
-<div class="minis"><a class="mini" href="ohmyzsh.html"><span class="mrow"><span class="mn">Oh My Zsh</span><span class="ms">★ 190k</span></span><span class="md" data-en="The zsh framework behind a decade of beautiful terminals." data-zh="十年来源亮终端背后的 zsh 框架。">The zsh framework behind a decade of beautiful terminals.</span></a><a class="mini" href="fzf.html"><span class="mrow"><span class="mn">fzf</span><span class="ms">★ 83k</span></span><span class="md" data-en="Fuzzy-find anything: history, files, branches — one keystroke away." data-zh="万能模糊搜索：历史、文件、分支，一键即达。">Fuzzy-find anything: history, files, branches — one keystroke away.</span></a><a class="mini" href="wezterm.html"><span class="mrow"><span class="mn">WezTerm</span><span class="ms">★ 29k</span></span><span class="md" data-en="GPU-accelerated terminal with Lua scripting — fast, cross-platform, hackable." data-zh="GPU 加速 + Lua 可编程的跨平台终端。">GPU-accelerated terminal with Lua scripting — fast, cross-platform, hackable.</span></a><a class="mini" href="hyperfine.html"><span class="mrow"><span class="mn">Hyperfine</span><span class="ms">★ 29k</span></span><span class="md" data-en="One command to benchmark anything — settle &#x27;which is faster&#x27; with numbers." data-zh="一行命令做性能对比：用数字终结「到底谁更快」。">One command to benchmark anything — settle &#x27;which is faster&#x27; with numbers.</span></a><a class="mini" href="eza.html"><span class="mrow"><span class="mn">eza</span><span class="ms">★ 23k</span></span><span class="md" data-en="The modern ls: colors, icons, git status — folders finally look alive." data-zh="ls 的现代替身：彩色、图标、Git 状态，目录终于有生气了。">The modern ls: colors, icons, git status — folders finally look alive.</span></a><a class="mini" href="direnv.html"><span class="mrow"><span class="mn">direnv</span><span class="ms">★ 15k</span></span><span class="md" data-en="Per-directory environment variables that load and unload automatically." data-zh="进入目录自动加载对应环境变量，离开自动卸载。">Per-directory environment variables that load and unload automatically.</span></a></div>
+<div class="minis"><a class="mini" href="ohmyzsh.html"><span class="mrow"><span class="mn">Oh My Zsh</span><span class="ms">★ 190k</span></span><span class="md" data-en="The zsh framework behind a decade of beautiful terminals." data-zh="十年来源亮终端背后的 zsh 框架。">The zsh framework behind a decade of beautiful terminals.</span></a><a class="mini" href="fzf.html"><span class="mrow"><span class="mn">fzf</span><span class="ms">★ 83k</span></span><span class="md" data-en="Fuzzy-find anything: history, files, branches — one keystroke away." data-zh="万能模糊搜索：历史、文件、分支，一键即达。">Fuzzy-find anything: history, files, branches — one keystroke away.</span></a><a class="mini" href="wezterm.html"><span class="mrow"><span class="mn">WezTerm</span><span class="ms">★ 29k</span></span><span class="md" data-en="GPU-accelerated terminal with Lua scripting — fast, cross-platform, hackable." data-zh="GPU 加速 + Lua 可编程的跨平台终端。">GPU-accelerated terminal with Lua scripting — fast, cross-platform, hackable.</span></a><a class="mini" href="hyperfine.html"><span class="mrow"><span class="mn">Hyperfine</span><span class="ms">★ 29k</span></span><span class="md" data-en="One command to benchmark anything — settle &#x27;which is faster&#x27; with numbers." data-zh="一行命令做性能对比：用数字终结「到底谁更快」。">One command to benchmark anything — settle &#x27;which is faster&#x27; with numbers.</span></a><a class="mini" href="ohmytmux.html"><span class="mrow"><span class="mn">Oh My Tmux</span><span class="ms">★ 25k</span></span><span class="md" data-en="One dotfile and your tmux looks professionally configured." data-zh="一份配置，让你的 tmux 看起来像高手调教过的。">One dotfile and your tmux looks professionally configured.</span></a><a class="mini" href="fastfetch.html"><span class="mrow"><span class="mn">Fastfetch</span><span class="ms">★ 25k</span></span><span class="md" data-en="System info at shell speed — the actively maintained neofetch successor." data-zh="毫秒级系统信息展示，neofetch 的积极维护继任者。">System info at shell speed — the actively maintained neofetch successor.</span></a></div>
 </main>
 <button class="fscard" id="fsCard" aria-label="Fengshen Legend" title="封神传说">
 <img src="../fengshen.webp" alt="封神传说">

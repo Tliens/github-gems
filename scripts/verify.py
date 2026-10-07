@@ -67,7 +67,7 @@ CANDIDATES = [
 # 清理意外格式
 CANDIDATES = [c for c in CANDIDATES if "/" in c and " " not in c]
 
-FIELDS = "stargazerCount pushedAt isArchived description primaryLanguage{name}"
+FIELDS = "stargazerCount pushedAt isArchived description primaryLanguage{name} owner{avatarUrl}"
 
 def fetch_batch(batch):
     parts = ", ".join(

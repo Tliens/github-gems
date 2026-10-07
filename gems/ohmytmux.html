@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Oh My Tmux — One dotfile and your tmux looks professionally | GitHub Gems</title>
+<meta name="description" content="One dotfile and your tmux looks professionally configured. | 一份配置，让你的 tmux 看起来像高手调教过的。 | ★25423 Terminal Gems open-source gem">
+<link rel="canonical" href="https://github-gems.kuige.me/gems/ohmytmux.html">
+<link rel="alternate" hreflang="en" href="https://github-gems.kuige.me/gems/ohmytmux.html?lang=en">
+<link rel="alternate" hreflang="zh" href="https://github-gems.kuige.me/gems/ohmytmux.html?lang=zh">
+<link rel="alternate" hreflang="x-default" href="https://github-gems.kuige.me/gems/ohmytmux.html">
+<link rel="icon" type="image/png" href="../favicon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="GitHub Gems">
+<meta property="og:title" content="Oh My Tmux — GitHub Gem">
+<meta property="og:description" content="One dotfile and your tmux looks professionally configured.">
+<meta property="og:url" content="https://github-gems.kuige.me/gems/ohmytmux.html">
+<meta property="og:image" content="https://opengraph.githubassets.com/1/gpakosz/.tmux">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Oh My Tmux — GitHub Gem">
+<meta name="twitter:description" content="One dotfile and your tmux looks professionally configured.">
+<meta name="twitter:image" content="https://opengraph.githubassets.com/1/gpakosz/.tmux">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","name":"Oh My Tmux — GitHub Gem","url":"https://github-gems.kuige.me/gems/ohmytmux.html","inLanguage":["en","zh"],"description":"One dotfile and your tmux looks professionally configured."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"GitHub Gems","item":"https://github-gems.kuige.me/"},{"@type":"ListItem","position":2,"name":"Terminal Gems","item":"https://github-gems.kuige.me/?c=cli"},{"@type":"ListItem","position":3,"name":"Oh My Tmux","item":"https://github-gems.kuige.me/gems/ohmytmux.html"}]}]}</script>
+<style>
+:root{--bg:#f7f7fb;--bg2:#fff;--fg:#191927;--fg2:#5b5b70;--line:#e4e4ef;--acc:#7c3aed;--acc2:#0ea5e9;
+--chip:#efeafd;--card:#fff;--shadow:0 1px 3px rgba(25,25,40,.07),0 8px 24px rgba(25,25,40,.06);
+--glowA:rgba(124,58,237,.16);--good:#16a34a;--warn:#d97706}
+html[data-theme=dark]{--bg:#0d0d14;--bg2:#14141d;--fg:#ececf5;--fg2:#9d9db3;--line:#262636;--acc:#a78bfa;
+--acc2:#38bdf8;--chip:#1d1d2b;--card:#15151f;--shadow:0 1px 3px rgba(0,0,0,.5),0 10px 30px rgba(0,0,0,.35);
+--glowA:rgba(167,139,250,.13);--good:#4ade80;--warn:#fbbf24}
+*{box-sizing:border-box}body{margin:0;font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--fg);-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}.wrap{max-width:760px;margin:0 auto;padding:0 20px}
+header{border-bottom:1px solid var(--line)}.hbar{display:flex;align-items:center;gap:12px;height:56px}
+.brand{font-weight:800;font-size:17px}.hbar .sp{flex:1}
+.hbtn{border:1px solid var(--line);background:var(--bg2);color:var(--fg);border-radius:9px;padding:6px 12px;font-size:13px;font-weight:600;cursor:pointer}
+.crumb{color:var(--fg2);font-size:13.5px;margin:26px 0 10px}.crumb a:hover{color:var(--acc)}
+h1{font-size:34px;letter-spacing:-.02em;margin:0 0 10px;display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+h1 .st{color:var(--warn);font-size:18px}
+.badges{display:flex;gap:7px;flex-wrap:wrap;margin:0 0 18px}
+.badge{font-size:12px;font-weight:700;border-radius:7px;padding:3px 9px;background:var(--chip);color:var(--fg2)}
+.badge.cat{color:var(--acc)}.badge.b1{background:color-mix(in srgb,#16a34a 14%,transparent);color:var(--good)}
+.badge.b2{background:color-mix(in srgb,#d97706 15%,transparent);color:var(--warn)}
+.badge.b3{background:color-mix(in srgb,#7c3aed 13%,transparent);color:var(--acc)}
+.badge.grad{background:color-mix(in srgb,#d97706 15%,transparent);color:var(--warn)}
+.badge.arch{background:color-mix(in srgb,#dc2626 13%,transparent);color:#dc2626}
+.badge.legend{background:color-mix(in srgb,#f59e0b 16%,transparent);color:#f59e0b}
+.lead{font-size:19px;line-height:1.6;margin:0 0 14px}
+.extra{color:var(--fg2);font-size:14.5px;margin:0 0 10px}
+.vline{color:var(--fg2);font-size:13px;margin:0 0 24px}.vline b{color:var(--fg)}
+.btns{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:40px}
+.bigbtn{display:inline-flex;align-items:center;gap:8px;background:linear-gradient(120deg,var(--acc),var(--acc2));color:#fff;border-radius:12px;padding:12px 20px;font-size:15px;font-weight:700;box-shadow:0 6px 20px var(--glowA)}
+.ghost{display:inline-flex;align-items:center;border:1px solid var(--line);border-radius:12px;padding:12px 18px;font-size:14px;font-weight:600;color:var(--fg2)}
+.ghost:hover{border-color:var(--acc);color:var(--acc)}
+h2{font-size:20px;letter-spacing:-.01em;margin:0 0 16px}
+.minis{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding-bottom:40px}
+@media(max-width:640px){.minis{grid-template-columns:1fr}}
+.mini{display:block;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;transition:.15s}
+.mini:hover{transform:translateY(-2px);border-color:var(--acc)}
+.mrow{display:flex;align-items:baseline;gap:8px}.mn{font-weight:700;font-size:14.5px}.ms{margin-left:auto;color:var(--warn);font-size:12px;font-weight:700}
+.md{display:block;color:var(--fg2);font-size:13px;margin-top:3px}
+footer{border-top:1px solid var(--line);margin-top:20px;padding:22px 0 36px;color:var(--fg2);font-size:13px}
+footer a{color:var(--acc);font-weight:600}
+.brand .blogo{width:28px;height:28px;border-radius:8px;display:block;border:1px solid var(--line)}
+.fscard{position:fixed;left:18px;bottom:18px;z-index:70;width:62px;height:62px;padding:0;border:1px solid var(--line);border-radius:16px;background:var(--bg2);box-shadow:0 10px 30px rgba(0,0,0,.25);cursor:pointer;transition:.18s}
+.fscard img{width:100%;height:100%;border-radius:15px;display:block}
+.fscard:hover{transform:translateY(-4px);border-color:var(--acc)}
+.fsmodal{position:fixed;inset:0;z-index:90;display:flex;align-items:center;justify-content:center;padding:20px}
+.fsmodal[hidden]{display:none}
+.fsback{position:absolute;inset:0;background:rgba(10,10,18,.55);backdrop-filter:blur(6px)}
+.fsbox{position:relative;max-width:470px;width:100%;background:var(--bg2);border:1px solid var(--line);border-radius:20px;padding:26px 26px 24px;box-shadow:0 24px 70px rgba(0,0,0,.4);animation:fsin .22s ease}
+@keyframes fsin{from{opacity:0;transform:translateY(14px) scale(.97)}to{opacity:1;transform:none}}
+.fsx{position:absolute;top:10px;right:12px;border:none;background:none;color:var(--fg2);font-size:26px;cursor:pointer;line-height:1}
+.fsavatar{width:88px;height:88px;border-radius:20px;display:block;margin:0 auto 12px;border:1px solid var(--line)}
+.fsbox h3{margin:0 0 2px;font-size:19px;text-align:center;letter-spacing:-.01em}
+.fsname{text-align:center;color:var(--acc);font-weight:700;font-size:13px;margin:0 0 14px}
+.fsbox p{color:var(--fg2);font-size:14px;line-height:1.75;margin:0 0 12px}
+.fsbtns{display:flex;gap:10px;margin-top:16px}
+.fsbtns a{flex:1;display:flex;align-items:center;justify-content:center;gap:8px;border-radius:12px;padding:12px 14px;font-weight:700;font-size:14px;transition:.15s;white-space:nowrap}
+.fsfollow{background:#0f1419;color:#fff;border:1px solid #0f1419}
+html[data-theme=dark] .fsfollow{background:#e7e9ea;color:#0f1419;border-color:#e7e9ea}
+.fsdiscuss{border:1px solid var(--line);color:var(--fg);background:var(--bg)}
+.fsdiscuss:hover{border-color:var(--acc);color:var(--acc)}
+.fsfollow:hover{transform:translateY(-2px);opacity:.92}
+.gcover{display:block;width:100%;height:190px;object-fit:cover;object-position:center top;border-radius:14px;border:1px solid var(--line);margin:0 0 20px;background:var(--chip)}
+.gav{width:20px;height:20px;border-radius:50%;vertical-align:-5px;margin-right:5px;border:1px solid var(--line);background:var(--chip)}
+</style>
+</head>
+<body>
+<header><div class="wrap hbar">
+<a class="brand" href="../index.html"><img class="blogo" src="../fengshen.webp" alt="封神传说">GitHub Gems</a><span class="sp"></span>
+<button class="hbtn" id="btnTheme">🌗 Theme</button>
+<button class="hbtn" id="btnLang">中文</button>
+</div></header>
+<main class="wrap">
+<p class="crumb"><a href="../index.html" data-en="All gems" data-zh="全部宝藏">All gems</a> / <a href="../index.html?c=cli" data-en="Terminal Gems" data-zh="命令行神器">Terminal Gems</a> / Oh My Tmux</p>
+<img class="gcover" loading="lazy" src="https://opengraph.githubassets.com/1/gpakosz/.tmux" alt="Oh My Tmux">
+<h1>Oh My Tmux <span class="st">★ 25k</span></h1>
+<div class="badges">
+<span class="badge cat">⌨️ <span data-en="Terminal Gems" data-zh="命令行神器">Terminal Gems</span></span>
+<span class="badge b2" data-en="Easy setup" data-zh="轻松上手">Easy setup</span>
+<span class="badge">macOS·Linux</span>
+</div>
+<p class="lead" data-en="One dotfile and your tmux looks professionally configured." data-zh="一份配置，让你的 tmux 看起来像高手调教过的。">One dotfile and your tmux looks professionally configured.</p>
+<p class="extra" data-en="Part of Terminal Gems on GitHub Gems — hand-picked open-source projects in the 1k–30k star band, live-verified against the GitHub API on 2026-10-07." data-zh="收录于 GitHub Gems「命令行神器」领域：人工精选 1k–30k star 区间的开源宝藏，star 数于 2026-10-07 经 GitHub API 实测核验。">Part of Terminal Gems on GitHub Gems — hand-picked open-source projects in the 1k–30k star band, live-verified against the GitHub API on 2026-10-07.</p>
+<p class="vline"><span data-en="Star count live-verified" data-zh="star 数实测核验">Star count live-verified</span> <b>2026-10-07</b> · <span data-en="repo" data-zh="仓库">repo</span> <img class="gav" loading="lazy" src="https://avatars.githubusercontent.com/u/553208?v=4" alt=""><b>gpakosz/.tmux</b></p>
+<div class="btns">
+<a class="bigbtn" href="https://github.com/gpakosz/.tmux" target="_blank" rel="noopener">★ GitHub ↗</a>
+<a class="ghost" href="../index.html" data-en="← All gems" data-zh="← 全部宝藏">← All gems</a>
+</div>
+<h2 data-en="More in Terminal Gems" data-zh="更多「命令行神器」宝藏">More in Terminal Gems</h2>
+<div class="minis"><a class="mini" href="ohmyzsh.html"><span class="mrow"><span class="mn">Oh My Zsh</span><span class="ms">★ 190k</span></span><span class="md" data-en="The zsh framework behind a decade of beautiful terminals." data-zh="十年来源亮终端背后的 zsh 框架。">The zsh framework behind a decade of beautiful terminals.</span></a><a class="mini" href="fzf.html"><span class="mrow"><span class="mn">fzf</span><span class="ms">★ 83k</span></span><span class="md" data-en="Fuzzy-find anything: history, files, branches — one keystroke away." data-zh="万能模糊搜索：历史、文件、分支，一键即达。">Fuzzy-find anything: history, files, branches — one keystroke away.</span></a><a class="mini" href="ripgrep.html"><span class="mrow"><span class="mn">ripgrep</span><span class="ms">★ 69k</span></span><span class="md" data-en="grep rebuilt in Rust: far faster, smarter defaults, respects .gitignore." data-zh="Rust 重写的 grep：快得多、默认更聪明、自动尊重 .gitignore。">grep rebuilt in Rust: far faster, smarter defaults, respects .gitignore.</span></a><a class="mini" href="wezterm.html"><span class="mrow"><span class="mn">WezTerm</span><span class="ms">★ 29k</span></span><span class="md" data-en="GPU-accelerated terminal with Lua scripting — fast, cross-platform, hackable." data-zh="GPU 加速 + Lua 可编程的跨平台终端。">GPU-accelerated terminal with Lua scripting — fast, cross-platform, hackable.</span></a><a class="mini" href="hyperfine.html"><span class="mrow"><span class="mn">Hyperfine</span><span class="ms">★ 29k</span></span><span class="md" data-en="One command to benchmark anything — settle &#x27;which is faster&#x27; with numbers." data-zh="一行命令做性能对比：用数字终结「到底谁更快」。">One command to benchmark anything — settle &#x27;which is faster&#x27; with numbers.</span></a><a class="mini" href="fastfetch.html"><span class="mrow"><span class="mn">Fastfetch</span><span class="ms">★ 25k</span></span><span class="md" data-en="System info at shell speed — the actively maintained neofetch successor." data-zh="毫秒级系统信息展示，neofetch 的积极维护继任者。">System info at shell speed — the actively maintained neofetch successor.</span></a></div>
+</main>
+<button class="fscard" id="fsCard" aria-label="Fengshen Legend" title="封神传说">
+<img src="../fengshen.webp" alt="封神传说">
+</button>
+<div class="fsmodal" id="fsModal" hidden>
+<div class="fsback"></div>
+<div class="fsbox" role="dialog" aria-modal="true">
+<button class="fsx" id="fsClose" aria-label="Close">×</button>
+<img class="fsavatar" src="../fengshen.webp" alt="封神传说">
+<h3><span data-en="The legend behind this site" data-zh="这个网站的故事">The legend behind this site</span></h3>
+<p class="fsname">封神传说 · Fengshen Legend</p>
+<p data-en="GitHub Gems (codename 封神传说 — Investiture of the Gods) is a hand-curated discovery directory for open source: 💎 137 hidden gems live-verified from GitHub's 1k–30k star sweet spot, and 🏆 24 legendary projects as landmarks. Every star count is checked against the GitHub API — nothing guessed." data-zh="GitHub Gems（代号「封神传说」）是一个人工精选的开源发现站：💎 137 个实测核验的 1k–30k star 冷门宝藏，🏆 24 个殿堂级封神之作作为路标。所有 star 数均经 GitHub API 实测，拒绝道听途说。">GitHub Gems (codename 封神传说 — Investiture of the Gods) is a hand-curated discovery directory for open source: 💎 137 hidden gems live-verified from GitHub's 1k–30k star sweet spot, and 🏆 24 legendary projects as landmarks. Every star count is checked against the GitHub API — nothing guessed.</p>
+<p data-en="In the Chinese classic Investiture of the Gods, the sage Jiang Ziya fishes with a straight hook — not for fish, but for the worthy, whose names he writes onto the list that makes them immortal. That is our metaphor: underrated gems get seen, great works get crowned. A star is not the end; being discovered is." data-zh="《封神演义》里，姜子牙直钩垂钓——钓的不是鱼，是值得封神的人，然后把他们一一写上封神榜。这就是我们的寓意：让被低估的宝藏被看见，让传世之作加冕。star 不是终点，被发现才是。">In the Chinese classic Investiture of the Gods, the sage Jiang Ziya fishes with a straight hook — not for fish, but for the worthy, whose names he writes onto the list that makes them immortal. That is our metaphor: underrated gems get seen, great works get crowned. A star is not the end; being discovered is.</p>
+<div class="fsbtns">
+<a class="fsfollow" href="https://x.com/kuige_me" target="_blank" rel="noopener">𝕏 <span data-en="Follow me on X" data-zh="去 X 上关注我">Follow me on X</span></a>
+<a class="fsdiscuss" href="https://x.com/kuige_me/status/2104877134682398724" target="_blank" rel="noopener">💬 <span data-en="Join the discussion" data-zh="去讨论">Join the discussion</span></a>
+</div>
+</div>
+</div>
+
+<footer><div class="wrap"><span data-en="Hand-picked underrated open-source projects. Stars live-verified." data-zh="人工精选的冷门优质开源项目，star 数实测核验。">Hand-picked underrated open-source projects. Stars live-verified.</span></div></footer>
+<script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "948f2535a9dd4775a436c677b3c950e4"}'></script>
+<script type="module">
+const TITLE_EN = "Oh My Tmux \u2014 One dotfile and your tmux looks professionally | GitHub Gems", TITLE_ZH = "Oh My Tmux \u00b7 GitHub \u5b9d\u85cf\u9879\u76ee\u63a8\u8350";
+let lang = new URLSearchParams(location.search).get('lang') || localStorage.getItem('gg-lang') || 'en';
+const apply = () => {
+  document.documentElement.lang = lang;
+  document.querySelectorAll('[data-en]').forEach(el => { el.textContent = lang === 'zh' ? el.dataset.zh : el.dataset.en; });
+  document.title = lang === 'zh' ? TITLE_ZH : TITLE_EN;
+  document.getElementById('btnLang').textContent = lang === 'zh' ? 'EN' : '中文';
+  const u = new URL(location.href); u.searchParams.delete('lang');
+  if (lang === 'zh') u.searchParams.set('lang', 'zh');
+  history.replaceState(null, '', u.pathname + (u.search || '') + location.hash);
+};
+document.getElementById('btnLang').onclick = () => { lang = lang === 'zh' ? 'en' : 'zh'; localStorage.setItem('gg-lang', lang); apply(); };
+const cycle = () => {
+  const cur = document.documentElement.getAttribute('data-theme') || 'auto';
+  const next = { auto:'light', light:'dark', dark:'auto' }[cur];
+  document.documentElement.setAttribute('data-theme', next);
+  localStorage.setItem('gg-theme', next);
+  document.getElementById('btnTheme').textContent = { auto:'🌗 Auto', light:'☀️ Light', dark:'🌙 Dark' }[next];
+};
+document.getElementById('btnTheme').onclick = cycle;
+document.documentElement.setAttribute('data-theme', localStorage.getItem('gg-theme') || 'auto');
+document.getElementById('btnTheme').textContent = { auto:'🌗 Auto', light:'☀️ Light', dark:'🌙 Dark' }[localStorage.getItem('gg-theme') || 'auto'];
+const fsm = document.getElementById('fsModal');
+document.getElementById('fsCard').onclick = () => { fsm.hidden = false; };
+document.getElementById('fsClose').onclick = () => { fsm.hidden = true; };
+fsm.addEventListener('click', e => { if (e.target.classList.contains('fsback')) fsm.hidden = true; });
+document.addEventListener('keydown', e => { if (e.key === 'Escape') fsm.hidden = true; });
+apply();
+</script>
+</body>
+</html>

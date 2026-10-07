@@ -470,6 +470,124 @@ P("spd","Shattered Pixel Dungeon","00-Evan/shattered-pixel-dungeon","games",1,"A
 P("stk","SuperTuxKart","supertuxkart/stk-code","games",1,"Win·mac·Linux",["racing","kart","赛车"],
   "A mascot kart racer with actual online multiplayer.",
   "吉祥物卡丁车竞速，还带联机。"),
+
+P("micro","Micro","micro-editor/micro","apps",1,"Win·mac·Linux",["editor","terminal","编辑器"],
+  "A full-featured code editor that lives inside any terminal.",
+  "跑在终端里的全功能代码编辑器。"),
+P("espanso","Espanso","espanso/espanso","apps",1,"Win·mac·Linux",["text-expander","productivity","效率"],
+  "Type shortcuts, get whole sentences — a privacy-first text expander.",
+  "打缩写出整句：隐私优先的文本扩展器。"),
+P("cryptomator","Cryptomator","cryptomator/cryptomator","apps",1,"Win·mac·Linux·iOS·Android",["encryption","cloud","加密"],
+  "Encrypt files before they touch any cloud — vendor-proof vaults.",
+  "文件进云先加密：任何网盘都拿你没办法。"),
+P("notepadnext","Notepad Next","dail8859/NotepadNext","apps",1,"Win",["editor","notepad","记事本"],
+  "A cross-platform Notepad++ reimplementation for Windows muscle memory.",
+  "跨平台复刻的 Notepad++：Windows 肌肉记忆无缝迁移。"),
+P("fastfetch","Fastfetch","fastfetch-cli/fastfetch","cli",2,"CLI·Win·mac",["neofetch","system-info","系统信息"],
+  "System info at shell speed — the actively maintained neofetch successor.",
+  "毫秒级系统信息展示，neofetch 的积极维护继任者。"),
+P("bottom","bottom","ClementTsang/bottom","cli",2,"CLI·Win·mac·Linux",["monitor","htop","监控"],
+  "A customizable cross-platform system monitor with graphs and widgets.",
+  "可定制的跨平台系统监控：带图表、带小部件。"),
+P("onefetch","Onefetch","o2sh/onefetch","cli",2,"CLI·mac·Linux",["git","repo-info","仓库"],
+  "Show a repo's vital stats right in the terminal — great for demos.",
+  "终端里直接展示仓库画像：演示与 README 利器。"),
+P("ohmytmux","Oh My Tmux","gpakosz/.tmux","cli",2,"macOS·Linux",["tmux","terminal","终端"],
+  "One dotfile and your tmux looks professionally configured.",
+  "一份配置，让你的 tmux 看起来像高手调教过的。"),
+P("gitbutler","GitButler","gitbutlerapp/gitbutler","devtools",1,"Win·mac·Linux",["git","client","客户端"],
+  "A modern Git client for stacking branches without the fear.",
+  "现代化 Git 客户端：堆叠分支不再心惊胆战。"),
+P("dbtcore","dbt Core","dbt-labs/dbt-core","devtools",3,"Python·CLI",["analytics","transform","数据转换"],
+  "SQL-first analytics engineering: versioned, tested, documented transforms.",
+  "分析工程的事实标准：数据转换可版本化、可测试、有文档。"),
+P("tokei","Tokei","XAMPPRocky/tokei","devtools",2,"CLI",["loc","stats","统计"],
+  "Count lines of code across 200+ languages, instantly and accurately.",
+  "秒级统计 200+ 语言的代码行数。"),
+P("chroma","Chroma","chroma-core/chroma","ai",3,"Python·Docker",["vector-db","embedding","向量"],
+  "The open embedding database behind thousands of AI apps.",
+  "数千 AI 应用背后的开源向量数据库。"),
+P("deepface","Deepface","serengil/deepface","ai",3,"Python",["face","recognition","人脸"],
+  "A lightweight Python wrapper for face recognition and verification.",
+  "轻量级人脸识别与比对的 Python 封装。"),
+P("aichatbot","Vercel AI Chatbot","vercel/ai-chatbot","ai",2,"Next.js",["chatbot","template","模板"],
+  "A full-featured, hackable AI chatbot template you can ship today.",
+  "功能齐全、可自由魔改的 AI 聊天模板，今天就能上线。"),
+P("gorilla","Gorilla","ShishirPatil/gorilla","ai",3,"Python",["llm","api","工具调用"],
+  "Research project teaching LLMs to call 1,600+ real-world APIs reliably.",
+  "教大模型可靠调用 1600+ 真实 API 的前沿研究项目。"),
+P("ufo","UFO","microsoft/UFO","ai",3,"Windows·Python",["agent","gui","智能体"],
+  "Microsoft's GUI agent that operates Windows apps on your behalf.",
+  "微软出品的 GUI 智能体：替你操作 Windows 应用。"),
+P("plausible","Plausible","plausible/analytics","selfhost",2,"Docker·Web",["analytics","privacy","统计"],
+  "Lightweight, privacy-first web analytics — the Google Analytics antithesis.",
+  "轻量、隐私优先的网站统计：Google Analytics 的反面。"),
+P("openobserve","OpenObserve","openobserve/openobserve","selfhost",2,"Docker·Rust",["logs","metrics","可观测"],
+  "One binary for logs, metrics and traces at a tenth of the storage cost.",
+  "一个二进制搞定日志/指标/追踪，存储成本只要十分之一。"),
+P("bunkerweb","BunkerWeb","bunkerity/bunkerweb","selfhost",2,"Docker",["waf","security","防护"],
+  "The open-source WAF that makes your web stack boring to attack.",
+  "开源 WAF：让攻击者觉得你的站点无聊透顶。"),
+P("plotlyjs","Plotly.js","plotly/plotly.js","data",3,"JS",["charts","scientific","图表"],
+  "40+ chart types for scientific and financial visualization.",
+  "40+ 种图表类型，科研与金融可视化的老朋友。"),
+P("vega","Vega","vega/vega","data",3,"JS",["grammar","visualization","可视化"],
+  "A visualization grammar: describe charts as JSON, render anywhere.",
+  "可视化语法：用 JSON 描述图表，随处渲染。"),
+P("visx","visx","airbnb/visx","data",3,"JS·React",["charts","react","可视化"],
+  "Airbnb's low-level visualization primitives for React.",
+  "Airbnb 出品的 React 可视化原语库。"),
+P("vueuse","VueUse","vueuse/vueuse","web",3,"TS·Vue",["composition","utils","工具集"],
+  "200+ essential composition utilities for Vue — the batteries Vue didn't ship.",
+  "200+ 个 Vue 组合式工具函数：官方没送的电池都在这。"),
+P("radix","Radix Primitives","radix-ui/primitives","web",3,"React·TS",["ui","a11y","组件"],
+  "The accessible headless component library shadcn/ui is built on.",
+  "shadcn/ui 背后的无头组件库：无障碍开箱即用。"),
+P("emotion","Emotion","emotion-js/emotion","web",3,"JS·React",["css-in-js","styling","样式"],
+  "CSS-in-JS with source maps and compile-time optimizations.",
+  "带 sourcemap 和编译期优化的 CSS-in-JS 老将。"),
+P("tanstack","TanStack Table","TanStack/table","web",3,"TS",["datagrid","table","表格"],
+  "Headless datagrid: sorting, grouping, virtualization — draw the UI yourself.",
+  "无头数据表格：排序/分组/虚拟化全都有，UI 随你画。"),
+P("pydantic","Pydantic","pydantic/pydantic","backend",3,"Python",["validation","types","校验"],
+  "The data-validation layer half the Python ecosystem runs on.",
+  "半个 Python 生态都跑在它上面的数据校验层。"),
+P("pgx","pgx","jackc/pgx","backend",3,"Go",["postgres","driver","驱动"],
+  "The PostgreSQL driver Go developers eventually graduate to.",
+  "Go 开发者最终都会换上的 PostgreSQL 驱动。"),
+P("aiohttp","aiohttp","aio-libs/aiohttp","backend",3,"Python",["async","http","异步"],
+  "Async HTTP client and server in one mature package.",
+  "一个成熟包搞定异步 HTTP 客户端与服务端。"),
+P("argocd","Argo CD","argoproj/argo-cd","devops",3,"Go·K8s",["gitops","k8s","持续部署"],
+  "GitOps for Kubernetes: your cluster follows your repo.",
+  "K8s 的 GitOps 引擎：集群跟着仓库走。"),
+P("harbor","Harbor","goharbor/harbor","devops",2,"Docker·K8s",["registry","images","镜像仓库"],
+  "The cloud-native container registry with scanning and signing built in.",
+  "云原生镜像仓库：扫描与签名开箱即带。"),
+P("signal","Signal for Android","signalapp/Signal-Android","privacy",1,"Android",["messenger","e2e","加密通讯"],
+  "The gold standard of private messaging, source open to all.",
+  "私人通讯的金标准，源码完全开放。"),
+P("bitwarden","Bitwarden Clients","bitwarden/clients","privacy",2,"Web·Desktop·Mobile",["password","vault","密码"],
+  "The apps behind the open-source password manager everyone trusts.",
+  "人人信赖的开源密码管理器的全部客户端。"),
+P("openemu","OpenEmu","OpenEmu/OpenEmu","games",1,"macOS",["emulator","retro","模拟器"],
+  "Retro gaming on macOS, unified beautifully — dozens of consoles, one app.",
+  "macOS 复古游戏大厅：几十种主机一个应用装下。"),
+P("pcsx2","PCSX2","PCSX2/pcsx2","games",1,"Win·Linux",["ps2","emulator","模拟器"],
+  "PlayStation 2 emulation, matured for two decades.",
+  "打磨了二十年的 PS2 模拟器。"),
+P("dolphin","Dolphin","dolphin-emu/dolphin","games",1,"Win·mac·Linux",["gamecube","wii","模拟器"],
+  "The definitive GameCube and Wii emulator — HD visuals, better controls.",
+  "GC/Wii 模拟器天花板：HD 画质、更强的操控。"),
+P("ppsspp","PPSSPP","hrydgard/ppsspp","games",1,"All platforms",["psp","emulator","模拟器"],
+  "PSP games on every device you own, often upscaled.",
+  "在所有设备上玩 PSP，画质还能增强。"),
+P("openrct2","OpenRCT2","OpenRCT2/OpenRCT2","games",1,"Win·mac·Linux",["tycoon","management","游乐园"],
+  "RollerCoaster Tycoon 2, rebuilt open-source and multiplayer-ready.",
+  "开源重制的《过山车大亨 2》，还支持联机。"),
+P("audacity","Audacity","audacity/audacity","media",1,"Win·mac·Linux",["audio","editor","音频"],
+  "The world's most-used audio editor — simple, free, everywhere.",
+  "全球使用最广的音频编辑器：简单、免费、无处不在。"),
 ]
 
 # ---------- 封神榜：耳熟能详的殿堂级项目 ----------
@@ -574,7 +692,8 @@ def fetch_repo(repo, cache):
         return None
     d = json.loads(out.stdout)
     node = {"stargazerCount": d["stargazers_count"], "pushedAt": d["pushed_at"],
-            "isArchived": d["archived"], "description": d.get("description")}
+            "isArchived": d["archived"], "description": d.get("description"),
+            "avatar": (d.get("owner") or {}).get("avatar_url")}
     cache[repo] = node
     return node
 
@@ -648,6 +767,8 @@ html[data-theme=dark] .fsfollow{background:#e7e9ea;color:#0f1419;border-color:#e
 .fsdiscuss{border:1px solid var(--line);color:var(--fg);background:var(--bg)}
 .fsdiscuss:hover{border-color:var(--acc);color:var(--acc)}
 .fsfollow:hover{transform:translateY(-2px);opacity:.92}
+.gcover{display:block;width:100%;height:190px;object-fit:cover;object-position:center top;border-radius:14px;border:1px solid var(--line);margin:0 0 20px;background:var(--chip)}
+.gav{width:20px;height:20px;border-radius:50%;vertical-align:-5px;margin-right:5px;border:1px solid var(--line);background:var(--chip)}
 """
 
 GEM_TPL = """<!DOCTYPE html>
@@ -667,11 +788,11 @@ GEM_TPL = """<!DOCTYPE html>
 <meta property="og:title" content="__NAME__ — GitHub Gem">
 <meta property="og:description" content="__DE__">
 <meta property="og:url" content="__BASE__/gems/__ID__.html">
-<meta property="og:image" content="__BASE__/og-image.png">
+<meta property="og:image" content="https://opengraph.githubassets.com/1/__REPO__">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="__NAME__ — GitHub Gem">
 <meta name="twitter:description" content="__DE__">
-<meta name="twitter:image" content="__BASE__/og-image.png">
+<meta name="twitter:image" content="https://opengraph.githubassets.com/1/__REPO__">
 <script type="application/ld+json">__JSONLD__</script>
 <style>__CSS__</style>
 </head>
@@ -683,6 +804,7 @@ GEM_TPL = """<!DOCTYPE html>
 </div></header>
 <main class="wrap">
 <p class="crumb"><a href="../index.html" data-en="All gems" data-zh="全部宝藏">All gems</a> / <a href="../index.html?c=__CATID__" data-en="__CATEN__" data-zh="__CATZH__">__CATEN__</a> / __NAME__</p>
+<img class="gcover" loading="lazy" src="https://opengraph.githubassets.com/1/__REPO__" alt="__NAME__">
 <h1>__NAME__ <span class="st">★ __STARSK__</span></h1>
 <div class="badges">
 <span class="badge cat">__CATICON__ <span data-en="__CATEN__" data-zh="__CATZH__">__CATEN__</span></span>
@@ -691,7 +813,7 @@ GEM_TPL = """<!DOCTYPE html>
 </div>
 <p class="lead" data-en="__DE__" data-zh="__DZ__">__DE__</p>
 <p class="extra" data-en="__EXTRA_EN__" data-zh="__EXTRA_ZH__">__EXTRA_EN__</p>
-<p class="vline"><span data-en="Star count live-verified" data-zh="star 数实测核验">Star count live-verified</span> <b>__DATE__</b> · <span data-en="repo" data-zh="仓库">repo</span> <b>__REPO__</b></p>
+<p class="vline"><span data-en="Star count live-verified" data-zh="star 数实测核验">Star count live-verified</span> <b>__DATE__</b> · <span data-en="repo" data-zh="仓库">repo</span> <img class="gav" loading="lazy" src="__AV__" alt=""><b>__REPO__</b></p>
 <div class="btns">
 <a class="bigbtn" href="https://github.com/__REPO__" target="_blank" rel="noopener">★ GitHub ↗</a>
 <a class="ghost" href="../index.html" data-en="← All gems" data-zh="← 全部宝藏">← All gems</a>
@@ -806,7 +928,8 @@ def build_gem_page(g, gems):
         .replace("__PLAT__", hesc(g["p"])).replace("__BADGES__", bad)
         .replace("__DE__", hesc(g["de"])).replace("__DZ__", hesc(g["dz"]))
         .replace("__EXTRA_EN__", hesc(extra_en)).replace("__EXTRA_ZH__", hesc(extra_zh))
-        .replace("__DATE__", TODAY).replace("__RELATED__", related))
+        .replace("__DATE__", TODAY).replace("__RELATED__", related)
+        .replace("__AV__", g.get("av") or ""))
     return page
 
 def write_sitemap(gems):
@@ -855,7 +978,8 @@ def main():
         if legend and s < BAND_TOP:
             problems.append(f"{prj['r']}: legend below {BAND_TOP} ({s}) — 不够格，建议降级或移除")
         item = {"id":prj["id"],"n":prj["n"],"r":prj["r"],"s":s,"c":prj["c"],
-                "lv":prj["lv"],"p":prj["p"],"t":prj["t"],"de":prj["de"],"dz":prj["dz"]}
+                "lv":prj["lv"],"p":prj["p"],"t":prj["t"],"de":prj["de"],"dz":prj["dz"],
+                "av": node.get("avatar") or "https://github.com/%s.png?size=64" % prj["r"].split("/")[0]}
         if legend: item["L"] = 1
         if g: item["g"] = g
         if a: item["a"] = True
@@ -882,7 +1006,8 @@ def main():
         if g.get("a"): extra += f'<span class="badge arch">⚠️ {EN_ARCH}</span>'
         cards.append(
 f'''<a class="card" href="gems/{g['id']}.html">
-<div class="crow"><span class="nm">{g['n']}</span><span class="st">★ {fmt_k(g['s'])}</span></div>
+<img class="cov" loading="lazy" src="https://opengraph.githubassets.com/1/{g['r']}" alt="{g['n']}">
+<div class="crow"><img class="oav" loading="lazy" src="{g['av']}" alt="{g['r'].split('/')[0]}"><span class="nm">{g['n']}</span><span class="st">★ {fmt_k(g['s'])}</span></div>
 <p class="ds">{g['de']}</p>
 <div class="mta"><span class="badge cat">{ic} {en}</span><span class="badge {cls}">{LVS[g['lv']]}</span><span class="badge">{g['p']}</span>{extra}</div>
 </a>''')

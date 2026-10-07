@@ -1,9 +1,10 @@
 {
  "ente-io/ente": {
-  "stargazerCount": 29242,
-  "pushedAt": "2026-10-05T09:05:38Z",
+  "stargazerCount": 29128,
+  "pushedAt": "2026-09-28T08:46:15Z",
   "isArchived": false,
-  "description": "\ud83d\udc9a End-to-end encrypted cloud for everything."
+  "description": "\ud83d\udc9a End-to-end encrypted cloud for everything.",
+  "avatar": "https://avatars.githubusercontent.com/u/64603161?v=4"
  },
  "paperless-ngx/paperless-ngx": {
   "stargazerCount": 46079,
@@ -24,40 +25,46 @@
   }
  },
  "sissbruecker/linkding": {
-  "stargazerCount": 11275,
-  "pushedAt": "2026-10-01T17:49:41Z",
+  "stargazerCount": 11249,
+  "pushedAt": "2026-09-18T01:31:35Z",
   "isArchived": false,
-  "description": "Self-hosted bookmark manager that is designed be to be minimal, fast, and easy to set up using Docker."
+  "description": "Self-hosted bookmark manager that is designed be to be minimal, fast, and easy to set up using Docker.",
+  "avatar": "https://avatars.githubusercontent.com/u/357820?u=c33888776cddd4bd855b4f68b6c88680f9bb44b4&v=4"
  },
  "mealie-recipes/mealie": {
-  "stargazerCount": 13442,
-  "pushedAt": "2026-10-05T01:20:09Z",
+  "stargazerCount": 13352,
+  "pushedAt": "2026-09-28T03:07:24Z",
   "isArchived": false,
-  "description": "Mealie is a self hosted recipe manager and meal planner with a RestAPI backend and a reactive frontend application built in Vue for a pleasant user experience for the whole family. Easily add recipes into your database by providing the url and mealie will automatically import the relevant data or add a family recipe with the UI editor"
+  "description": "Mealie is a self hosted recipe manager and meal planner with a RestAPI backend and a reactive frontend application built in Vue for a pleasant user experience for the whole family. Easily add recipes into your database by providing the url and mealie will automatically import the relevant data or add a family recipe with the UI editor",
+  "avatar": "https://avatars.githubusercontent.com/u/92342333?v=4"
  },
  "wallabag/wallabag": {
-  "stargazerCount": 12994,
-  "pushedAt": "2026-10-05T08:33:29Z",
+  "stargazerCount": 12989,
+  "pushedAt": "2026-09-28T06:48:52Z",
   "isArchived": false,
-  "description": "wallabag is a self hostable application for saving web pages: Save and classify articles. Read them later. Freely."
+  "description": "wallabag is a self hostable application for saving web pages: Save and classify articles. Read them later. Freely.",
+  "avatar": "https://avatars.githubusercontent.com/u/4143872?v=4"
  },
  "keepassxreboot/keepassxc": {
-  "stargazerCount": 29088,
-  "pushedAt": "2026-09-30T04:25:51Z",
+  "stargazerCount": 28998,
+  "pushedAt": "2026-09-23T06:20:27Z",
   "isArchived": false,
-  "description": "KeePassXC is a cross-platform community-driven port of the Windows application \u201cKeePass Password Safe\u201d."
+  "description": "KeePassXC is a cross-platform community-driven port of the Windows application \u201cKeePass Password Safe\u201d.",
+  "avatar": "https://avatars.githubusercontent.com/u/22534815?v=4"
  },
  "pqrs-org/Karabiner-Elements": {
-  "stargazerCount": 22908,
-  "pushedAt": "2026-10-04T13:32:26Z",
+  "stargazerCount": 22877,
+  "pushedAt": "2026-09-27T13:09:30Z",
   "isArchived": false,
-  "description": "Karabiner-Elements is a powerful tool for customizing keyboards on macOS"
+  "description": "Karabiner-Elements is a powerful tool for customizing keyboards on macOS",
+  "avatar": "https://avatars.githubusercontent.com/u/29721576?v=4"
  },
  "Zettlr/Zettlr": {
-  "stargazerCount": 13706,
-  "pushedAt": "2026-10-05T04:32:06Z",
+  "stargazerCount": 13591,
+  "pushedAt": "2026-09-22T02:36:38Z",
   "isArchived": false,
-  "description": "Your One-Stop Publication Workbench"
+  "description": "Your One-Stop Publication Workbench",
+  "avatar": "https://avatars.githubusercontent.com/u/19707815?v=4"
  },
  "qarmin/czkawka": {
   "stargazerCount": 33747,
@@ -69,40 +76,46 @@
   }
  },
  "lwouis/alt-tab-macos": {
-  "stargazerCount": 16361,
+  "stargazerCount": 16336,
   "pushedAt": "2026-09-26T17:04:17Z",
   "isArchived": false,
-  "description": "Windows alt-tab on macOS "
+  "description": "Windows alt-tab on macOS ",
+  "avatar": "https://avatars.githubusercontent.com/u/106195?u=2cdcc3b8e04ad616021ae6b252dd3b2e78625cc8&v=4"
  },
  "oliverschwendener/ueli": {
-  "stargazerCount": 4600,
+  "stargazerCount": 4603,
   "pushedAt": "2026-09-12T11:23:45Z",
   "isArchived": false,
-  "description": "Cross-Platform Keystroke Launcher"
+  "description": "Cross-Platform Keystroke Launcher",
+  "avatar": "https://avatars.githubusercontent.com/u/15727229?u=5adeb6f186f378d204f85d740ba554c6587bd1db&v=4"
  },
  "Kunzisoft/KeePassDX": {
-  "stargazerCount": 7421,
+  "stargazerCount": 7382,
   "pushedAt": "2026-09-25T09:18:36Z",
   "isArchived": false,
-  "description": "Lightweight vault and password manager for Android, KeePassDX allows editing encrypted data in a single file in KeePass format and fill in the forms in a secure way."
+  "description": "Lightweight vault and password manager for Android, KeePassDX allows editing encrypted data in a single file in KeePass format and fill in the forms in a secure way.",
+  "avatar": "https://avatars.githubusercontent.com/u/22522604?v=4"
  },
  "beemdevelopment/Aegis": {
-  "stargazerCount": 13207,
+  "stargazerCount": 13171,
   "pushedAt": "2026-09-06T10:30:01Z",
   "isArchived": false,
-  "description": "A free, secure and open source app for Android to manage your 2-step verification tokens."
+  "description": "A free, secure and open source app for Android to manage your 2-step verification tokens.",
+  "avatar": "https://avatars.githubusercontent.com/u/47433933?v=4"
  },
  "kiwix/kiwix-desktop": {
-  "stargazerCount": 1491,
-  "pushedAt": "2026-10-02T08:54:47Z",
+  "stargazerCount": 1487,
+  "pushedAt": "2026-09-24T12:01:40Z",
   "isArchived": false,
-  "description": "Kiwix for Windows and GNU/Linux desktops"
+  "description": "Kiwix for Windows and GNU/Linux desktops",
+  "avatar": "https://avatars.githubusercontent.com/u/826219?v=4"
  },
  "dynobo/normcap": {
-  "stargazerCount": 2741,
+  "stargazerCount": 2734,
   "pushedAt": "2026-09-18T18:07:15Z",
   "isArchived": false,
-  "description": "OCR powered screen-capture tool to capture information instead of images"
+  "description": "OCR powered screen-capture tool to capture information instead of images",
+  "avatar": "https://avatars.githubusercontent.com/u/11071876?u=b470cfa80da074faba3d469cb214e7a943e2e8a1&v=4"
  },
  "flameshot-org/flameshot": {
   "stargazerCount": 30920,
@@ -114,16 +127,18 @@
   }
  },
  "KDE/kdenlive": {
-  "stargazerCount": 5787,
-  "pushedAt": "2026-10-05T04:10:38Z",
+  "stargazerCount": 5753,
+  "pushedAt": "2026-09-28T07:33:57Z",
   "isArchived": false,
-  "description": "Free and open source video editor, based on MLT Framework and KDE Frameworks"
+  "description": "Free and open source video editor, based on MLT Framework and KDE Frameworks",
+  "avatar": "https://avatars.githubusercontent.com/u/14312869?v=4"
  },
  "mltframework/shotcut": {
-  "stargazerCount": 15354,
-  "pushedAt": "2026-10-05T05:11:33Z",
+  "stargazerCount": 15289,
+  "pushedAt": "2026-09-28T05:59:38Z",
   "isArchived": false,
-  "description": "cross-platform (Qt), open-source (GPLv3) video editor"
+  "description": "cross-platform (Qt), open-source (GPLv3) video editor",
+  "avatar": "https://avatars.githubusercontent.com/u/1558770?v=4"
  },
  "olive-editor/olive": {
   "stargazerCount": 9130,
@@ -135,28 +150,32 @@
   }
  },
  "LMMS/lmms": {
-  "stargazerCount": 10432,
+  "stargazerCount": 10401,
   "pushedAt": "2026-09-27T21:00:26Z",
   "isArchived": false,
-  "description": "Cross-platform music production software"
+  "description": "Cross-platform music production software",
+  "avatar": "https://avatars.githubusercontent.com/u/6363159?v=4"
  },
  "mixxxdj/mixxx": {
-  "stargazerCount": 7212,
-  "pushedAt": "2026-10-05T06:03:26Z",
+  "stargazerCount": 7196,
+  "pushedAt": "2026-09-27T23:19:11Z",
   "isArchived": false,
-  "description": "Mixxx is Free DJ software that gives you everything you need to perform live mixes."
+  "description": "Mixxx is Free DJ software that gives you everything you need to perform live mixes.",
+  "avatar": "https://avatars.githubusercontent.com/u/1743769?v=4"
  },
  "sonic-pi-net/sonic-pi": {
-  "stargazerCount": 12175,
-  "pushedAt": "2026-10-02T08:09:19Z",
+  "stargazerCount": 12157,
+  "pushedAt": "2026-09-28T06:41:06Z",
   "isArchived": false,
-  "description": "Code. Music. Live."
+  "description": "Code. Music. Live.",
+  "avatar": "https://avatars.githubusercontent.com/u/67760337?v=4"
  },
  "VCVRack/Rack": {
-  "stargazerCount": 4427,
+  "stargazerCount": 4424,
   "pushedAt": "2025-11-04T08:47:14Z",
   "isArchived": false,
-  "description": "The virtual Eurorack studio"
+  "description": "The virtual Eurorack studio",
+  "avatar": "https://avatars.githubusercontent.com/u/25452821?v=4"
  },
  "nukeop/nuclear": {
   "stargazerCount": 18533,
@@ -168,10 +187,11 @@
   }
  },
  "zotero/zotero": {
-  "stargazerCount": 15470,
-  "pushedAt": "2026-10-04T04:40:07Z",
+  "stargazerCount": 15420,
+  "pushedAt": "2026-09-26T18:32:41Z",
   "isArchived": false,
-  "description": "Zotero is a free, easy-to-use tool to help you collect, organize, annotate, cite, and share your research sources."
+  "description": "Zotero is a free, easy-to-use tool to help you collect, organize, annotate, cite, and share your research sources.",
+  "avatar": "https://avatars.githubusercontent.com/u/891917?v=4"
  },
  "filebrowser/filebrowser": {
   "stargazerCount": 35937,
@@ -201,34 +221,39 @@
   }
  },
  "eza-community/eza": {
-  "stargazerCount": 23477,
+  "stargazerCount": 23397,
   "pushedAt": "2026-08-06T19:53:22Z",
   "isArchived": false,
-  "description": "A modern alternative to ls"
+  "description": "A modern alternative to ls",
+  "avatar": "https://avatars.githubusercontent.com/u/141388427?v=4"
  },
  "Canop/broot": {
-  "stargazerCount": 13039,
-  "pushedAt": "2026-10-04T14:55:06Z",
+  "stargazerCount": 13000,
+  "pushedAt": "2026-09-28T04:51:23Z",
   "isArchived": false,
-  "description": "A new way to see and navigate directory trees"
+  "description": "A new way to see and navigate directory trees",
+  "avatar": "https://avatars.githubusercontent.com/u/617006?u=d37ffb41ad4ef32e831e315ef5316b51e57c2597&v=4"
  },
  "bootandy/dust": {
-  "stargazerCount": 12466,
+  "stargazerCount": 12415,
   "pushedAt": "2026-09-16T21:39:17Z",
   "isArchived": false,
-  "description": "A more intuitive version of du in rust"
+  "description": "A more intuitive version of du in rust",
+  "avatar": "https://avatars.githubusercontent.com/u/311785?v=4"
  },
  "chmln/sd": {
-  "stargazerCount": 7380,
+  "stargazerCount": 7366,
   "pushedAt": "2026-02-25T19:26:21Z",
   "isArchived": false,
-  "description": "Intuitive find & replace CLI (sed alternative)"
+  "description": "Intuitive find & replace CLI (sed alternative)",
+  "avatar": "https://avatars.githubusercontent.com/u/11352152?u=7da5f58f9961ec64efd8d31785ab80b53cb712e6&v=4"
  },
  "sharkdp/hyperfine": {
-  "stargazerCount": 28946,
-  "pushedAt": "2026-10-05T09:10:47Z",
+  "stargazerCount": 28915,
+  "pushedAt": "2026-04-30T08:23:25Z",
   "isArchived": false,
-  "description": "A command-line benchmarking tool"
+  "description": "A command-line benchmarking tool",
+  "avatar": "https://avatars.githubusercontent.com/u/4209276?u=e6c4022c315b6cbecd5968ec256f4b02885eba41&v=4"
  },
  "dandavison/delta": {
   "stargazerCount": 32354,
@@ -267,10 +292,11 @@
   }
  },
  "jonas/tig": {
-  "stargazerCount": 13357,
+  "stargazerCount": 13352,
   "pushedAt": "2026-09-19T15:33:02Z",
   "isArchived": false,
-  "description": "Text-mode interface for git"
+  "description": "Text-mode interface for git",
+  "avatar": "https://avatars.githubusercontent.com/u/8417?u=fd2f29f433df62751b5690a1bddee04bb4627d21&v=4"
  },
  "casey/just": {
   "stargazerCount": 36028,
@@ -291,16 +317,18 @@
   }
  },
  "direnv/direnv": {
-  "stargazerCount": 15486,
+  "stargazerCount": 15471,
   "pushedAt": "2026-03-31T18:52:06Z",
   "isArchived": false,
-  "description": "unclutter your .profile"
+  "description": "unclutter your .profile",
+  "avatar": "https://avatars.githubusercontent.com/u/13077327?v=4"
  },
  "dbrgn/tealdeer": {
-  "stargazerCount": 6576,
+  "stargazerCount": 6554,
   "pushedAt": "2026-08-25T22:10:38Z",
   "isArchived": false,
-  "description": "A very fast implementation of tldr in Rust."
+  "description": "A very fast implementation of tldr in Rust.",
+  "avatar": "https://avatars.githubusercontent.com/u/178226396?v=4"
  },
  "dundee/gdu": {
   "stargazerCount": 6018,
@@ -312,10 +340,11 @@
   }
  },
  "dlvhdr/gh-dash": {
-  "stargazerCount": 12585,
+  "stargazerCount": 12564,
   "pushedAt": "2026-09-22T08:16:12Z",
   "isArchived": false,
-  "description": "A rich terminal UI for GitHub that doesn't break your flow."
+  "description": "A rich terminal UI for GitHub that doesn't break your flow.",
+  "avatar": "https://avatars.githubusercontent.com/u/6196971?u=329978c85ab7ee73f9c775fcec6021da61d362db&v=4"
  },
  "charmbracelet/mods": {
   "stargazerCount": 4522,
@@ -327,10 +356,11 @@
   }
  },
  "sigoden/aichat": {
-  "stargazerCount": 10484,
+  "stargazerCount": 10472,
   "pushedAt": "2026-02-23T11:16:42Z",
   "isArchived": false,
-  "description": "All-in-one LLM CLI tool featuring Shell Assistant, Chat-REPL, RAG, AI Tools & Agents, with access to OpenAI, Claude, Gemini, Ollama, Groq, and more."
+  "description": "All-in-one LLM CLI tool featuring Shell Assistant, Chat-REPL, RAG, AI Tools & Agents, with access to OpenAI, Claude, Gemini, Ollama, Groq, and more.",
+  "avatar": "https://avatars.githubusercontent.com/u/4012553?v=4"
  },
  "schollz/croc": {
   "stargazerCount": 40451,
@@ -342,40 +372,46 @@
   }
  },
  "mawww/kakoune": {
-  "stargazerCount": 11086,
-  "pushedAt": "2026-10-03T11:26:45Z",
+  "stargazerCount": 11075,
+  "pushedAt": "2026-09-15T22:57:32Z",
   "isArchived": false,
-  "description": "mawww's experiment for a better code editor"
+  "description": "mawww's experiment for a better code editor",
+  "avatar": "https://avatars.githubusercontent.com/u/51221?v=4"
  },
  "wez/wezterm": {
-  "stargazerCount": 29124,
-  "pushedAt": "2026-10-05T05:31:39Z",
+  "stargazerCount": 29045,
+  "pushedAt": "2026-09-28T05:18:28Z",
   "isArchived": false,
-  "description": "A GPU-accelerated cross-platform terminal emulator and multiplexer written by @wez and implemented in Rust"
+  "description": "A GPU-accelerated cross-platform terminal emulator and multiplexer written by @wez and implemented in Rust",
+  "avatar": "https://avatars.githubusercontent.com/u/198158019?v=4"
  },
  "zealdocs/zeal": {
-  "stargazerCount": 12818,
-  "pushedAt": "2026-10-05T06:04:26Z",
+  "stargazerCount": 12809,
+  "pushedAt": "2026-09-27T17:57:00Z",
   "isArchived": false,
-  "description": "Offline documentation browser. Your personal reference library, searchable in an instant."
+  "description": "Offline documentation browser. Your personal reference library, searchable in an instant.",
+  "avatar": "https://avatars.githubusercontent.com/u/10424263?v=4"
  },
  "mockoon/mockoon": {
-  "stargazerCount": 8435,
-  "pushedAt": "2026-10-05T06:02:38Z",
+  "stargazerCount": 8423,
+  "pushedAt": "2026-09-25T23:55:11Z",
   "isArchived": false,
-  "description": "Mockoon is the easiest and quickest way to run mock APIs locally. No remote deployment, no account required, open source."
+  "description": "Mockoon is the easiest and quickest way to run mock APIs locally. No remote deployment, no account required, open source.",
+  "avatar": "https://avatars.githubusercontent.com/u/49429147?v=4"
  },
  "gitleaks/gitleaks": {
-  "stargazerCount": 29671,
-  "pushedAt": "2026-09-30T04:14:02Z",
+  "stargazerCount": 29527,
+  "pushedAt": "2026-09-23T04:14:00Z",
   "isArchived": false,
-  "description": "Find secrets with Gitleaks \ud83d\udd11"
+  "description": "Find secrets with Gitleaks \ud83d\udd11",
+  "avatar": "https://avatars.githubusercontent.com/u/90395851?v=4"
  },
  "pre-commit/pre-commit": {
-  "stargazerCount": 15607,
-  "pushedAt": "2026-09-29T20:45:16Z",
+  "stargazerCount": 15599,
+  "pushedAt": "2026-08-17T23:37:08Z",
   "isArchived": false,
-  "description": "A framework for managing and maintaining multi-language pre-commit hooks."
+  "description": "A framework for managing and maintaining multi-language pre-commit hooks.",
+  "avatar": "https://avatars.githubusercontent.com/u/6943086?v=4"
  },
  "bcicen/ctop": {
   "stargazerCount": 17842,
@@ -387,16 +423,18 @@
   }
  },
  "TwiN/gatus": {
-  "stargazerCount": 12238,
-  "pushedAt": "2026-10-05T06:33:42Z",
+  "stargazerCount": 12188,
+  "pushedAt": "2026-09-24T00:00:21Z",
   "isArchived": false,
-  "description": "Automated developer-oriented status page with alerting and incident support"
+  "description": "Automated developer-oriented status page with alerting and incident support",
+  "avatar": "https://avatars.githubusercontent.com/u/15699766?u=b9348c9b30b9364587c8d68a82dcb456fe6cbf6a&v=4"
  },
  "healthchecks/healthchecks": {
-  "stargazerCount": 10382,
-  "pushedAt": "2026-10-05T06:51:34Z",
+  "stargazerCount": 10367,
+  "pushedAt": "2026-09-21T15:56:36Z",
   "isArchived": false,
-  "description": "Open-source cron job and background task monitoring service, written in Python & Django"
+  "description": "Open-source cron job and background task monitoring service, written in Python & Django",
+  "avatar": "https://avatars.githubusercontent.com/u/13053880?v=4"
  },
  "glitchtip/glitchtip": {
   "stargazerCount": 3,
@@ -406,10 +444,11 @@
   "primaryLanguage": null
  },
  "jlfwong/speedscope": {
-  "stargazerCount": 6768,
+  "stargazerCount": 6764,
   "pushedAt": "2026-05-15T15:39:25Z",
   "isArchived": false,
-  "description": "\ud83d\udd2c A fast, interactive web-based viewer for performance profiles."
+  "description": "\ud83d\udd2c A fast, interactive web-based viewer for performance profiles.",
+  "avatar": "https://avatars.githubusercontent.com/u/150329?u=6d27cdd9ffef433f3d5a9de93ef5fec3fe3889f1&v=4"
  },
  "usebruno/bruno": {
   "stargazerCount": 47223,
@@ -439,10 +478,11 @@
   }
  },
  "LibreTranslate/LibreTranslate": {
-  "stargazerCount": 16990,
+  "stargazerCount": 16875,
   "pushedAt": "2026-09-28T00:52:25Z",
   "isArchived": false,
-  "description": "Free and Open Source Machine Translation API. Self-hosted, offline capable and easy to setup."
+  "description": "Free and Open Source Machine Translation API. Self-hosted, offline capable and easy to setup.",
+  "avatar": "https://avatars.githubusercontent.com/u/77352747?v=4"
  },
  "SillyTavern/SillyTavern": {
   "stargazerCount": 33820,
@@ -490,16 +530,18 @@
   }
  },
  "activepieces/activepieces": {
-  "stargazerCount": 24905,
-  "pushedAt": "2026-10-05T08:57:56Z",
+  "stargazerCount": 24755,
+  "pushedAt": "2026-09-28T08:37:44Z",
   "isArchived": false,
-  "description": "AI Agents & MCPs & AI Workflow Automation \u2022 (~400 MCP servers for AI agents) \u2022 AI Automation / AI Agent with MCPs \u2022 AI Workflows & AI Agents \u2022 MCPs for AI Agents"
+  "description": "AI Agents & MCPs & AI Workflow Automation \u2022 (~400 MCP servers for AI agents) \u2022 AI Automation / AI Agent with MCPs \u2022 AI Workflows & AI Agents \u2022 MCPs for AI Agents",
+  "avatar": "https://avatars.githubusercontent.com/u/99494700?v=4"
  },
  "windmill-labs/windmill": {
-  "stargazerCount": 18103,
-  "pushedAt": "2026-10-05T09:13:12Z",
+  "stargazerCount": 18045,
+  "pushedAt": "2026-09-28T08:42:38Z",
   "isArchived": false,
-  "description": "Open-source developer platform to power your entire infra and turn scripts into webhooks, workflows and UIs. Fastest workflow engine (13x vs Airflow). Open-source alternative to Retool and Temporal."
+  "description": "Open-source developer platform to power your entire infra and turn scripts into webhooks, workflows and UIs. Fastest workflow engine (13x vs Airflow). Open-source alternative to Retool and Temporal.",
+  "avatar": "https://avatars.githubusercontent.com/u/98025271?v=4"
  },
  "block/goose": {
   "stargazerCount": 54697,
@@ -511,70 +553,81 @@
   }
  },
  "LostRuins/koboldcpp": {
-  "stargazerCount": 11946,
-  "pushedAt": "2026-10-04T15:51:35Z",
+  "stargazerCount": 11893,
+  "pushedAt": "2026-09-27T14:33:35Z",
   "isArchived": false,
-  "description": "KoboldCpp - Run GGUF AI models locally with a KoboldAI UI. One File. Zero Install."
+  "description": "Run GGUF models easily with a KoboldAI UI. One File. Zero Install.",
+  "avatar": "https://avatars.githubusercontent.com/u/39025047?u=96fe8e035d1d54f9a07c726a3282561ada352869&v=4"
  },
  "navidrome/navidrome": {
-  "stargazerCount": 23974,
-  "pushedAt": "2026-10-05T03:39:24Z",
+  "stargazerCount": 23857,
+  "pushedAt": "2026-09-28T03:46:20Z",
   "isArchived": false,
-  "description": "\ud83c\udfa7 Your Personal Streaming Service "
+  "description": "\ud83c\udfa7 Your Personal Streaming Service ",
+  "avatar": "https://avatars.githubusercontent.com/u/26692192?v=4"
  },
  "FreshRSS/FreshRSS": {
-  "stargazerCount": 16231,
-  "pushedAt": "2026-10-05T07:26:36Z",
+  "stargazerCount": 16166,
+  "pushedAt": "2026-09-28T08:41:29Z",
   "isArchived": false,
-  "description": "A free, self-hostable news aggregator\u2026"
+  "description": "A free, self-hostable news aggregator\u2026",
+  "avatar": "https://avatars.githubusercontent.com/u/9414285?v=4"
  },
  "miniflux/v2": {
-  "stargazerCount": 9770,
-  "pushedAt": "2026-10-03T09:17:04Z",
+  "stargazerCount": 9750,
+  "pushedAt": "2026-09-23T22:32:27Z",
   "isArchived": false,
-  "description": "Minimalist and opinionated feed reader"
+  "description": "Minimalist and opinionated feed reader",
+  "avatar": "https://avatars.githubusercontent.com/u/10584991?v=4"
  },
  "linkwarden/linkwarden": {
-  "stargazerCount": 19931,
-  "pushedAt": "2026-10-02T19:06:40Z",
+  "stargazerCount": 19856,
+  "pushedAt": "2026-09-10T18:53:30Z",
   "isArchived": false,
-  "description": "\u26a1\ufe0f\u26a1\ufe0f\u26a1\ufe0f Self-hosted collaborative bookmark manager to collect, read, annotate, and fully preserve what matters, all in one place."
+  "description": "\u26a1\ufe0f\u26a1\ufe0f\u26a1\ufe0f Self-hosted collaborative bookmark manager to collect, read, annotate, and fully preserve what matters, all in one place.",
+  "avatar": "https://avatars.githubusercontent.com/u/135248736?v=4"
  },
  "karakeep-app/karakeep": {
-  "stargazerCount": 29432,
-  "pushedAt": "2026-10-05T07:42:36Z",
+  "stargazerCount": 29323,
+  "pushedAt": "2026-09-27T01:00:26Z",
   "isArchived": false,
-  "description": "A self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full text search"
+  "description": "A self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full text search",
+  "avatar": "https://avatars.githubusercontent.com/u/202258986?v=4"
  },
  "go-vikunja/vikunja": {
-  "stargazerCount": 5611,
-  "pushedAt": "2026-10-05T05:36:07Z",
+  "stargazerCount": 5534,
+  "pushedAt": "2026-09-28T04:45:50Z",
   "isArchived": false,
-  "description": "The task manager you actually own."
+  "description": "The task manager you actually own.",
+  "avatar": "https://avatars.githubusercontent.com/u/41270016?v=4"
  },
  "BookStackApp/BookStack": {
-  "stargazerCount": 19075,
-  "pushedAt": "2026-10-05T04:30:44Z",
+  "stargazerCount": 19062,
+  "pushedAt": "2026-09-28T04:31:11Z",
   "isArchived": false,
-  "description": "NOW MANAGED ON CODEBERG"
+  "description": "NOW MANAGED ON CODEBERG",
+  "avatar": "https://avatars.githubusercontent.com/u/20912696?v=4"
  },
  "docmost/docmost": {
-  "stargazerCount": 21871,
-  "pushedAt": "2026-10-05T01:18:59Z",
+  "stargazerCount": 21802,
+  "pushedAt": "2026-09-27T22:13:00Z",
   "isArchived": false,
-  "description": "Docmost is an open-source collaborative wiki and documentation software. It is an open-source alternative to Confluence and Notion."
+  "description": "Docmost is an open-source collaborative wiki and documentation software. It is an open-source alternative to Confluence and Notion.",
+  "avatar": "https://avatars.githubusercontent.com/u/150462874?v=4"
  },
  "ArchiveBox/ArchiveBox": {
-  "stargazerCount": 28683,
-  "pushedAt": "2026-10-05T03:06:00Z",
+  "stargazerCount": 28638,
+  "pushedAt": "2026-09-28T08:35:24Z",
   "isArchived": false,
-  "description": "\ud83d\uddc3 Open source self-hosted web archiving. Takes URLs/browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more..."
+  "description": "\ud83d\uddc3 Open source self-hosted web archiving. Takes URLs/browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more...",
+  "avatar": "https://avatars.githubusercontent.com/u/74894248?v=4"
  },
  "haiwen/seafile": {
-  "stargazerCount": 15306,
+  "stargazerCount": 15281,
   "pushedAt": "2026-09-18T09:48:51Z",
   "isArchived": false,
-  "description": "Beyond file syncing and sharing, a new way to organize your files with extensible file properties and flexible views"
+  "description": "Beyond file syncing and sharing, a new way to organize your files with extensible file properties and flexible views",
+  "avatar": "https://avatars.githubusercontent.com/u/1948782?v=4"
  },
  "searxng/searxng": {
   "stargazerCount": 37667,
@@ -604,10 +657,11 @@
   }
  },
  "teableio/teable": {
-  "stargazerCount": 21855,
-  "pushedAt": "2026-10-02T06:57:04Z",
+  "stargazerCount": 21841,
+  "pushedAt": "2026-09-27T13:24:10Z",
   "isArchived": false,
-  "description": "\u2728 AI Spreadsheet for Business"
+  "description": "\u2728 AI Spreadsheet for Business",
+  "avatar": "https://avatars.githubusercontent.com/u/113977713?v=4"
  },
  "baserow/baserow": {
   "stargazerCount": 6007,
@@ -619,28 +673,32 @@
   }
  },
  "Budibase/budibase": {
-  "stargazerCount": 28329,
-  "pushedAt": "2026-10-05T08:25:30Z",
+  "stargazerCount": 28325,
+  "pushedAt": "2026-09-28T08:26:46Z",
   "isArchived": false,
-  "description": "AI agents, automations and apps that run your operations. Model agnostic."
+  "description": "AI agents, automations and apps that run your operations. Model agnostic.",
+  "avatar": "https://avatars.githubusercontent.com/u/45009727?v=4"
  },
  "goauthentik/authentik": {
-  "stargazerCount": 25849,
-  "pushedAt": "2026-10-05T08:43:25Z",
+  "stargazerCount": 25761,
+  "pushedAt": "2026-09-28T08:39:44Z",
   "isArchived": false,
-  "description": "The authentication glue you need."
+  "description": "The authentication glue you need.",
+  "avatar": "https://avatars.githubusercontent.com/u/82976448?v=4"
  },
  "logto-io/logto": {
-  "stargazerCount": 14649,
-  "pushedAt": "2026-10-01T19:48:09Z",
+  "stargazerCount": 14640,
+  "pushedAt": "2026-09-28T08:40:09Z",
   "isArchived": false,
-  "description": "\ud83e\uddd1\u200d\ud83d\ude80 Authentication and authorization infrastructure for SaaS and AI apps, built on OIDC and OAuth 2.1 with multi-tenancy, SSO, and RBAC."
+  "description": "\ud83e\uddd1\u200d\ud83d\ude80 Authentication and authorization infrastructure for SaaS and AI apps, built on OIDC and OAuth 2.1 with multi-tenancy, SSO, and RBAC.",
+  "avatar": "https://avatars.githubusercontent.com/u/84981374?v=4"
  },
  "pomerium/pomerium": {
-  "stargazerCount": 5025,
-  "pushedAt": "2026-10-03T01:56:52Z",
+  "stargazerCount": 5020,
+  "pushedAt": "2026-09-26T01:56:11Z",
   "isArchived": false,
-  "description": "Pomerium is an identity and context-aware access proxy."
+  "description": "Pomerium is an identity and context-aware access proxy.",
+  "avatar": "https://avatars.githubusercontent.com/u/46059110?v=4"
  },
  "binwiederhier/ntfy": {
   "stargazerCount": 34470,
@@ -661,52 +719,60 @@
   }
  },
  "evidence-dev/evidence": {
-  "stargazerCount": 6975,
-  "pushedAt": "2026-10-02T20:38:23Z",
+  "stargazerCount": 6963,
+  "pushedAt": "2026-09-25T12:59:30Z",
   "isArchived": false,
-  "description": "Business intelligence as code: build fast, interactive data visualizations in SQL and markdown"
+  "description": "Business intelligence as code: build fast, interactive data visualizations in SQL and markdown",
+  "avatar": "https://avatars.githubusercontent.com/u/82418810?v=4"
  },
  "lightdash/lightdash": {
-  "stargazerCount": 6173,
-  "pushedAt": "2026-10-05T09:12:15Z",
+  "stargazerCount": 6166,
+  "pushedAt": "2026-09-28T08:21:02Z",
   "isArchived": false,
-  "description": "Agentic BI. Analytics at the speed of code \u26a1\ufe0f"
+  "description": "Agentic BI. Analytics at the speed of code \u26a1\ufe0f",
+  "avatar": "https://avatars.githubusercontent.com/u/65912827?v=4"
  },
  "questdb/questdb": {
-  "stargazerCount": 17418,
-  "pushedAt": "2026-10-05T09:11:38Z",
+  "stargazerCount": 17361,
+  "pushedAt": "2026-09-28T08:16:20Z",
   "isArchived": false,
-  "description": "QuestDB is a high performance, open-source, time-series database"
+  "description": "QuestDB is a high performance, open-source, time-series database",
+  "avatar": "https://avatars.githubusercontent.com/u/52297642?v=4"
  },
  "timescale/timescaledb": {
-  "stargazerCount": 23643,
-  "pushedAt": "2026-10-05T07:51:31Z",
+  "stargazerCount": 23606,
+  "pushedAt": "2026-09-28T08:22:03Z",
   "isArchived": false,
-  "description": "A time-series database for high-performance real-time analytics packaged as a Postgres extension"
+  "description": "A time-series database for high-performance real-time analytics packaged as a Postgres extension",
+  "avatar": "https://avatars.githubusercontent.com/u/8986001?v=4"
  },
  "typesense/typesense": {
-  "stargazerCount": 26630,
-  "pushedAt": "2026-10-02T03:07:37Z",
+  "stargazerCount": 26604,
+  "pushedAt": "2026-09-24T11:19:33Z",
   "isArchived": false,
-  "description": "Open Source alternative to Algolia + Pinecone and an Easier-to-Use alternative to ElasticSearch \u26a1 \ud83d\udd0d \u2728 Fast, typo tolerant, in-memory fuzzy Search Engine for building delightful search experiences"
+  "description": "Open Source alternative to Algolia + Pinecone and an Easier-to-Use alternative to ElasticSearch \u26a1 \ud83d\udd0d \u2728 Fast, typo tolerant, in-memory fuzzy Search Engine for building delightful search experiences",
+  "avatar": "https://avatars.githubusercontent.com/u/19822348?v=4"
  },
  "timqian/chart.xkcd": {
-  "stargazerCount": 7867,
+  "stargazerCount": 7864,
   "pushedAt": "2026-08-02T03:53:41Z",
   "isArchived": false,
-  "description": "xkcd styled chart lib"
+  "description": "xkcd styled chart lib",
+  "avatar": "https://avatars.githubusercontent.com/u/5512552?u=58b8da78b1f5cf94993062906f80d9775d51cf90&v=4"
  },
  "terrastruct/d2": {
-  "stargazerCount": 25565,
-  "pushedAt": "2026-10-02T18:10:28Z",
+  "stargazerCount": 25528,
+  "pushedAt": "2026-09-20T16:30:17Z",
   "isArchived": false,
-  "description": "D2 is a modern diagram scripting language that turns text to diagrams."
+  "description": "D2 is a modern diagram scripting language that turns text to diagrams.",
+  "avatar": "https://avatars.githubusercontent.com/u/242104691?v=4"
  },
  "plantuml/plantuml": {
-  "stargazerCount": 13354,
-  "pushedAt": "2026-10-05T01:03:19Z",
+  "stargazerCount": 13343,
+  "pushedAt": "2026-09-28T08:33:41Z",
   "isArchived": false,
-  "description": "Generate diagrams from textual description"
+  "description": "Generate diagrams from textual description",
+  "avatar": "https://avatars.githubusercontent.com/u/5711322?v=4"
  },
  "qdrant/qdrant": {
   "stargazerCount": 34842,
@@ -718,16 +784,18 @@
   }
  },
  "livewire/livewire": {
-  "stargazerCount": 23587,
-  "pushedAt": "2026-09-29T09:38:21Z",
+  "stargazerCount": 23583,
+  "pushedAt": "2026-09-21T19:10:38Z",
   "isArchived": false,
-  "description": "A full-stack framework for Laravel that takes the pain out of building dynamic UIs."
+  "description": "A full-stack framework for Laravel that takes the pain out of building dynamic UIs.",
+  "avatar": "https://avatars.githubusercontent.com/u/51960834?v=4"
  },
  "inertiajs/inertia": {
-  "stargazerCount": 8128,
-  "pushedAt": "2026-10-02T10:13:25Z",
+  "stargazerCount": 8124,
+  "pushedAt": "2026-09-26T07:28:47Z",
   "isArchived": false,
-  "description": "Inertia.js lets you quickly build modern single-page React, Vue and Svelte apps using classic server-side routing and controllers."
+  "description": "Inertia.js lets you quickly build modern single-page React, Vue and Svelte apps using classic server-side routing and controllers.",
+  "avatar": "https://avatars.githubusercontent.com/u/47703742?v=4"
  },
  "honojs/hono": {
   "stargazerCount": 32359,
@@ -739,40 +807,46 @@
   }
  },
  "elysiajs/elysia": {
-  "stargazerCount": 19215,
-  "pushedAt": "2026-10-04T20:01:02Z",
+  "stargazerCount": 19198,
+  "pushedAt": "2026-09-24T17:13:53Z",
   "isArchived": false,
-  "description": "Ergonomic Framework for Humans"
+  "description": "Ergonomic Framework for Humans",
+  "avatar": "https://avatars.githubusercontent.com/u/119793569?v=4"
  },
  "biomejs/biome": {
-  "stargazerCount": 25898,
-  "pushedAt": "2026-10-05T08:53:31Z",
+  "stargazerCount": 25870,
+  "pushedAt": "2026-09-28T08:10:27Z",
   "isArchived": false,
-  "description": "A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP."
+  "description": "A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP.",
+  "avatar": "https://avatars.githubusercontent.com/u/140182603?v=4"
  },
  "oxc-project/oxc": {
-  "stargazerCount": 22942,
-  "pushedAt": "2026-10-05T09:08:00Z",
+  "stargazerCount": 22904,
+  "pushedAt": "2026-09-28T08:26:35Z",
   "isArchived": false,
-  "description": "\u2693 A collection of high-performance JavaScript tools."
+  "description": "\u2693 A collection of high-performance JavaScript tools.",
+  "avatar": "https://avatars.githubusercontent.com/u/149946238?v=4"
  },
  "rolldown/rolldown": {
-  "stargazerCount": 13960,
-  "pushedAt": "2026-10-05T07:35:27Z",
+  "stargazerCount": 13957,
+  "pushedAt": "2026-09-28T08:32:18Z",
   "isArchived": false,
-  "description": "Fast Rust bundler for JavaScript/TypeScript with Rollup-compatible API."
+  "description": "Fast Rust bundler for JavaScript/TypeScript with Rollup-compatible API.",
+  "avatar": "https://avatars.githubusercontent.com/u/94954945?v=4"
  },
  "argyleink/open-props": {
-  "stargazerCount": 5531,
+  "stargazerCount": 5528,
   "pushedAt": "2026-08-11T00:41:43Z",
   "isArchived": false,
-  "description": "CSS custom properties to help accelerate adaptive and consistent design."
+  "description": "CSS custom properties to help accelerate adaptive and consistent design.",
+  "avatar": "https://avatars.githubusercontent.com/u/1134620?u=0d420b597986af4eb82e5c84d3a16a31da8fd326&v=4"
  },
  "processing/p5.js": {
-  "stargazerCount": 24081,
-  "pushedAt": "2026-10-04T20:30:04Z",
+  "stargazerCount": 24056,
+  "pushedAt": "2026-09-26T21:42:09Z",
   "isArchived": false,
-  "description": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org"
+  "description": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org",
+  "avatar": "https://avatars.githubusercontent.com/u/1617169?v=4"
  },
  "metafizzy/zdog": {
   "stargazerCount": 10662,
@@ -784,46 +858,53 @@
   }
  },
  "konvajs/konva": {
-  "stargazerCount": 14849,
+  "stargazerCount": 14833,
   "pushedAt": "2026-09-23T16:14:23Z",
   "isArchived": false,
-  "description": "Konva.js is an HTML5 Canvas JavaScript framework for interactive graphics, design editors, whiteboards, and diagrams. Scene graph with events, drag and drop, transforms, animations, and export."
+  "description": "Konva.js is an HTML5 Canvas JavaScript framework for interactive graphics, design editors, whiteboards, and diagrams. Scene graph with events, drag and drop, transforms, animations, and export.",
+  "avatar": "https://avatars.githubusercontent.com/u/10717820?v=4"
  },
  "BabylonJS/Babylon.js": {
-  "stargazerCount": 26126,
-  "pushedAt": "2026-10-04T22:59:24Z",
+  "stargazerCount": 26114,
+  "pushedAt": "2026-09-26T00:46:26Z",
   "isArchived": false,
-  "description": "Babylon.js is a powerful, beautiful, simple, and open game and rendering engine packed into a friendly JavaScript framework."
+  "description": "Babylon.js is a powerful, beautiful, simple, and open game and rendering engine packed into a friendly JavaScript framework.",
+  "avatar": "https://avatars.githubusercontent.com/u/4855800?v=4"
  },
  "11ty/eleventy": {
-  "stargazerCount": 19948,
-  "pushedAt": "2026-10-02T15:57:31Z",
+  "stargazerCount": 19936,
+  "pushedAt": "2026-09-25T11:55:28Z",
   "isArchived": false,
-  "description": "A simpler site generator. Transforms a directory of templates (of varying types) into HTML."
+  "description": "A simpler site generator. Transforms a directory of templates (of varying types) into HTML.",
+  "avatar": "https://avatars.githubusercontent.com/u/35147177?v=4"
  },
  "getzola/zola": {
-  "stargazerCount": 17492,
-  "pushedAt": "2026-09-28T12:04:48Z",
+  "stargazerCount": 17472,
+  "pushedAt": "2026-09-27T20:58:01Z",
   "isArchived": false,
-  "description": "A fast static site generator in a single binary with everything built-in. https://www.getzola.org"
+  "description": "A fast static site generator in a single binary with everything built-in. https://www.getzola.org",
+  "avatar": "https://avatars.githubusercontent.com/u/43047029?v=4"
  },
  "withastro/starlight": {
-  "stargazerCount": 9362,
-  "pushedAt": "2026-10-03T13:32:24Z",
+  "stargazerCount": 9319,
+  "pushedAt": "2026-09-25T17:43:50Z",
   "isArchived": false,
-  "description": "\ud83c\udf1f Build beautiful, accessible, high-performance documentation websites with Astro"
+  "description": "\ud83c\udf1f Build beautiful, accessible, high-performance documentation websites with Astro",
+  "avatar": "https://avatars.githubusercontent.com/u/44914786?v=4"
  },
  "shuding/nextra": {
-  "stargazerCount": 13933,
+  "stargazerCount": 13929,
   "pushedAt": "2026-07-31T20:39:04Z",
   "isArchived": false,
-  "description": "Simple, powerful and flexible site generation framework with everything you love from Next.js."
+  "description": "Simple, powerful and flexible site generation framework with everything you love from Next.js.",
+  "avatar": "https://avatars.githubusercontent.com/u/3676859?u=a866d19c4fce64bf67a084eb32f29bb6e84020a5&v=4"
  },
  "marp-team/marp": {
-  "stargazerCount": 12591,
+  "stargazerCount": 12567,
   "pushedAt": "2026-07-29T19:35:44Z",
   "isArchived": false,
-  "description": "The entrance repository of Markdown presentation ecosystem"
+  "description": "The entrance repository of Markdown presentation ecosystem",
+  "avatar": "https://avatars.githubusercontent.com/u/20685754?v=4"
  },
  "quarto-dev/quarto": {
   "stargazerCount": 649,
@@ -844,46 +925,53 @@
   }
  },
  "litestar-org/litestar": {
-  "stargazerCount": 8494,
-  "pushedAt": "2026-10-05T07:02:55Z",
+  "stargazerCount": 8484,
+  "pushedAt": "2026-09-28T06:13:52Z",
   "isArchived": false,
-  "description": "Light, flexible and extensible ASGI framework | Built to scale"
+  "description": "Light, flexible and extensible ASGI framework | Built to scale",
+  "avatar": "https://avatars.githubusercontent.com/u/97250344?v=4"
  },
  "tiangolo/sqlmodel": {
-  "stargazerCount": 18359,
-  "pushedAt": "2026-10-02T11:17:30Z",
+  "stargazerCount": 18345,
+  "pushedAt": "2026-09-23T17:30:51Z",
   "isArchived": false,
-  "description": "SQL databases in Python, designed for simplicity, compatibility, and robustness."
+  "description": "SQL databases in Python, designed for simplicity, compatibility, and robustness.",
+  "avatar": "https://avatars.githubusercontent.com/u/156354296?v=4"
  },
  "kysely-org/kysely": {
-  "stargazerCount": 14260,
-  "pushedAt": "2026-10-05T07:45:22Z",
+  "stargazerCount": 14243,
+  "pushedAt": "2026-09-28T07:45:21Z",
   "isArchived": false,
-  "description": "A type-safe TypeScript SQL query builder"
+  "description": "A type-safe TypeScript SQL query builder",
+  "avatar": "https://avatars.githubusercontent.com/u/128933455?v=4"
  },
  "sqlc-dev/sqlc": {
-  "stargazerCount": 18344,
-  "pushedAt": "2026-10-01T12:00:58Z",
+  "stargazerCount": 18329,
+  "pushedAt": "2026-09-26T13:25:25Z",
   "isArchived": false,
-  "description": "Generate type-safe code from SQL"
+  "description": "Generate type-safe code from SQL",
+  "avatar": "https://avatars.githubusercontent.com/u/136738596?v=4"
  },
  "ent/ent": {
-  "stargazerCount": 17204,
-  "pushedAt": "2026-09-30T11:16:10Z",
+  "stargazerCount": 17206,
+  "pushedAt": "2026-09-04T06:08:27Z",
   "isArchived": false,
-  "description": "An entity framework for Go"
+  "description": "An entity framework for Go",
+  "avatar": "https://avatars.githubusercontent.com/u/66847655?v=4"
  },
  "go-chi/chi": {
-  "stargazerCount": 22926,
-  "pushedAt": "2026-09-30T14:18:51Z",
+  "stargazerCount": 22895,
+  "pushedAt": "2026-09-18T11:51:54Z",
   "isArchived": false,
-  "description": "lightweight, idiomatic and composable router for building Go HTTP services"
+  "description": "lightweight, idiomatic and composable router for building Go HTTP services",
+  "avatar": "https://avatars.githubusercontent.com/u/29575368?v=4"
  },
  "99designs/gqlgen": {
   "stargazerCount": 10764,
-  "pushedAt": "2026-10-03T18:58:12Z",
+  "pushedAt": "2026-09-23T19:47:18Z",
   "isArchived": false,
-  "description": "go generate based graphql server library"
+  "description": "go generate based graphql server library",
+  "avatar": "https://avatars.githubusercontent.com/u/17182?v=4"
  },
  "dokku/dokku": {
   "stargazerCount": 32160,
@@ -895,10 +983,11 @@
   }
  },
  "caprover/caprover": {
-  "stargazerCount": 15180,
-  "pushedAt": "2026-10-05T04:08:42Z",
+  "stargazerCount": 15173,
+  "pushedAt": "2026-09-23T04:12:41Z",
   "isArchived": false,
-  "description": "Scalable PaaS (automated Docker+nginx) - aka Heroku on Steroids"
+  "description": "Scalable PaaS (automated Docker+nginx) - aka Heroku on Steroids",
+  "avatar": "https://avatars.githubusercontent.com/u/46361891?v=4"
  },
  "Dokploy/dokploy": {
   "stargazerCount": 37531,
@@ -910,10 +999,11 @@
   }
  },
  "basecamp/kamal": {
-  "stargazerCount": 14633,
-  "pushedAt": "2026-09-30T08:33:58Z",
+  "stargazerCount": 14607,
+  "pushedAt": "2026-09-16T08:34:01Z",
   "isArchived": false,
-  "description": "Deploy web apps anywhere."
+  "description": "Deploy web apps anywhere.",
+  "avatar": "https://avatars.githubusercontent.com/u/13131?v=4"
  },
  "opentofu/opentofu": {
   "stargazerCount": 30301,
@@ -925,10 +1015,11 @@
   }
  },
  "renovatebot/renovate": {
-  "stargazerCount": 22671,
-  "pushedAt": "2026-10-05T08:44:32Z",
+  "stargazerCount": 22612,
+  "pushedAt": "2026-09-28T07:44:25Z",
   "isArchived": false,
-  "description": "Home of the Renovate CLI: Cross-platform Dependency Automation by Mend.io"
+  "description": "Home of the Renovate CLI: Cross-platform Dependency Automation by Mend.io",
+  "avatar": "https://avatars.githubusercontent.com/u/38656520?v=4"
  },
  "containrrr/watchtower": {
   "stargazerCount": 24646,
@@ -949,46 +1040,53 @@
   }
  },
  "borgbackup/borg": {
-  "stargazerCount": 13809,
-  "pushedAt": "2026-10-05T04:44:22Z",
+  "stargazerCount": 13780,
+  "pushedAt": "2026-09-28T04:34:47Z",
   "isArchived": false,
-  "description": "Deduplicating archiver with compression and authenticated encryption."
+  "description": "Deduplicating archiver with compression and authenticated encryption.",
+  "avatar": "https://avatars.githubusercontent.com/u/12418060?v=4"
  },
  "kopia/kopia": {
-  "stargazerCount": 14258,
-  "pushedAt": "2026-10-04T12:23:12Z",
+  "stargazerCount": 14210,
+  "pushedAt": "2026-09-27T12:22:35Z",
   "isArchived": false,
-  "description": "Cross-platform backup tool for Windows, macOS & Linux with fast, incremental backups, client-side end-to-end encryption, compression and data deduplication. CLI and GUI included."
+  "description": "Cross-platform backup tool for Windows, macOS & Linux with fast, incremental backups, client-side end-to-end encryption, compression and data deduplication. CLI and GUI included.",
+  "avatar": "https://avatars.githubusercontent.com/u/16365723?v=4"
  },
  "89luca89/distrobox": {
-  "stargazerCount": 13034,
-  "pushedAt": "2026-10-02T15:19:57Z",
+  "stargazerCount": 13014,
+  "pushedAt": "2026-09-17T15:05:27Z",
   "isArchived": false,
-  "description": "Use any linux distribution inside your terminal. Enable both backward and forward compatibility with software and freedom to use whatever distribution you\u2019re more comfortable with. Mirror available at: https://gitlab.com/89luca89/distrobox"
+  "description": "Use any linux distribution inside your terminal. Enable both backward and forward compatibility with software and freedom to use whatever distribution you\u2019re more comfortable with. Mirror available at: https://gitlab.com/89luca89/distrobox",
+  "avatar": "https://avatars.githubusercontent.com/u/598882?u=1c1395d85eddf2427ee588b3b2d656f3d83e6187&v=4"
  },
  "jetify-com/devbox": {
-  "stargazerCount": 12390,
-  "pushedAt": "2026-09-28T22:41:48Z",
+  "stargazerCount": 12374,
+  "pushedAt": "2026-09-25T18:11:42Z",
   "isArchived": false,
-  "description": "Instant, easy, and predictable development environments"
+  "description": "Instant, easy, and predictable development environments",
+  "avatar": "https://avatars.githubusercontent.com/u/65328393?v=4"
  },
  "cachix/devenv": {
-  "stargazerCount": 7705,
-  "pushedAt": "2026-10-04T18:31:54Z",
+  "stargazerCount": 7684,
+  "pushedAt": "2026-09-27T21:44:43Z",
   "isArchived": false,
-  "description": "Fast, Declarative, Reproducible, and Composable Developer Environments using Nix"
+  "description": "Fast, Declarative, Reproducible, and Composable Developer Environments using Nix",
+  "avatar": "https://avatars.githubusercontent.com/u/36824654?v=4"
  },
  "Orama-Interactive/Pixelorama": {
-  "stargazerCount": 10460,
-  "pushedAt": "2026-10-02T13:24:11Z",
+  "stargazerCount": 10406,
+  "pushedAt": "2026-09-27T15:46:21Z",
   "isArchived": false,
-  "description": "Unleash your creativity with Pixelorama, a powerful and accessible open-source pixel art multitool. Whether you want to create sprites, tiles, animations, or just express yourself in the language of pixel art, this software will realize your pixel-perfect dreams with a vast toolbox of features. Available on Windows, Linux, macOS and the Web!"
+  "description": "Unleash your creativity with Pixelorama, a powerful and accessible open-source pixel art multitool. Whether you want to create sprites, tiles, animations, or just express yourself in the language of pixel art, this software will realize your pixel-perfect dreams with a vast toolbox of features. Available on Windows, Linux, macOS and the Web!",
+  "avatar": "https://avatars.githubusercontent.com/u/58638157?v=4"
  },
  "opentoonz/opentoonz": {
-  "stargazerCount": 7787,
-  "pushedAt": "2026-10-04T19:55:38Z",
+  "stargazerCount": 7768,
+  "pushedAt": "2026-09-27T03:48:46Z",
   "isArchived": false,
-  "description": "OpenToonz - An open-source full-featured 2D animation creation software"
+  "description": "OpenToonz - An open-source full-featured 2D animation creation software",
+  "avatar": "https://avatars.githubusercontent.com/u/15189838?v=4"
  },
  "wonderunit/storyboarder": {
   "stargazerCount": 3856,
@@ -1000,34 +1098,39 @@
   }
  },
  "fontforge/fontforge": {
-  "stargazerCount": 8001,
-  "pushedAt": "2026-10-04T20:08:49Z",
+  "stargazerCount": 7983,
+  "pushedAt": "2026-09-27T17:34:05Z",
   "isArchived": false,
-  "description": "Free (libre) font editor for Windows, Mac OS X and GNU+Linux"
+  "description": "Free (libre) font editor for Windows, Mac OS X and GNU+Linux",
+  "avatar": "https://avatars.githubusercontent.com/u/2048660?v=4"
  },
  "GraphiteEditor/Graphite": {
-  "stargazerCount": 27431,
-  "pushedAt": "2026-10-04T08:47:04Z",
+  "stargazerCount": 27377,
+  "pushedAt": "2026-09-27T16:18:11Z",
   "isArchived": false,
-  "description": "Community-built comprehensive 2D content creation appplication for graphic design, digital art, and interactive real-time motion graphics powered by a node-based procedural graphics engine"
+  "description": "Community-built comprehensive 2D content creation appplication for graphic design, digital art, and interactive real-time motion graphics powered by a node-based procedural graphics engine",
+  "avatar": "https://avatars.githubusercontent.com/u/68179154?v=4"
  },
  "philc/vimium": {
-  "stargazerCount": 27041,
+  "stargazerCount": 27021,
   "pushedAt": "2026-07-25T04:40:17Z",
   "isArchived": false,
-  "description": "The hacker's browser."
+  "description": "The hacker's browser.",
+  "avatar": "https://avatars.githubusercontent.com/u/8598?u=866d1574ae7d79dc6657f8ff900c19fe48692051&v=4"
  },
  "tridactyl/tridactyl": {
-  "stargazerCount": 6363,
-  "pushedAt": "2026-09-29T17:59:10Z",
+  "stargazerCount": 6355,
+  "pushedAt": "2026-09-23T21:34:42Z",
   "isArchived": false,
-  "description": "A Vim-like interface for Firefox, inspired by Vimperator/Pentadactyl."
+  "description": "A Vim-like interface for Firefox, inspired by Vimperator/Pentadactyl.",
+  "avatar": "https://avatars.githubusercontent.com/u/42609447?v=4"
  },
  "ajayyy/SponsorBlock": {
-  "stargazerCount": 13891,
-  "pushedAt": "2026-10-03T12:41:41Z",
+  "stargazerCount": 13855,
+  "pushedAt": "2026-09-19T04:29:14Z",
   "isArchived": false,
-  "description": "Skip YouTube video sponsors (browser extension)"
+  "description": "Skip YouTube video sponsors (browser extension)",
+  "avatar": "https://avatars.githubusercontent.com/u/12688112?u=be867b7c53e5d2aaec60231e8fb441d623573ae5&v=4"
  },
  "ossu/computer-science": {
   "stargazerCount": 209490,
@@ -1055,64 +1158,74 @@
   }
  },
  "Anuken/Mindustry": {
-  "stargazerCount": 29223,
-  "pushedAt": "2026-10-05T04:54:47Z",
+  "stargazerCount": 29140,
+  "pushedAt": "2026-09-27T22:45:28Z",
   "isArchived": false,
-  "description": "The automation tower defense RTS"
+  "description": "The automation tower defense RTS",
+  "avatar": "https://avatars.githubusercontent.com/u/10100000?u=b62289a4f2157f796e729c8f9702e96ce676af47&v=4"
  },
  "veloren/veloren": {
-  "stargazerCount": 7597,
-  "pushedAt": "2026-10-04T21:38:28Z",
+  "stargazerCount": 7588,
+  "pushedAt": "2026-09-27T22:15:47Z",
   "isArchived": false,
-  "description": "[mirror of https://gitlab.com/veloren/veloren] An open world, open source voxel RPG inspired by Dwarf Fortress and Cube World. This repository is a mirror. Please submit all PRs and issues on our GitLab page."
+  "description": "[mirror of https://gitlab.com/veloren/veloren] An open world, open source voxel RPG inspired by Dwarf Fortress and Cube World. This repository is a mirror. Please submit all PRs and issues on our GitLab page.",
+  "avatar": "https://avatars.githubusercontent.com/u/39637074?v=4"
  },
  "00-Evan/shattered-pixel-dungeon": {
-  "stargazerCount": 6614,
-  "pushedAt": "2026-10-03T15:47:09Z",
+  "stargazerCount": 6576,
+  "pushedAt": "2026-09-09T17:20:49Z",
   "isArchived": false,
-  "description": "Shattered Pixel Dungeon is an open-source traditional roguelike dungeon crawler with randomized levels and enemies, and hundreds of items to collect and use. It's based on the source code of Pixel Dungeon, by Watabou."
+  "description": "Shattered Pixel Dungeon is an open-source traditional roguelike dungeon crawler with randomized levels and enemies, and hundreds of items to collect and use. It's based on the source code of Pixel Dungeon, by Watabou.",
+  "avatar": "https://avatars.githubusercontent.com/u/2347603?u=2cfa1ce28ba089adb8fe07ea85b530b2b3307bab&v=4"
  },
  "OpenRA/OpenRA": {
-  "stargazerCount": 17486,
-  "pushedAt": "2026-10-03T14:50:01Z",
+  "stargazerCount": 17448,
+  "pushedAt": "2026-09-25T20:19:31Z",
   "isArchived": false,
-  "description": "Open Source real-time strategy game engine for early Westwood games such as Command & Conquer: Red Alert written in C# using SDL and OpenGL. Runs on Windows, Linux, *BSD and Mac OS X."
+  "description": "Open Source real-time strategy game engine for early Westwood games such as Command & Conquer: Red Alert written in C# using SDL and OpenGL. Runs on Windows, Linux, *BSD and Mac OS X.",
+  "avatar": "https://avatars.githubusercontent.com/u/409046?v=4"
  },
  "endless-sky/endless-sky": {
-  "stargazerCount": 7610,
-  "pushedAt": "2026-10-04T21:50:56Z",
+  "stargazerCount": 7593,
+  "pushedAt": "2026-09-28T02:51:46Z",
   "isArchived": false,
-  "description": "Space exploration, trading, and combat game."
+  "description": "Space exploration, trading, and combat game.",
+  "avatar": "https://avatars.githubusercontent.com/u/11450262?v=4"
  },
  "supertuxkart/stk-code": {
-  "stargazerCount": 5402,
-  "pushedAt": "2026-10-04T14:45:04Z",
+  "stargazerCount": 5378,
+  "pushedAt": "2026-09-24T13:03:53Z",
   "isArchived": false,
-  "description": "The code base of SuperTuxKart"
+  "description": "The code base of SuperTuxKart",
+  "avatar": "https://avatars.githubusercontent.com/u/6138677?v=4"
  },
  "openttd/OpenTTD": {
-  "stargazerCount": 8332,
-  "pushedAt": "2026-10-05T07:12:14Z",
+  "stargazerCount": 8305,
+  "pushedAt": "2026-09-26T20:03:40Z",
   "isArchived": false,
-  "description": "OpenTTD is an open source simulation game based upon Transport Tycoon Deluxe"
+  "description": "OpenTTD is an open source simulation game based upon Transport Tycoon Deluxe",
+  "avatar": "https://avatars.githubusercontent.com/u/5037546?v=4"
  },
  "Heroic-Games-Launcher/HeroicGamesLauncher": {
-  "stargazerCount": 12351,
-  "pushedAt": "2026-10-02T17:17:09Z",
+  "stargazerCount": 12296,
+  "pushedAt": "2026-09-26T00:49:19Z",
   "isArchived": false,
-  "description": "A games launcher for GOG, Amazon and Epic Games for Linux, Windows and macOS."
+  "description": "A games launcher for GOG, Amazon and Epic Games for Linux, Windows and macOS.",
+  "avatar": "https://avatars.githubusercontent.com/u/77549103?v=4"
  },
  "bottlesdevs/Bottles": {
-  "stargazerCount": 8931,
-  "pushedAt": "2026-10-05T07:47:24Z",
+  "stargazerCount": 8902,
+  "pushedAt": "2026-09-28T07:41:31Z",
   "isArchived": false,
-  "description": "Run Windows software and games on Linux"
+  "description": "Run Windows software and games on Linux",
+  "avatar": "https://avatars.githubusercontent.com/u/75429810?v=4"
  },
  "lutris/lutris": {
-  "stargazerCount": 10288,
-  "pushedAt": "2026-10-04T21:24:31Z",
+  "stargazerCount": 10273,
+  "pushedAt": "2026-09-27T14:07:56Z",
   "isArchived": false,
-  "description": "Lutris desktop client"
+  "description": "Lutris desktop client",
+  "avatar": "https://avatars.githubusercontent.com/u/5067433?v=4"
  },
  "0ad/0ad": {
   "stargazerCount": 2823,
@@ -1124,291 +1237,612 @@
   }
  },
  "mikefarah/yq": {
-  "stargazerCount": 16057,
-  "pushedAt": "2026-10-05T00:53:45Z",
+  "stargazerCount": 16021,
+  "pushedAt": "2026-09-27T23:27:34Z",
   "isArchived": false,
-  "description": "yq is a portable command-line YAML, JSON, XML, CSV, TOML, HCL  and properties processor"
+  "description": "yq is a portable command-line YAML, JSON, XML, CSV, TOML, HCL  and properties processor",
+  "avatar": "https://avatars.githubusercontent.com/u/1151925?v=4"
  },
  "antonmedv/fx": {
-  "stargazerCount": 20641,
-  "pushedAt": "2026-10-04T22:20:14Z",
+  "stargazerCount": 20643,
+  "pushedAt": "2026-09-28T06:23:10Z",
   "isArchived": false,
-  "description": "Terminal JSON viewer & processor"
+  "description": "Terminal JSON viewer & processor",
+  "avatar": "https://avatars.githubusercontent.com/u/141232?u=32c3c767d77f4bf7eb66499cb4898f88472d7d52&v=4"
  },
  "Mozilla-Ocho/llamafile": {
-  "stargazerCount": 26167,
-  "pushedAt": "2026-10-01T15:52:47Z",
+  "stargazerCount": 26082,
+  "pushedAt": "2026-09-25T15:18:44Z",
   "isArchived": false,
-  "description": "Distribute and run LLMs with a single file."
+  "description": "Distribute and run LLMs with a single file.",
+  "avatar": "https://avatars.githubusercontent.com/u/129804596?v=4"
  },
  "SYSTRAN/faster-whisper": {
-  "stargazerCount": 25710,
-  "pushedAt": "2026-10-05T07:43:09Z",
+  "stargazerCount": 25606,
+  "pushedAt": "2025-11-19T14:40:46Z",
   "isArchived": false,
-  "description": "Faster Whisper transcription with CTranslate2"
+  "description": "Faster Whisper transcription with CTranslate2",
+  "avatar": "https://avatars.githubusercontent.com/u/1520500?v=4"
  },
  "m-bain/whisperX": {
-  "stargazerCount": 24364,
+  "stargazerCount": 24270,
   "pushedAt": "2026-09-26T20:53:59Z",
   "isArchived": false,
-  "description": "WhisperX:  Automatic Speech Recognition with Word-level Timestamps (& Diarization)"
+  "description": "WhisperX:  Automatic Speech Recognition with Word-level Timestamps (& Diarization)",
+  "avatar": "https://avatars.githubusercontent.com/u/36994049?u=0f750a9189a59dd0a5dce0c7d0c6e91f0e42e397&v=4"
  },
  "modelscope/FunASR": {
-  "stargazerCount": 20584,
-  "pushedAt": "2026-10-02T04:51:05Z",
+  "stargazerCount": 20525,
+  "pushedAt": "2026-09-28T08:08:02Z",
   "isArchived": false,
-  "description": "Open-source speech recognition toolkit for training, inference, streaming ASR, VAD, punctuation, speaker diarization pipelines, and OpenAI-compatible/MCP serving."
+  "description": "Open-source speech recognition toolkit for training, inference, streaming ASR, VAD, punctuation, speaker diarization pipelines, and OpenAI-compatible/MCP serving.",
+  "avatar": "https://avatars.githubusercontent.com/u/109945100?v=4"
  },
  "FunAudioLLM/CosyVoice": {
-  "stargazerCount": 23838,
+  "stargazerCount": 23793,
   "pushedAt": "2026-05-25T18:15:40Z",
   "isArchived": false,
-  "description": "Multi-lingual large voice generation model, providing inference, training and deployment full-stack ability."
+  "description": "Multi-lingual large voice generation model, providing inference, training and deployment full-stack ability.",
+  "avatar": "https://avatars.githubusercontent.com/u/167062371?v=4"
  },
  "SWivid/F5-TTS": {
-  "stargazerCount": 15340,
+  "stargazerCount": 15303,
   "pushedAt": "2026-09-21T14:21:15Z",
   "isArchived": false,
-  "description": "Official code for \"F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching\""
+  "description": "Official code for \"F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching\"",
+  "avatar": "https://avatars.githubusercontent.com/u/45333109?u=6077671b4cbc60bd35f4ea5995ff22d279c46e16&v=4"
  },
  "rany2/edge-tts": {
-  "stargazerCount": 12174,
+  "stargazerCount": 12109,
   "pushedAt": "2026-03-22T19:58:31Z",
   "isArchived": false,
-  "description": "Use Microsoft Edge's online text-to-speech service from Python WITHOUT needing Microsoft Edge or Windows or an API key"
+  "description": "Use Microsoft Edge's online text-to-speech service from Python WITHOUT needing Microsoft Edge or Windows or an API key",
+  "avatar": "https://avatars.githubusercontent.com/u/71077389?v=4"
  },
  "k2-fsa/sherpa-onnx": {
-  "stargazerCount": 15115,
+  "stargazerCount": 15004,
   "pushedAt": "2026-09-22T10:36:50Z",
   "isArchived": false,
-  "description": "Speech-to-text, text-to-speech, speaker diarization, speech enhancement, source separation, and VAD using next-gen Kaldi with onnxruntime without Internet connection. Support embedded systems, Android, iOS, HarmonyOS, Raspberry Pi, RISC-V, RK NPU, Axera NPU, Ascend NPU, x86_64 servers, websocket server/client, support 12 programming languages"
+  "description": "Speech-to-text, text-to-speech, speaker diarization, speech enhancement, source separation, and VAD using next-gen Kaldi with onnxruntime without Internet connection. Support embedded systems, Android, iOS, HarmonyOS, Raspberry Pi, RISC-V, RK NPU, Axera NPU, Ascend NPU, x86_64 servers, websocket server/client, support 12 programming languages",
+  "avatar": "https://avatars.githubusercontent.com/u/71431748?v=4"
  },
  "huggingface/transformers.js": {
-  "stargazerCount": 16340,
-  "pushedAt": "2026-10-02T01:13:49Z",
+  "stargazerCount": 16328,
+  "pushedAt": "2026-09-28T08:36:34Z",
   "isArchived": false,
-  "description": "State-of-the-art Machine Learning for the web. Run \ud83e\udd17 Transformers directly in your browser, with no need for a server!"
+  "description": "State-of-the-art Machine Learning for the web. Run \ud83e\udd17 Transformers directly in your browser, with no need for a server!",
+  "avatar": "https://avatars.githubusercontent.com/u/25720743?v=4"
  },
  "mlc-ai/web-llm": {
-  "stargazerCount": 19223,
-  "pushedAt": "2026-10-03T09:29:29Z",
+  "stargazerCount": 19198,
+  "pushedAt": "2026-09-15T17:55:44Z",
   "isArchived": false,
-  "description": "High-performance In-browser LLM Inference Engine "
+  "description": "High-performance In-browser LLM Inference Engine ",
+  "avatar": "https://avatars.githubusercontent.com/u/106173866?v=4"
  },
  "Cinnamon/kotaemon": {
-  "stargazerCount": 25797,
+  "stargazerCount": 25777,
   "pushedAt": "2026-07-14T16:53:59Z",
   "isArchived": false,
-  "description": "An open-source RAG-based tool for chatting with your documents."
+  "description": "An open-source RAG-based tool for chatting with your documents.",
+  "avatar": "https://avatars.githubusercontent.com/u/3265185?v=4"
  },
  "invoke-ai/InvokeAI": {
-  "stargazerCount": 28347,
-  "pushedAt": "2026-10-05T00:27:38Z",
+  "stargazerCount": 28308,
+  "pushedAt": "2026-09-27T17:00:58Z",
   "isArchived": false,
-  "description": "Invoke is a leading creative engine for Stable Diffusion models, empowering professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry leading WebUI, and serves as the foundation for multiple commercial products."
+  "description": "Invoke is a leading creative engine for Stable Diffusion models, empowering professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry leading WebUI, and serves as the foundation for multiple commercial products.",
+  "avatar": "https://avatars.githubusercontent.com/u/113954515?v=4"
  },
  "lllyasviel/stable-diffusion-webui-forge": {
-  "stargazerCount": 13042,
+  "stargazerCount": 13032,
   "pushedAt": "2025-07-31T01:33:17Z",
   "isArchived": false,
-  "description": null
+  "description": null,
+  "avatar": "https://avatars.githubusercontent.com/u/19834515?u=4c7144779a6b13904fec478c4e98e676b91516ee&v=4"
  },
  "LibrePhotos/librephotos": {
-  "stargazerCount": 8090,
-  "pushedAt": "2026-10-04T20:30:50Z",
+  "stargazerCount": 8085,
+  "pushedAt": "2026-09-27T09:39:15Z",
   "isArchived": false,
-  "description": "A self-hosted open source photo management service. "
+  "description": "A self-hosted open source photo management service. ",
+  "avatar": "https://avatars.githubusercontent.com/u/75512318?v=4"
  },
  "rust-lang/mdBook": {
-  "stargazerCount": 22193,
-  "pushedAt": "2026-10-04T00:22:59Z",
+  "stargazerCount": 22176,
+  "pushedAt": "2026-09-18T14:17:26Z",
   "isArchived": false,
-  "description": "Create book from markdown files. Like Gitbook but implemented in Rust"
+  "description": "Create book from markdown files. Like Gitbook but implemented in Rust",
+  "avatar": "https://avatars.githubusercontent.com/u/5430905?v=4"
  },
  "tabler/tabler-icons": {
-  "stargazerCount": 21901,
-  "pushedAt": "2026-10-04T23:47:03Z",
+  "stargazerCount": 21799,
+  "pushedAt": "2026-09-22T13:51:16Z",
   "isArchived": false,
-  "description": "A set of over 6200 free MIT-licensed high-quality SVG icons for you to use in your web projects."
+  "description": "A set of over 6200 free MIT-licensed high-quality SVG icons for you to use in your web projects.",
+  "avatar": "https://avatars.githubusercontent.com/u/35471246?v=4"
  },
  "lucide-icons/lucide": {
-  "stargazerCount": 24860,
-  "pushedAt": "2026-10-04T14:38:46Z",
+  "stargazerCount": 24752,
+  "pushedAt": "2026-09-28T08:42:13Z",
   "isArchived": false,
-  "description": "Beautiful & consistent icon toolkit made by the community. Open-source project and a fork of Feather Icons."
+  "description": "Beautiful & consistent icon toolkit made by the community. Open-source project and a fork of Feather Icons.",
+  "avatar": "https://avatars.githubusercontent.com/u/66879934?v=4"
  },
  "iconify/iconify": {
-  "stargazerCount": 6353,
-  "pushedAt": "2026-10-01T03:43:29Z",
+  "stargazerCount": 6340,
+  "pushedAt": "2026-09-25T23:37:27Z",
   "isArchived": false,
-  "description": "Universal icon framework. One syntax for FontAwesome, Material Design Icons, DashIcons, Feather Icons, EmojiOne, Noto Emoji and many other open source icon sets (over 200 icon sets and ~300k icons). SVG framework, React, Vue and Svelte components!"
+  "description": "Universal icon framework. One syntax for FontAwesome, Material Design Icons, DashIcons, Feather Icons, EmojiOne, Noto Emoji and many other open source icon sets (over 200 icon sets and ~300k icons). SVG framework, React, Vue and Svelte components!",
+  "avatar": "https://avatars.githubusercontent.com/u/50354982?v=4"
  },
  "svg/svgo": {
-  "stargazerCount": 22712,
+  "stargazerCount": 22704,
   "pushedAt": "2026-08-27T14:58:51Z",
   "isArchived": false,
-  "description": "SVG Optimizer for Node.js and CLI. \u2699\ufe0f"
+  "description": "SVG Optimizer for Node.js and CLI. \u2699\ufe0f",
+  "avatar": "https://avatars.githubusercontent.com/u/2473585?v=4"
  },
  "AdguardTeam/AdGuardBrowserExtension": {
-  "stargazerCount": 4479,
-  "pushedAt": "2026-09-30T15:48:55Z",
+  "stargazerCount": 4449,
+  "pushedAt": "2026-09-23T15:37:25Z",
   "isArchived": false,
-  "description": "AdGuard browser extension"
+  "description": "AdGuard browser extension",
+  "avatar": "https://avatars.githubusercontent.com/u/8361145?v=4"
  },
  "EFForg/privacybadger": {
-  "stargazerCount": 3859,
-  "pushedAt": "2026-10-01T15:09:25Z",
+  "stargazerCount": 3851,
+  "pushedAt": "2026-09-25T20:28:15Z",
   "isArchived": false,
-  "description": "Privacy Badger is a browser extension that automatically learns to block hidden trackers"
+  "description": "Privacy Badger is a browser extension that automatically learns to block hidden trackers",
+  "avatar": "https://avatars.githubusercontent.com/u/2120271?v=4"
  },
  "CleverRaven/Cataclysm-DDA": {
-  "stargazerCount": 13301,
-  "pushedAt": "2026-10-05T03:01:59Z",
+  "stargazerCount": 13256,
+  "pushedAt": "2026-09-28T05:05:43Z",
   "isArchived": false,
-  "description": "Cataclysm - Dark Days Ahead. A turn-based survival game set in a post-apocalyptic world."
+  "description": "Cataclysm - Dark Days Ahead. A turn-based survival game set in a post-apocalyptic world.",
+  "avatar": "https://avatars.githubusercontent.com/u/4367009?v=4"
  },
  "microsoft/vscode": {
-  "stargazerCount": 193522,
-  "pushedAt": "2026-10-05T09:10:18Z",
+  "stargazerCount": 193244,
+  "pushedAt": "2026-09-29T06:06:48Z",
   "isArchived": false,
-  "description": "Visual Studio Code"
+  "description": "Visual Studio Code",
+  "avatar": "https://avatars.githubusercontent.com/u/6154722?v=4"
  },
  "obsproject/obs-studio": {
-  "stargazerCount": 76981,
-  "pushedAt": "2026-10-04T01:39:14Z",
+  "stargazerCount": 76752,
+  "pushedAt": "2026-09-26T01:04:19Z",
   "isArchived": false,
-  "description": "OBS Studio - Free and open source software for live streaming and screen recording"
+  "description": "OBS Studio - Free and open source software for live streaming and screen recording",
+  "avatar": "https://avatars.githubusercontent.com/u/7725691?v=4"
  },
  "FFmpeg/FFmpeg": {
-  "stargazerCount": 64766,
-  "pushedAt": "2026-10-04T21:20:20Z",
+  "stargazerCount": 64627,
+  "pushedAt": "2026-09-29T01:42:47Z",
   "isArchived": false,
-  "description": "Mirror of https://git.ffmpeg.org/ffmpeg.git"
+  "description": "Mirror of https://git.ffmpeg.org/ffmpeg.git",
+  "avatar": "https://avatars.githubusercontent.com/u/729418?v=4"
  },
  "junegunn/fzf": {
-  "stargazerCount": 83380,
-  "pushedAt": "2026-10-05T06:05:14Z",
+  "stargazerCount": 83300,
+  "pushedAt": "2026-09-28T13:21:31Z",
   "isArchived": false,
-  "description": ":cherry_blossom: A command-line fuzzy finder"
+  "description": ":cherry_blossom: A command-line fuzzy finder",
+  "avatar": "https://avatars.githubusercontent.com/u/700826?u=87fd13567f3f42579881c1c8c74760d0a3c276a5&v=4"
  },
  "BurntSushi/ripgrep": {
-  "stargazerCount": 68846,
+  "stargazerCount": 68692,
   "pushedAt": "2026-08-04T13:59:44Z",
   "isArchived": false,
-  "description": "ripgrep recursively searches directories for a regex pattern while respecting your gitignore"
+  "description": "ripgrep recursively searches directories for a regex pattern while respecting your gitignore",
+  "avatar": "https://avatars.githubusercontent.com/u/456674?u=6b60f689b8054473ea9d8bddc42211e12ffacda2&v=4"
  },
  "ohmyzsh/ohmyzsh": {
-  "stargazerCount": 190154,
-  "pushedAt": "2026-10-05T06:03:13Z",
+  "stargazerCount": 189984,
+  "pushedAt": "2026-09-28T11:22:49Z",
   "isArchived": false,
-  "description": "\ud83d\ude43   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community."
+  "description": "\ud83d\ude43   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",
+  "avatar": "https://avatars.githubusercontent.com/u/22552083?v=4"
  },
  "git/git": {
-  "stargazerCount": 63645,
-  "pushedAt": "2026-10-05T04:25:16Z",
+  "stargazerCount": 63415,
+  "pushedAt": "2026-09-28T23:17:46Z",
   "isArchived": false,
-  "description": "Git Source Code Mirror - This is a publish-only repository but pull requests can be turned into patches to the mailing list via GitGitGadget (https://gitgitgadget.github.io/). Please follow Documentation/SubmittingPatches procedure for any of your improvements."
+  "description": "Git Source Code Mirror - This is a publish-only repository but pull requests can be turned into patches to the mailing list via GitGitGadget (https://gitgitgadget.github.io/). Please follow Documentation/SubmittingPatches procedure for any of your improvements.",
+  "avatar": "https://avatars.githubusercontent.com/u/18133?v=4"
  },
  "prettier/prettier": {
-  "stargazerCount": 52352,
-  "pushedAt": "2026-10-05T07:44:36Z",
+  "stargazerCount": 52317,
+  "pushedAt": "2026-09-27T22:23:40Z",
   "isArchived": false,
-  "description": "Prettier is an opinionated code formatter."
+  "description": "Prettier is an opinionated code formatter.",
+  "avatar": "https://avatars.githubusercontent.com/u/25822731?v=4"
  },
  "huggingface/transformers": {
-  "stargazerCount": 166960,
-  "pushedAt": "2026-10-05T08:50:34Z",
+  "stargazerCount": 166784,
+  "pushedAt": "2026-09-29T05:34:56Z",
   "isArchived": false,
-  "description": "\ud83e\udd17 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. "
+  "description": "\ud83e\udd17 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+  "avatar": "https://avatars.githubusercontent.com/u/25720743?v=4"
  },
  "ollama/ollama": {
-  "stargazerCount": 182218,
-  "pushedAt": "2026-10-04T23:16:41Z",
+  "stargazerCount": 181890,
+  "pushedAt": "2026-09-29T01:43:26Z",
   "isArchived": false,
-  "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models."
+  "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+  "avatar": "https://avatars.githubusercontent.com/u/151674099?v=4"
  },
  "pytorch/pytorch": {
-  "stargazerCount": 103761,
-  "pushedAt": "2026-10-05T08:49:00Z",
+  "stargazerCount": 103483,
+  "pushedAt": "2026-09-29T06:07:17Z",
   "isArchived": false,
-  "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration"
+  "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+  "avatar": "https://avatars.githubusercontent.com/u/21003710?v=4"
  },
  "home-assistant/core": {
-  "stargazerCount": 91261,
-  "pushedAt": "2026-10-05T09:12:49Z",
+  "stargazerCount": 91207,
+  "pushedAt": "2026-09-29T06:07:30Z",
   "isArchived": false,
-  "description": ":house_with_garden: Open source home automation that puts local control and privacy first."
+  "description": ":house_with_garden: Open source home automation that puts local control and privacy first.",
+  "avatar": "https://avatars.githubusercontent.com/u/13844975?v=4"
  },
  "mermaid-js/mermaid": {
-  "stargazerCount": 90542,
-  "pushedAt": "2026-10-05T00:29:31Z",
+  "stargazerCount": 90462,
+  "pushedAt": "2026-09-28T18:09:11Z",
   "isArchived": false,
-  "description": "Generation of diagrams like flowcharts or sequence diagrams from text in a similar manner as markdown"
+  "description": "Generation of diagrams like flowcharts or sequence diagrams from text in a similar manner as markdown",
+  "avatar": "https://avatars.githubusercontent.com/u/57169982?v=4"
  },
  "apache/echarts": {
-  "stargazerCount": 67450,
-  "pushedAt": "2026-10-04T10:59:25Z",
+  "stargazerCount": 67406,
+  "pushedAt": "2026-09-28T01:10:50Z",
   "isArchived": false,
-  "description": "Apache ECharts is a powerful, interactive charting and data visualization library for browser"
+  "description": "Apache ECharts is a powerful, interactive charting and data visualization library for browser",
+  "avatar": "https://avatars.githubusercontent.com/u/47359?v=4"
  },
  "facebook/react": {
-  "stargazerCount": 250894,
-  "pushedAt": "2026-10-02T21:13:55Z",
+  "stargazerCount": 250821,
+  "pushedAt": "2026-09-27T11:10:32Z",
   "isArchived": false,
-  "description": "The library for web and native user interfaces."
+  "description": "The library for web and native user interfaces.",
+  "avatar": "https://avatars.githubusercontent.com/u/102812?v=4"
  },
  "vuejs/vue": {
-  "stargazerCount": 212829,
+  "stargazerCount": 212841,
   "pushedAt": "2024-10-10T07:24:15Z",
   "isArchived": false,
-  "description": "This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core"
+  "description": "This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core",
+  "avatar": "https://avatars.githubusercontent.com/u/6128107?v=4"
  },
  "tailwindlabs/tailwindcss": {
-  "stargazerCount": 97774,
+  "stargazerCount": 97733,
   "pushedAt": "2026-09-25T19:32:43Z",
   "isArchived": false,
-  "description": "A utility-first CSS framework for rapid UI development."
+  "description": "A utility-first CSS framework for rapid UI development.",
+  "avatar": "https://avatars.githubusercontent.com/u/67109815?v=4"
  },
  "vitejs/vite": {
-  "stargazerCount": 83153,
-  "pushedAt": "2026-10-05T00:59:06Z",
+  "stargazerCount": 83069,
+  "pushedAt": "2026-09-29T04:32:15Z",
   "isArchived": false,
-  "description": "Next generation frontend tooling. It's fast!"
+  "description": "Next generation frontend tooling. It's fast!",
+  "avatar": "https://avatars.githubusercontent.com/u/65625612?v=4"
  },
  "redis/redis": {
-  "stargazerCount": 76592,
-  "pushedAt": "2026-09-30T12:02:11Z",
+  "stargazerCount": 76524,
+  "pushedAt": "2026-09-28T14:17:02Z",
   "isArchived": false,
-  "description": "For developers, who are building real-time data-driven applications, Redis is the preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine."
+  "description": "For developers, who are building real-time data-driven applications, Redis is the preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine.",
+  "avatar": "https://avatars.githubusercontent.com/u/1529926?v=4"
  },
  "kubernetes/kubernetes": {
-  "stargazerCount": 128294,
-  "pushedAt": "2026-10-05T06:46:33Z",
+  "stargazerCount": 128088,
+  "pushedAt": "2026-09-29T02:56:18Z",
   "isArchived": false,
-  "description": "Production-Grade Container Scheduling and Management"
+  "description": "Production-Grade Container Scheduling and Management",
+  "avatar": "https://avatars.githubusercontent.com/u/13629408?v=4"
  },
  "ansible/ansible": {
-  "stargazerCount": 70860,
-  "pushedAt": "2026-10-02T21:01:26Z",
+  "stargazerCount": 70807,
+  "pushedAt": "2026-09-28T17:59:57Z",
   "isArchived": false,
-  "description": "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain. Automate everything from code deployment to network configuration to cloud management, in a language that approaches plain English, using SSH, with no agents to install on remote systems. https://docs.ansible.com."
+  "description": "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain. Automate everything from code deployment to network configuration to cloud management, in a language that approaches plain English, using SSH, with no agents to install on remote systems. https://docs.ansible.com.",
+  "avatar": "https://avatars.githubusercontent.com/u/1507452?v=4"
  },
  "torvalds/linux": {
-  "stargazerCount": 251137,
-  "pushedAt": "2026-10-04T20:46:02Z",
+  "stargazerCount": 250521,
+  "pushedAt": "2026-09-27T20:56:06Z",
   "isArchived": false,
-  "description": "Linux kernel source tree"
+  "description": "Linux kernel source tree",
+  "avatar": "https://avatars.githubusercontent.com/u/1024025?v=4"
  },
  "FortAwesome/Font-Awesome": {
-  "stargazerCount": 76954,
+  "stargazerCount": 76947,
   "pushedAt": "2026-07-15T18:15:53Z",
   "isArchived": false,
-  "description": "The iconic SVG, font, and CSS toolkit"
+  "description": "The iconic SVG, font, and CSS toolkit",
+  "avatar": "https://avatars.githubusercontent.com/u/1505683?v=4"
  },
  "godotengine/godot": {
-  "stargazerCount": 118136,
-  "pushedAt": "2026-10-04T16:23:22Z",
+  "stargazerCount": 117922,
+  "pushedAt": "2026-09-28T23:26:13Z",
   "isArchived": false,
-  "description": "Godot Engine \u2013 Multi-platform 2D and 3D game engine"
+  "description": "Godot Engine \u2013 Multi-platform 2D and 3D game engine",
+  "avatar": "https://avatars.githubusercontent.com/u/6318500?v=4"
+ },
+ "micro-editor/micro": {
+  "stargazerCount": 29669,
+  "pushedAt": "2026-10-07T00:38:37Z",
+  "isArchived": false,
+  "description": "A modern and intuitive terminal-based text editor",
+  "avatar": "https://avatars.githubusercontent.com/u/21361806?v=4"
+ },
+ "espanso/espanso": {
+  "stargazerCount": 14587,
+  "pushedAt": "2026-10-04T01:04:32Z",
+  "isArchived": false,
+  "description": "A Privacy-first, Cross-platform Text Expander written in Rust",
+  "avatar": "https://avatars.githubusercontent.com/u/64536333?v=4"
+ },
+ "cryptomator/cryptomator": {
+  "stargazerCount": 16252,
+  "pushedAt": "2026-10-05T10:19:59Z",
+  "isArchived": false,
+  "description": "Cryptomator for Windows, macOS, and Linux: Secure client-side encryption for your cloud storage, ensuring privacy and control over your data.",
+  "avatar": "https://avatars.githubusercontent.com/u/11850518?v=4"
+ },
+ "dail8859/NotepadNext": {
+  "stargazerCount": 14660,
+  "pushedAt": "2026-09-29T16:05:58Z",
+  "isArchived": false,
+  "description": "A cross-platform, reimplementation of Notepad++",
+  "avatar": "https://avatars.githubusercontent.com/u/3694843?v=4"
+ },
+ "fastfetch-cli/fastfetch": {
+  "stargazerCount": 24923,
+  "pushedAt": "2026-10-07T01:17:04Z",
+  "isArchived": false,
+  "description": "A maintained, feature-rich and performance oriented, neofetch like system information tool.",
+  "avatar": "https://avatars.githubusercontent.com/u/136235211?v=4"
+ },
+ "ClementTsang/bottom": {
+  "stargazerCount": 14086,
+  "pushedAt": "2026-10-04T01:33:55Z",
+  "isArchived": false,
+  "description": "Yet another cross-platform graphical process/system monitor.",
+  "avatar": "https://avatars.githubusercontent.com/u/34804052?v=4"
+ },
+ "o2sh/onefetch": {
+  "stargazerCount": 12057,
+  "pushedAt": "2026-10-06T21:12:39Z",
+  "isArchived": false,
+  "description": "Command-line Git information tool",
+  "avatar": "https://avatars.githubusercontent.com/u/13710835?v=4"
+ },
+ "gpakosz/.tmux": {
+  "stargazerCount": 25423,
+  "pushedAt": "2026-08-08T15:52:45Z",
+  "isArchived": false,
+  "description": "Oh my tmux! My self-contained, pretty & versatile tmux configuration made with \ud83d\udc9b\ud83e\ude77\ud83d\udc99\ud83d\udda4\u2764\ufe0f\ud83e\udd0d",
+  "avatar": "https://avatars.githubusercontent.com/u/553208?v=4"
+ },
+ "gitbutlerapp/gitbutler": {
+  "stargazerCount": 21781,
+  "pushedAt": "2026-10-07T02:15:50Z",
+  "isArchived": false,
+  "description": "The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte",
+  "avatar": "https://avatars.githubusercontent.com/u/123460877?v=4"
+ },
+ "dbt-labs/dbt-core": {
+  "stargazerCount": 13974,
+  "pushedAt": "2026-10-07T03:39:10Z",
+  "isArchived": false,
+  "description": "dbt enables data analysts and engineers to transform their data using the same practices that software engineers use to build applications.",
+  "avatar": "https://avatars.githubusercontent.com/u/18339788?v=4"
+ },
+ "XAMPPRocky/tokei": {
+  "stargazerCount": 14984,
+  "pushedAt": "2026-09-06T17:28:57Z",
+  "isArchived": false,
+  "description": "Count your code, quickly.",
+  "avatar": "https://avatars.githubusercontent.com/u/4464295?v=4"
+ },
+ "chroma-core/chroma": {
+  "stargazerCount": 29455,
+  "pushedAt": "2026-10-06T23:34:35Z",
+  "isArchived": false,
+  "description": "Search infrastructure for AI",
+  "avatar": "https://avatars.githubusercontent.com/u/105881770?v=4"
+ },
+ "serengil/deepface": {
+  "stargazerCount": 23522,
+  "pushedAt": "2026-10-06T20:12:23Z",
+  "isArchived": false,
+  "description": "A Lightweight Face Recognition and Facial Attribute Analysis (Age, Gender, Emotion and Race) Library for Python",
+  "avatar": "https://avatars.githubusercontent.com/u/18491038?v=4"
+ },
+ "vercel/ai-chatbot": {
+  "stargazerCount": 20992,
+  "pushedAt": "2026-07-08T21:55:02Z",
+  "isArchived": false,
+  "description": "A full-featured, hackable Next.js AI chatbot built by Vercel",
+  "avatar": "https://avatars.githubusercontent.com/u/14985020?v=4"
+ },
+ "ShishirPatil/gorilla": {
+  "stargazerCount": 13042,
+  "pushedAt": "2026-04-13T03:19:45Z",
+  "isArchived": false,
+  "description": "Gorilla: Training and Evaluating LLMs for Function Calls (Tool Calls)",
+  "avatar": "https://avatars.githubusercontent.com/u/30296397?v=4"
+ },
+ "microsoft/UFO": {
+  "stargazerCount": 9938,
+  "pushedAt": "2026-10-06T02:36:54Z",
+  "isArchived": false,
+  "description": "UFO\u00b3: Weaving the Digital Agent Galaxy",
+  "avatar": "https://avatars.githubusercontent.com/u/6154722?v=4"
+ },
+ "plausible/analytics": {
+  "stargazerCount": 29332,
+  "pushedAt": "2026-10-06T23:44:35Z",
+  "isArchived": false,
+  "description": "Open source, privacy-first web analytics. Lightweight, cookie-free Google Analytics alternative. Self-hosted or cloud.",
+  "avatar": "https://avatars.githubusercontent.com/u/54802774?v=4"
+ },
+ "openobserve/openobserve": {
+  "stargazerCount": 22281,
+  "pushedAt": "2026-10-07T05:06:58Z",
+  "isArchived": false,
+  "description": "Open source observability platform for logs, metrics, traces, RUM (web, android, ios), Session replay, pipelines, SLO and LLM observability. A sophisticated, simple and highly performant alternative to Datadog, Splunk, and Elasticsearch with 140x lower storage costs and single binary deployment.",
+  "avatar": "https://avatars.githubusercontent.com/u/95867656?v=4"
+ },
+ "bunkerity/bunkerweb": {
+  "stargazerCount": 11051,
+  "pushedAt": "2026-10-06T14:47:13Z",
+  "isArchived": false,
+  "description": "\ud83d\udee1\ufe0f Open-source and cloud-native Web Application Firewall (WAF)",
+  "avatar": "https://avatars.githubusercontent.com/u/86405535?v=4"
+ },
+ "plotly/plotly.js": {
+  "stargazerCount": 18356,
+  "pushedAt": "2026-10-05T18:08:07Z",
+  "isArchived": false,
+  "description": "Open-source JavaScript charting library behind Plotly and Dash",
+  "avatar": "https://avatars.githubusercontent.com/u/5997976?v=4"
+ },
+ "vega/vega": {
+  "stargazerCount": 12010,
+  "pushedAt": "2026-10-05T23:39:18Z",
+  "isArchived": false,
+  "description": "A visualization grammar.",
+  "avatar": "https://avatars.githubusercontent.com/u/11796929?v=4"
+ },
+ "airbnb/visx": {
+  "stargazerCount": 21075,
+  "pushedAt": "2026-06-22T14:25:22Z",
+  "isArchived": false,
+  "description": "\ud83d\udc2f visx | visualization components",
+  "avatar": "https://avatars.githubusercontent.com/u/698437?v=4"
+ },
+ "vueuse/vueuse": {
+  "stargazerCount": 22387,
+  "pushedAt": "2026-10-06T03:01:15Z",
+  "isArchived": false,
+  "description": "Collection of essential Vue Composition Utilities for Vue 3",
+  "avatar": "https://avatars.githubusercontent.com/u/77578415?v=4"
+ },
+ "radix-ui/primitives": {
+  "stargazerCount": 19365,
+  "pushedAt": "2026-10-06T23:30:16Z",
+  "isArchived": false,
+  "description": "Radix Primitives is an open-source UI component library for building high-quality, accessible design systems and web apps. Maintained by @workos.",
+  "avatar": "https://avatars.githubusercontent.com/u/75042455?v=4"
+ },
+ "emotion-js/emotion": {
+  "stargazerCount": 18021,
+  "pushedAt": "2026-08-28T09:30:54Z",
+  "isArchived": false,
+  "description": "\ud83d\udc69\u200d\ud83c\udfa4 CSS-in-JS library designed for high performance style composition",
+  "avatar": "https://avatars.githubusercontent.com/u/31557565?v=4"
+ },
+ "TanStack/table": {
+  "stargazerCount": 28477,
+  "pushedAt": "2026-10-06T20:49:10Z",
+  "isArchived": false,
+  "description": "\ud83e\udd16 Headless UI for building powerful tables & datagrids for TS/JS -  React-Table, Vue-Table, Solid-Table, Svelte-Table",
+  "avatar": "https://avatars.githubusercontent.com/u/72518640?v=4"
+ },
+ "pydantic/pydantic": {
+  "stargazerCount": 28951,
+  "pushedAt": "2026-10-06T18:54:58Z",
+  "isArchived": false,
+  "description": "Data validation using Python type hints",
+  "avatar": "https://avatars.githubusercontent.com/u/110818415?v=4"
+ },
+ "jackc/pgx": {
+  "stargazerCount": 14302,
+  "pushedAt": "2026-10-05T13:32:57Z",
+  "isArchived": false,
+  "description": "PostgreSQL driver and toolkit for Go",
+  "avatar": "https://avatars.githubusercontent.com/u/94130?v=4"
+ },
+ "aio-libs/aiohttp": {
+  "stargazerCount": 16569,
+  "pushedAt": "2026-10-07T02:04:27Z",
+  "isArchived": false,
+  "description": "Asynchronous HTTP client/server framework for asyncio and Python",
+  "avatar": "https://avatars.githubusercontent.com/u/7049303?v=4"
+ },
+ "argoproj/argo-cd": {
+  "stargazerCount": 24342,
+  "pushedAt": "2026-10-06T22:01:20Z",
+  "isArchived": false,
+  "description": "Declarative Continuous Deployment for Kubernetes",
+  "avatar": "https://avatars.githubusercontent.com/u/30269780?v=4"
+ },
+ "goharbor/harbor": {
+  "stargazerCount": 29502,
+  "pushedAt": "2026-10-06T15:48:37Z",
+  "isArchived": false,
+  "description": "An open source trusted cloud native registry project that stores, signs, and scans content.",
+  "avatar": "https://avatars.githubusercontent.com/u/40275816?v=4"
+ },
+ "signalapp/Signal-Android": {
+  "stargazerCount": 29424,
+  "pushedAt": "2026-10-05T18:10:19Z",
+  "isArchived": false,
+  "description": "A private messenger for Android.",
+  "avatar": "https://avatars.githubusercontent.com/u/702459?v=4"
+ },
+ "bitwarden/clients": {
+  "stargazerCount": 13921,
+  "pushedAt": "2026-10-07T02:07:39Z",
+  "isArchived": false,
+  "description": "Bitwarden client apps (web, browser extension, desktop, and cli).",
+  "avatar": "https://avatars.githubusercontent.com/u/15990069?v=4"
+ },
+ "OpenEmu/OpenEmu": {
+  "stargazerCount": 17806,
+  "pushedAt": "2025-10-22T21:39:10Z",
+  "isArchived": false,
+  "description": "\ud83d\udd79 Retro video game emulation for macOS",
+  "avatar": "https://avatars.githubusercontent.com/u/528189?v=4"
+ },
+ "PCSX2/pcsx2": {
+  "stargazerCount": 15715,
+  "pushedAt": "2026-10-07T00:04:28Z",
+  "isArchived": false,
+  "description": "PCSX2 - The Playstation 2 Emulator",
+  "avatar": "https://avatars.githubusercontent.com/u/6278711?v=4"
+ },
+ "dolphin-emu/dolphin": {
+  "stargazerCount": 15618,
+  "pushedAt": "2026-10-06T20:00:03Z",
+  "isArchived": false,
+  "description": "Dolphin is a GameCube / Wii emulator, allowing you to play games for these two platforms on PC with improvements.",
+  "avatar": "https://avatars.githubusercontent.com/u/5050316?v=4"
+ },
+ "hrydgard/ppsspp": {
+  "stargazerCount": 14604,
+  "pushedAt": "2026-10-07T00:42:26Z",
+  "isArchived": false,
+  "description": "A PSP emulator for Android, Windows, Mac, Linux and iOS, written in C++. Want to contribute? Join us on Discord at https://discord.gg/5NJB6dD or just send pull requests / issues.",
+  "avatar": "https://avatars.githubusercontent.com/u/130929?v=4"
+ },
+ "OpenRCT2/OpenRCT2": {
+  "stargazerCount": 16382,
+  "pushedAt": "2026-10-07T04:06:17Z",
+  "isArchived": false,
+  "description": "An open source re-implementation of RollerCoaster Tycoon 2 \ud83c\udfa2",
+  "avatar": "https://avatars.githubusercontent.com/u/8473908?v=4"
+ },
+ "audacity/audacity": {
+  "stargazerCount": 18661,
+  "pushedAt": "2026-10-06T11:32:30Z",
+  "isArchived": false,
+  "description": "Audio Editor                                     ",
+  "avatar": "https://avatars.githubusercontent.com/u/11648186?v=4"
  }
 }
