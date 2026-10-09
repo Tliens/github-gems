@@ -3,15 +3,16 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GitHub Gems 封神榜 · 200 Open-Source Gems &amp; Legends | GitHub 宝藏与封神项目</title>
+<title>GitHub Gems · 200 Open-Source Gems &amp; Legends | GitHub 宝藏与传奇项目</title>
 <meta name="description" content="A hand-curated directory of 170+ underrated open-source gems (1k–30k ⭐, live-verified) plus the legendary projects (React, Linux, VS Code…) as beacons. For GitHub beginners and cross-field explorers. 精选 170+ 冷门宝藏 + 封神之作，star 数实测核验。">
 <link rel="canonical" href="https://github-gems.kuige.me/">
 <link rel="alternate" hreflang="en" href="https://github-gems.kuige.me/?lang=en">
 <link rel="alternate" hreflang="zh" href="https://github-gems.kuige.me/?lang=zh">
 <link rel="alternate" hreflang="x-default" href="https://github-gems.kuige.me/">
-<link rel="icon" type="image/png" href="favicon.png">
+<link rel="icon" type="image/png" href="favicon.png?v=2">
+<link rel="apple-touch-icon" href="apple-touch-icon.png?v=2">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="GitHub Gems 封神榜">
+<meta property="og:site_name" content="GitHub Gems">
 <meta property="og:title" content="GitHub Gems — Hidden Gems &amp; Legendary Open-Source Projects">
 <meta property="og:description" content="Hand-curated open-source gems (1k–30k ⭐, live-verified). For GitHub beginners and cross-field explorers. 精选冷门优质开源项目。">
 <meta property="og:url" content="https://github-gems.kuige.me/">
@@ -35,7 +36,7 @@
   {"@type":"Question","name":"I'm a complete beginner — where do I start?","acceptedAnswer":{"@type":"Answer","text":"Start with the 'New to GitHub' section: it explains stars, forks, issues and pull requests in plain words, plus a 3-point checklist for judging any project. Then browse gems tagged 'Ready to use' — downloadable apps that need zero coding."}},
   {"@type":"Question","name":"Why are famous projects listed too?","acceptedAnswer":{"@type":"Answer","text":"The Legend-badge projects are the famous pillars — React, Linux, VS Code and friends. They are listed so newcomers get their bearings and cross-field explorers can spot the landmarks of other fields; they are clearly badged and kept separate from the 1k–30k hidden gems the site is about."}}
  ]
-]}
+ }]}
 </script>
 <style>
 :root{
@@ -60,36 +61,7 @@ a{color:inherit;text-decoration:none}
 
 /* header */
 header{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--bg) 86%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
-.hbar{display:flex;align-items:center;gap:12px;height:58px}
-.brand{display:flex;align-items:center;gap:9px;font-weight:800;font-size:18px;letter-spacing:-.02em}
-.brand .blogo{width:30px;height:30px;border-radius:9px;display:block;border:1px solid var(--line)}
 
-/* 封神传说：左下角悬浮卡 + 弹窗 */
-.fscard{position:fixed;left:18px;bottom:18px;z-index:70;width:62px;height:62px;padding:0;border:1px solid var(--line);border-radius:16px;background:var(--card);box-shadow:var(--shadow);cursor:pointer;transition:.18s}
-.fscard img{width:100%;height:100%;border-radius:15px;display:block}
-.fscard:hover{transform:translateY(-4px);border-color:var(--acc)}
-.fsmodal{position:fixed;inset:0;z-index:90;display:flex;align-items:center;justify-content:center;padding:20px}
-.fsmodal[hidden]{display:none}
-.fsback{position:absolute;inset:0;background:rgba(10,10,18,.55);backdrop-filter:blur(6px)}
-.fsbox{position:relative;max-width:470px;width:100%;background:var(--card);border:1px solid var(--line);border-radius:20px;padding:26px 26px 24px;box-shadow:0 24px 70px rgba(0,0,0,.4);animation:fsin .22s ease}
-@keyframes fsin{from{opacity:0;transform:translateY(14px) scale(.97)}to{opacity:1;transform:none}}
-.fsx{position:absolute;top:10px;right:12px;border:none;background:none;color:var(--fg2);font-size:26px;cursor:pointer;line-height:1}
-.fsx:hover{color:var(--fg)}
-.fsavatar{width:88px;height:88px;border-radius:20px;display:block;margin:0 auto 12px;border:1px solid var(--line)}
-.fsbox h3{margin:0 0 2px;font-size:19px;text-align:center;letter-spacing:-.01em}
-.fsname{text-align:center;color:var(--acc);font-weight:700;font-size:13px;margin:0 0 14px}
-.fsbox p:not(.fsname){color:var(--fg2);font-size:14px;line-height:1.75;margin:0 0 12px}
-.fsbox p b{color:var(--fg)}
-.fsbtns{display:flex;gap:10px;margin-top:16px}
-.fsbtns a{flex:1;display:flex;align-items:center;justify-content:center;gap:8px;border-radius:12px;padding:12px 14px;font-weight:700;font-size:14px;transition:.15s;white-space:nowrap}
-.fsfollow{background:#0f1419;color:#fff;border:1px solid #0f1419}
-html[data-theme=dark] .fsfollow{background:#e7e9ea;color:#0f1419;border-color:#e7e9ea}
-.fsdiscuss{border:1px solid var(--line);color:var(--fg);background:var(--bg2)}
-.fsdiscuss:hover{border-color:var(--acc);color:var(--acc)}
-.fsfollow:hover{transform:translateY(-2px);opacity:.92}
-html[data-theme=dark] .fsfollow{background:#e7e9ea;color:#0f1419;border-color:#e7e9ea}
-.fsfollow:hover{transform:translateY(-2px);opacity:.92}
-.hbar .sp{flex:1}
 .hbtn{border:1px solid var(--line);background:var(--bg2);color:var(--fg);border-radius:9px;padding:6px 12px;font-size:13px;font-weight:600;cursor:pointer;transition:.15s}
 .hbtn:hover{border-color:var(--acc);color:var(--acc)}
 
@@ -215,25 +187,48 @@ select{border:1px solid var(--line);background:var(--bg2);color:var(--fg);border
 .faq details p{margin:0;padding:0 18px 15px;color:var(--fg2);font-size:14.5px}
 
 /* footer */
-footer{border-top:1px solid var(--line);margin-top:40px;padding:30px 0 44px;color:var(--fg2);font-size:13.5px}
-footer .frow{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:14px}
-footer a{color:var(--acc);font-weight:600}
 .empty{grid-column:1/-1;text-align:center;color:var(--fg2);padding:40px 0;font-size:14.5px}
 .note{font-size:12.5px;color:var(--fg2);margin-top:14px}
 @media(max-width:760px){
  .toolbar{position:static}
  .hero{padding:44px 0 30px}
 }
+/* ── KuiGe 站群统一基座 ───────────────────── */
+:root{--kg-ink:#1f2430;--kg-sub:#6b7280;--kg-accent:#f2603c;--kg-line:#e8e6e1;--kg-bg:#faf9f7}
+.kg-top{position:sticky;top:0;z-index:60;background:rgba(250,249,247,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--kg-line)}
+.kg-top-in{max-width:1120px;margin:0 auto;padding:10px 20px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.kg-brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--kg-ink);font-weight:700;font-size:17px}
+.kg-brand img{width:32px;height:32px;border-radius:9px;display:block}
+.kg-brand small{font-weight:500;color:var(--kg-sub);font-size:12px}
+.kg-nav{display:flex;align-items:center;gap:14px;font-size:14px}
+.kg-nav a{color:var(--kg-sub);text-decoration:none}
+.kg-nav a:hover{color:var(--kg-ink)}
+.kg-entry{background:var(--kg-ink);color:#fff!important;padding:6px 14px;border-radius:999px;text-decoration:none;font-size:13px}
+.kg-entry:hover{background:var(--kg-accent)}
+.kg-foot{background:var(--kg-bg);border-top:1px solid var(--kg-line);color:var(--kg-sub);font-size:13px;margin-top:0}
+.kg-foot-in{max-width:1120px;margin:0 auto;padding:36px 20px 28px;display:flex;flex-direction:column;align-items:center;gap:10px;text-align:center}
+.kg-foot img{width:44px;height:44px;border-radius:12px;margin-bottom:2px}
+.kg-foot-brand{color:var(--kg-ink);font-weight:700;font-size:15px;margin:0}
+.kg-foot-links{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 18px}
+.kg-foot-links a{color:var(--kg-sub);text-decoration:none}
+.kg-foot-links a:hover{color:var(--kg-accent)}
+.kg-foot-copy{margin:4px 0 0;color:#9ca3af;font-size:12px}
+@media(max-width:640px){.kg-nav a:not(.kg-entry){display:none}}
+
 </style>
 </head>
 <body>
-<header>
-  <div class="wrap hbar">
-    <a class="brand" href="#top"><img class="blogo" src="fengshen.webp" alt="封神传说"><span>GitHub Gems</span></a>
-    <span class="sp"></span>
-    <a class="hbtn kuige-entry" href="https://kuige.me/" target="_blank" rel="noopener" title="kuige.me" style="text-decoration:none"><img src="https://kuige.me/logo.png" alt="" width="16" height="16" style="width:16px;height:16px;border-radius:50%;vertical-align:-3px;margin-right:6px">魁歌</a>
-    <button class="hbtn" id="btnTheme" title="Theme">🌗 Theme</button>
-    <button class="hbtn" id="btnLang" title="Language">中文</button>
+<header class="kg-top">
+  <div class="kg-top-in">
+    <a class="kg-brand" href="#top">
+      <img src="favicon.png?v=2" alt="GitHub Gems 吉祥物">
+      <span>GitHub Gems<small>Open-Source Gems &amp; Legends</small></span>
+    </a>
+    <nav class="kg-nav">
+      <button class="hbtn" id="btnTheme" title="Theme">🌗 Theme</button>
+      <button class="hbtn" id="btnLang" title="Language">中文</button>
+      <a class="kg-entry" href="https://kuige.me/" target="_blank" rel="noopener">魁歌 · 全部作品</a>
+    </nav>
   </div>
 </header>
 
@@ -1566,15 +1561,20 @@ footer a{color:var(--acc);font-weight:600}
 </div>
 </main>
 
-<footer>
-  <div class="wrap">
-    <div class="frow">
-      <span data-i18n="fFound">Found a gem nobody knows?</span>
+<footer class="kg-foot">
+  <div class="kg-foot-in">
+    <img src="favicon.png?v=2" alt="GitHub Gems吉祥物">
+    <p class="kg-foot-brand">GitHub Gems</p>
+    <nav class="kg-foot-links">
+      <a href="https://kuige.me/" target="_blank" rel="noopener">魁歌主页</a>
+      <a href="https://icongems.kuige.me/" target="_blank" rel="noopener">IconGems</a>
+      <a href="https://ai-model-rank.kuige.me/" target="_blank" rel="noopener">AI Rank</a>
+      <a href="https://xhot.kuige.me/" target="_blank" rel="noopener">X 热榜</a>
+      <a href="https://skillgems.kuige.me/" target="_blank" rel="noopener">SkillGems</a>
+      <a href="https://songgems.kuige.me/" target="_blank" rel="noopener">SongGems</a>
       <a href="https://github.com/Tliens/github-gems/issues/new?template=submit-gem.yml" target="_blank" rel="noopener" data-i18n="fSubmit">Propose it →</a>
-    </div>
-    <div class="frow">
-      <span data-i18n="fLicense">Curated with 💎 — every entry hand-picked, stars live-verified. Data: GitHub API.</span>
-    </div>
+    </nav>
+    <p class="kg-foot-copy">© 2026 魁歌 KuiGe · 用 AI 构建 · <a href="https://kuige.me/" style="color:inherit">kuige.me</a></p>
   </div>
 </footer>
 
@@ -1636,12 +1636,6 @@ const L = {
   ctxDevsV:'180M+', ctxDevs:'developers worldwide',
   ctxContribV:'1.12B', ctxContrib:'open-source contributions in 2025',
   ctxSrc:'Source: GitHub Octoverse 2025 ↗',
-  fsTitle:'The legend behind this site',
-  fsName:'封神传说 · Fengshen Legend',
-  fsIntro:'GitHub Gems (codename <b>封神传说</b> — "Investiture of the Gods") is a hand-curated discovery directory for open source: 💎 176 hidden gems live-verified from GitHub\'s 1k–30k star sweet spot, and 🏆 24 legendary projects as landmarks. Every star count is checked against the GitHub API — nothing guessed.',
-  fsStory:'In the Chinese classic <i>Investiture of the Gods</i>, the sage Jiang Ziya fishes with a straight hook — not for fish, but for the worthy, whose names he writes onto the list that makes them immortal. That is our metaphor: underrated gems get seen, great works get crowned. A star is not the end; being discovered is.',
-  fsFollow:'Follow me on X',
-  fsDiscuss:'Join the discussion',
   stGems:'gems', stCats:'fields',
   stVerified:'⭐ star counts live-verified',
   bGrad:'Graduated', bArch:'Archived', bLegend:'Legend',
@@ -1696,9 +1690,7 @@ const L = {
   fa4:'Open an issue on the GitHub repository with the project link and why it deserves a spot. Submissions are reviewed by hand before being added.',
   fq5:'I\'m a complete beginner — where do I start?',
   fa5:'Start with the "New to GitHub" section: it explains stars, forks, issues and pull requests in plain words, plus a 3-point checklist for judging any project. Then browse gems tagged "Ready to use" — downloadable apps that need zero coding.',
-  fFound:'Found a gem nobody knows?',
   fSubmit:'Propose it →',
-  fLicense:'Curated with 💎 — every entry hand-picked, stars live-verified. Data: GitHub API.',
   catAll:'All', empty:'No gems match — try clearing a filter.',
  },
  zh:{
@@ -1708,12 +1700,6 @@ const L = {
   ctxDevsV:'1.8 亿+', ctxDevs:'名开发者遍布全球',
   ctxContribV:'11.2 亿', ctxContrib:'次开源贡献（2025 年）',
   ctxSrc:'数据来源：GitHub Octoverse 2025 ↗',
-  fsTitle:'这个网站的故事',
-  fsName:'封神传说 · Fengshen Legend',
-  fsIntro:'GitHub Gems（代号「<b>封神传说</b>」）是一个人工精选的开源发现站：💎 176 个实测核验的 1k–30k star 冷门宝藏，🏆 24 个殿堂级封神之作作为路标。所有 star 数均经 GitHub API 实测，拒绝道听途说。',
-  fsStory:'《封神演义》里，姜子牙直钩垂钓——钓的不是鱼，是值得封神的人，然后把他们一一写上封神榜。这就是我们的寓意：让被低估的宝藏被看见，让传世之作加冕。star 不是终点，被发现才是。',
-  fsFollow:'去 X 上关注我',
-  fsDiscuss:'去讨论',
   stGems:'个宝藏', stCats:'个领域',
   stVerified:'⭐ star 数实测核验',
   bGrad:'已毕业', bArch:'已归档', bLegend:'封神',
@@ -1767,9 +1753,7 @@ const L = {
   fa4:'在 GitHub 仓库提一个 Issue，附上项目链接和推荐理由。人工审核后收录。',
   fq5:'我是纯新手，从哪儿开始？',
   fa5:'先看「新手专区」：用人话解释 star/fork/issue/PR，附三招判断项目的方法。然后筛选「即开即用」标签——都是下载就能用、零代码的应用。',
-  fFound:'发现了没人知道的宝藏？',
   fSubmit:'来推荐 →',
-  fLicense:'💎 人工精选 · star 实测核验 · 数据来自 GitHub API。',
   catAll:'全部', empty:'没有匹配的宝藏——试试放宽筛选条件。',
  }
 };
@@ -1852,8 +1836,8 @@ function applyLang(){
   document.querySelectorAll('[data-i18n-ph]').forEach(el => el.setAttribute('placeholder', t(el.getAttribute('data-i18n-ph'))));
   document.documentElement.lang = state.lang;
   document.title = state.lang === 'zh'
-    ? 'GitHub 宝藏 · 200 开源项目：冷门宝藏与封神之作'
-    : 'GitHub Gems 封神榜 · 200 Open-Source Gems & Legends';
+    ? 'GitHub 宝藏 · 200 开源项目：冷门宝藏与传奇之作'
+    : 'GitHub Gems · 200 Open-Source Gems & Legends';
   const md = document.querySelector('meta[name="description"]');
   if (md) md.setAttribute('content', state.lang === 'zh'
     ? '人工精选 170+ 冷门优质开源项目（1k–30k star，实测核验）+ 封神之作：帮 GitHub 新手入门，帮单一领域开发者跨圈发现宝藏。'
@@ -1912,11 +1896,6 @@ function bind(){
     state.cat = 'all'; state.lvl = 1; renderChips(); renderGrid(); syncUrl();
     document.getElementById('explore').scrollIntoView({ behavior:'smooth' });
   };
-  const fsm = document.getElementById('fsModal');
-  document.getElementById('fsCard').onclick = () => { fsm.hidden = false; };
-  document.getElementById('fsClose').onclick = () => { fsm.hidden = true; };
-  fsm.addEventListener('click', e => { if (e.target.classList.contains('fsback')) fsm.hidden = true; });
-  document.addEventListener('keydown', e => { if (e.key === 'Escape') fsm.hidden = true; });
 }
 
 /* ---------- init ---------- */
@@ -1937,25 +1916,6 @@ function init(){
 }
 init();
 </script>
-<button class="fscard" id="fsCard" aria-label="Fengshen Legend" title="封神传说">
-  <img src="fengshen.webp" alt="封神传说">
-</button>
-<div class="fsmodal" id="fsModal" hidden>
-  <div class="fsback"></div>
-  <div class="fsbox" role="dialog" aria-modal="true" aria-label="Fengshen Legend">
-    <button class="fsx" id="fsClose" aria-label="Close">×</button>
-    <img class="fsavatar" src="fengshen.webp" alt="封神传说">
-    <h3 data-i18n="fsTitle">The legend behind this site</h3>
-    <p class="fsname" data-i18n="fsName">封神传说 · Fengshen Legend</p>
-    <p data-i18n="fsIntro">GitHub Gems (codename <b>封神传说</b> — "Investiture of the Gods") is a hand-curated discovery directory for open source: 💎 176 hidden gems live-verified from GitHub's 1k–30k star sweet spot, and 🏆 24 legendary projects as landmarks. Every star count is checked against the GitHub API — nothing guessed.</p>
-    <p data-i18n="fsStory">In the Chinese classic <i>Investiture of the Gods</i>, the sage Jiang Ziya fishes with a straight hook — not for fish, but for the worthy, whose names he writes onto the list that makes them immortal. That is our metaphor: underrated gems get seen, great works get crowned. A star is not the end; being discovered is.</p>
-    <div class="fsbtns">
-      <a class="fsfollow" href="https://x.com/kuige_me" target="_blank" rel="noopener">𝕏 <span data-i18n="fsFollow">Follow me on X</span></a>
-      <a class="fsdiscuss" href="https://x.com/kuige_me/status/2104877134682398724" target="_blank" rel="noopener">💬 <span data-i18n="fsDiscuss">Join the discussion</span></a>
-    </div>
-  </div>
-</div>
-
 <script type='module' src='https://static.cloudflareinsights.com/beacon.min.js data-cf-beacon='{"token": "948f2535a9dd4775a436c677b3c950e4"}'></script>
 </body>
 </html>

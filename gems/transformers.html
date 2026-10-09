@@ -61,33 +61,13 @@ h2{font-size:20px;letter-spacing:-.01em;margin:0 0 16px}
 footer{border-top:1px solid var(--line);margin-top:20px;padding:22px 0 36px;color:var(--fg2);font-size:13px}
 footer a{color:var(--acc);font-weight:600}
 .brand .blogo{width:28px;height:28px;border-radius:8px;display:block;border:1px solid var(--line)}
-.fscard{position:fixed;left:18px;bottom:18px;z-index:70;width:62px;height:62px;padding:0;border:1px solid var(--line);border-radius:16px;background:var(--bg2);box-shadow:0 10px 30px rgba(0,0,0,.25);cursor:pointer;transition:.18s}
-.fscard img{width:100%;height:100%;border-radius:15px;display:block}
-.fscard:hover{transform:translateY(-4px);border-color:var(--acc)}
-.fsmodal{position:fixed;inset:0;z-index:90;display:flex;align-items:center;justify-content:center;padding:20px}
-.fsmodal[hidden]{display:none}
-.fsback{position:absolute;inset:0;background:rgba(10,10,18,.55);backdrop-filter:blur(6px)}
-.fsbox{position:relative;max-width:470px;width:100%;background:var(--bg2);border:1px solid var(--line);border-radius:20px;padding:26px 26px 24px;box-shadow:0 24px 70px rgba(0,0,0,.4);animation:fsin .22s ease}
-@keyframes fsin{from{opacity:0;transform:translateY(14px) scale(.97)}to{opacity:1;transform:none}}
-.fsx{position:absolute;top:10px;right:12px;border:none;background:none;color:var(--fg2);font-size:26px;cursor:pointer;line-height:1}
-.fsavatar{width:88px;height:88px;border-radius:20px;display:block;margin:0 auto 12px;border:1px solid var(--line)}
-.fsbox h3{margin:0 0 2px;font-size:19px;text-align:center;letter-spacing:-.01em}
-.fsname{text-align:center;color:var(--acc);font-weight:700;font-size:13px;margin:0 0 14px}
-.fsbox p{color:var(--fg2);font-size:14px;line-height:1.75;margin:0 0 12px}
-.fsbtns{display:flex;gap:10px;margin-top:16px}
-.fsbtns a{flex:1;display:flex;align-items:center;justify-content:center;gap:8px;border-radius:12px;padding:12px 14px;font-weight:700;font-size:14px;transition:.15s;white-space:nowrap}
-.fsfollow{background:#0f1419;color:#fff;border:1px solid #0f1419}
-html[data-theme=dark] .fsfollow{background:#e7e9ea;color:#0f1419;border-color:#e7e9ea}
-.fsdiscuss{border:1px solid var(--line);color:var(--fg);background:var(--bg)}
-.fsdiscuss:hover{border-color:var(--acc);color:var(--acc)}
-.fsfollow:hover{transform:translateY(-2px);opacity:.92}
 .gcover{display:block;width:100%;height:190px;object-fit:cover;object-position:center top;border-radius:14px;border:1px solid var(--line);margin:0 0 20px;background:var(--chip)}
 .gav{width:20px;height:20px;border-radius:50%;vertical-align:-5px;margin-right:5px;border:1px solid var(--line);background:var(--chip)}
 </style>
 </head>
 <body>
 <header><div class="wrap hbar">
-<a class="brand" href="../index.html"><img class="blogo" src="../fengshen.webp" alt="封神传说">GitHub Gems</a><span class="sp"></span>
+<a class="brand" href="../index.html"><img class="blogo" src="../favicon.png" alt="GitHub Gems">GitHub Gems</a><span class="sp"></span>
 <button class="hbtn" id="btnTheme">🌗 Theme</button>
 <button class="hbtn" id="btnLang">中文</button>
 </div></header>
@@ -110,25 +90,6 @@ html[data-theme=dark] .fsfollow{background:#e7e9ea;color:#0f1419;border-color:#e
 <h2 data-en="More in AI &amp; Local Models" data-zh="更多「AI 与本地模型」宝藏">More in AI &amp; Local Models</h2>
 <div class="minis"><a class="mini" href="ollama.html"><span class="mrow"><span class="mn">Ollama</span><span class="ms">★ 182k</span></span><span class="md" data-en="One command to run any open model locally — local AI&#x27;s front door." data-zh="一条命令本地跑任意开源模型，本地 AI 的入口。">One command to run any open model locally — local AI&#x27;s front door.</span></a><a class="mini" href="pytorch.html"><span class="mrow"><span class="mn">PyTorch</span><span class="ms">★ 104k</span></span><span class="md" data-en="The deep-learning framework most AI research is written in." data-zh="大部分 AI 研究所用的深度学习框架。">The deep-learning framework most AI research is written in.</span></a><a class="mini" href="chroma.html"><span class="mrow"><span class="mn">Chroma</span><span class="ms">★ 29k</span></span><span class="md" data-en="The open embedding database behind thousands of AI apps." data-zh="数千 AI 应用背后的开源向量数据库。">The open embedding database behind thousands of AI apps.</span></a><a class="mini" href="invokeai.html"><span class="mrow"><span class="mn">InvokeAI</span><span class="ms">★ 28k</span></span><span class="md" data-en="A professional-grade Stable Diffusion studio for serious image work." data-zh="专业级 Stable Diffusion 创作工作台。">A professional-grade Stable Diffusion studio for serious image work.</span></a><a class="mini" href="llamafile.html"><span class="mrow"><span class="mn">llamafile</span><span class="ms">★ 26k</span></span><span class="md" data-en="A whole LLM zipped into one executable — download, run, done." data-zh="把完整大模型打包进单个可执行文件：下载即用。">A whole LLM zipped into one executable — download, run, done.</span></a><a class="mini" href="kotaemon.html"><span class="mrow"><span class="mn">kotaemon</span><span class="ms">★ 26k</span></span><span class="md" data-en="A beautiful open RAG UI: chat with your PDFs and docs, locally." data-zh="颜值在线的开源 RAG 界面：和本地文档对话。">A beautiful open RAG UI: chat with your PDFs and docs, locally.</span></a></div>
 </main>
-<button class="fscard" id="fsCard" aria-label="Fengshen Legend" title="封神传说">
-<img src="../fengshen.webp" alt="封神传说">
-</button>
-<div class="fsmodal" id="fsModal" hidden>
-<div class="fsback"></div>
-<div class="fsbox" role="dialog" aria-modal="true">
-<button class="fsx" id="fsClose" aria-label="Close">×</button>
-<img class="fsavatar" src="../fengshen.webp" alt="封神传说">
-<h3><span data-en="The legend behind this site" data-zh="这个网站的故事">The legend behind this site</span></h3>
-<p class="fsname">封神传说 · Fengshen Legend</p>
-<p data-en="GitHub Gems (codename 封神传说 — Investiture of the Gods) is a hand-curated discovery directory for open source: 💎 137 hidden gems live-verified from GitHub's 1k–30k star sweet spot, and 🏆 24 legendary projects as landmarks. Every star count is checked against the GitHub API — nothing guessed." data-zh="GitHub Gems（代号「封神传说」）是一个人工精选的开源发现站：💎 137 个实测核验的 1k–30k star 冷门宝藏，🏆 24 个殿堂级封神之作作为路标。所有 star 数均经 GitHub API 实测，拒绝道听途说。">GitHub Gems (codename 封神传说 — Investiture of the Gods) is a hand-curated discovery directory for open source: 💎 137 hidden gems live-verified from GitHub's 1k–30k star sweet spot, and 🏆 24 legendary projects as landmarks. Every star count is checked against the GitHub API — nothing guessed.</p>
-<p data-en="In the Chinese classic Investiture of the Gods, the sage Jiang Ziya fishes with a straight hook — not for fish, but for the worthy, whose names he writes onto the list that makes them immortal. That is our metaphor: underrated gems get seen, great works get crowned. A star is not the end; being discovered is." data-zh="《封神演义》里，姜子牙直钩垂钓——钓的不是鱼，是值得封神的人，然后把他们一一写上封神榜。这就是我们的寓意：让被低估的宝藏被看见，让传世之作加冕。star 不是终点，被发现才是。">In the Chinese classic Investiture of the Gods, the sage Jiang Ziya fishes with a straight hook — not for fish, but for the worthy, whose names he writes onto the list that makes them immortal. That is our metaphor: underrated gems get seen, great works get crowned. A star is not the end; being discovered is.</p>
-<div class="fsbtns">
-<a class="fsfollow" href="https://x.com/kuige_me" target="_blank" rel="noopener">𝕏 <span data-en="Follow me on X" data-zh="去 X 上关注我">Follow me on X</span></a>
-<a class="fsdiscuss" href="https://x.com/kuige_me/status/2104877134682398724" target="_blank" rel="noopener">💬 <span data-en="Join the discussion" data-zh="去讨论">Join the discussion</span></a>
-</div>
-</div>
-</div>
-
 <footer><div class="wrap"><span data-en="Hand-picked underrated open-source projects. Stars live-verified." data-zh="人工精选的冷门优质开源项目，star 数实测核验。">Hand-picked underrated open-source projects. Stars live-verified.</span></div></footer>
 <script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "948f2535a9dd4775a436c677b3c950e4"}'></script>
 <script type="module">
@@ -154,11 +115,6 @@ const cycle = () => {
 document.getElementById('btnTheme').onclick = cycle;
 document.documentElement.setAttribute('data-theme', localStorage.getItem('gg-theme') || 'auto');
 document.getElementById('btnTheme').textContent = { auto:'🌗 Auto', light:'☀️ Light', dark:'🌙 Dark' }[localStorage.getItem('gg-theme') || 'auto'];
-const fsm = document.getElementById('fsModal');
-document.getElementById('fsCard').onclick = () => { fsm.hidden = false; };
-document.getElementById('fsClose').onclick = () => { fsm.hidden = true; };
-fsm.addEventListener('click', e => { if (e.target.classList.contains('fsback')) fsm.hidden = true; });
-document.addEventListener('keydown', e => { if (e.key === 'Escape') fsm.hidden = true; });
 apply();
 </script>
 </body>
