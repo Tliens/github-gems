@@ -196,6 +196,9 @@ select{border:1px solid var(--line);background:var(--bg2);color:var(--fg);border
 /* ── KuiGe 站群统一基座 ───────────────────── */
 :root{--kg-ink:#1f2430;--kg-sub:#6b7280;--kg-accent:#f2603c;--kg-line:#e8e6e1;--kg-bg:#faf9f7}
 .kg-top{position:sticky;top:0;z-index:60;background:rgba(250,249,247,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--kg-line)}
+html[data-theme="dark"]{--kg-ink:#e9edf5;--kg-sub:#98a2b3;--kg-line:rgba(255,255,255,.12);--kg-bg:#10141c}
+html[data-theme="dark"] .kg-top{background:rgba(13,17,26,.86)}
+html[data-theme="dark"] .kg-entry{background:#2c3444;color:#f2f5fb!important}
 .kg-top-in{max-width:1120px;margin:0 auto;padding:10px 20px;display:flex;align-items:center;justify-content:space-between;gap:16px}
 .kg-brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--kg-ink);font-weight:700;font-size:17px}
 .kg-brand img{width:32px;height:32px;border-radius:9px;display:block}
