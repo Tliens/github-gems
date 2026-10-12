@@ -1,6 +1,8 @@
 {
- "date": "2026-10-07",
- "problems": [],
+ "date": "2026-10-12",
+ "problems": [
+  "vuejs/vue: last push 2024-10-10 (>24 months, likely dormant)"
+ ],
  "newGraduates": [],
  "fetched": 200
 }
