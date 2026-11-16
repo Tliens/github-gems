@@ -2,6 +2,7 @@
  "graduated": {
   "gitleaks/gitleaks": "2026-10-19",
   "karakeep-app/karakeep": "2026-11-02",
-  "ente-io/ente": "2026-11-09"
+  "ente-io/ente": "2026-11-09",
+  "keepassxreboot/keepassxc": "2026-11-16"
  }
 }
