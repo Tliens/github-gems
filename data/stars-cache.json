@@ -1,7 +1,7 @@
 {
  "ente-io/ente": {
-  "stargazerCount": 30161,
-  "pushedAt": "2026-11-16T09:53:18Z",
+  "stargazerCount": 30412,
+  "pushedAt": "2026-11-23T10:53:07Z",
   "isArchived": false,
   "description": "\ud83d\udc9a End-to-end encrypted cloud for everything.",
   "owner": {
@@ -27,7 +27,7 @@
   }
  },
  "sissbruecker/linkding": {
-  "stargazerCount": 11425,
+  "stargazerCount": 11446,
   "pushedAt": "2026-11-13T13:40:47Z",
   "isArchived": false,
   "description": "Self-hosted bookmark manager that is designed be to be minimal, fast, and easy to set up using Docker.",
@@ -36,8 +36,8 @@
   }
  },
  "mealie-recipes/mealie": {
-  "stargazerCount": 13913,
-  "pushedAt": "2026-11-16T04:39:40Z",
+  "stargazerCount": 13974,
+  "pushedAt": "2026-11-23T06:16:57Z",
   "isArchived": false,
   "description": "Mealie is a self hosted recipe manager and meal planner with a RestAPI backend and a reactive frontend application built in Vue for a pleasant user experience for the whole family. Easily add recipes into your database by providing the url and mealie will automatically import the relevant data or add a family recipe with the UI editor",
   "owner": {
@@ -45,8 +45,8 @@
   }
  },
  "wallabag/wallabag": {
-  "stargazerCount": 13063,
-  "pushedAt": "2026-11-16T04:47:31Z",
+  "stargazerCount": 13069,
+  "pushedAt": "2026-11-23T10:48:09Z",
   "isArchived": false,
   "description": "wallabag is a self hostable application for saving web pages: Save and classify articles. Read them later. Freely.",
   "owner": {
@@ -54,8 +54,8 @@
   }
  },
  "keepassxreboot/keepassxc": {
-  "stargazerCount": 30015,
-  "pushedAt": "2026-11-15T11:21:18Z",
+  "stargazerCount": 30109,
+  "pushedAt": "2026-11-17T13:46:05Z",
   "isArchived": false,
   "description": "KeePassXC is a cross-platform community-driven port of the Windows application \u201cKeePass Password Safe\u201d.",
   "owner": {
@@ -63,8 +63,8 @@
   }
  },
  "pqrs-org/Karabiner-Elements": {
-  "stargazerCount": 23108,
-  "pushedAt": "2026-11-15T23:32:58Z",
+  "stargazerCount": 23142,
+  "pushedAt": "2026-11-23T09:01:03Z",
   "isArchived": false,
   "description": "Karabiner-Elements is a powerful tool for customizing keyboards on macOS",
   "owner": {
@@ -72,8 +72,8 @@
   }
  },
  "Zettlr/Zettlr": {
-  "stargazerCount": 13921,
-  "pushedAt": "2026-11-16T07:05:56Z",
+  "stargazerCount": 13957,
+  "pushedAt": "2026-11-23T04:04:37Z",
   "isArchived": false,
   "description": "Your One-Stop Publication Workbench",
   "owner": {
@@ -90,8 +90,8 @@
   }
  },
  "lwouis/alt-tab-macos": {
-  "stargazerCount": 16535,
-  "pushedAt": "2026-11-04T09:27:26Z",
+  "stargazerCount": 16554,
+  "pushedAt": "2026-11-17T09:35:41Z",
   "isArchived": false,
   "description": "Windows alt-tab on macOS ",
   "owner": {
@@ -99,7 +99,7 @@
   }
  },
  "oliverschwendener/ueli": {
-  "stargazerCount": 4618,
+  "stargazerCount": 4621,
   "pushedAt": "2026-11-16T09:24:37Z",
   "isArchived": false,
   "description": "Cross-Platform Keystroke Launcher",
@@ -108,7 +108,7 @@
   }
  },
  "Kunzisoft/KeePassDX": {
-  "stargazerCount": 7690,
+  "stargazerCount": 7722,
   "pushedAt": "2026-11-01T09:37:49Z",
   "isArchived": false,
   "description": "Lightweight vault and password manager for Android, KeePassDX allows editing encrypted data in a single file in KeePass format and fill in the forms in a secure way.",
@@ -117,7 +117,7 @@
   }
  },
  "beemdevelopment/Aegis": {
-  "stargazerCount": 13558,
+  "stargazerCount": 13606,
   "pushedAt": "2026-09-06T10:30:01Z",
   "isArchived": false,
   "description": "A free, secure and open source app for Android to manage your 2-step verification tokens.",
@@ -126,8 +126,8 @@
   }
  },
  "kiwix/kiwix-desktop": {
-  "stargazerCount": 1556,
-  "pushedAt": "2026-11-12T12:01:42Z",
+  "stargazerCount": 1571,
+  "pushedAt": "2026-11-22T12:34:47Z",
   "isArchived": false,
   "description": "Kiwix for Windows and GNU/Linux desktops",
   "owner": {
@@ -135,7 +135,7 @@
   }
  },
  "dynobo/normcap": {
-  "stargazerCount": 2774,
+  "stargazerCount": 2778,
   "pushedAt": "2026-10-31T14:49:31Z",
   "isArchived": false,
   "description": "OCR powered screen-capture tool to capture information instead of images",
@@ -153,8 +153,8 @@
   }
  },
  "KDE/kdenlive": {
-  "stargazerCount": 6122,
-  "pushedAt": "2026-11-16T05:01:33Z",
+  "stargazerCount": 6176,
+  "pushedAt": "2026-11-23T04:44:33Z",
   "isArchived": false,
   "description": "Free and open source video editor, based on MLT Framework and KDE Frameworks",
   "owner": {
@@ -162,8 +162,8 @@
   }
  },
  "mltframework/shotcut": {
-  "stargazerCount": 15701,
-  "pushedAt": "2026-11-15T17:25:09Z",
+  "stargazerCount": 15772,
+  "pushedAt": "2026-11-23T04:20:59Z",
   "isArchived": false,
   "description": "cross-platform (Qt), open-source (GPLv3) video editor",
   "owner": {
@@ -180,8 +180,8 @@
   }
  },
  "LMMS/lmms": {
-  "stargazerCount": 10676,
-  "pushedAt": "2026-11-16T01:28:45Z",
+  "stargazerCount": 10712,
+  "pushedAt": "2026-11-22T01:55:10Z",
   "isArchived": false,
   "description": "Cross-platform music production software",
   "owner": {
@@ -189,8 +189,8 @@
   }
  },
  "mixxxdj/mixxx": {
-  "stargazerCount": 7404,
-  "pushedAt": "2026-11-14T18:45:09Z",
+  "stargazerCount": 7428,
+  "pushedAt": "2026-11-23T04:01:45Z",
   "isArchived": false,
   "description": "Mixxx is Free DJ software that gives you everything you need to perform live mixes.",
   "owner": {
@@ -198,8 +198,8 @@
   }
  },
  "sonic-pi-net/sonic-pi": {
-  "stargazerCount": 12277,
-  "pushedAt": "2026-11-16T08:55:23Z",
+  "stargazerCount": 12285,
+  "pushedAt": "2026-11-20T21:31:22Z",
   "isArchived": false,
   "description": "Code. Music. Live.",
   "owner": {
@@ -207,7 +207,7 @@
   }
  },
  "VCVRack/Rack": {
-  "stargazerCount": 4463,
+  "stargazerCount": 4469,
   "pushedAt": "2025-11-04T08:47:14Z",
   "isArchived": false,
   "description": "The virtual Eurorack studio",
@@ -225,8 +225,8 @@
   }
  },
  "zotero/zotero": {
-  "stargazerCount": 15960,
-  "pushedAt": "2026-11-14T18:50:57Z",
+  "stargazerCount": 16015,
+  "pushedAt": "2026-11-22T21:59:17Z",
   "isArchived": false,
   "description": "Zotero is a free, easy-to-use tool to help you collect, organize, annotate, cite, and share your research sources.",
   "owner": {
@@ -261,7 +261,7 @@
   }
  },
  "eza-community/eza": {
-  "stargazerCount": 23924,
+  "stargazerCount": 24010,
   "pushedAt": "2026-08-06T19:53:22Z",
   "isArchived": false,
   "description": "A modern alternative to ls",
@@ -270,7 +270,7 @@
   }
  },
  "Canop/broot": {
-  "stargazerCount": 13159,
+  "stargazerCount": 13190,
   "pushedAt": "2026-11-12T14:19:58Z",
   "isArchived": false,
   "description": "A new way to see and navigate directory trees",
@@ -279,8 +279,8 @@
   }
  },
  "bootandy/dust": {
-  "stargazerCount": 12640,
-  "pushedAt": "2026-11-01T20:33:00Z",
+  "stargazerCount": 12696,
+  "pushedAt": "2026-11-19T22:51:13Z",
   "isArchived": false,
   "description": "A more intuitive version of du in rust",
   "owner": {
@@ -288,7 +288,7 @@
   }
  },
  "chmln/sd": {
-  "stargazerCount": 7431,
+  "stargazerCount": 7459,
   "pushedAt": "2026-02-25T19:26:21Z",
   "isArchived": false,
   "description": "Intuitive find & replace CLI (sed alternative)",
@@ -297,7 +297,7 @@
   }
  },
  "sharkdp/hyperfine": {
-  "stargazerCount": 29284,
+  "stargazerCount": 29339,
   "pushedAt": "2026-11-01T03:02:36Z",
   "isArchived": false,
   "description": "A command-line benchmarking tool",
@@ -342,7 +342,7 @@
   }
  },
  "jonas/tig": {
-  "stargazerCount": 13381,
+  "stargazerCount": 13387,
   "pushedAt": "2026-11-11T12:36:48Z",
   "isArchived": false,
   "description": "Text-mode interface for git",
@@ -369,8 +369,8 @@
   }
  },
  "direnv/direnv": {
-  "stargazerCount": 15549,
-  "pushedAt": "2026-11-16T07:08:59Z",
+  "stargazerCount": 15562,
+  "pushedAt": "2026-11-23T07:12:07Z",
   "isArchived": false,
   "description": "unclutter your .profile",
   "owner": {
@@ -378,7 +378,7 @@
   }
  },
  "dbrgn/tealdeer": {
-  "stargazerCount": 6671,
+  "stargazerCount": 6690,
   "pushedAt": "2026-10-24T21:07:01Z",
   "isArchived": false,
   "description": "A very fast implementation of tldr in Rust.",
@@ -396,8 +396,8 @@
   }
  },
  "dlvhdr/gh-dash": {
-  "stargazerCount": 12760,
-  "pushedAt": "2026-11-16T08:22:32Z",
+  "stargazerCount": 12767,
+  "pushedAt": "2026-11-21T08:08:54Z",
   "isArchived": false,
   "description": "A rich terminal UI for GitHub that doesn't break your flow.",
   "owner": {
@@ -414,7 +414,7 @@
   }
  },
  "sigoden/aichat": {
-  "stargazerCount": 10581,
+  "stargazerCount": 10594,
   "pushedAt": "2026-02-23T11:16:42Z",
   "isArchived": false,
   "description": "All-in-one LLM CLI tool featuring Shell Assistant, Chat-REPL, RAG, AI Tools & Agents, with access to OpenAI, Claude, Gemini, Ollama, Groq, and more.",
@@ -432,7 +432,7 @@
   }
  },
  "mawww/kakoune": {
-  "stargazerCount": 11144,
+  "stargazerCount": 11154,
   "pushedAt": "2026-10-30T13:47:36Z",
   "isArchived": false,
   "description": "mawww's experiment for a better code editor",
@@ -441,8 +441,8 @@
   }
  },
  "wez/wezterm": {
-  "stargazerCount": 29569,
-  "pushedAt": "2026-11-14T11:12:31Z",
+  "stargazerCount": 29662,
+  "pushedAt": "2026-11-23T05:13:06Z",
   "isArchived": false,
   "description": "A GPU-accelerated cross-platform terminal emulator and multiplexer written by @wez and implemented in Rust",
   "owner": {
@@ -450,7 +450,7 @@
   }
  },
  "zealdocs/zeal": {
-  "stargazerCount": 12882,
+  "stargazerCount": 12886,
   "pushedAt": "2026-10-31T17:07:41Z",
   "isArchived": false,
   "description": "Offline documentation browser. Your personal reference library, searchable in an instant.",
@@ -459,8 +459,8 @@
   }
  },
  "mockoon/mockoon": {
-  "stargazerCount": 8487,
-  "pushedAt": "2026-11-15T13:55:35Z",
+  "stargazerCount": 8493,
+  "pushedAt": "2026-11-21T14:39:36Z",
   "isArchived": false,
   "description": "Mockoon is the easiest and quickest way to run mock APIs locally. No remote deployment, no account required, open source.",
   "owner": {
@@ -468,7 +468,7 @@
   }
  },
  "gitleaks/gitleaks": {
-  "stargazerCount": 31074,
+  "stargazerCount": 31273,
   "pushedAt": "2026-10-28T04:14:29Z",
   "isArchived": false,
   "description": "Find secrets with Gitleaks \ud83d\udd11",
@@ -477,7 +477,7 @@
   }
  },
  "pre-commit/pre-commit": {
-  "stargazerCount": 15696,
+  "stargazerCount": 15711,
   "pushedAt": "2026-11-09T21:42:14Z",
   "isArchived": false,
   "description": "A framework for managing and maintaining multi-language pre-commit hooks.",
@@ -495,8 +495,8 @@
   }
  },
  "TwiN/gatus": {
-  "stargazerCount": 12793,
-  "pushedAt": "2026-11-16T06:52:08Z",
+  "stargazerCount": 12872,
+  "pushedAt": "2026-11-23T02:21:33Z",
   "isArchived": false,
   "description": "Automated developer-oriented status page with alerting and incident support",
   "owner": {
@@ -504,8 +504,8 @@
   }
  },
  "healthchecks/healthchecks": {
-  "stargazerCount": 10521,
-  "pushedAt": "2026-11-16T09:01:31Z",
+  "stargazerCount": 10540,
+  "pushedAt": "2026-11-23T09:18:51Z",
   "isArchived": false,
   "description": "Open-source cron job and background task monitoring service, written in Python & Django",
   "owner": {
@@ -520,7 +520,7 @@
   "primaryLanguage": null
  },
  "jlfwong/speedscope": {
-  "stargazerCount": 6790,
+  "stargazerCount": 6791,
   "pushedAt": "2026-05-15T15:39:25Z",
   "isArchived": false,
   "description": "\ud83d\udd2c A fast, interactive web-based viewer for performance profiles.",
@@ -556,7 +556,7 @@
   }
  },
  "LibreTranslate/LibreTranslate": {
-  "stargazerCount": 17768,
+  "stargazerCount": 17829,
   "pushedAt": "2026-11-14T12:22:54Z",
   "isArchived": false,
   "description": "Free and Open Source Machine Translation API. Self-hosted, offline capable and easy to setup.",
@@ -610,8 +610,8 @@
   }
  },
  "activepieces/activepieces": {
-  "stargazerCount": 25553,
-  "pushedAt": "2026-11-16T09:42:32Z",
+  "stargazerCount": 25683,
+  "pushedAt": "2026-11-23T10:50:52Z",
   "isArchived": false,
   "description": "AI Agents & MCPs & AI Workflow Automation \u2022 (~400 MCP servers for AI agents) \u2022 AI Automation / AI Agent with MCPs \u2022 AI Workflows & AI Agents \u2022 MCPs for AI Agents",
   "owner": {
@@ -619,8 +619,8 @@
   }
  },
  "windmill-labs/windmill": {
-  "stargazerCount": 18607,
-  "pushedAt": "2026-11-16T09:50:38Z",
+  "stargazerCount": 18689,
+  "pushedAt": "2026-11-23T10:53:41Z",
   "isArchived": false,
   "description": "Code-first platform for workflows, apps and AI agents, on the fastest self-hostable orchestrator (benchmarked against Airflow, Prefect and Temporal). Business teams build with AI, engineers control what ships. Open-source alternative to Lovable, Retool and n8n.",
   "owner": {
@@ -637,8 +637,8 @@
   }
  },
  "LostRuins/koboldcpp": {
-  "stargazerCount": 12325,
-  "pushedAt": "2026-11-16T09:47:31Z",
+  "stargazerCount": 12370,
+  "pushedAt": "2026-11-22T17:09:16Z",
   "isArchived": false,
   "description": "KoboldCpp - Run GGUF AI models locally with a KoboldAI UI. One File. Zero Install.",
   "owner": {
@@ -646,8 +646,8 @@
   }
  },
  "navidrome/navidrome": {
-  "stargazerCount": 24770,
-  "pushedAt": "2026-11-16T05:25:18Z",
+  "stargazerCount": 24909,
+  "pushedAt": "2026-11-23T10:11:20Z",
   "isArchived": false,
   "description": "\ud83c\udfa7 Your Personal Streaming Service ",
   "owner": {
@@ -655,8 +655,8 @@
   }
  },
  "FreshRSS/FreshRSS": {
-  "stargazerCount": 16596,
-  "pushedAt": "2026-11-15T22:34:54Z",
+  "stargazerCount": 16655,
+  "pushedAt": "2026-11-23T08:37:37Z",
   "isArchived": false,
   "description": "A free, self-hostable news aggregator\u2026",
   "owner": {
@@ -664,8 +664,8 @@
   }
  },
  "miniflux/v2": {
-  "stargazerCount": 9942,
-  "pushedAt": "2026-11-12T04:53:11Z",
+  "stargazerCount": 9962,
+  "pushedAt": "2026-11-23T04:10:24Z",
   "isArchived": false,
   "description": "Minimalist and opinionated feed reader",
   "owner": {
@@ -673,8 +673,8 @@
   }
  },
  "linkwarden/linkwarden": {
-  "stargazerCount": 20446,
-  "pushedAt": "2026-11-13T22:48:43Z",
+  "stargazerCount": 20508,
+  "pushedAt": "2026-11-18T22:26:51Z",
   "isArchived": false,
   "description": "\u26a1\ufe0f\u26a1\ufe0f\u26a1\ufe0f Self-hosted collaborative bookmark manager to collect, read, annotate, and fully preserve what matters, all in one place.",
   "owner": {
@@ -682,8 +682,8 @@
   }
  },
  "karakeep-app/karakeep": {
-  "stargazerCount": 30601,
-  "pushedAt": "2026-11-15T18:52:41Z",
+  "stargazerCount": 30785,
+  "pushedAt": "2026-11-22T23:25:27Z",
   "isArchived": false,
   "description": "A self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full text search",
   "owner": {
@@ -691,8 +691,8 @@
   }
  },
  "go-vikunja/vikunja": {
-  "stargazerCount": 6066,
-  "pushedAt": "2026-11-16T03:25:00Z",
+  "stargazerCount": 6149,
+  "pushedAt": "2026-11-22T19:54:12Z",
   "isArchived": false,
   "description": "The task manager you actually own.",
   "owner": {
@@ -700,8 +700,8 @@
   }
  },
  "BookStackApp/BookStack": {
-  "stargazerCount": 19144,
-  "pushedAt": "2026-11-16T04:31:02Z",
+  "stargazerCount": 19148,
+  "pushedAt": "2026-11-23T04:31:16Z",
   "isArchived": false,
   "description": "NOW MANAGED ON CODEBERG",
   "owner": {
@@ -709,8 +709,8 @@
   }
  },
  "docmost/docmost": {
-  "stargazerCount": 22345,
-  "pushedAt": "2026-11-16T00:11:52Z",
+  "stargazerCount": 22402,
+  "pushedAt": "2026-11-23T07:00:13Z",
   "isArchived": false,
   "description": "Docmost is an open-source collaborative wiki and documentation software. It is an open-source alternative to Confluence and Notion.",
   "owner": {
@@ -718,8 +718,8 @@
   }
  },
  "ArchiveBox/ArchiveBox": {
-  "stargazerCount": 29034,
-  "pushedAt": "2026-11-16T08:31:07Z",
+  "stargazerCount": 29081,
+  "pushedAt": "2026-11-23T10:53:07Z",
   "isArchived": false,
   "description": "\ud83d\uddc3 Open source self-hosted web archiving. Takes URLs/browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more...",
   "owner": {
@@ -727,7 +727,7 @@
   }
  },
  "haiwen/seafile": {
-  "stargazerCount": 15464,
+  "stargazerCount": 15487,
   "pushedAt": "2026-11-11T06:17:38Z",
   "isArchived": false,
   "description": "Beyond file syncing and sharing, a new way to organize your files with extensible file properties and flexible views",
@@ -763,8 +763,8 @@
   }
  },
  "teableio/teable": {
-  "stargazerCount": 21994,
-  "pushedAt": "2026-11-16T09:20:01Z",
+  "stargazerCount": 22011,
+  "pushedAt": "2026-11-23T10:49:03Z",
   "isArchived": false,
   "description": "\u2728 AI Spreadsheet for Business",
   "owner": {
@@ -781,8 +781,8 @@
   }
  },
  "Budibase/budibase": {
-  "stargazerCount": 28421,
-  "pushedAt": "2026-11-16T09:31:28Z",
+  "stargazerCount": 28437,
+  "pushedAt": "2026-11-23T09:44:01Z",
   "isArchived": false,
   "description": "AI agents, automations and apps that run your operations. Model agnostic.",
   "owner": {
@@ -790,8 +790,8 @@
   }
  },
  "goauthentik/authentik": {
-  "stargazerCount": 26361,
-  "pushedAt": "2026-11-16T09:32:39Z",
+  "stargazerCount": 26421,
+  "pushedAt": "2026-11-23T10:16:54Z",
   "isArchived": false,
   "description": "The authentication glue you need.",
   "owner": {
@@ -799,8 +799,8 @@
   }
  },
  "logto-io/logto": {
-  "stargazerCount": 14937,
-  "pushedAt": "2026-11-16T09:28:59Z",
+  "stargazerCount": 14973,
+  "pushedAt": "2026-11-23T08:48:25Z",
   "isArchived": false,
   "description": "\ud83e\uddd1\u200d\ud83d\ude80 Authentication and authorization infrastructure for SaaS and AI apps, built on OIDC and OAuth 2.1 with multi-tenancy, SSO, and RBAC.",
   "owner": {
@@ -808,8 +808,8 @@
   }
  },
  "pomerium/pomerium": {
-  "stargazerCount": 5107,
-  "pushedAt": "2026-11-15T01:46:22Z",
+  "stargazerCount": 5114,
+  "pushedAt": "2026-11-22T01:46:21Z",
   "isArchived": false,
   "description": "Pomerium is an identity and context-aware access proxy.",
   "owner": {
@@ -835,8 +835,8 @@
   }
  },
  "evidence-dev/evidence": {
-  "stargazerCount": 7120,
-  "pushedAt": "2026-11-15T19:22:24Z",
+  "stargazerCount": 7144,
+  "pushedAt": "2026-11-22T16:03:19Z",
   "isArchived": false,
   "description": "Business intelligence as code: build fast, interactive data visualizations in SQL and markdown",
   "owner": {
@@ -844,8 +844,8 @@
   }
  },
  "lightdash/lightdash": {
-  "stargazerCount": 6233,
-  "pushedAt": "2026-11-16T09:47:50Z",
+  "stargazerCount": 6248,
+  "pushedAt": "2026-11-23T10:47:55Z",
   "isArchived": false,
   "description": "Agentic BI. Analytics at the speed of code \u26a1\ufe0f",
   "owner": {
@@ -853,8 +853,8 @@
   }
  },
  "questdb/questdb": {
-  "stargazerCount": 17535,
-  "pushedAt": "2026-11-16T08:15:24Z",
+  "stargazerCount": 17546,
+  "pushedAt": "2026-11-23T10:46:45Z",
   "isArchived": false,
   "description": "QuestDB is a high performance, open-source, time-series database",
   "owner": {
@@ -862,8 +862,8 @@
   }
  },
  "timescale/timescaledb": {
-  "stargazerCount": 23862,
-  "pushedAt": "2026-11-16T09:46:38Z",
+  "stargazerCount": 23889,
+  "pushedAt": "2026-11-22T09:38:31Z",
   "isArchived": false,
   "description": "A time-series database for high-performance real-time analytics packaged as a Postgres extension",
   "owner": {
@@ -871,8 +871,8 @@
   }
  },
  "typesense/typesense": {
-  "stargazerCount": 27136,
-  "pushedAt": "2026-11-13T10:01:09Z",
+  "stargazerCount": 27168,
+  "pushedAt": "2026-11-20T06:18:49Z",
   "isArchived": false,
   "description": "Open Source alternative to Algolia + Pinecone and an Easier-to-Use alternative to ElasticSearch \u26a1 \ud83d\udd0d \u2728 Fast, typo tolerant, in-memory fuzzy Search Engine for building delightful search experiences",
   "owner": {
@@ -880,7 +880,7 @@
   }
  },
  "timqian/chart.xkcd": {
-  "stargazerCount": 7875,
+  "stargazerCount": 7878,
   "pushedAt": "2026-10-21T16:32:17Z",
   "isArchived": false,
   "description": "xkcd styled chart lib",
@@ -889,8 +889,8 @@
   }
  },
  "terrastruct/d2": {
-  "stargazerCount": 25844,
-  "pushedAt": "2026-10-11T23:37:43Z",
+  "stargazerCount": 25899,
+  "pushedAt": "2026-11-22T23:14:19Z",
   "isArchived": false,
   "description": "D2 is a modern diagram scripting language that turns text to diagrams.",
   "owner": {
@@ -898,8 +898,8 @@
   }
  },
  "plantuml/plantuml": {
-  "stargazerCount": 13421,
-  "pushedAt": "2026-11-16T02:03:36Z",
+  "stargazerCount": 13434,
+  "pushedAt": "2026-11-23T02:03:11Z",
   "isArchived": false,
   "description": "Generate diagrams from textual description",
   "owner": {
@@ -916,8 +916,8 @@
   }
  },
  "livewire/livewire": {
-  "stargazerCount": 23594,
-  "pushedAt": "2026-11-04T21:18:46Z",
+  "stargazerCount": 23596,
+  "pushedAt": "2026-11-21T10:33:44Z",
   "isArchived": false,
   "description": "A full-stack framework for Laravel that takes the pain out of building dynamic UIs.",
   "owner": {
@@ -925,7 +925,7 @@
   }
  },
  "inertiajs/inertia": {
-  "stargazerCount": 8139,
+  "stargazerCount": 8145,
   "pushedAt": "2026-11-13T23:57:28Z",
   "isArchived": false,
   "description": "Inertia.js lets you quickly build modern single-page React, Vue and Svelte apps using classic server-side routing and controllers.",
@@ -943,8 +943,8 @@
   }
  },
  "elysiajs/elysia": {
-  "stargazerCount": 19359,
-  "pushedAt": "2026-11-11T15:00:31Z",
+  "stargazerCount": 19390,
+  "pushedAt": "2026-11-22T17:27:26Z",
   "isArchived": false,
   "description": "Ergonomic Framework for Humans",
   "owner": {
@@ -952,8 +952,8 @@
   }
  },
  "biomejs/biome": {
-  "stargazerCount": 26110,
-  "pushedAt": "2026-11-16T08:27:41Z",
+  "stargazerCount": 26185,
+  "pushedAt": "2026-11-23T10:38:19Z",
   "isArchived": false,
   "description": "A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP.",
   "owner": {
@@ -961,8 +961,8 @@
   }
  },
  "oxc-project/oxc": {
-  "stargazerCount": 23466,
-  "pushedAt": "2026-11-16T09:48:45Z",
+  "stargazerCount": 23569,
+  "pushedAt": "2026-11-23T10:54:28Z",
   "isArchived": false,
   "description": "\u2693 A collection of high-performance JavaScript tools.",
   "owner": {
@@ -970,8 +970,8 @@
   }
  },
  "rolldown/rolldown": {
-  "stargazerCount": 14024,
-  "pushedAt": "2026-11-16T09:50:34Z",
+  "stargazerCount": 14046,
+  "pushedAt": "2026-11-23T10:49:06Z",
   "isArchived": false,
   "description": "Fast Rust bundler for JavaScript/TypeScript with Rollup-compatible API.",
   "owner": {
@@ -979,7 +979,7 @@
   }
  },
  "argyleink/open-props": {
-  "stargazerCount": 5577,
+  "stargazerCount": 5585,
   "pushedAt": "2026-10-11T23:53:54Z",
   "isArchived": false,
   "description": "CSS custom properties to help accelerate adaptive and consistent design.",
@@ -988,8 +988,8 @@
   }
  },
  "processing/p5.js": {
-  "stargazerCount": 24367,
-  "pushedAt": "2026-11-14T17:46:02Z",
+  "stargazerCount": 24414,
+  "pushedAt": "2026-11-22T00:29:18Z",
   "isArchived": false,
   "description": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org",
   "owner": {
@@ -1006,8 +1006,8 @@
   }
  },
  "konvajs/konva": {
-  "stargazerCount": 14985,
-  "pushedAt": "2026-11-10T15:20:40Z",
+  "stargazerCount": 15008,
+  "pushedAt": "2026-11-22T21:37:35Z",
   "isArchived": false,
   "description": "Konva.js is an HTML5 Canvas JavaScript framework for interactive graphics, design editors, whiteboards, and diagrams. Scene graph with events, drag and drop, transforms, animations, and export.",
   "owner": {
@@ -1015,8 +1015,8 @@
   }
  },
  "BabylonJS/Babylon.js": {
-  "stargazerCount": 26376,
-  "pushedAt": "2026-11-15T23:39:44Z",
+  "stargazerCount": 26429,
+  "pushedAt": "2026-11-21T11:22:35Z",
   "isArchived": false,
   "description": "Babylon.js is a powerful, beautiful, simple, and open game and rendering engine packed into a friendly JavaScript framework.",
   "owner": {
@@ -1024,8 +1024,8 @@
   }
  },
  "11ty/eleventy": {
-  "stargazerCount": 20042,
-  "pushedAt": "2026-11-13T23:38:53Z",
+  "stargazerCount": 20055,
+  "pushedAt": "2026-11-20T21:19:07Z",
   "isArchived": false,
   "description": "A simpler site generator. Transforms a directory of templates (of varying types) into HTML.",
   "owner": {
@@ -1033,8 +1033,8 @@
   }
  },
  "getzola/zola": {
-  "stargazerCount": 17609,
-  "pushedAt": "2026-11-09T14:27:40Z",
+  "stargazerCount": 17620,
+  "pushedAt": "2026-11-23T07:46:28Z",
   "isArchived": false,
   "description": "A fast static site generator in a single binary with everything built-in. https://www.getzola.org",
   "owner": {
@@ -1042,8 +1042,8 @@
   }
  },
  "withastro/starlight": {
-  "stargazerCount": 9594,
-  "pushedAt": "2026-11-15T19:08:21Z",
+  "stargazerCount": 9641,
+  "pushedAt": "2026-11-23T10:04:15Z",
   "isArchived": false,
   "description": "\ud83c\udf1f Build beautiful, accessible, high-performance documentation websites with Astro",
   "owner": {
@@ -1051,7 +1051,7 @@
   }
  },
  "shuding/nextra": {
-  "stargazerCount": 13956,
+  "stargazerCount": 13955,
   "pushedAt": "2026-07-31T20:39:04Z",
   "isArchived": false,
   "description": "Simple, powerful and flexible site generation framework with everything you love from Next.js.",
@@ -1060,7 +1060,7 @@
   }
  },
  "marp-team/marp": {
-  "stargazerCount": 12753,
+  "stargazerCount": 12782,
   "pushedAt": "2026-11-07T09:29:51Z",
   "isArchived": false,
   "description": "The entrance repository of Markdown presentation ecosystem",
@@ -1087,8 +1087,8 @@
   }
  },
  "litestar-org/litestar": {
-  "stargazerCount": 8560,
-  "pushedAt": "2026-11-15T20:52:03Z",
+  "stargazerCount": 8569,
+  "pushedAt": "2026-11-23T08:17:46Z",
   "isArchived": false,
   "description": "Light, flexible and extensible ASGI framework | Built to scale",
   "owner": {
@@ -1096,8 +1096,8 @@
   }
  },
  "tiangolo/sqlmodel": {
-  "stargazerCount": 18622,
-  "pushedAt": "2026-11-15T17:02:30Z",
+  "stargazerCount": 18655,
+  "pushedAt": "2026-11-16T18:49:13Z",
   "isArchived": false,
   "description": "SQL databases in Python, designed for simplicity, compatibility, and robustness.",
   "owner": {
@@ -1105,8 +1105,8 @@
   }
  },
  "kysely-org/kysely": {
-  "stargazerCount": 14354,
-  "pushedAt": "2026-11-16T07:45:57Z",
+  "stargazerCount": 14377,
+  "pushedAt": "2026-11-23T07:46:28Z",
   "isArchived": false,
   "description": "A type-safe TypeScript SQL query builder",
   "owner": {
@@ -1114,8 +1114,8 @@
   }
  },
  "sqlc-dev/sqlc": {
-  "stargazerCount": 18459,
-  "pushedAt": "2026-11-14T05:03:12Z",
+  "stargazerCount": 18486,
+  "pushedAt": "2026-11-23T10:15:26Z",
   "isArchived": false,
   "description": "Generate type-safe code from SQL",
   "owner": {
@@ -1123,7 +1123,7 @@
   }
  },
  "ent/ent": {
-  "stargazerCount": 17238,
+  "stargazerCount": 17239,
   "pushedAt": "2026-10-14T06:58:20Z",
   "isArchived": false,
   "description": "An entity framework for Go",
@@ -1132,7 +1132,7 @@
   }
  },
  "go-chi/chi": {
-  "stargazerCount": 23107,
+  "stargazerCount": 23145,
   "pushedAt": "2026-11-07T15:51:20Z",
   "isArchived": false,
   "description": "lightweight, idiomatic and composable router for building Go HTTP services",
@@ -1141,8 +1141,8 @@
   }
  },
  "99designs/gqlgen": {
-  "stargazerCount": 10773,
-  "pushedAt": "2026-11-12T09:12:58Z",
+  "stargazerCount": 10776,
+  "pushedAt": "2026-11-19T09:13:56Z",
   "isArchived": false,
   "description": "go generate based graphql server library",
   "owner": {
@@ -1159,8 +1159,8 @@
   }
  },
  "caprover/caprover": {
-  "stargazerCount": 15205,
-  "pushedAt": "2026-11-14T01:28:17Z",
+  "stargazerCount": 15212,
+  "pushedAt": "2026-11-22T18:31:51Z",
   "isArchived": false,
   "description": "Scalable PaaS (automated Docker+nginx) - aka Heroku on Steroids",
   "owner": {
@@ -1177,8 +1177,8 @@
   }
  },
  "basecamp/kamal": {
-  "stargazerCount": 14729,
-  "pushedAt": "2026-11-14T06:28:42Z",
+  "stargazerCount": 14753,
+  "pushedAt": "2026-11-18T08:35:13Z",
   "isArchived": false,
   "description": "Deploy web apps anywhere.",
   "owner": {
@@ -1195,8 +1195,8 @@
   }
  },
  "renovatebot/renovate": {
-  "stargazerCount": 23135,
-  "pushedAt": "2026-11-16T09:43:29Z",
+  "stargazerCount": 23231,
+  "pushedAt": "2026-11-23T10:42:22Z",
   "isArchived": false,
   "description": "Home of the Mend Renovate CLI: Cross-platform Dependency Automation by Mend.io",
   "owner": {
@@ -1222,8 +1222,8 @@
   }
  },
  "borgbackup/borg": {
-  "stargazerCount": 13932,
-  "pushedAt": "2026-11-16T04:25:22Z",
+  "stargazerCount": 13946,
+  "pushedAt": "2026-11-23T04:23:48Z",
   "isArchived": false,
   "description": "Deduplicating archiver with compression and authenticated encryption.",
   "owner": {
@@ -1231,8 +1231,8 @@
   }
  },
  "kopia/kopia": {
-  "stargazerCount": 14717,
-  "pushedAt": "2026-11-15T12:24:19Z",
+  "stargazerCount": 14797,
+  "pushedAt": "2026-11-23T07:37:08Z",
   "isArchived": false,
   "description": "Cross-platform backup tool for Windows, macOS & Linux with fast, incremental backups, client-side end-to-end encryption, compression and data deduplication. CLI and GUI included.",
   "owner": {
@@ -1240,8 +1240,8 @@
   }
  },
  "89luca89/distrobox": {
-  "stargazerCount": 13123,
-  "pushedAt": "2026-11-02T06:53:12Z",
+  "stargazerCount": 13139,
+  "pushedAt": "2026-11-23T04:09:57Z",
   "isArchived": false,
   "description": "Use any linux distribution inside your terminal. Enable both backward and forward compatibility with software and freedom to use whatever distribution you\u2019re more comfortable with. Mirror available at: https://gitlab.com/89luca89/distrobox",
   "owner": {
@@ -1249,8 +1249,8 @@
   }
  },
  "jetify-com/devbox": {
-  "stargazerCount": 12467,
-  "pushedAt": "2026-11-16T04:36:08Z",
+  "stargazerCount": 12477,
+  "pushedAt": "2026-11-19T17:41:26Z",
   "isArchived": false,
   "description": "Instant, easy, and predictable development environments",
   "owner": {
@@ -1258,8 +1258,8 @@
   }
  },
  "cachix/devenv": {
-  "stargazerCount": 7838,
-  "pushedAt": "2026-11-15T13:33:42Z",
+  "stargazerCount": 7846,
+  "pushedAt": "2026-11-22T21:04:33Z",
   "isArchived": false,
   "description": "Fast, Declarative, Reproducible, and Composable Developer Environments using Nix",
   "owner": {
@@ -1267,8 +1267,8 @@
   }
  },
  "Orama-Interactive/Pixelorama": {
-  "stargazerCount": 11116,
-  "pushedAt": "2026-11-13T22:08:31Z",
+  "stargazerCount": 11184,
+  "pushedAt": "2026-11-20T20:33:57Z",
   "isArchived": false,
   "description": "Unleash your creativity with Pixelorama, a powerful and accessible open-source pixel art multitool. Whether you want to create sprites, tiles, animations, or just express yourself in the language of pixel art, this software will realize your pixel-perfect dreams with a vast toolbox of features. Available on Windows, Linux, macOS and the Web!",
   "owner": {
@@ -1276,8 +1276,8 @@
   }
  },
  "opentoonz/opentoonz": {
-  "stargazerCount": 8261,
-  "pushedAt": "2026-11-16T07:10:21Z",
+  "stargazerCount": 8346,
+  "pushedAt": "2026-11-23T09:10:39Z",
   "isArchived": false,
   "description": "OpenToonz - An open-source full-featured 2D animation creation software",
   "owner": {
@@ -1294,8 +1294,8 @@
   }
  },
  "fontforge/fontforge": {
-  "stargazerCount": 8087,
-  "pushedAt": "2026-11-15T16:55:15Z",
+  "stargazerCount": 8098,
+  "pushedAt": "2026-11-22T17:25:27Z",
   "isArchived": false,
   "description": "Free (libre) font editor for Windows, Mac OS X and GNU+Linux",
   "owner": {
@@ -1303,8 +1303,8 @@
   }
  },
  "GraphiteEditor/Graphite": {
-  "stargazerCount": 27951,
-  "pushedAt": "2026-11-16T01:06:03Z",
+  "stargazerCount": 28015,
+  "pushedAt": "2026-11-23T10:30:26Z",
   "isArchived": false,
   "description": "Community-built comprehensive 2D content creation appplication for graphic design, digital art, and interactive real-time motion graphics powered by a node-based procedural graphics engine",
   "owner": {
@@ -1312,7 +1312,7 @@
   }
  },
  "philc/vimium": {
-  "stargazerCount": 27127,
+  "stargazerCount": 27145,
   "pushedAt": "2026-11-13T19:01:53Z",
   "isArchived": false,
   "description": "The hacker's browser.",
@@ -1321,7 +1321,7 @@
   }
  },
  "tridactyl/tridactyl": {
-  "stargazerCount": 6403,
+  "stargazerCount": 6410,
   "pushedAt": "2026-11-10T16:08:41Z",
   "isArchived": false,
   "description": "A Vim-like interface for Firefox, inspired by Vimperator/Pentadactyl.",
@@ -1330,7 +1330,7 @@
   }
  },
  "ajayyy/SponsorBlock": {
-  "stargazerCount": 14101,
+  "stargazerCount": 14148,
   "pushedAt": "2026-11-07T14:58:38Z",
   "isArchived": false,
   "description": "Skip YouTube video sponsors (browser extension)",
@@ -1364,8 +1364,8 @@
   }
  },
  "Anuken/Mindustry": {
-  "stargazerCount": 29868,
-  "pushedAt": "2026-11-15T15:16:47Z",
+  "stargazerCount": 29945,
+  "pushedAt": "2026-11-18T20:23:09Z",
   "isArchived": false,
   "description": "The automation tower defense RTS",
   "owner": {
@@ -1373,7 +1373,7 @@
   }
  },
  "veloren/veloren": {
-  "stargazerCount": 7699,
+  "stargazerCount": 7713,
   "pushedAt": "2026-11-10T14:15:47Z",
   "isArchived": false,
   "description": "[mirror of https://gitlab.com/veloren/veloren] An open world, open source voxel RPG inspired by Dwarf Fortress and Cube World. This repository is a mirror. Please submit all PRs and issues on our GitLab page.",
@@ -1382,8 +1382,8 @@
   }
  },
  "00-Evan/shattered-pixel-dungeon": {
-  "stargazerCount": 6807,
-  "pushedAt": "2026-11-10T19:16:57Z",
+  "stargazerCount": 6854,
+  "pushedAt": "2026-11-22T00:18:52Z",
   "isArchived": false,
   "description": "Shattered Pixel Dungeon is an open-source traditional roguelike dungeon crawler with randomized levels and enemies, and hundreds of items to collect and use. It's based on the source code of Pixel Dungeon, by Watabou.",
   "owner": {
@@ -1391,8 +1391,8 @@
   }
  },
  "OpenRA/OpenRA": {
-  "stargazerCount": 17793,
-  "pushedAt": "2026-11-08T19:04:38Z",
+  "stargazerCount": 17824,
+  "pushedAt": "2026-11-22T14:04:08Z",
   "isArchived": false,
   "description": "Open Source real-time strategy game engine for early Westwood games such as Command & Conquer: Red Alert written in C# using SDL and OpenGL. Runs on Windows, Linux, *BSD and Mac OS X.",
   "owner": {
@@ -1400,8 +1400,8 @@
   }
  },
  "endless-sky/endless-sky": {
-  "stargazerCount": 7743,
-  "pushedAt": "2026-11-15T21:58:26Z",
+  "stargazerCount": 7757,
+  "pushedAt": "2026-11-23T01:24:45Z",
   "isArchived": false,
   "description": "Space exploration, trading, and combat game.",
   "owner": {
@@ -1409,7 +1409,7 @@
   }
  },
  "supertuxkart/stk-code": {
-  "stargazerCount": 5482,
+  "stargazerCount": 5493,
   "pushedAt": "2026-11-03T17:50:46Z",
   "isArchived": false,
   "description": "The code base of SuperTuxKart",
@@ -1418,8 +1418,8 @@
   }
  },
  "openttd/OpenTTD": {
-  "stargazerCount": 8507,
-  "pushedAt": "2026-11-15T12:09:48Z",
+  "stargazerCount": 8527,
+  "pushedAt": "2026-11-22T12:47:36Z",
   "isArchived": false,
   "description": "OpenTTD is an open source simulation game based upon Transport Tycoon Deluxe",
   "owner": {
@@ -1427,8 +1427,8 @@
   }
  },
  "Heroic-Games-Launcher/HeroicGamesLauncher": {
-  "stargazerCount": 12642,
-  "pushedAt": "2026-11-16T00:35:54Z",
+  "stargazerCount": 12658,
+  "pushedAt": "2026-11-23T02:10:49Z",
   "isArchived": false,
   "description": "A games launcher for GOG, Amazon and Epic Games for Linux, Windows and macOS.",
   "owner": {
@@ -1436,8 +1436,8 @@
   }
  },
  "bottlesdevs/Bottles": {
-  "stargazerCount": 9084,
-  "pushedAt": "2026-11-12T07:16:19Z",
+  "stargazerCount": 9098,
+  "pushedAt": "2026-11-17T15:58:38Z",
   "isArchived": false,
   "description": "Run Windows software and games on Linux",
   "owner": {
@@ -1445,8 +1445,8 @@
   }
  },
  "lutris/lutris": {
-  "stargazerCount": 10392,
-  "pushedAt": "2026-11-15T22:04:58Z",
+  "stargazerCount": 10407,
+  "pushedAt": "2026-11-22T01:09:05Z",
   "isArchived": false,
   "description": "Lutris desktop client",
   "owner": {
@@ -1463,8 +1463,8 @@
   }
  },
  "mikefarah/yq": {
-  "stargazerCount": 16293,
-  "pushedAt": "2026-11-12T03:53:03Z",
+  "stargazerCount": 16346,
+  "pushedAt": "2026-11-19T03:52:30Z",
   "isArchived": false,
   "description": "yq is a portable command-line YAML, JSON, XML, CSV, TOML, HCL  and properties processor",
   "owner": {
@@ -1472,8 +1472,8 @@
   }
  },
  "antonmedv/fx": {
-  "stargazerCount": 20718,
-  "pushedAt": "2026-10-22T13:49:58Z",
+  "stargazerCount": 20723,
+  "pushedAt": "2026-11-20T15:15:06Z",
   "isArchived": false,
   "description": "Terminal JSON viewer & processor",
   "owner": {
@@ -1481,7 +1481,7 @@
   }
  },
  "Mozilla-Ocho/llamafile": {
-  "stargazerCount": 26651,
+  "stargazerCount": 26701,
   "pushedAt": "2026-11-09T00:15:20Z",
   "isArchived": false,
   "description": "Distribute and run LLMs with a single file.",
@@ -1490,7 +1490,7 @@
   }
  },
  "SYSTRAN/faster-whisper": {
-  "stargazerCount": 26787,
+  "stargazerCount": 26958,
   "pushedAt": "2026-11-12T09:05:56Z",
   "isArchived": false,
   "description": "Faster Whisper transcription with CTranslate2",
@@ -1499,8 +1499,8 @@
   }
  },
  "m-bain/whisperX": {
-  "stargazerCount": 25360,
-  "pushedAt": "2026-11-12T17:34:05Z",
+  "stargazerCount": 25616,
+  "pushedAt": "2026-11-21T12:32:21Z",
   "isArchived": false,
   "description": "WhisperX:  Automatic Speech Recognition with Word-level Timestamps (& Diarization)",
   "owner": {
@@ -1508,8 +1508,8 @@
   }
  },
  "modelscope/FunASR": {
-  "stargazerCount": 21043,
-  "pushedAt": "2026-11-15T17:33:49Z",
+  "stargazerCount": 21105,
+  "pushedAt": "2026-11-23T10:15:03Z",
   "isArchived": false,
   "description": "Open-source speech recognition toolkit for training, inference, streaming ASR, VAD, punctuation, speaker diarization pipelines, and OpenAI-compatible/MCP serving.",
   "owner": {
@@ -1517,7 +1517,7 @@
   }
  },
  "FunAudioLLM/CosyVoice": {
-  "stargazerCount": 24415,
+  "stargazerCount": 24486,
   "pushedAt": "2026-05-25T18:15:40Z",
   "isArchived": false,
   "description": "Multi-lingual large voice generation model, providing inference, training and deployment full-stack ability.",
@@ -1526,7 +1526,7 @@
   }
  },
  "SWivid/F5-TTS": {
-  "stargazerCount": 15601,
+  "stargazerCount": 15639,
   "pushedAt": "2026-11-03T15:05:10Z",
   "isArchived": false,
   "description": "Official code for \"F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching\"",
@@ -1535,8 +1535,8 @@
   }
  },
  "rany2/edge-tts": {
-  "stargazerCount": 12558,
-  "pushedAt": "2026-10-14T09:30:53Z",
+  "stargazerCount": 12627,
+  "pushedAt": "2026-11-18T14:00:40Z",
   "isArchived": false,
   "description": "Use Microsoft Edge's online text-to-speech service from Python WITHOUT needing Microsoft Edge",
   "owner": {
@@ -1544,8 +1544,8 @@
   }
  },
  "k2-fsa/sherpa-onnx": {
-  "stargazerCount": 15980,
-  "pushedAt": "2026-11-16T09:36:10Z",
+  "stargazerCount": 16151,
+  "pushedAt": "2026-11-23T08:14:07Z",
   "isArchived": false,
   "description": "Speech-to-text, text-to-speech, speaker diarization, speech enhancement, source separation, and VAD using next-gen Kaldi with onnxruntime without Internet connection. Support embedded systems, Android, iOS, HarmonyOS, Raspberry Pi, RISC-V, RK NPU, Axera NPU, Ascend NPU, x86_64 servers, websocket server/client, support 12 programming languages",
   "owner": {
@@ -1553,8 +1553,8 @@
   }
  },
  "huggingface/transformers.js": {
-  "stargazerCount": 16421,
-  "pushedAt": "2026-11-14T05:49:24Z",
+  "stargazerCount": 16448,
+  "pushedAt": "2026-11-23T05:12:13Z",
   "isArchived": false,
   "description": "State-of-the-art Machine Learning for the web. Run \ud83e\udd17 Transformers directly in your browser, with no need for a server!",
   "owner": {
@@ -1562,8 +1562,8 @@
   }
  },
  "mlc-ai/web-llm": {
-  "stargazerCount": 19382,
-  "pushedAt": "2026-11-15T21:44:01Z",
+  "stargazerCount": 19398,
+  "pushedAt": "2026-11-20T14:21:53Z",
   "isArchived": false,
   "description": "High-performance In-browser LLM Inference Engine ",
   "owner": {
@@ -1571,7 +1571,7 @@
   }
  },
  "Cinnamon/kotaemon": {
-  "stargazerCount": 25911,
+  "stargazerCount": 25927,
   "pushedAt": "2026-07-14T16:53:59Z",
   "isArchived": false,
   "description": "An open-source RAG-based tool for chatting with your documents.",
@@ -1580,8 +1580,8 @@
   }
  },
  "invoke-ai/InvokeAI": {
-  "stargazerCount": 29101,
-  "pushedAt": "2026-11-16T08:32:37Z",
+  "stargazerCount": 29146,
+  "pushedAt": "2026-11-23T09:16:47Z",
   "isArchived": false,
   "description": "Invoke is a leading creative engine that uses image and video generation models to empower professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry-leading application interface, and serves as the foundation for multiple commercial products.",
   "owner": {
@@ -1589,7 +1589,7 @@
   }
  },
  "lllyasviel/stable-diffusion-webui-forge": {
-  "stargazerCount": 13127,
+  "stargazerCount": 13150,
   "pushedAt": "2025-07-31T01:33:17Z",
   "isArchived": false,
   "description": null,
@@ -1598,8 +1598,8 @@
   }
  },
  "LibrePhotos/librephotos": {
-  "stargazerCount": 8173,
-  "pushedAt": "2026-11-16T06:07:56Z",
+  "stargazerCount": 8182,
+  "pushedAt": "2026-11-23T10:51:48Z",
   "isArchived": false,
   "description": "A self-hosted open source photo management service. ",
   "owner": {
@@ -1607,8 +1607,8 @@
   }
  },
  "rust-lang/mdBook": {
-  "stargazerCount": 22302,
-  "pushedAt": "2026-11-15T17:16:17Z",
+  "stargazerCount": 22321,
+  "pushedAt": "2026-11-22T20:49:04Z",
   "isArchived": false,
   "description": "Create book from markdown files. Like Gitbook but implemented in Rust",
   "owner": {
@@ -1616,8 +1616,8 @@
   }
  },
  "tabler/tabler-icons": {
-  "stargazerCount": 22690,
-  "pushedAt": "2026-11-14T14:32:21Z",
+  "stargazerCount": 22770,
+  "pushedAt": "2026-11-20T23:28:25Z",
   "isArchived": false,
   "description": "A set of over 6500 free MIT-licensed high-quality SVG icons for you to use in your web projects.",
   "owner": {
@@ -1625,8 +1625,8 @@
   }
  },
  "lucide-icons/lucide": {
-  "stargazerCount": 25788,
-  "pushedAt": "2026-11-16T09:47:04Z",
+  "stargazerCount": 25953,
+  "pushedAt": "2026-11-23T09:59:38Z",
   "isArchived": false,
   "description": "Beautiful & consistent icon toolkit made by the community. Lucide is an open-source icon library that provides 2000+ vector (svg) files for displaying icons and symbols in digital and non-digital projects. ",
   "owner": {
@@ -1634,8 +1634,8 @@
   }
  },
  "iconify/iconify": {
-  "stargazerCount": 6405,
-  "pushedAt": "2026-11-14T02:32:32Z",
+  "stargazerCount": 6412,
+  "pushedAt": "2026-11-21T09:19:07Z",
   "isArchived": false,
   "description": "Universal icon framework. One syntax for FontAwesome, Material Design Icons, DashIcons, Feather Icons, EmojiOne, Noto Emoji and many other open source icon sets (over 200 icon sets and ~300k icons). SVG framework, React, Vue and Svelte components!",
   "owner": {
@@ -1643,7 +1643,7 @@
   }
  },
  "svg/svgo": {
-  "stargazerCount": 22822,
+  "stargazerCount": 22838,
   "pushedAt": "2026-11-08T01:35:24Z",
   "isArchived": false,
   "description": "SVG Optimizer for Node.js and CLI. \u2699\ufe0f",
@@ -1652,8 +1652,8 @@
   }
  },
  "AdguardTeam/AdGuardBrowserExtension": {
-  "stargazerCount": 4562,
-  "pushedAt": "2026-11-16T08:54:20Z",
+  "stargazerCount": 4582,
+  "pushedAt": "2026-11-23T10:30:06Z",
   "isArchived": false,
   "description": "AdGuard browser extension",
   "owner": {
@@ -1661,8 +1661,8 @@
   }
  },
  "EFForg/privacybadger": {
-  "stargazerCount": 3889,
-  "pushedAt": "2026-11-12T16:02:44Z",
+  "stargazerCount": 3897,
+  "pushedAt": "2026-11-17T16:21:09Z",
   "isArchived": false,
   "description": "Privacy Badger is a browser extension made by EFF to stop companies from spying on you online",
   "owner": {
@@ -1670,8 +1670,8 @@
   }
  },
  "CleverRaven/Cataclysm-DDA": {
-  "stargazerCount": 13536,
-  "pushedAt": "2026-11-16T05:42:01Z",
+  "stargazerCount": 13568,
+  "pushedAt": "2026-11-23T05:53:22Z",
   "isArchived": false,
   "description": "Cataclysm - Dark Days Ahead. A turn-based survival game set in a post-apocalyptic world.",
   "owner": {
@@ -1679,8 +1679,8 @@
   }
  },
  "microsoft/vscode": {
-  "stargazerCount": 195450,
-  "pushedAt": "2026-11-16T09:52:38Z",
+  "stargazerCount": 195789,
+  "pushedAt": "2026-11-23T10:52:31Z",
   "isArchived": false,
   "description": "Visual Studio Code",
   "owner": {
@@ -1688,8 +1688,8 @@
   }
  },
  "obsproject/obs-studio": {
-  "stargazerCount": 79612,
-  "pushedAt": "2026-11-11T00:42:54Z",
+  "stargazerCount": 80080,
+  "pushedAt": "2026-11-23T00:47:28Z",
   "isArchived": false,
   "description": "OBS Studio - Free and open source software for live streaming and screen recording",
   "owner": {
@@ -1697,8 +1697,8 @@
   }
  },
  "FFmpeg/FFmpeg": {
-  "stargazerCount": 67391,
-  "pushedAt": "2026-11-16T06:11:21Z",
+  "stargazerCount": 68051,
+  "pushedAt": "2026-11-23T08:03:59Z",
   "isArchived": false,
   "description": "Mirror of https://git.ffmpeg.org/ffmpeg.git",
   "owner": {
@@ -1706,8 +1706,8 @@
   }
  },
  "junegunn/fzf": {
-  "stargazerCount": 84215,
-  "pushedAt": "2026-11-12T01:51:46Z",
+  "stargazerCount": 84360,
+  "pushedAt": "2026-11-22T11:24:47Z",
   "isArchived": false,
   "description": ":cherry_blossom: A command-line fuzzy finder",
   "owner": {
@@ -1715,8 +1715,8 @@
   }
  },
  "BurntSushi/ripgrep": {
-  "stargazerCount": 69976,
-  "pushedAt": "2026-11-09T20:53:12Z",
+  "stargazerCount": 70186,
+  "pushedAt": "2026-11-22T23:04:08Z",
   "isArchived": false,
   "description": "ripgrep recursively searches directories for a regex pattern while respecting your gitignore",
   "owner": {
@@ -1724,8 +1724,8 @@
   }
  },
  "ohmyzsh/ohmyzsh": {
-  "stargazerCount": 190645,
-  "pushedAt": "2026-11-15T12:52:39Z",
+  "stargazerCount": 190872,
+  "pushedAt": "2026-11-22T18:18:49Z",
   "isArchived": false,
   "description": "\ud83d\ude43   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",
   "owner": {
@@ -1733,8 +1733,8 @@
   }
  },
  "git/git": {
-  "stargazerCount": 64331,
-  "pushedAt": "2026-11-15T01:31:07Z",
+  "stargazerCount": 64480,
+  "pushedAt": "2026-11-22T22:13:02Z",
   "isArchived": false,
   "description": "Git Source Code Mirror - This is a publish-only repository but pull requests can be turned into patches to the mailing list via GitGitGadget (https://gitgitgadget.github.io/). Please follow Documentation/SubmittingPatches procedure for any of your improvements.",
   "owner": {
@@ -1742,8 +1742,8 @@
   }
  },
  "prettier/prettier": {
-  "stargazerCount": 52416,
-  "pushedAt": "2026-11-14T08:59:34Z",
+  "stargazerCount": 52449,
+  "pushedAt": "2026-11-23T10:21:43Z",
   "isArchived": false,
   "description": "Prettier is an opinionated code formatter.",
   "owner": {
@@ -1751,8 +1751,8 @@
   }
  },
  "huggingface/transformers": {
-  "stargazerCount": 169053,
-  "pushedAt": "2026-11-16T09:50:36Z",
+  "stargazerCount": 169405,
+  "pushedAt": "2026-11-23T10:53:34Z",
   "isArchived": false,
   "description": "\ud83e\udd17 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
   "owner": {
@@ -1760,8 +1760,8 @@
   }
  },
  "ollama/ollama": {
-  "stargazerCount": 187174,
-  "pushedAt": "2026-11-16T09:02:08Z",
+  "stargazerCount": 187905,
+  "pushedAt": "2026-11-22T10:10:02Z",
   "isArchived": false,
   "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
   "owner": {
@@ -1769,8 +1769,8 @@
   }
  },
  "pytorch/pytorch": {
-  "stargazerCount": 105563,
-  "pushedAt": "2026-11-16T09:41:26Z",
+  "stargazerCount": 105829,
+  "pushedAt": "2026-11-23T10:50:21Z",
   "isArchived": false,
   "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
   "owner": {
@@ -1778,8 +1778,8 @@
   }
  },
  "home-assistant/core": {
-  "stargazerCount": 92319,
-  "pushedAt": "2026-11-16T09:49:55Z",
+  "stargazerCount": 92567,
+  "pushedAt": "2026-11-23T10:53:35Z",
   "isArchived": false,
   "description": ":house_with_garden: Open source home automation that puts local control and privacy first.",
   "owner": {
@@ -1787,8 +1787,8 @@
   }
  },
  "mermaid-js/mermaid": {
-  "stargazerCount": 91115,
-  "pushedAt": "2026-11-16T09:45:30Z",
+  "stargazerCount": 91210,
+  "pushedAt": "2026-11-23T10:00:21Z",
   "isArchived": false,
   "description": "Generation of diagrams like flowcharts or sequence diagrams from text in a similar manner as markdown",
   "owner": {
@@ -1796,7 +1796,7 @@
   }
  },
  "apache/echarts": {
-  "stargazerCount": 67733,
+  "stargazerCount": 67785,
   "pushedAt": "2026-10-13T09:27:20Z",
   "isArchived": false,
   "description": "Apache ECharts is a powerful, interactive charting and data visualization library for browser",
@@ -1805,8 +1805,8 @@
   }
  },
  "facebook/react": {
-  "stargazerCount": 252659,
-  "pushedAt": "2026-11-13T10:28:38Z",
+  "stargazerCount": 252939,
+  "pushedAt": "2026-11-23T04:39:03Z",
   "isArchived": false,
   "description": "The library for web and native user interfaces.",
   "owner": {
@@ -1814,7 +1814,7 @@
   }
  },
  "vuejs/vue": {
-  "stargazerCount": 212518,
+  "stargazerCount": 212504,
   "pushedAt": "2024-10-10T07:24:15Z",
   "isArchived": false,
   "description": "This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core",
@@ -1823,8 +1823,8 @@
   }
  },
  "tailwindlabs/tailwindcss": {
-  "stargazerCount": 98654,
-  "pushedAt": "2026-11-11T20:55:22Z",
+  "stargazerCount": 98702,
+  "pushedAt": "2026-11-23T10:27:34Z",
   "isArchived": false,
   "description": "A utility-first CSS framework for rapid UI development.",
   "owner": {
@@ -1832,8 +1832,8 @@
   }
  },
  "vitejs/vite": {
-  "stargazerCount": 83926,
-  "pushedAt": "2026-11-16T07:18:46Z",
+  "stargazerCount": 84051,
+  "pushedAt": "2026-11-23T07:35:07Z",
   "isArchived": false,
   "description": "Next generation frontend tooling. It's fast!",
   "owner": {
@@ -1841,8 +1841,8 @@
   }
  },
  "redis/redis": {
-  "stargazerCount": 77519,
-  "pushedAt": "2026-11-15T15:15:18Z",
+  "stargazerCount": 77719,
+  "pushedAt": "2026-11-23T09:18:08Z",
   "isArchived": false,
   "description": "For developers, who are building real-time data-driven applications, Redis is the preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine.",
   "owner": {
@@ -1850,8 +1850,8 @@
   }
  },
  "kubernetes/kubernetes": {
-  "stargazerCount": 129119,
-  "pushedAt": "2026-11-16T09:47:57Z",
+  "stargazerCount": 129380,
+  "pushedAt": "2026-11-21T23:08:19Z",
   "isArchived": false,
   "description": "Production-Grade Container Scheduling and Management",
   "owner": {
@@ -1859,8 +1859,8 @@
   }
  },
  "ansible/ansible": {
-  "stargazerCount": 71481,
-  "pushedAt": "2026-11-11T01:21:09Z",
+  "stargazerCount": 71668,
+  "pushedAt": "2026-11-19T21:15:12Z",
   "isArchived": false,
   "description": "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain. Automate everything from code deployment to network configuration to cloud management, in a language that approaches plain English, using SSH, with no agents to install on remote systems. https://docs.ansible.com.",
   "owner": {
@@ -1868,8 +1868,8 @@
   }
  },
  "torvalds/linux": {
-  "stargazerCount": 255846,
-  "pushedAt": "2026-11-15T22:38:25Z",
+  "stargazerCount": 256527,
+  "pushedAt": "2026-11-22T23:02:23Z",
   "isArchived": false,
   "description": "Linux kernel source tree",
   "owner": {
@@ -1877,7 +1877,7 @@
   }
  },
  "FortAwesome/Font-Awesome": {
-  "stargazerCount": 77044,
+  "stargazerCount": 77057,
   "pushedAt": "2026-07-15T18:15:53Z",
   "isArchived": false,
   "description": "The iconic SVG, font, and CSS toolkit",
@@ -1886,8 +1886,8 @@
   }
  },
  "godotengine/godot": {
-  "stargazerCount": 120258,
-  "pushedAt": "2026-11-14T20:14:50Z",
+  "stargazerCount": 120611,
+  "pushedAt": "2026-11-20T14:36:03Z",
   "isArchived": false,
   "description": "Godot Engine \u2013 Multi-platform 2D and 3D game engine",
   "owner": {
@@ -1895,8 +1895,8 @@
   }
  },
  "micro-editor/micro": {
-  "stargazerCount": 29903,
-  "pushedAt": "2026-11-16T00:28:41Z",
+  "stargazerCount": 29951,
+  "pushedAt": "2026-11-23T00:25:02Z",
   "isArchived": false,
   "description": "A modern and intuitive terminal-based text editor",
   "owner": {
@@ -1904,8 +1904,8 @@
   }
  },
  "espanso/espanso": {
-  "stargazerCount": 14786,
-  "pushedAt": "2026-11-15T00:14:59Z",
+  "stargazerCount": 14823,
+  "pushedAt": "2026-11-22T00:14:44Z",
   "isArchived": false,
   "description": "A Privacy-first, Cross-platform Text Expander written in Rust",
   "owner": {
@@ -1913,8 +1913,8 @@
   }
  },
  "cryptomator/cryptomator": {
-  "stargazerCount": 16520,
-  "pushedAt": "2026-11-15T19:10:49Z",
+  "stargazerCount": 16574,
+  "pushedAt": "2026-11-20T17:18:16Z",
   "isArchived": false,
   "description": "Cryptomator for Windows, macOS, and Linux: Secure client-side encryption for your cloud storage, ensuring privacy and control over your data.",
   "owner": {
@@ -1922,8 +1922,8 @@
   }
  },
  "dail8859/NotepadNext": {
-  "stargazerCount": 14789,
-  "pushedAt": "2026-11-16T09:18:27Z",
+  "stargazerCount": 14814,
+  "pushedAt": "2026-11-23T09:59:10Z",
   "isArchived": false,
   "description": "A cross-platform, reimplementation of Notepad++",
   "owner": {
@@ -1931,8 +1931,8 @@
   }
  },
  "fastfetch-cli/fastfetch": {
-  "stargazerCount": 25380,
-  "pushedAt": "2026-11-16T00:57:24Z",
+  "stargazerCount": 25435,
+  "pushedAt": "2026-11-23T01:38:23Z",
   "isArchived": false,
   "description": "A maintained, feature-rich and performance oriented, neofetch like system information tool.",
   "owner": {
@@ -1940,8 +1940,8 @@
   }
  },
  "ClementTsang/bottom": {
-  "stargazerCount": 14195,
-  "pushedAt": "2026-11-16T08:40:46Z",
+  "stargazerCount": 14246,
+  "pushedAt": "2026-11-23T08:19:48Z",
   "isArchived": false,
   "description": "Yet another cross-platform graphical process/system monitor.",
   "owner": {
@@ -1949,8 +1949,8 @@
   }
  },
  "o2sh/onefetch": {
-  "stargazerCount": 12089,
-  "pushedAt": "2026-11-09T02:56:44Z",
+  "stargazerCount": 12085,
+  "pushedAt": "2026-11-23T08:43:20Z",
   "isArchived": false,
   "description": "Command-line Git information tool",
   "owner": {
@@ -1958,7 +1958,7 @@
   }
  },
  "gpakosz/.tmux": {
-  "stargazerCount": 25475,
+  "stargazerCount": 25478,
   "pushedAt": "2026-10-21T15:47:21Z",
   "isArchived": false,
   "description": "Oh my tmux! My self-contained, pretty & versatile tmux configuration made with \ud83d\udc9b\ud83e\ude77\ud83d\udc99\ud83d\udda4\u2764\ufe0f\ud83e\udd0d",
@@ -1967,8 +1967,8 @@
   }
  },
  "gitbutlerapp/gitbutler": {
-  "stargazerCount": 21965,
-  "pushedAt": "2026-11-16T07:58:22Z",
+  "stargazerCount": 22010,
+  "pushedAt": "2026-11-23T10:46:42Z",
   "isArchived": false,
   "description": "The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte",
   "owner": {
@@ -1976,8 +1976,8 @@
   }
  },
  "dbt-labs/dbt-core": {
-  "stargazerCount": 14175,
-  "pushedAt": "2026-11-16T09:18:45Z",
+  "stargazerCount": 14202,
+  "pushedAt": "2026-11-23T09:18:03Z",
   "isArchived": false,
   "description": "dbt enables data analysts and engineers to transform their data using the same practices that software engineers use to build applications.",
   "owner": {
@@ -1985,7 +1985,7 @@
   }
  },
  "XAMPPRocky/tokei": {
-  "stargazerCount": 15073,
+  "stargazerCount": 15110,
   "pushedAt": "2026-09-06T17:28:57Z",
   "isArchived": false,
   "description": "Count your code, quickly.",
@@ -1994,8 +1994,8 @@
   }
  },
  "chroma-core/chroma": {
-  "stargazerCount": 29694,
-  "pushedAt": "2026-11-13T21:08:18Z",
+  "stargazerCount": 29732,
+  "pushedAt": "2026-11-20T21:09:35Z",
   "isArchived": false,
   "description": "Search infrastructure for AI",
   "owner": {
@@ -2003,8 +2003,8 @@
   }
  },
  "serengil/deepface": {
-  "stargazerCount": 23703,
-  "pushedAt": "2026-11-14T13:21:56Z",
+  "stargazerCount": 23723,
+  "pushedAt": "2026-11-20T13:28:27Z",
   "isArchived": false,
   "description": "A Lightweight Face Recognition and Facial Attribute Analysis (Age, Gender, Emotion and Race) Library for Python",
   "owner": {
@@ -2012,7 +2012,7 @@
   }
  },
  "vercel/ai-chatbot": {
-  "stargazerCount": 21054,
+  "stargazerCount": 21065,
   "pushedAt": "2026-11-03T18:02:17Z",
   "isArchived": false,
   "description": "A full-featured, hackable Next.js AI chatbot built by Vercel",
@@ -2021,7 +2021,7 @@
   }
  },
  "ShishirPatil/gorilla": {
-  "stargazerCount": 13078,
+  "stargazerCount": 13085,
   "pushedAt": "2026-10-17T06:06:24Z",
   "isArchived": false,
   "description": "Gorilla: Training and Evaluating LLMs for Function Calls (Tool Calls)",
@@ -2030,7 +2030,7 @@
   }
  },
  "microsoft/UFO": {
-  "stargazerCount": 10215,
+  "stargazerCount": 10230,
   "pushedAt": "2026-10-30T21:40:57Z",
   "isArchived": false,
   "description": "UFO\u00b3: Weaving the Digital Agent Galaxy",
@@ -2039,8 +2039,8 @@
   }
  },
  "plausible/analytics": {
-  "stargazerCount": 29860,
-  "pushedAt": "2026-11-16T09:37:48Z",
+  "stargazerCount": 29916,
+  "pushedAt": "2026-11-23T07:36:48Z",
   "isArchived": false,
   "description": "Open source, privacy-first web analytics. Lightweight, cookie-free Google Analytics alternative. Self-hosted or cloud.",
   "owner": {
@@ -2048,8 +2048,8 @@
   }
  },
  "openobserve/openobserve": {
-  "stargazerCount": 23070,
-  "pushedAt": "2026-11-16T09:52:10Z",
+  "stargazerCount": 23159,
+  "pushedAt": "2026-11-23T10:53:23Z",
   "isArchived": false,
   "description": "Open source observability platform for logs, metrics, traces, RUM (web, android, ios), Session replay, pipelines, SLO and LLM observability. A sophisticated, simple and highly performant alternative to Datadog, Splunk, and Elasticsearch with 140x lower storage costs and single binary deployment.",
   "owner": {
@@ -2057,8 +2057,8 @@
   }
  },
  "bunkerity/bunkerweb": {
-  "stargazerCount": 11271,
-  "pushedAt": "2026-11-16T08:57:32Z",
+  "stargazerCount": 11308,
+  "pushedAt": "2026-11-23T10:45:50Z",
   "isArchived": false,
   "description": "\ud83d\udee1\ufe0f Open-source and cloud-native Web Application Firewall (WAF)",
   "owner": {
@@ -2066,8 +2066,8 @@
   }
  },
  "plotly/plotly.js": {
-  "stargazerCount": 18380,
-  "pushedAt": "2026-11-13T22:43:53Z",
+  "stargazerCount": 18387,
+  "pushedAt": "2026-11-20T16:36:33Z",
   "isArchived": false,
   "description": "Open-source JavaScript charting library behind Plotly and Dash",
   "owner": {
@@ -2075,8 +2075,8 @@
   }
  },
  "vega/vega": {
-  "stargazerCount": 12046,
-  "pushedAt": "2026-11-05T16:33:47Z",
+  "stargazerCount": 12051,
+  "pushedAt": "2026-11-20T07:42:14Z",
   "isArchived": false,
   "description": "A visualization grammar.",
   "owner": {
@@ -2084,7 +2084,7 @@
   }
  },
  "airbnb/visx": {
-  "stargazerCount": 21110,
+  "stargazerCount": 21117,
   "pushedAt": "2026-06-22T14:25:22Z",
   "isArchived": false,
   "description": "\ud83d\udc2f visx | visualization components",
@@ -2093,8 +2093,8 @@
   }
  },
  "vueuse/vueuse": {
-  "stargazerCount": 22393,
-  "pushedAt": "2026-11-15T15:58:48Z",
+  "stargazerCount": 22402,
+  "pushedAt": "2026-11-20T08:00:19Z",
   "isArchived": false,
   "description": "Collection of essential Vue Composition Utilities for Vue 3",
   "owner": {
@@ -2102,7 +2102,7 @@
   }
  },
  "radix-ui/primitives": {
-  "stargazerCount": 19505,
+  "stargazerCount": 19550,
   "pushedAt": "2026-10-14T21:52:47Z",
   "isArchived": false,
   "description": "Radix Primitives is an open-source UI component library for building high-quality, accessible design systems and web apps. Maintained by @workos.",
@@ -2111,7 +2111,7 @@
   }
  },
  "emotion-js/emotion": {
-  "stargazerCount": 18025,
+  "stargazerCount": 18042,
   "pushedAt": "2026-10-23T11:24:31Z",
   "isArchived": false,
   "description": "\ud83d\udc69\u200d\ud83c\udfa4 CSS-in-JS library designed for high performance style composition",
@@ -2120,8 +2120,8 @@
   }
  },
  "TanStack/table": {
-  "stargazerCount": 28573,
-  "pushedAt": "2026-11-14T17:38:06Z",
+  "stargazerCount": 28604,
+  "pushedAt": "2026-11-18T20:03:14Z",
   "isArchived": false,
   "description": "\ud83e\udd16 Headless UI for building powerful tables & datagrids for TS/JS -  React-Table, Vue-Table, Solid-Table, Svelte-Table",
   "owner": {
@@ -2129,8 +2129,8 @@
   }
  },
  "pydantic/pydantic": {
-  "stargazerCount": 29521,
-  "pushedAt": "2026-11-16T09:35:08Z",
+  "stargazerCount": 29633,
+  "pushedAt": "2026-11-23T10:15:19Z",
   "isArchived": false,
   "description": "Data validation using Python type hints",
   "owner": {
@@ -2138,8 +2138,8 @@
   }
  },
  "jackc/pgx": {
-  "stargazerCount": 14410,
-  "pushedAt": "2026-11-15T01:56:57Z",
+  "stargazerCount": 14450,
+  "pushedAt": "2026-11-22T13:57:27Z",
   "isArchived": false,
   "description": "PostgreSQL driver and toolkit for Go",
   "owner": {
@@ -2147,8 +2147,8 @@
   }
  },
  "aio-libs/aiohttp": {
-  "stargazerCount": 16608,
-  "pushedAt": "2026-11-14T22:26:46Z",
+  "stargazerCount": 16620,
+  "pushedAt": "2026-11-23T10:49:42Z",
   "isArchived": false,
   "description": "Asynchronous HTTP client/server framework for asyncio and Python",
   "owner": {
@@ -2156,8 +2156,8 @@
   }
  },
  "argoproj/argo-cd": {
-  "stargazerCount": 24622,
-  "pushedAt": "2026-11-16T07:23:23Z",
+  "stargazerCount": 24678,
+  "pushedAt": "2026-11-23T10:29:21Z",
   "isArchived": false,
   "description": "Declarative Continuous Deployment for Kubernetes",
   "owner": {
@@ -2165,17 +2165,17 @@
   }
  },
  "goharbor/harbor": {
-  "stargazerCount": 29737,
-  "pushedAt": "2026-11-13T11:16:55Z",
+  "stargazerCount": 29793,
+  "pushedAt": "2026-11-20T11:16:11Z",
   "isArchived": false,
-  "description": "An open source trusted cloud native registry project that stores, signs, and scans content.",
+  "description": "Harbor is a CNCF graduated open-source container registry to manage container images and other OCI artifacts securely with policies, role-based access control, vulnerability scans and signing.",
   "owner": {
    "avatarUrl": "https://avatars.githubusercontent.com/u/40275816?v=4"
   }
  },
  "signalapp/Signal-Android": {
-  "stargazerCount": 29645,
-  "pushedAt": "2026-11-16T02:12:48Z",
+  "stargazerCount": 29686,
+  "pushedAt": "2026-11-20T23:05:57Z",
   "isArchived": false,
   "description": "A private messenger for Android.",
   "owner": {
@@ -2183,8 +2183,8 @@
   }
  },
  "bitwarden/clients": {
-  "stargazerCount": 14239,
-  "pushedAt": "2026-11-16T09:51:43Z",
+  "stargazerCount": 14308,
+  "pushedAt": "2026-11-23T10:44:10Z",
   "isArchived": false,
   "description": "Bitwarden client apps (web, browser extension, desktop, and cli).",
   "owner": {
@@ -2192,7 +2192,7 @@
   }
  },
  "OpenEmu/OpenEmu": {
-  "stargazerCount": 17876,
+  "stargazerCount": 17881,
   "pushedAt": "2025-10-22T21:39:10Z",
   "isArchived": false,
   "description": "\ud83d\udd79 Retro video game emulation for macOS",
@@ -2201,8 +2201,8 @@
   }
  },
  "PCSX2/pcsx2": {
-  "stargazerCount": 16083,
-  "pushedAt": "2026-11-16T04:23:39Z",
+  "stargazerCount": 16123,
+  "pushedAt": "2026-11-23T01:57:26Z",
   "isArchived": false,
   "description": "PCSX2 - The Playstation 2 Emulator",
   "owner": {
@@ -2210,8 +2210,8 @@
   }
  },
  "dolphin-emu/dolphin": {
-  "stargazerCount": 15831,
-  "pushedAt": "2026-11-16T01:05:43Z",
+  "stargazerCount": 15871,
+  "pushedAt": "2026-11-22T22:47:09Z",
   "isArchived": false,
   "description": "Dolphin is a GameCube / Wii emulator, allowing you to play games for these two platforms on PC with improvements.",
   "owner": {
@@ -2219,8 +2219,8 @@
   }
  },
  "hrydgard/ppsspp": {
-  "stargazerCount": 14921,
-  "pushedAt": "2026-11-16T08:31:08Z",
+  "stargazerCount": 14974,
+  "pushedAt": "2026-11-23T10:37:24Z",
   "isArchived": false,
   "description": "A PSP emulator for Android, Windows, Mac, Linux and iOS, written in C++. Want to contribute? Join us on Discord at https://discord.gg/5NJB6dD or just send pull requests / issues.",
   "owner": {
@@ -2228,8 +2228,8 @@
   }
  },
  "OpenRCT2/OpenRCT2": {
-  "stargazerCount": 16584,
-  "pushedAt": "2026-11-15T17:10:08Z",
+  "stargazerCount": 16603,
+  "pushedAt": "2026-11-23T09:59:30Z",
   "isArchived": false,
   "description": "An open source re-implementation of RollerCoaster Tycoon 2 \ud83c\udfa2",
   "owner": {
@@ -2237,8 +2237,8 @@
   }
  },
  "audacity/audacity": {
-  "stargazerCount": 19084,
-  "pushedAt": "2026-11-16T09:11:17Z",
+  "stargazerCount": 19145,
+  "pushedAt": "2026-11-23T09:16:32Z",
   "isArchived": false,
   "description": "Audio Editor                                     ",
   "owner": {
